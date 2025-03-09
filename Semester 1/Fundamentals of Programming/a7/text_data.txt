@@ -1,0 +1,31 @@
+15,635,electricity
+13,91,gifts
+18,588,rent
+18,575,water
+6,310,animals
+15,268,clothes
+7,761,clothes
+19,544,travel
+4,60,food
+1,240,birthday party
+3,751,rent
+11,873,vacation
+29,319,shoes
+24,444,shoes
+12,222,birthday party
+5,988,animals
+27,467,restaurant
+7,601,food
+22,128,electricity
+29,98,school supplies
+22,829,birthday party
+12,585,rent
+9,938,electricity
+21,452,travel
+11,68,gas
+2,820,ski
+18,664,restaurant
+11,110,gifts
+6,642,electricity
+19,20,gifts
+12,1200,pizza
