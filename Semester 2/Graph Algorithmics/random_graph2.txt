@@ -1,0 +1,2 @@
+#nothing gets printed because the preconditions are not met
+#(40 is bigger than the maximum possible number of edges in a directed graph with 6 vertices, which is 36, including loops)
