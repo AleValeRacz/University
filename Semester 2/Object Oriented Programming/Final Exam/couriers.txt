@@ -1,0 +1,3 @@
+Sara|-12 29 15|Calea turzii
+Alex|11 3 30|Vlahuta|Donath
+Darius|69 -10 22|viteazu|zahar

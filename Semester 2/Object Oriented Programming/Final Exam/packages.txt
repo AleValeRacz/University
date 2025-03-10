@@ -1,0 +1,8 @@
+Diana|padurii,5|-19.000000,12.000000|not delivered|
+Larisa|ceva,5|33.000000,4.000000|delivered|
+Raluca|Calea turzii,1|0.000000,15.000000|delivered|
+Cosmin|zahar,69|4.000000,5.000000|not delivered|
+Alexandra|Vlahuta,28|70.000000,3.000000|not delivered|
+Ludovic|Donath,6|80.000000,90.000000|not delivered|
+marius|zahar,6|6.000000,8.000000|not delivered|
+daria|zahar,7|7.000000,5.000000|delivered|

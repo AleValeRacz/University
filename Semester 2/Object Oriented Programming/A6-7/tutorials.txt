@@ -1,0 +1,10 @@
+"C++ 101" | "Procoder" | 54 12 | 1466 | "https://www.youtube.com/watch?v=7TJ7Z1-V_24&list=PLZPZq0r_RZOMHoXIcxze_lP97j2Ase2on&index=5"
+"Introduction to C++" | "alexZ" | 45 30 | 230 | "https://www.youtube.com/watch?v=MNeX4EGtR5Y"
+"OOP in C++" | "CodeNinja" | 12 49 | 390 | "https://www.youtube.com/watch?v=wN0x9eZLix4"
+"Become a C++ expert!" | "C++Wizard" | 95 17 | 1320 | "https://www.youtube.com/watch?v=S3nx34WFXjI&list=PLZPZq0r_RZOMHoXIcxze_lP97j2Ase2on"
+"Advanced C++ Techniques" | "C++Wizard" | 32 0 | 72 | "https://www.youtube.com/watch?v=4psGUiKacPQ&list=PLZPZq0r_RZOMHoXIcxze_lP97j2Ase2on&index=2"
+"C++" | "STL Guru" | 50 45 | 280 | "https://www.youtube.com/watch?v=-QxI-RP6-HM"
+"Memory Management in C++" | "MemoryMaster" | 12 14 | 891 | "https://www.youtube.com/watch?v=i_wDa2AS_8w"
+"Get rich with c++" | "alphamale" | 84 56 | 3009 | "https://www.youtube.com/watch?v=VfaAYvZhD78"
+"C++ tricks" | "boredPerfectionist" | 50 45 | 9280 | "https://www.youtube.com/watch?v=N6dOwBde7-M"
+
