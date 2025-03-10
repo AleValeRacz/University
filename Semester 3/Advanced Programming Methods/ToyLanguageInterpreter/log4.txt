@@ -1,0 +1,1196 @@
+Program State: 
+ID: 1
+ExecStack: 
+ref int v;new(v,20);ref ref int a;new(a,v);print(v);print(a)
+SymTable: 
+OutputList: 
+File table: 
+Heap: 
+
+Program State: 
+ID: 1
+ExecStack: 
+new(v,20);ref ref int a;new(a,v);print(v);print(a)
+ref int v
+SymTable: 
+OutputList: 
+File table: 
+Heap: 
+
+Program State: 
+ID: 1
+ExecStack: 
+new(v,20);ref ref int a;new(a,v);print(v);print(a)
+ref int v
+SymTable: 
+OutputList: 
+File table: 
+Heap: 
+
+Program State: 
+ID: 1
+ExecStack: 
+new(v,20);ref ref int a;new(a,v);print(v);print(a)
+SymTable: 
+v->(0,int)
+OutputList: 
+File table: 
+Heap: 
+
+Program State: 
+ID: 1
+ExecStack: 
+new(v,20);ref ref int a;new(a,v);print(v);print(a)
+SymTable: 
+v->(0,int)
+OutputList: 
+File table: 
+Heap: 
+
+Program State: 
+ID: 1
+ExecStack: 
+ref ref int a;new(a,v);print(v);print(a)
+new(v,20)
+SymTable: 
+v->(0,int)
+OutputList: 
+File table: 
+Heap: 
+
+Program State: 
+ID: 1
+ExecStack: 
+String varf;varf=test.in;openRFile(varf);int varc;readFile(varf);print(varc);readFile(varf);print(varc);closeRFile(varf)
+SymTable: 
+OutputList: 
+File table: 
+Heap: 
+
+Program State: 
+ID: 1
+ExecStack: 
+varf=test.in;openRFile(varf);int varc;readFile(varf);print(varc);readFile(varf);print(varc);closeRFile(varf)
+String varf
+SymTable: 
+OutputList: 
+File table: 
+Heap: 
+
+Program State: 
+ID: 1
+ExecStack: 
+varf=test.in;openRFile(varf);int varc;readFile(varf);print(varc);readFile(varf);print(varc);closeRFile(varf)
+String varf
+SymTable: 
+OutputList: 
+File table: 
+Heap: 
+
+Program State: 
+ID: 1
+ExecStack: 
+varf=test.in;openRFile(varf);int varc;readFile(varf);print(varc);readFile(varf);print(varc);closeRFile(varf)
+SymTable: 
+varf->
+OutputList: 
+File table: 
+Heap: 
+
+Program State: 
+ID: 1
+ExecStack: 
+varf=test.in;openRFile(varf);int varc;readFile(varf);print(varc);readFile(varf);print(varc);closeRFile(varf)
+SymTable: 
+varf->
+OutputList: 
+File table: 
+Heap: 
+
+Program State: 
+ID: 1
+ExecStack: 
+openRFile(varf);int varc;readFile(varf);print(varc);readFile(varf);print(varc);closeRFile(varf)
+varf=test.in
+SymTable: 
+varf->
+OutputList: 
+File table: 
+Heap: 
+
+Program State: 
+ID: 1
+ExecStack: 
+openRFile(varf);int varc;readFile(varf);print(varc);readFile(varf);print(varc);closeRFile(varf)
+varf=test.in
+SymTable: 
+varf->
+OutputList: 
+File table: 
+Heap: 
+
+Program State: 
+ID: 1
+ExecStack: 
+openRFile(varf);int varc;readFile(varf);print(varc);readFile(varf);print(varc);closeRFile(varf)
+SymTable: 
+varf->test.in
+OutputList: 
+File table: 
+Heap: 
+
+Program State: 
+ID: 1
+ExecStack: 
+openRFile(varf);int varc;readFile(varf);print(varc);readFile(varf);print(varc);closeRFile(varf)
+SymTable: 
+varf->test.in
+OutputList: 
+File table: 
+Heap: 
+
+Program State: 
+ID: 1
+ExecStack: 
+int varc;readFile(varf);print(varc);readFile(varf);print(varc);closeRFile(varf)
+openRFile(varf)
+SymTable: 
+varf->test.in
+OutputList: 
+File table: 
+Heap: 
+
+Program State: 
+ID: 1
+ExecStack: 
+int varc;readFile(varf);print(varc);readFile(varf);print(varc);closeRFile(varf)
+openRFile(varf)
+SymTable: 
+varf->test.in
+OutputList: 
+File table: 
+Heap: 
+
+Program State: 
+ID: 1
+ExecStack: 
+String varf;varf=test.in;openRFile(varf);int varc;readFile(varf);print(varc);readFile(varf);print(varc);closeRFile(varf)
+SymTable: 
+OutputList: 
+File table: 
+Heap: 
+
+Program State: 
+ID: 1
+ExecStack: 
+varf=test.in;openRFile(varf);int varc;readFile(varf);print(varc);readFile(varf);print(varc);closeRFile(varf)
+String varf
+SymTable: 
+OutputList: 
+File table: 
+Heap: 
+
+Program State: 
+ID: 1
+ExecStack: 
+varf=test.in;openRFile(varf);int varc;readFile(varf);print(varc);readFile(varf);print(varc);closeRFile(varf)
+String varf
+SymTable: 
+OutputList: 
+File table: 
+Heap: 
+
+Program State: 
+ID: 1
+ExecStack: 
+varf=test.in;openRFile(varf);int varc;readFile(varf);print(varc);readFile(varf);print(varc);closeRFile(varf)
+SymTable: 
+varf->
+OutputList: 
+File table: 
+Heap: 
+
+Program State: 
+ID: 1
+ExecStack: 
+varf=test.in;openRFile(varf);int varc;readFile(varf);print(varc);readFile(varf);print(varc);closeRFile(varf)
+SymTable: 
+varf->
+OutputList: 
+File table: 
+Heap: 
+
+Program State: 
+ID: 1
+ExecStack: 
+openRFile(varf);int varc;readFile(varf);print(varc);readFile(varf);print(varc);closeRFile(varf)
+varf=test.in
+SymTable: 
+varf->
+OutputList: 
+File table: 
+Heap: 
+
+Program State: 
+ID: 1
+ExecStack: 
+openRFile(varf);int varc;readFile(varf);print(varc);readFile(varf);print(varc);closeRFile(varf)
+varf=test.in
+SymTable: 
+varf->
+OutputList: 
+File table: 
+Heap: 
+
+Program State: 
+ID: 1
+ExecStack: 
+openRFile(varf);int varc;readFile(varf);print(varc);readFile(varf);print(varc);closeRFile(varf)
+SymTable: 
+varf->test.in
+OutputList: 
+File table: 
+Heap: 
+
+Program State: 
+ID: 1
+ExecStack: 
+openRFile(varf);int varc;readFile(varf);print(varc);readFile(varf);print(varc);closeRFile(varf)
+SymTable: 
+varf->test.in
+OutputList: 
+File table: 
+Heap: 
+
+Program State: 
+ID: 1
+ExecStack: 
+int varc;readFile(varf);print(varc);readFile(varf);print(varc);closeRFile(varf)
+openRFile(varf)
+SymTable: 
+varf->test.in
+OutputList: 
+File table: 
+Heap: 
+
+Program State: 
+ID: 1
+ExecStack: 
+int varc;readFile(varf);print(varc);readFile(varf);print(varc);closeRFile(varf)
+openRFile(varf)
+SymTable: 
+varf->test.in
+OutputList: 
+File table: 
+Heap: 
+
+Program State: 
+ID: 1
+ExecStack: 
+int varc;readFile(varf);print(varc);readFile(varf);print(varc);closeRFile(varf)
+SymTable: 
+varf->test.in
+OutputList: 
+File table: 
+test.in
+Heap: 
+
+Program State: 
+ID: 1
+ExecStack: 
+int varc;readFile(varf);print(varc);readFile(varf);print(varc);closeRFile(varf)
+SymTable: 
+varf->test.in
+OutputList: 
+File table: 
+test.in
+Heap: 
+
+Program State: 
+ID: 1
+ExecStack: 
+readFile(varf);print(varc);readFile(varf);print(varc);closeRFile(varf)
+int varc
+SymTable: 
+varf->test.in
+OutputList: 
+File table: 
+test.in
+Heap: 
+
+Program State: 
+ID: 1
+ExecStack: 
+readFile(varf);print(varc);readFile(varf);print(varc);closeRFile(varf)
+int varc
+SymTable: 
+varf->test.in
+OutputList: 
+File table: 
+test.in
+Heap: 
+
+Program State: 
+ID: 1
+ExecStack: 
+readFile(varf);print(varc);readFile(varf);print(varc);closeRFile(varf)
+SymTable: 
+varf->test.in
+varc->0
+OutputList: 
+File table: 
+test.in
+Heap: 
+
+Program State: 
+ID: 1
+ExecStack: 
+readFile(varf);print(varc);readFile(varf);print(varc);closeRFile(varf)
+SymTable: 
+varf->test.in
+varc->0
+OutputList: 
+File table: 
+test.in
+Heap: 
+
+Program State: 
+ID: 1
+ExecStack: 
+print(varc);readFile(varf);print(varc);closeRFile(varf)
+readFile(varf)
+SymTable: 
+varf->test.in
+varc->0
+OutputList: 
+File table: 
+test.in
+Heap: 
+
+Program State: 
+ID: 1
+ExecStack: 
+print(varc);readFile(varf);print(varc);closeRFile(varf)
+readFile(varf)
+SymTable: 
+varf->test.in
+varc->0
+OutputList: 
+File table: 
+test.in
+Heap: 
+
+Program State: 
+ID: 1
+ExecStack: 
+String varf;varf=test.in;openRFile(varf);int varc;readFile(varf);print(varc);readFile(varf);print(varc);closeRFile(varf)
+SymTable: 
+OutputList: 
+File table: 
+Heap: 
+
+Program State: 
+ID: 1
+ExecStack: 
+varf=test.in;openRFile(varf);int varc;readFile(varf);print(varc);readFile(varf);print(varc);closeRFile(varf)
+String varf
+SymTable: 
+OutputList: 
+File table: 
+Heap: 
+
+Program State: 
+ID: 1
+ExecStack: 
+varf=test.in;openRFile(varf);int varc;readFile(varf);print(varc);readFile(varf);print(varc);closeRFile(varf)
+String varf
+SymTable: 
+OutputList: 
+File table: 
+Heap: 
+
+Program State: 
+ID: 1
+ExecStack: 
+varf=test.in;openRFile(varf);int varc;readFile(varf);print(varc);readFile(varf);print(varc);closeRFile(varf)
+SymTable: 
+varf->
+OutputList: 
+File table: 
+Heap: 
+
+Program State: 
+ID: 1
+ExecStack: 
+varf=test.in;openRFile(varf);int varc;readFile(varf);print(varc);readFile(varf);print(varc);closeRFile(varf)
+SymTable: 
+varf->
+OutputList: 
+File table: 
+Heap: 
+
+Program State: 
+ID: 1
+ExecStack: 
+openRFile(varf);int varc;readFile(varf);print(varc);readFile(varf);print(varc);closeRFile(varf)
+varf=test.in
+SymTable: 
+varf->
+OutputList: 
+File table: 
+Heap: 
+
+Program State: 
+ID: 1
+ExecStack: 
+openRFile(varf);int varc;readFile(varf);print(varc);readFile(varf);print(varc);closeRFile(varf)
+varf=test.in
+SymTable: 
+varf->
+OutputList: 
+File table: 
+Heap: 
+
+Program State: 
+ID: 1
+ExecStack: 
+openRFile(varf);int varc;readFile(varf);print(varc);readFile(varf);print(varc);closeRFile(varf)
+SymTable: 
+varf->test.in
+OutputList: 
+File table: 
+Heap: 
+
+Program State: 
+ID: 1
+ExecStack: 
+openRFile(varf);int varc;readFile(varf);print(varc);readFile(varf);print(varc);closeRFile(varf)
+SymTable: 
+varf->test.in
+OutputList: 
+File table: 
+Heap: 
+
+Program State: 
+ID: 1
+ExecStack: 
+int varc;readFile(varf);print(varc);readFile(varf);print(varc);closeRFile(varf)
+openRFile(varf)
+SymTable: 
+varf->test.in
+OutputList: 
+File table: 
+Heap: 
+
+Program State: 
+ID: 1
+ExecStack: 
+int varc;readFile(varf);print(varc);readFile(varf);print(varc);closeRFile(varf)
+openRFile(varf)
+SymTable: 
+varf->test.in
+OutputList: 
+File table: 
+Heap: 
+
+Program State: 
+ID: 1
+ExecStack: 
+int varc;readFile(varf);print(varc);readFile(varf);print(varc);closeRFile(varf)
+SymTable: 
+varf->test.in
+OutputList: 
+File table: 
+test.in
+Heap: 
+
+Program State: 
+ID: 1
+ExecStack: 
+int varc;readFile(varf);print(varc);readFile(varf);print(varc);closeRFile(varf)
+SymTable: 
+varf->test.in
+OutputList: 
+File table: 
+test.in
+Heap: 
+
+Program State: 
+ID: 1
+ExecStack: 
+readFile(varf);print(varc);readFile(varf);print(varc);closeRFile(varf)
+int varc
+SymTable: 
+varf->test.in
+OutputList: 
+File table: 
+test.in
+Heap: 
+
+Program State: 
+ID: 1
+ExecStack: 
+readFile(varf);print(varc);readFile(varf);print(varc);closeRFile(varf)
+int varc
+SymTable: 
+varf->test.in
+OutputList: 
+File table: 
+test.in
+Heap: 
+
+Program State: 
+ID: 1
+ExecStack: 
+readFile(varf);print(varc);readFile(varf);print(varc);closeRFile(varf)
+SymTable: 
+varf->test.in
+varc->0
+OutputList: 
+File table: 
+test.in
+Heap: 
+
+Program State: 
+ID: 1
+ExecStack: 
+readFile(varf);print(varc);readFile(varf);print(varc);closeRFile(varf)
+SymTable: 
+varf->test.in
+varc->0
+OutputList: 
+File table: 
+test.in
+Heap: 
+
+Program State: 
+ID: 1
+ExecStack: 
+print(varc);readFile(varf);print(varc);closeRFile(varf)
+readFile(varf)
+SymTable: 
+varf->test.in
+varc->0
+OutputList: 
+File table: 
+test.in
+Heap: 
+
+Program State: 
+ID: 1
+ExecStack: 
+print(varc);readFile(varf);print(varc);closeRFile(varf)
+readFile(varf)
+SymTable: 
+varf->test.in
+varc->0
+OutputList: 
+File table: 
+test.in
+Heap: 
+
+Program State: 
+ID: 1
+ExecStack: 
+print(varc);readFile(varf);print(varc);closeRFile(varf)
+SymTable: 
+varf->test.in
+varc->4
+OutputList: 
+File table: 
+test.in
+Heap: 
+
+Program State: 
+ID: 1
+ExecStack: 
+print(varc);readFile(varf);print(varc);closeRFile(varf)
+SymTable: 
+varf->test.in
+varc->4
+OutputList: 
+File table: 
+test.in
+Heap: 
+
+Program State: 
+ID: 1
+ExecStack: 
+readFile(varf);print(varc);closeRFile(varf)
+print(varc)
+SymTable: 
+varf->test.in
+varc->4
+OutputList: 
+File table: 
+test.in
+Heap: 
+
+Program State: 
+ID: 1
+ExecStack: 
+readFile(varf);print(varc);closeRFile(varf)
+print(varc)
+SymTable: 
+varf->test.in
+varc->4
+OutputList: 
+File table: 
+test.in
+Heap: 
+
+Program State: 
+ID: 1
+ExecStack: 
+readFile(varf);print(varc);closeRFile(varf)
+SymTable: 
+varf->test.in
+varc->4
+OutputList: 
+4
+File table: 
+test.in
+Heap: 
+
+Program State: 
+ID: 1
+ExecStack: 
+readFile(varf);print(varc);closeRFile(varf)
+SymTable: 
+varf->test.in
+varc->4
+OutputList: 
+4
+File table: 
+test.in
+Heap: 
+
+Program State: 
+ID: 1
+ExecStack: 
+print(varc);closeRFile(varf)
+readFile(varf)
+SymTable: 
+varf->test.in
+varc->4
+OutputList: 
+4
+File table: 
+test.in
+Heap: 
+
+Program State: 
+ID: 1
+ExecStack: 
+print(varc);closeRFile(varf)
+readFile(varf)
+SymTable: 
+varf->test.in
+varc->4
+OutputList: 
+4
+File table: 
+test.in
+Heap: 
+
+Program State: 
+ID: 1
+ExecStack: 
+print(varc);closeRFile(varf)
+SymTable: 
+varf->test.in
+varc->5
+OutputList: 
+4
+File table: 
+test.in
+Heap: 
+
+Program State: 
+ID: 1
+ExecStack: 
+print(varc);closeRFile(varf)
+SymTable: 
+varf->test.in
+varc->5
+OutputList: 
+4
+File table: 
+test.in
+Heap: 
+
+Program State: 
+ID: 1
+ExecStack: 
+closeRFile(varf)
+print(varc)
+SymTable: 
+varf->test.in
+varc->5
+OutputList: 
+4
+File table: 
+test.in
+Heap: 
+
+Program State: 
+ID: 1
+ExecStack: 
+closeRFile(varf)
+print(varc)
+SymTable: 
+varf->test.in
+varc->5
+OutputList: 
+4
+File table: 
+test.in
+Heap: 
+
+Program State: 
+ID: 1
+ExecStack: 
+closeRFile(varf)
+SymTable: 
+varf->test.in
+varc->5
+OutputList: 
+4
+5
+File table: 
+test.in
+Heap: 
+
+Program State: 
+ID: 1
+ExecStack: 
+closeRFile(varf)
+SymTable: 
+varf->test.in
+varc->5
+OutputList: 
+4
+5
+File table: 
+test.in
+Heap: 
+
+Program State: 
+ID: 1
+ExecStack: 
+SymTable: 
+varf->test.in
+varc->5
+OutputList: 
+4
+5
+File table: 
+Heap: 
+
+Program State: 
+ID: 1
+ExecStack: 
+String varf;varf=test.in;openRFile(varf);int varc;readFile(varf);print(varc);readFile(varf);print(varc);closeRFile(varf)
+SymTable: 
+OutputList: 
+File table: 
+Heap: 
+
+Program State: 
+ID: 1
+ExecStack: 
+varf=test.in;openRFile(varf);int varc;readFile(varf);print(varc);readFile(varf);print(varc);closeRFile(varf)
+String varf
+SymTable: 
+OutputList: 
+File table: 
+Heap: 
+
+Program State: 
+ID: 1
+ExecStack: 
+varf=test.in;openRFile(varf);int varc;readFile(varf);print(varc);readFile(varf);print(varc);closeRFile(varf)
+String varf
+SymTable: 
+OutputList: 
+File table: 
+Heap: 
+
+Program State: 
+ID: 1
+ExecStack: 
+varf=test.in;openRFile(varf);int varc;readFile(varf);print(varc);readFile(varf);print(varc);closeRFile(varf)
+SymTable: 
+varf->
+OutputList: 
+File table: 
+Heap: 
+
+Program State: 
+ID: 1
+ExecStack: 
+varf=test.in;openRFile(varf);int varc;readFile(varf);print(varc);readFile(varf);print(varc);closeRFile(varf)
+SymTable: 
+varf->
+OutputList: 
+File table: 
+Heap: 
+
+Program State: 
+ID: 1
+ExecStack: 
+openRFile(varf);int varc;readFile(varf);print(varc);readFile(varf);print(varc);closeRFile(varf)
+varf=test.in
+SymTable: 
+varf->
+OutputList: 
+File table: 
+Heap: 
+
+Program State: 
+ID: 1
+ExecStack: 
+openRFile(varf);int varc;readFile(varf);print(varc);readFile(varf);print(varc);closeRFile(varf)
+varf=test.in
+SymTable: 
+varf->
+OutputList: 
+File table: 
+Heap: 
+
+Program State: 
+ID: 1
+ExecStack: 
+openRFile(varf);int varc;readFile(varf);print(varc);readFile(varf);print(varc);closeRFile(varf)
+SymTable: 
+varf->test.in
+OutputList: 
+File table: 
+Heap: 
+
+Program State: 
+ID: 1
+ExecStack: 
+openRFile(varf);int varc;readFile(varf);print(varc);readFile(varf);print(varc);closeRFile(varf)
+SymTable: 
+varf->test.in
+OutputList: 
+File table: 
+Heap: 
+
+Program State: 
+ID: 1
+ExecStack: 
+int varc;readFile(varf);print(varc);readFile(varf);print(varc);closeRFile(varf)
+openRFile(varf)
+SymTable: 
+varf->test.in
+OutputList: 
+File table: 
+Heap: 
+
+Program State: 
+ID: 1
+ExecStack: 
+int varc;readFile(varf);print(varc);readFile(varf);print(varc);closeRFile(varf)
+openRFile(varf)
+SymTable: 
+varf->test.in
+OutputList: 
+File table: 
+Heap: 
+
+Program State: 
+ID: 1
+ExecStack: 
+int varc;readFile(varf);print(varc);readFile(varf);print(varc);closeRFile(varf)
+SymTable: 
+varf->test.in
+OutputList: 
+File table: 
+test.in
+Heap: 
+
+Program State: 
+ID: 1
+ExecStack: 
+int varc;readFile(varf);print(varc);readFile(varf);print(varc);closeRFile(varf)
+SymTable: 
+varf->test.in
+OutputList: 
+File table: 
+test.in
+Heap: 
+
+Program State: 
+ID: 1
+ExecStack: 
+readFile(varf);print(varc);readFile(varf);print(varc);closeRFile(varf)
+int varc
+SymTable: 
+varf->test.in
+OutputList: 
+File table: 
+test.in
+Heap: 
+
+Program State: 
+ID: 1
+ExecStack: 
+readFile(varf);print(varc);readFile(varf);print(varc);closeRFile(varf)
+int varc
+SymTable: 
+varf->test.in
+OutputList: 
+File table: 
+test.in
+Heap: 
+
+Program State: 
+ID: 1
+ExecStack: 
+readFile(varf);print(varc);readFile(varf);print(varc);closeRFile(varf)
+SymTable: 
+varf->test.in
+varc->0
+OutputList: 
+File table: 
+test.in
+Heap: 
+
+Program State: 
+ID: 1
+ExecStack: 
+readFile(varf);print(varc);readFile(varf);print(varc);closeRFile(varf)
+SymTable: 
+varf->test.in
+varc->0
+OutputList: 
+File table: 
+test.in
+Heap: 
+
+Program State: 
+ID: 1
+ExecStack: 
+print(varc);readFile(varf);print(varc);closeRFile(varf)
+readFile(varf)
+SymTable: 
+varf->test.in
+varc->0
+OutputList: 
+File table: 
+test.in
+Heap: 
+
+Program State: 
+ID: 1
+ExecStack: 
+print(varc);readFile(varf);print(varc);closeRFile(varf)
+readFile(varf)
+SymTable: 
+varf->test.in
+varc->0
+OutputList: 
+File table: 
+test.in
+Heap: 
+
+Program State: 
+ID: 1
+ExecStack: 
+print(varc);readFile(varf);print(varc);closeRFile(varf)
+SymTable: 
+varf->test.in
+varc->4
+OutputList: 
+File table: 
+test.in
+Heap: 
+
+Program State: 
+ID: 1
+ExecStack: 
+print(varc);readFile(varf);print(varc);closeRFile(varf)
+SymTable: 
+varf->test.in
+varc->4
+OutputList: 
+File table: 
+test.in
+Heap: 
+
+Program State: 
+ID: 1
+ExecStack: 
+readFile(varf);print(varc);closeRFile(varf)
+print(varc)
+SymTable: 
+varf->test.in
+varc->4
+OutputList: 
+File table: 
+test.in
+Heap: 
+
+Program State: 
+ID: 1
+ExecStack: 
+readFile(varf);print(varc);closeRFile(varf)
+print(varc)
+SymTable: 
+varf->test.in
+varc->4
+OutputList: 
+File table: 
+test.in
+Heap: 
+
+Program State: 
+ID: 1
+ExecStack: 
+readFile(varf);print(varc);closeRFile(varf)
+SymTable: 
+varf->test.in
+varc->4
+OutputList: 
+4
+File table: 
+test.in
+Heap: 
+
+Program State: 
+ID: 1
+ExecStack: 
+readFile(varf);print(varc);closeRFile(varf)
+SymTable: 
+varf->test.in
+varc->4
+OutputList: 
+4
+File table: 
+test.in
+Heap: 
+
+Program State: 
+ID: 1
+ExecStack: 
+print(varc);closeRFile(varf)
+readFile(varf)
+SymTable: 
+varf->test.in
+varc->4
+OutputList: 
+4
+File table: 
+test.in
+Heap: 
+
+Program State: 
+ID: 1
+ExecStack: 
+print(varc);closeRFile(varf)
+readFile(varf)
+SymTable: 
+varf->test.in
+varc->4
+OutputList: 
+4
+File table: 
+test.in
+Heap: 
+
+Program State: 
+ID: 1
+ExecStack: 
+print(varc);closeRFile(varf)
+SymTable: 
+varf->test.in
+varc->5
+OutputList: 
+4
+File table: 
+test.in
+Heap: 
+
+Program State: 
+ID: 1
+ExecStack: 
+print(varc);closeRFile(varf)
+SymTable: 
+varf->test.in
+varc->5
+OutputList: 
+4
+File table: 
+test.in
+Heap: 
+
+Program State: 
+ID: 1
+ExecStack: 
+closeRFile(varf)
+print(varc)
+SymTable: 
+varf->test.in
+varc->5
+OutputList: 
+4
+File table: 
+test.in
+Heap: 
+
+Program State: 
+ID: 1
+ExecStack: 
+closeRFile(varf)
+print(varc)
+SymTable: 
+varf->test.in
+varc->5
+OutputList: 
+4
+File table: 
+test.in
+Heap: 
+
+Program State: 
+ID: 1
+ExecStack: 
+closeRFile(varf)
+SymTable: 
+varf->test.in
+varc->5
+OutputList: 
+4
+5
+File table: 
+test.in
+Heap: 
+
+Program State: 
+ID: 1
+ExecStack: 
+closeRFile(varf)
+SymTable: 
+varf->test.in
+varc->5
+OutputList: 
+4
+5
+File table: 
+test.in
+Heap: 
+
+Program State: 
+ID: 1
+ExecStack: 
+SymTable: 
+varf->test.in
+varc->5
+OutputList: 
+4
+5
+File table: 
+Heap: 
+

@@ -1,0 +1,2471 @@
+Program State: 
+ID: 1
+ExecStack: 
+ref int v1;int cnt;new(v1,1);CreateSemaphore (cnt,readHeap(v1));fork(Acquire(cnt);writeHeap(v1,readHeap(v1)*10);print(readHeap(v1));Release(cnt));fork(Acquire(cnt);writeHeap(v1,readHeap(v1)*10);writeHeap(v1,readHeap(v1)*2);print(readHeap(v1));Release(cnt));Acquire(cnt);print(readHeap(v1)-1);Release(cnt)
+SymTable: 
+OutputList: 
+File table: 
+Heap: 
+SemaphoreTable:
+
+Program State: 
+ID: 1
+ExecStack: 
+int cnt;new(v1,1);CreateSemaphore (cnt,readHeap(v1));fork(Acquire(cnt);writeHeap(v1,readHeap(v1)*10);print(readHeap(v1));Release(cnt));fork(Acquire(cnt);writeHeap(v1,readHeap(v1)*10);writeHeap(v1,readHeap(v1)*2);print(readHeap(v1));Release(cnt));Acquire(cnt);print(readHeap(v1)-1);Release(cnt)
+ref int v1
+SymTable: 
+OutputList: 
+File table: 
+Heap: 
+SemaphoreTable:
+
+Program State: 
+ID: 1
+ExecStack: 
+int cnt;new(v1,1);CreateSemaphore (cnt,readHeap(v1));fork(Acquire(cnt);writeHeap(v1,readHeap(v1)*10);print(readHeap(v1));Release(cnt));fork(Acquire(cnt);writeHeap(v1,readHeap(v1)*10);writeHeap(v1,readHeap(v1)*2);print(readHeap(v1));Release(cnt));Acquire(cnt);print(readHeap(v1)-1);Release(cnt)
+ref int v1
+SymTable: 
+OutputList: 
+File table: 
+Heap: 
+SemaphoreTable:
+
+Program State: 
+ID: 1
+ExecStack: 
+int cnt;new(v1,1);CreateSemaphore (cnt,readHeap(v1));fork(Acquire(cnt);writeHeap(v1,readHeap(v1)*10);print(readHeap(v1));Release(cnt));fork(Acquire(cnt);writeHeap(v1,readHeap(v1)*10);writeHeap(v1,readHeap(v1)*2);print(readHeap(v1));Release(cnt));Acquire(cnt);print(readHeap(v1)-1);Release(cnt)
+SymTable: 
+v1->(0,int)
+OutputList: 
+File table: 
+Heap: 
+SemaphoreTable:
+
+Program State: 
+ID: 1
+ExecStack: 
+int cnt;new(v1,1);CreateSemaphore (cnt,readHeap(v1));fork(Acquire(cnt);writeHeap(v1,readHeap(v1)*10);print(readHeap(v1));Release(cnt));fork(Acquire(cnt);writeHeap(v1,readHeap(v1)*10);writeHeap(v1,readHeap(v1)*2);print(readHeap(v1));Release(cnt));Acquire(cnt);print(readHeap(v1)-1);Release(cnt)
+SymTable: 
+v1->(0,int)
+OutputList: 
+File table: 
+Heap: 
+SemaphoreTable:
+
+Program State: 
+ID: 1
+ExecStack: 
+new(v1,1);CreateSemaphore (cnt,readHeap(v1));fork(Acquire(cnt);writeHeap(v1,readHeap(v1)*10);print(readHeap(v1));Release(cnt));fork(Acquire(cnt);writeHeap(v1,readHeap(v1)*10);writeHeap(v1,readHeap(v1)*2);print(readHeap(v1));Release(cnt));Acquire(cnt);print(readHeap(v1)-1);Release(cnt)
+int cnt
+SymTable: 
+v1->(0,int)
+OutputList: 
+File table: 
+Heap: 
+SemaphoreTable:
+
+Program State: 
+ID: 1
+ExecStack: 
+new(v1,1);CreateSemaphore (cnt,readHeap(v1));fork(Acquire(cnt);writeHeap(v1,readHeap(v1)*10);print(readHeap(v1));Release(cnt));fork(Acquire(cnt);writeHeap(v1,readHeap(v1)*10);writeHeap(v1,readHeap(v1)*2);print(readHeap(v1));Release(cnt));Acquire(cnt);print(readHeap(v1)-1);Release(cnt)
+int cnt
+SymTable: 
+v1->(0,int)
+OutputList: 
+File table: 
+Heap: 
+SemaphoreTable:
+
+Program State: 
+ID: 1
+ExecStack: 
+new(v1,1);CreateSemaphore (cnt,readHeap(v1));fork(Acquire(cnt);writeHeap(v1,readHeap(v1)*10);print(readHeap(v1));Release(cnt));fork(Acquire(cnt);writeHeap(v1,readHeap(v1)*10);writeHeap(v1,readHeap(v1)*2);print(readHeap(v1));Release(cnt));Acquire(cnt);print(readHeap(v1)-1);Release(cnt)
+SymTable: 
+cnt->0
+v1->(0,int)
+OutputList: 
+File table: 
+Heap: 
+SemaphoreTable:
+
+Program State: 
+ID: 1
+ExecStack: 
+new(v1,1);CreateSemaphore (cnt,readHeap(v1));fork(Acquire(cnt);writeHeap(v1,readHeap(v1)*10);print(readHeap(v1));Release(cnt));fork(Acquire(cnt);writeHeap(v1,readHeap(v1)*10);writeHeap(v1,readHeap(v1)*2);print(readHeap(v1));Release(cnt));Acquire(cnt);print(readHeap(v1)-1);Release(cnt)
+SymTable: 
+cnt->0
+v1->(0,int)
+OutputList: 
+File table: 
+Heap: 
+SemaphoreTable:
+
+Program State: 
+ID: 1
+ExecStack: 
+CreateSemaphore (cnt,readHeap(v1));fork(Acquire(cnt);writeHeap(v1,readHeap(v1)*10);print(readHeap(v1));Release(cnt));fork(Acquire(cnt);writeHeap(v1,readHeap(v1)*10);writeHeap(v1,readHeap(v1)*2);print(readHeap(v1));Release(cnt));Acquire(cnt);print(readHeap(v1)-1);Release(cnt)
+new(v1,1)
+SymTable: 
+cnt->0
+v1->(0,int)
+OutputList: 
+File table: 
+Heap: 
+SemaphoreTable:
+
+Program State: 
+ID: 1
+ExecStack: 
+CreateSemaphore (cnt,readHeap(v1));fork(Acquire(cnt);writeHeap(v1,readHeap(v1)*10);print(readHeap(v1));Release(cnt));fork(Acquire(cnt);writeHeap(v1,readHeap(v1)*10);writeHeap(v1,readHeap(v1)*2);print(readHeap(v1));Release(cnt));Acquire(cnt);print(readHeap(v1)-1);Release(cnt)
+new(v1,1)
+SymTable: 
+cnt->0
+v1->(0,int)
+OutputList: 
+File table: 
+Heap: 
+SemaphoreTable:
+
+Program State: 
+ID: 1
+ExecStack: 
+CreateSemaphore (cnt,readHeap(v1));fork(Acquire(cnt);writeHeap(v1,readHeap(v1)*10);print(readHeap(v1));Release(cnt));fork(Acquire(cnt);writeHeap(v1,readHeap(v1)*10);writeHeap(v1,readHeap(v1)*2);print(readHeap(v1));Release(cnt));Acquire(cnt);print(readHeap(v1)-1);Release(cnt)
+SymTable: 
+cnt->0
+v1->(1,int)
+OutputList: 
+File table: 
+Heap: 
+1->1
+SemaphoreTable:
+
+Program State: 
+ID: 1
+ExecStack: 
+CreateSemaphore (cnt,readHeap(v1));fork(Acquire(cnt);writeHeap(v1,readHeap(v1)*10);print(readHeap(v1));Release(cnt));fork(Acquire(cnt);writeHeap(v1,readHeap(v1)*10);writeHeap(v1,readHeap(v1)*2);print(readHeap(v1));Release(cnt));Acquire(cnt);print(readHeap(v1)-1);Release(cnt)
+SymTable: 
+cnt->0
+v1->(1,int)
+OutputList: 
+File table: 
+Heap: 
+1->1
+SemaphoreTable:
+
+Program State: 
+ID: 1
+ExecStack: 
+fork(Acquire(cnt);writeHeap(v1,readHeap(v1)*10);print(readHeap(v1));Release(cnt));fork(Acquire(cnt);writeHeap(v1,readHeap(v1)*10);writeHeap(v1,readHeap(v1)*2);print(readHeap(v1));Release(cnt));Acquire(cnt);print(readHeap(v1)-1);Release(cnt)
+CreateSemaphore (cnt,readHeap(v1))
+SymTable: 
+cnt->0
+v1->(1,int)
+OutputList: 
+File table: 
+Heap: 
+1->1
+SemaphoreTable:
+
+Program State: 
+ID: 1
+ExecStack: 
+fork(Acquire(cnt);writeHeap(v1,readHeap(v1)*10);print(readHeap(v1));Release(cnt));fork(Acquire(cnt);writeHeap(v1,readHeap(v1)*10);writeHeap(v1,readHeap(v1)*2);print(readHeap(v1));Release(cnt));Acquire(cnt);print(readHeap(v1)-1);Release(cnt)
+CreateSemaphore (cnt,readHeap(v1))
+SymTable: 
+cnt->0
+v1->(1,int)
+OutputList: 
+File table: 
+Heap: 
+1->1
+SemaphoreTable:
+
+Program State: 
+ID: 1
+ExecStack: 
+fork(Acquire(cnt);writeHeap(v1,readHeap(v1)*10);print(readHeap(v1));Release(cnt));fork(Acquire(cnt);writeHeap(v1,readHeap(v1)*10);writeHeap(v1,readHeap(v1)*2);print(readHeap(v1));Release(cnt));Acquire(cnt);print(readHeap(v1)-1);Release(cnt)
+SymTable: 
+cnt->1
+v1->(1,int)
+OutputList: 
+File table: 
+Heap: 
+1->1
+SemaphoreTable:
+ID: 1 -> (Count: 1, Threads: [])
+
+Program State: 
+ID: 1
+ExecStack: 
+fork(Acquire(cnt);writeHeap(v1,readHeap(v1)*10);print(readHeap(v1));Release(cnt));fork(Acquire(cnt);writeHeap(v1,readHeap(v1)*10);writeHeap(v1,readHeap(v1)*2);print(readHeap(v1));Release(cnt));Acquire(cnt);print(readHeap(v1)-1);Release(cnt)
+SymTable: 
+cnt->1
+v1->(1,int)
+OutputList: 
+File table: 
+Heap: 
+1->1
+SemaphoreTable:
+ID: 1 -> (Count: 1, Threads: [])
+
+Program State: 
+ID: 1
+ExecStack: 
+fork(Acquire(cnt);writeHeap(v1,readHeap(v1)*10);writeHeap(v1,readHeap(v1)*2);print(readHeap(v1));Release(cnt));Acquire(cnt);print(readHeap(v1)-1);Release(cnt)
+fork(Acquire(cnt);writeHeap(v1,readHeap(v1)*10);print(readHeap(v1));Release(cnt))
+SymTable: 
+cnt->1
+v1->(1,int)
+OutputList: 
+File table: 
+Heap: 
+1->1
+SemaphoreTable:
+ID: 1 -> (Count: 1, Threads: [])
+
+Program State: 
+ID: 1
+ExecStack: 
+fork(Acquire(cnt);writeHeap(v1,readHeap(v1)*10);writeHeap(v1,readHeap(v1)*2);print(readHeap(v1));Release(cnt));Acquire(cnt);print(readHeap(v1)-1);Release(cnt)
+fork(Acquire(cnt);writeHeap(v1,readHeap(v1)*10);print(readHeap(v1));Release(cnt))
+SymTable: 
+cnt->1
+v1->(1,int)
+OutputList: 
+File table: 
+Heap: 
+1->1
+SemaphoreTable:
+ID: 1 -> (Count: 1, Threads: [])
+
+Program State: 
+ID: 1
+ExecStack: 
+fork(Acquire(cnt);writeHeap(v1,readHeap(v1)*10);writeHeap(v1,readHeap(v1)*2);print(readHeap(v1));Release(cnt));Acquire(cnt);print(readHeap(v1)-1);Release(cnt)
+SymTable: 
+cnt->1
+v1->(1,int)
+OutputList: 
+File table: 
+Heap: 
+1->1
+SemaphoreTable:
+ID: 1 -> (Count: 1, Threads: [])
+
+Program State: 
+ID: 2
+ExecStack: 
+Acquire(cnt);writeHeap(v1,readHeap(v1)*10);print(readHeap(v1));Release(cnt)
+SymTable: 
+cnt->1
+v1->(1,int)
+OutputList: 
+File table: 
+Heap: 
+1->1
+SemaphoreTable:
+ID: 1 -> (Count: 1, Threads: [])
+
+Program State: 
+ID: 1
+ExecStack: 
+fork(Acquire(cnt);writeHeap(v1,readHeap(v1)*10);writeHeap(v1,readHeap(v1)*2);print(readHeap(v1));Release(cnt));Acquire(cnt);print(readHeap(v1)-1);Release(cnt)
+SymTable: 
+cnt->1
+v1->(1,int)
+OutputList: 
+File table: 
+Heap: 
+1->1
+SemaphoreTable:
+ID: 1 -> (Count: 1, Threads: [])
+
+Program State: 
+ID: 2
+ExecStack: 
+Acquire(cnt);writeHeap(v1,readHeap(v1)*10);print(readHeap(v1));Release(cnt)
+SymTable: 
+cnt->1
+v1->(1,int)
+OutputList: 
+File table: 
+Heap: 
+1->1
+SemaphoreTable:
+ID: 1 -> (Count: 1, Threads: [])
+
+Program State: 
+ID: 1
+ExecStack: 
+Acquire(cnt);print(readHeap(v1)-1);Release(cnt)
+fork(Acquire(cnt);writeHeap(v1,readHeap(v1)*10);writeHeap(v1,readHeap(v1)*2);print(readHeap(v1));Release(cnt))
+SymTable: 
+cnt->1
+v1->(1,int)
+OutputList: 
+File table: 
+Heap: 
+1->1
+SemaphoreTable:
+ID: 1 -> (Count: 1, Threads: [])
+
+Program State: 
+ID: 2
+ExecStack: 
+writeHeap(v1,readHeap(v1)*10);print(readHeap(v1));Release(cnt)
+Acquire(cnt)
+SymTable: 
+cnt->1
+v1->(1,int)
+OutputList: 
+File table: 
+Heap: 
+1->1
+SemaphoreTable:
+ID: 1 -> (Count: 1, Threads: [])
+
+Program State: 
+ID: 1
+ExecStack: 
+Acquire(cnt);print(readHeap(v1)-1);Release(cnt)
+fork(Acquire(cnt);writeHeap(v1,readHeap(v1)*10);writeHeap(v1,readHeap(v1)*2);print(readHeap(v1));Release(cnt))
+SymTable: 
+cnt->1
+v1->(1,int)
+OutputList: 
+File table: 
+Heap: 
+1->1
+SemaphoreTable:
+ID: 1 -> (Count: 1, Threads: [])
+
+Program State: 
+ID: 2
+ExecStack: 
+writeHeap(v1,readHeap(v1)*10);print(readHeap(v1));Release(cnt)
+Acquire(cnt)
+SymTable: 
+cnt->1
+v1->(1,int)
+OutputList: 
+File table: 
+Heap: 
+1->1
+SemaphoreTable:
+ID: 1 -> (Count: 1, Threads: [])
+
+Program State: 
+ID: 1
+ExecStack: 
+Acquire(cnt);print(readHeap(v1)-1);Release(cnt)
+SymTable: 
+cnt->1
+v1->(1,int)
+OutputList: 
+File table: 
+Heap: 
+1->1
+SemaphoreTable:
+ID: 1 -> (Count: 1, Threads: [2])
+
+Program State: 
+ID: 2
+ExecStack: 
+writeHeap(v1,readHeap(v1)*10);print(readHeap(v1));Release(cnt)
+SymTable: 
+cnt->1
+v1->(1,int)
+OutputList: 
+File table: 
+Heap: 
+1->1
+SemaphoreTable:
+ID: 1 -> (Count: 1, Threads: [2])
+
+Program State: 
+ID: 3
+ExecStack: 
+Acquire(cnt);writeHeap(v1,readHeap(v1)*10);writeHeap(v1,readHeap(v1)*2);print(readHeap(v1));Release(cnt)
+SymTable: 
+cnt->1
+v1->(1,int)
+OutputList: 
+File table: 
+Heap: 
+1->1
+SemaphoreTable:
+ID: 1 -> (Count: 1, Threads: [2])
+
+Program State: 
+ID: 1
+ExecStack: 
+Acquire(cnt);print(readHeap(v1)-1);Release(cnt)
+SymTable: 
+cnt->1
+v1->(1,int)
+OutputList: 
+File table: 
+Heap: 
+1->1
+SemaphoreTable:
+ID: 1 -> (Count: 1, Threads: [2])
+
+Program State: 
+ID: 2
+ExecStack: 
+writeHeap(v1,readHeap(v1)*10);print(readHeap(v1));Release(cnt)
+SymTable: 
+cnt->1
+v1->(1,int)
+OutputList: 
+File table: 
+Heap: 
+1->1
+SemaphoreTable:
+ID: 1 -> (Count: 1, Threads: [2])
+
+Program State: 
+ID: 3
+ExecStack: 
+Acquire(cnt);writeHeap(v1,readHeap(v1)*10);writeHeap(v1,readHeap(v1)*2);print(readHeap(v1));Release(cnt)
+SymTable: 
+cnt->1
+v1->(1,int)
+OutputList: 
+File table: 
+Heap: 
+1->1
+SemaphoreTable:
+ID: 1 -> (Count: 1, Threads: [2])
+
+Program State: 
+ID: 1
+ExecStack: 
+print(readHeap(v1)-1);Release(cnt)
+Acquire(cnt)
+SymTable: 
+cnt->1
+v1->(1,int)
+OutputList: 
+File table: 
+Heap: 
+1->1
+SemaphoreTable:
+ID: 1 -> (Count: 1, Threads: [2])
+
+Program State: 
+ID: 2
+ExecStack: 
+print(readHeap(v1));Release(cnt)
+writeHeap(v1,readHeap(v1)*10)
+SymTable: 
+cnt->1
+v1->(1,int)
+OutputList: 
+File table: 
+Heap: 
+1->1
+SemaphoreTable:
+ID: 1 -> (Count: 1, Threads: [2])
+
+Program State: 
+ID: 3
+ExecStack: 
+writeHeap(v1,readHeap(v1)*10);writeHeap(v1,readHeap(v1)*2);print(readHeap(v1));Release(cnt)
+Acquire(cnt)
+SymTable: 
+cnt->1
+v1->(1,int)
+OutputList: 
+File table: 
+Heap: 
+1->1
+SemaphoreTable:
+ID: 1 -> (Count: 1, Threads: [2])
+
+Program State: 
+ID: 1
+ExecStack: 
+print(readHeap(v1)-1);Release(cnt)
+Acquire(cnt)
+SymTable: 
+cnt->1
+v1->(1,int)
+OutputList: 
+File table: 
+Heap: 
+1->1
+SemaphoreTable:
+ID: 1 -> (Count: 1, Threads: [2])
+
+Program State: 
+ID: 2
+ExecStack: 
+print(readHeap(v1));Release(cnt)
+writeHeap(v1,readHeap(v1)*10)
+SymTable: 
+cnt->1
+v1->(1,int)
+OutputList: 
+File table: 
+Heap: 
+1->1
+SemaphoreTable:
+ID: 1 -> (Count: 1, Threads: [2])
+
+Program State: 
+ID: 3
+ExecStack: 
+writeHeap(v1,readHeap(v1)*10);writeHeap(v1,readHeap(v1)*2);print(readHeap(v1));Release(cnt)
+Acquire(cnt)
+SymTable: 
+cnt->1
+v1->(1,int)
+OutputList: 
+File table: 
+Heap: 
+1->1
+SemaphoreTable:
+ID: 1 -> (Count: 1, Threads: [2])
+
+Program State: 
+ID: 1
+ExecStack: 
+print(readHeap(v1)-1);Release(cnt)
+Acquire(cnt)
+SymTable: 
+cnt->1
+v1->(1,int)
+OutputList: 
+File table: 
+Heap: 
+1->10
+SemaphoreTable:
+ID: 1 -> (Count: 1, Threads: [2])
+
+Program State: 
+ID: 2
+ExecStack: 
+print(readHeap(v1));Release(cnt)
+SymTable: 
+cnt->1
+v1->(1,int)
+OutputList: 
+File table: 
+Heap: 
+1->10
+SemaphoreTable:
+ID: 1 -> (Count: 1, Threads: [2])
+
+Program State: 
+ID: 3
+ExecStack: 
+writeHeap(v1,readHeap(v1)*10);writeHeap(v1,readHeap(v1)*2);print(readHeap(v1));Release(cnt)
+Acquire(cnt)
+SymTable: 
+cnt->1
+v1->(1,int)
+OutputList: 
+File table: 
+Heap: 
+1->10
+SemaphoreTable:
+ID: 1 -> (Count: 1, Threads: [2])
+
+Program State: 
+ID: 1
+ExecStack: 
+print(readHeap(v1)-1);Release(cnt)
+Acquire(cnt)
+SymTable: 
+cnt->1
+v1->(1,int)
+OutputList: 
+File table: 
+Heap: 
+1->10
+SemaphoreTable:
+ID: 1 -> (Count: 1, Threads: [2])
+
+Program State: 
+ID: 2
+ExecStack: 
+print(readHeap(v1));Release(cnt)
+SymTable: 
+cnt->1
+v1->(1,int)
+OutputList: 
+File table: 
+Heap: 
+1->10
+SemaphoreTable:
+ID: 1 -> (Count: 1, Threads: [2])
+
+Program State: 
+ID: 3
+ExecStack: 
+writeHeap(v1,readHeap(v1)*10);writeHeap(v1,readHeap(v1)*2);print(readHeap(v1));Release(cnt)
+Acquire(cnt)
+SymTable: 
+cnt->1
+v1->(1,int)
+OutputList: 
+File table: 
+Heap: 
+1->10
+SemaphoreTable:
+ID: 1 -> (Count: 1, Threads: [2])
+
+Program State: 
+ID: 1
+ExecStack: 
+print(readHeap(v1)-1);Release(cnt)
+Acquire(cnt)
+SymTable: 
+cnt->1
+v1->(1,int)
+OutputList: 
+File table: 
+Heap: 
+1->10
+SemaphoreTable:
+ID: 1 -> (Count: 1, Threads: [2])
+
+Program State: 
+ID: 2
+ExecStack: 
+Release(cnt)
+print(readHeap(v1))
+SymTable: 
+cnt->1
+v1->(1,int)
+OutputList: 
+File table: 
+Heap: 
+1->10
+SemaphoreTable:
+ID: 1 -> (Count: 1, Threads: [2])
+
+Program State: 
+ID: 3
+ExecStack: 
+writeHeap(v1,readHeap(v1)*10);writeHeap(v1,readHeap(v1)*2);print(readHeap(v1));Release(cnt)
+Acquire(cnt)
+SymTable: 
+cnt->1
+v1->(1,int)
+OutputList: 
+File table: 
+Heap: 
+1->10
+SemaphoreTable:
+ID: 1 -> (Count: 1, Threads: [2])
+
+Program State: 
+ID: 1
+ExecStack: 
+print(readHeap(v1)-1);Release(cnt)
+Acquire(cnt)
+SymTable: 
+cnt->1
+v1->(1,int)
+OutputList: 
+File table: 
+Heap: 
+1->10
+SemaphoreTable:
+ID: 1 -> (Count: 1, Threads: [2])
+
+Program State: 
+ID: 2
+ExecStack: 
+Release(cnt)
+print(readHeap(v1))
+SymTable: 
+cnt->1
+v1->(1,int)
+OutputList: 
+File table: 
+Heap: 
+1->10
+SemaphoreTable:
+ID: 1 -> (Count: 1, Threads: [2])
+
+Program State: 
+ID: 3
+ExecStack: 
+writeHeap(v1,readHeap(v1)*10);writeHeap(v1,readHeap(v1)*2);print(readHeap(v1));Release(cnt)
+Acquire(cnt)
+SymTable: 
+cnt->1
+v1->(1,int)
+OutputList: 
+File table: 
+Heap: 
+1->10
+SemaphoreTable:
+ID: 1 -> (Count: 1, Threads: [2])
+
+Program State: 
+ID: 1
+ExecStack: 
+print(readHeap(v1)-1);Release(cnt)
+Acquire(cnt)
+SymTable: 
+cnt->1
+v1->(1,int)
+OutputList: 
+10
+File table: 
+Heap: 
+1->10
+SemaphoreTable:
+ID: 1 -> (Count: 1, Threads: [2])
+
+Program State: 
+ID: 2
+ExecStack: 
+Release(cnt)
+SymTable: 
+cnt->1
+v1->(1,int)
+OutputList: 
+10
+File table: 
+Heap: 
+1->10
+SemaphoreTable:
+ID: 1 -> (Count: 1, Threads: [2])
+
+Program State: 
+ID: 3
+ExecStack: 
+writeHeap(v1,readHeap(v1)*10);writeHeap(v1,readHeap(v1)*2);print(readHeap(v1));Release(cnt)
+Acquire(cnt)
+SymTable: 
+cnt->1
+v1->(1,int)
+OutputList: 
+10
+File table: 
+Heap: 
+1->10
+SemaphoreTable:
+ID: 1 -> (Count: 1, Threads: [2])
+
+Program State: 
+ID: 1
+ExecStack: 
+print(readHeap(v1)-1);Release(cnt)
+Acquire(cnt)
+SymTable: 
+cnt->1
+v1->(1,int)
+OutputList: 
+10
+File table: 
+Heap: 
+1->10
+SemaphoreTable:
+ID: 1 -> (Count: 1, Threads: [2])
+
+Program State: 
+ID: 2
+ExecStack: 
+Release(cnt)
+SymTable: 
+cnt->1
+v1->(1,int)
+OutputList: 
+10
+File table: 
+Heap: 
+1->10
+SemaphoreTable:
+ID: 1 -> (Count: 1, Threads: [2])
+
+Program State: 
+ID: 3
+ExecStack: 
+writeHeap(v1,readHeap(v1)*10);writeHeap(v1,readHeap(v1)*2);print(readHeap(v1));Release(cnt)
+Acquire(cnt)
+SymTable: 
+cnt->1
+v1->(1,int)
+OutputList: 
+10
+File table: 
+Heap: 
+1->10
+SemaphoreTable:
+ID: 1 -> (Count: 1, Threads: [2])
+
+Program State: 
+ID: 1
+ExecStack: 
+print(readHeap(v1)-1);Release(cnt)
+Acquire(cnt)
+SymTable: 
+cnt->1
+v1->(1,int)
+OutputList: 
+10
+File table: 
+Heap: 
+1->10
+SemaphoreTable:
+ID: 1 -> (Count: 1, Threads: [])
+
+Program State: 
+ID: 2
+ExecStack: 
+SymTable: 
+cnt->1
+v1->(1,int)
+OutputList: 
+10
+File table: 
+Heap: 
+1->10
+SemaphoreTable:
+ID: 1 -> (Count: 1, Threads: [])
+
+Program State: 
+ID: 3
+ExecStack: 
+writeHeap(v1,readHeap(v1)*10);writeHeap(v1,readHeap(v1)*2);print(readHeap(v1));Release(cnt)
+Acquire(cnt)
+SymTable: 
+cnt->1
+v1->(1,int)
+OutputList: 
+10
+File table: 
+Heap: 
+1->10
+SemaphoreTable:
+ID: 1 -> (Count: 1, Threads: [])
+
+Program State: 
+ID: 1
+ExecStack: 
+print(readHeap(v1)-1);Release(cnt)
+Acquire(cnt)
+SymTable: 
+cnt->1
+v1->(1,int)
+OutputList: 
+10
+File table: 
+Heap: 
+1->10
+SemaphoreTable:
+ID: 1 -> (Count: 1, Threads: [])
+
+Program State: 
+ID: 3
+ExecStack: 
+writeHeap(v1,readHeap(v1)*10);writeHeap(v1,readHeap(v1)*2);print(readHeap(v1));Release(cnt)
+Acquire(cnt)
+SymTable: 
+cnt->1
+v1->(1,int)
+OutputList: 
+10
+File table: 
+Heap: 
+1->10
+SemaphoreTable:
+ID: 1 -> (Count: 1, Threads: [])
+
+Program State: 
+ID: 1
+ExecStack: 
+print(readHeap(v1)-1);Release(cnt)
+SymTable: 
+cnt->1
+v1->(1,int)
+OutputList: 
+10
+File table: 
+Heap: 
+1->10
+SemaphoreTable:
+ID: 1 -> (Count: 1, Threads: [1])
+
+Program State: 
+ID: 3
+ExecStack: 
+writeHeap(v1,readHeap(v1)*10);writeHeap(v1,readHeap(v1)*2);print(readHeap(v1));Release(cnt)
+Acquire(cnt)
+SymTable: 
+cnt->1
+v1->(1,int)
+OutputList: 
+10
+File table: 
+Heap: 
+1->10
+SemaphoreTable:
+ID: 1 -> (Count: 1, Threads: [1])
+
+Program State: 
+ID: 1
+ExecStack: 
+print(readHeap(v1)-1);Release(cnt)
+SymTable: 
+cnt->1
+v1->(1,int)
+OutputList: 
+10
+File table: 
+Heap: 
+1->10
+SemaphoreTable:
+ID: 1 -> (Count: 1, Threads: [1])
+
+Program State: 
+ID: 3
+ExecStack: 
+writeHeap(v1,readHeap(v1)*10);writeHeap(v1,readHeap(v1)*2);print(readHeap(v1));Release(cnt)
+Acquire(cnt)
+SymTable: 
+cnt->1
+v1->(1,int)
+OutputList: 
+10
+File table: 
+Heap: 
+1->10
+SemaphoreTable:
+ID: 1 -> (Count: 1, Threads: [1])
+
+Program State: 
+ID: 1
+ExecStack: 
+Release(cnt)
+print(readHeap(v1)-1)
+SymTable: 
+cnt->1
+v1->(1,int)
+OutputList: 
+10
+File table: 
+Heap: 
+1->10
+SemaphoreTable:
+ID: 1 -> (Count: 1, Threads: [1])
+
+Program State: 
+ID: 3
+ExecStack: 
+writeHeap(v1,readHeap(v1)*10);writeHeap(v1,readHeap(v1)*2);print(readHeap(v1));Release(cnt)
+Acquire(cnt)
+SymTable: 
+cnt->1
+v1->(1,int)
+OutputList: 
+10
+File table: 
+Heap: 
+1->10
+SemaphoreTable:
+ID: 1 -> (Count: 1, Threads: [1])
+
+Program State: 
+ID: 1
+ExecStack: 
+Release(cnt)
+print(readHeap(v1)-1)
+SymTable: 
+cnt->1
+v1->(1,int)
+OutputList: 
+10
+File table: 
+Heap: 
+1->10
+SemaphoreTable:
+ID: 1 -> (Count: 1, Threads: [1])
+
+Program State: 
+ID: 3
+ExecStack: 
+writeHeap(v1,readHeap(v1)*10);writeHeap(v1,readHeap(v1)*2);print(readHeap(v1));Release(cnt)
+Acquire(cnt)
+SymTable: 
+cnt->1
+v1->(1,int)
+OutputList: 
+10
+File table: 
+Heap: 
+1->10
+SemaphoreTable:
+ID: 1 -> (Count: 1, Threads: [1])
+
+Program State: 
+ID: 1
+ExecStack: 
+Release(cnt)
+SymTable: 
+cnt->1
+v1->(1,int)
+OutputList: 
+10
+9
+File table: 
+Heap: 
+1->10
+SemaphoreTable:
+ID: 1 -> (Count: 1, Threads: [1])
+
+Program State: 
+ID: 3
+ExecStack: 
+writeHeap(v1,readHeap(v1)*10);writeHeap(v1,readHeap(v1)*2);print(readHeap(v1));Release(cnt)
+Acquire(cnt)
+SymTable: 
+cnt->1
+v1->(1,int)
+OutputList: 
+10
+9
+File table: 
+Heap: 
+1->10
+SemaphoreTable:
+ID: 1 -> (Count: 1, Threads: [1])
+
+Program State: 
+ID: 1
+ExecStack: 
+Release(cnt)
+SymTable: 
+cnt->1
+v1->(1,int)
+OutputList: 
+10
+9
+File table: 
+Heap: 
+1->10
+SemaphoreTable:
+ID: 1 -> (Count: 1, Threads: [1])
+
+Program State: 
+ID: 3
+ExecStack: 
+writeHeap(v1,readHeap(v1)*10);writeHeap(v1,readHeap(v1)*2);print(readHeap(v1));Release(cnt)
+Acquire(cnt)
+SymTable: 
+cnt->1
+v1->(1,int)
+OutputList: 
+10
+9
+File table: 
+Heap: 
+1->10
+SemaphoreTable:
+ID: 1 -> (Count: 1, Threads: [1])
+
+Program State: 
+ID: 1
+ExecStack: 
+SymTable: 
+cnt->1
+v1->(1,int)
+OutputList: 
+10
+9
+File table: 
+Heap: 
+1->10
+SemaphoreTable:
+ID: 1 -> (Count: 1, Threads: [3])
+
+Program State: 
+ID: 3
+ExecStack: 
+writeHeap(v1,readHeap(v1)*10);writeHeap(v1,readHeap(v1)*2);print(readHeap(v1));Release(cnt)
+SymTable: 
+cnt->1
+v1->(1,int)
+OutputList: 
+10
+9
+File table: 
+Heap: 
+1->10
+SemaphoreTable:
+ID: 1 -> (Count: 1, Threads: [3])
+
+Program State: 
+ID: 3
+ExecStack: 
+writeHeap(v1,readHeap(v1)*10);writeHeap(v1,readHeap(v1)*2);print(readHeap(v1));Release(cnt)
+SymTable: 
+cnt->1
+v1->(1,int)
+OutputList: 
+10
+9
+File table: 
+Heap: 
+1->10
+SemaphoreTable:
+ID: 1 -> (Count: 1, Threads: [3])
+
+Program State: 
+ID: 3
+ExecStack: 
+writeHeap(v1,readHeap(v1)*2);print(readHeap(v1));Release(cnt)
+writeHeap(v1,readHeap(v1)*10)
+SymTable: 
+cnt->1
+v1->(1,int)
+OutputList: 
+10
+9
+File table: 
+Heap: 
+1->10
+SemaphoreTable:
+ID: 1 -> (Count: 1, Threads: [3])
+
+Program State: 
+ID: 3
+ExecStack: 
+writeHeap(v1,readHeap(v1)*2);print(readHeap(v1));Release(cnt)
+writeHeap(v1,readHeap(v1)*10)
+SymTable: 
+cnt->1
+v1->(1,int)
+OutputList: 
+10
+9
+File table: 
+Heap: 
+1->10
+SemaphoreTable:
+ID: 1 -> (Count: 1, Threads: [3])
+
+Program State: 
+ID: 3
+ExecStack: 
+writeHeap(v1,readHeap(v1)*2);print(readHeap(v1));Release(cnt)
+SymTable: 
+cnt->1
+v1->(1,int)
+OutputList: 
+10
+9
+File table: 
+Heap: 
+1->100
+SemaphoreTable:
+ID: 1 -> (Count: 1, Threads: [3])
+
+Program State: 
+ID: 3
+ExecStack: 
+writeHeap(v1,readHeap(v1)*2);print(readHeap(v1));Release(cnt)
+SymTable: 
+cnt->1
+v1->(1,int)
+OutputList: 
+10
+9
+File table: 
+Heap: 
+1->100
+SemaphoreTable:
+ID: 1 -> (Count: 1, Threads: [3])
+
+Program State: 
+ID: 3
+ExecStack: 
+print(readHeap(v1));Release(cnt)
+writeHeap(v1,readHeap(v1)*2)
+SymTable: 
+cnt->1
+v1->(1,int)
+OutputList: 
+10
+9
+File table: 
+Heap: 
+1->100
+SemaphoreTable:
+ID: 1 -> (Count: 1, Threads: [3])
+
+Program State: 
+ID: 3
+ExecStack: 
+print(readHeap(v1));Release(cnt)
+writeHeap(v1,readHeap(v1)*2)
+SymTable: 
+cnt->1
+v1->(1,int)
+OutputList: 
+10
+9
+File table: 
+Heap: 
+1->100
+SemaphoreTable:
+ID: 1 -> (Count: 1, Threads: [3])
+
+Program State: 
+ID: 3
+ExecStack: 
+print(readHeap(v1));Release(cnt)
+SymTable: 
+cnt->1
+v1->(1,int)
+OutputList: 
+10
+9
+File table: 
+Heap: 
+1->200
+SemaphoreTable:
+ID: 1 -> (Count: 1, Threads: [3])
+
+Program State: 
+ID: 3
+ExecStack: 
+print(readHeap(v1));Release(cnt)
+SymTable: 
+cnt->1
+v1->(1,int)
+OutputList: 
+10
+9
+File table: 
+Heap: 
+1->200
+SemaphoreTable:
+ID: 1 -> (Count: 1, Threads: [3])
+
+Program State: 
+ID: 3
+ExecStack: 
+Release(cnt)
+print(readHeap(v1))
+SymTable: 
+cnt->1
+v1->(1,int)
+OutputList: 
+10
+9
+File table: 
+Heap: 
+1->200
+SemaphoreTable:
+ID: 1 -> (Count: 1, Threads: [3])
+
+Program State: 
+ID: 3
+ExecStack: 
+Release(cnt)
+print(readHeap(v1))
+SymTable: 
+cnt->1
+v1->(1,int)
+OutputList: 
+10
+9
+File table: 
+Heap: 
+1->200
+SemaphoreTable:
+ID: 1 -> (Count: 1, Threads: [3])
+
+Program State: 
+ID: 3
+ExecStack: 
+Release(cnt)
+SymTable: 
+cnt->1
+v1->(1,int)
+OutputList: 
+10
+9
+200
+File table: 
+Heap: 
+1->200
+SemaphoreTable:
+ID: 1 -> (Count: 1, Threads: [3])
+
+Program State: 
+ID: 3
+ExecStack: 
+Release(cnt)
+SymTable: 
+cnt->1
+v1->(1,int)
+OutputList: 
+10
+9
+200
+File table: 
+Heap: 
+1->200
+SemaphoreTable:
+ID: 1 -> (Count: 1, Threads: [3])
+
+Program State: 
+ID: 3
+ExecStack: 
+SymTable: 
+cnt->1
+v1->(1,int)
+OutputList: 
+10
+9
+200
+File table: 
+Heap: 
+1->200
+SemaphoreTable:
+ID: 1 -> (Count: 1, Threads: [])
+
+Program State: 
+ID: 1
+ExecStack: 
+ref int v1;int cnt;new(v1,1);CreateSemaphore (cnt,readHeap(v1));fork(Acquire(cnt);writeHeap(v1,readHeap(v1)*10);print(readHeap(v1));Release(cnt));fork(Acquire(cnt);writeHeap(v1,readHeap(v1)*10);writeHeap(v1,readHeap(v1)*2);print(readHeap(v1));Release(cnt));Acquire(cnt);print(readHeap(v1)-1);Release(cnt)
+SymTable: 
+OutputList: 
+File table: 
+Heap: 
+SemaphoreTable:
+
+Program State: 
+ID: 1
+ExecStack: 
+int cnt;new(v1,1);CreateSemaphore (cnt,readHeap(v1));fork(Acquire(cnt);writeHeap(v1,readHeap(v1)*10);print(readHeap(v1));Release(cnt));fork(Acquire(cnt);writeHeap(v1,readHeap(v1)*10);writeHeap(v1,readHeap(v1)*2);print(readHeap(v1));Release(cnt));Acquire(cnt);print(readHeap(v1)-1);Release(cnt)
+ref int v1
+SymTable: 
+OutputList: 
+File table: 
+Heap: 
+SemaphoreTable:
+
+Program State: 
+ID: 1
+ExecStack: 
+int cnt;new(v1,1);CreateSemaphore (cnt,readHeap(v1));fork(Acquire(cnt);writeHeap(v1,readHeap(v1)*10);print(readHeap(v1));Release(cnt));fork(Acquire(cnt);writeHeap(v1,readHeap(v1)*10);writeHeap(v1,readHeap(v1)*2);print(readHeap(v1));Release(cnt));Acquire(cnt);print(readHeap(v1)-1);Release(cnt)
+ref int v1
+SymTable: 
+OutputList: 
+File table: 
+Heap: 
+SemaphoreTable:
+
+Program State: 
+ID: 1
+ExecStack: 
+int cnt;new(v1,1);CreateSemaphore (cnt,readHeap(v1));fork(Acquire(cnt);writeHeap(v1,readHeap(v1)*10);print(readHeap(v1));Release(cnt));fork(Acquire(cnt);writeHeap(v1,readHeap(v1)*10);writeHeap(v1,readHeap(v1)*2);print(readHeap(v1));Release(cnt));Acquire(cnt);print(readHeap(v1)-1);Release(cnt)
+SymTable: 
+v1->(0,int)
+OutputList: 
+File table: 
+Heap: 
+SemaphoreTable:
+
+Program State: 
+ID: 1
+ExecStack: 
+int cnt;new(v1,1);CreateSemaphore (cnt,readHeap(v1));fork(Acquire(cnt);writeHeap(v1,readHeap(v1)*10);print(readHeap(v1));Release(cnt));fork(Acquire(cnt);writeHeap(v1,readHeap(v1)*10);writeHeap(v1,readHeap(v1)*2);print(readHeap(v1));Release(cnt));Acquire(cnt);print(readHeap(v1)-1);Release(cnt)
+SymTable: 
+v1->(0,int)
+OutputList: 
+File table: 
+Heap: 
+SemaphoreTable:
+
+Program State: 
+ID: 1
+ExecStack: 
+new(v1,1);CreateSemaphore (cnt,readHeap(v1));fork(Acquire(cnt);writeHeap(v1,readHeap(v1)*10);print(readHeap(v1));Release(cnt));fork(Acquire(cnt);writeHeap(v1,readHeap(v1)*10);writeHeap(v1,readHeap(v1)*2);print(readHeap(v1));Release(cnt));Acquire(cnt);print(readHeap(v1)-1);Release(cnt)
+int cnt
+SymTable: 
+v1->(0,int)
+OutputList: 
+File table: 
+Heap: 
+SemaphoreTable:
+
+Program State: 
+ID: 1
+ExecStack: 
+new(v1,1);CreateSemaphore (cnt,readHeap(v1));fork(Acquire(cnt);writeHeap(v1,readHeap(v1)*10);print(readHeap(v1));Release(cnt));fork(Acquire(cnt);writeHeap(v1,readHeap(v1)*10);writeHeap(v1,readHeap(v1)*2);print(readHeap(v1));Release(cnt));Acquire(cnt);print(readHeap(v1)-1);Release(cnt)
+int cnt
+SymTable: 
+v1->(0,int)
+OutputList: 
+File table: 
+Heap: 
+SemaphoreTable:
+
+Program State: 
+ID: 1
+ExecStack: 
+new(v1,1);CreateSemaphore (cnt,readHeap(v1));fork(Acquire(cnt);writeHeap(v1,readHeap(v1)*10);print(readHeap(v1));Release(cnt));fork(Acquire(cnt);writeHeap(v1,readHeap(v1)*10);writeHeap(v1,readHeap(v1)*2);print(readHeap(v1));Release(cnt));Acquire(cnt);print(readHeap(v1)-1);Release(cnt)
+SymTable: 
+cnt->0
+v1->(0,int)
+OutputList: 
+File table: 
+Heap: 
+SemaphoreTable:
+
+Program State: 
+ID: 1
+ExecStack: 
+new(v1,1);CreateSemaphore (cnt,readHeap(v1));fork(Acquire(cnt);writeHeap(v1,readHeap(v1)*10);print(readHeap(v1));Release(cnt));fork(Acquire(cnt);writeHeap(v1,readHeap(v1)*10);writeHeap(v1,readHeap(v1)*2);print(readHeap(v1));Release(cnt));Acquire(cnt);print(readHeap(v1)-1);Release(cnt)
+SymTable: 
+cnt->0
+v1->(0,int)
+OutputList: 
+File table: 
+Heap: 
+SemaphoreTable:
+
+Program State: 
+ID: 1
+ExecStack: 
+CreateSemaphore (cnt,readHeap(v1));fork(Acquire(cnt);writeHeap(v1,readHeap(v1)*10);print(readHeap(v1));Release(cnt));fork(Acquire(cnt);writeHeap(v1,readHeap(v1)*10);writeHeap(v1,readHeap(v1)*2);print(readHeap(v1));Release(cnt));Acquire(cnt);print(readHeap(v1)-1);Release(cnt)
+new(v1,1)
+SymTable: 
+cnt->0
+v1->(0,int)
+OutputList: 
+File table: 
+Heap: 
+SemaphoreTable:
+
+Program State: 
+ID: 1
+ExecStack: 
+CreateSemaphore (cnt,readHeap(v1));fork(Acquire(cnt);writeHeap(v1,readHeap(v1)*10);print(readHeap(v1));Release(cnt));fork(Acquire(cnt);writeHeap(v1,readHeap(v1)*10);writeHeap(v1,readHeap(v1)*2);print(readHeap(v1));Release(cnt));Acquire(cnt);print(readHeap(v1)-1);Release(cnt)
+new(v1,1)
+SymTable: 
+cnt->0
+v1->(0,int)
+OutputList: 
+File table: 
+Heap: 
+SemaphoreTable:
+
+Program State: 
+ID: 1
+ExecStack: 
+CreateSemaphore (cnt,readHeap(v1));fork(Acquire(cnt);writeHeap(v1,readHeap(v1)*10);print(readHeap(v1));Release(cnt));fork(Acquire(cnt);writeHeap(v1,readHeap(v1)*10);writeHeap(v1,readHeap(v1)*2);print(readHeap(v1));Release(cnt));Acquire(cnt);print(readHeap(v1)-1);Release(cnt)
+SymTable: 
+cnt->0
+v1->(1,int)
+OutputList: 
+File table: 
+Heap: 
+1->1
+SemaphoreTable:
+
+Program State: 
+ID: 1
+ExecStack: 
+CreateSemaphore (cnt,readHeap(v1));fork(Acquire(cnt);writeHeap(v1,readHeap(v1)*10);print(readHeap(v1));Release(cnt));fork(Acquire(cnt);writeHeap(v1,readHeap(v1)*10);writeHeap(v1,readHeap(v1)*2);print(readHeap(v1));Release(cnt));Acquire(cnt);print(readHeap(v1)-1);Release(cnt)
+SymTable: 
+cnt->0
+v1->(1,int)
+OutputList: 
+File table: 
+Heap: 
+1->1
+SemaphoreTable:
+
+Program State: 
+ID: 1
+ExecStack: 
+fork(Acquire(cnt);writeHeap(v1,readHeap(v1)*10);print(readHeap(v1));Release(cnt));fork(Acquire(cnt);writeHeap(v1,readHeap(v1)*10);writeHeap(v1,readHeap(v1)*2);print(readHeap(v1));Release(cnt));Acquire(cnt);print(readHeap(v1)-1);Release(cnt)
+CreateSemaphore (cnt,readHeap(v1))
+SymTable: 
+cnt->0
+v1->(1,int)
+OutputList: 
+File table: 
+Heap: 
+1->1
+SemaphoreTable:
+
+Program State: 
+ID: 1
+ExecStack: 
+fork(Acquire(cnt);writeHeap(v1,readHeap(v1)*10);print(readHeap(v1));Release(cnt));fork(Acquire(cnt);writeHeap(v1,readHeap(v1)*10);writeHeap(v1,readHeap(v1)*2);print(readHeap(v1));Release(cnt));Acquire(cnt);print(readHeap(v1)-1);Release(cnt)
+CreateSemaphore (cnt,readHeap(v1))
+SymTable: 
+cnt->0
+v1->(1,int)
+OutputList: 
+File table: 
+Heap: 
+1->1
+SemaphoreTable:
+
+Program State: 
+ID: 1
+ExecStack: 
+fork(Acquire(cnt);writeHeap(v1,readHeap(v1)*10);print(readHeap(v1));Release(cnt));fork(Acquire(cnt);writeHeap(v1,readHeap(v1)*10);writeHeap(v1,readHeap(v1)*2);print(readHeap(v1));Release(cnt));Acquire(cnt);print(readHeap(v1)-1);Release(cnt)
+SymTable: 
+cnt->1
+v1->(1,int)
+OutputList: 
+File table: 
+Heap: 
+1->1
+SemaphoreTable:
+ID: 1 -> (Count: 1, Threads: [])
+
+Program State: 
+ID: 1
+ExecStack: 
+fork(Acquire(cnt);writeHeap(v1,readHeap(v1)*10);print(readHeap(v1));Release(cnt));fork(Acquire(cnt);writeHeap(v1,readHeap(v1)*10);writeHeap(v1,readHeap(v1)*2);print(readHeap(v1));Release(cnt));Acquire(cnt);print(readHeap(v1)-1);Release(cnt)
+SymTable: 
+cnt->1
+v1->(1,int)
+OutputList: 
+File table: 
+Heap: 
+1->1
+SemaphoreTable:
+ID: 1 -> (Count: 1, Threads: [])
+
+Program State: 
+ID: 1
+ExecStack: 
+fork(Acquire(cnt);writeHeap(v1,readHeap(v1)*10);writeHeap(v1,readHeap(v1)*2);print(readHeap(v1));Release(cnt));Acquire(cnt);print(readHeap(v1)-1);Release(cnt)
+fork(Acquire(cnt);writeHeap(v1,readHeap(v1)*10);print(readHeap(v1));Release(cnt))
+SymTable: 
+cnt->1
+v1->(1,int)
+OutputList: 
+File table: 
+Heap: 
+1->1
+SemaphoreTable:
+ID: 1 -> (Count: 1, Threads: [])
+
+Program State: 
+ID: 1
+ExecStack: 
+fork(Acquire(cnt);writeHeap(v1,readHeap(v1)*10);writeHeap(v1,readHeap(v1)*2);print(readHeap(v1));Release(cnt));Acquire(cnt);print(readHeap(v1)-1);Release(cnt)
+fork(Acquire(cnt);writeHeap(v1,readHeap(v1)*10);print(readHeap(v1));Release(cnt))
+SymTable: 
+cnt->1
+v1->(1,int)
+OutputList: 
+File table: 
+Heap: 
+1->1
+SemaphoreTable:
+ID: 1 -> (Count: 1, Threads: [])
+
+Program State: 
+ID: 1
+ExecStack: 
+fork(Acquire(cnt);writeHeap(v1,readHeap(v1)*10);writeHeap(v1,readHeap(v1)*2);print(readHeap(v1));Release(cnt));Acquire(cnt);print(readHeap(v1)-1);Release(cnt)
+SymTable: 
+cnt->1
+v1->(1,int)
+OutputList: 
+File table: 
+Heap: 
+1->1
+SemaphoreTable:
+ID: 1 -> (Count: 1, Threads: [])
+
+Program State: 
+ID: 2
+ExecStack: 
+Acquire(cnt);writeHeap(v1,readHeap(v1)*10);print(readHeap(v1));Release(cnt)
+SymTable: 
+cnt->1
+v1->(1,int)
+OutputList: 
+File table: 
+Heap: 
+1->1
+SemaphoreTable:
+ID: 1 -> (Count: 1, Threads: [])
+
+Program State: 
+ID: 1
+ExecStack: 
+fork(Acquire(cnt);writeHeap(v1,readHeap(v1)*10);writeHeap(v1,readHeap(v1)*2);print(readHeap(v1));Release(cnt));Acquire(cnt);print(readHeap(v1)-1);Release(cnt)
+SymTable: 
+cnt->1
+v1->(1,int)
+OutputList: 
+File table: 
+Heap: 
+1->1
+SemaphoreTable:
+ID: 1 -> (Count: 1, Threads: [])
+
+Program State: 
+ID: 2
+ExecStack: 
+Acquire(cnt);writeHeap(v1,readHeap(v1)*10);print(readHeap(v1));Release(cnt)
+SymTable: 
+cnt->1
+v1->(1,int)
+OutputList: 
+File table: 
+Heap: 
+1->1
+SemaphoreTable:
+ID: 1 -> (Count: 1, Threads: [])
+
+Program State: 
+ID: 1
+ExecStack: 
+Acquire(cnt);print(readHeap(v1)-1);Release(cnt)
+fork(Acquire(cnt);writeHeap(v1,readHeap(v1)*10);writeHeap(v1,readHeap(v1)*2);print(readHeap(v1));Release(cnt))
+SymTable: 
+cnt->1
+v1->(1,int)
+OutputList: 
+File table: 
+Heap: 
+1->1
+SemaphoreTable:
+ID: 1 -> (Count: 1, Threads: [])
+
+Program State: 
+ID: 2
+ExecStack: 
+writeHeap(v1,readHeap(v1)*10);print(readHeap(v1));Release(cnt)
+Acquire(cnt)
+SymTable: 
+cnt->1
+v1->(1,int)
+OutputList: 
+File table: 
+Heap: 
+1->1
+SemaphoreTable:
+ID: 1 -> (Count: 1, Threads: [])
+
+Program State: 
+ID: 1
+ExecStack: 
+Acquire(cnt);print(readHeap(v1)-1);Release(cnt)
+fork(Acquire(cnt);writeHeap(v1,readHeap(v1)*10);writeHeap(v1,readHeap(v1)*2);print(readHeap(v1));Release(cnt))
+SymTable: 
+cnt->1
+v1->(1,int)
+OutputList: 
+File table: 
+Heap: 
+1->1
+SemaphoreTable:
+ID: 1 -> (Count: 1, Threads: [])
+
+Program State: 
+ID: 2
+ExecStack: 
+writeHeap(v1,readHeap(v1)*10);print(readHeap(v1));Release(cnt)
+Acquire(cnt)
+SymTable: 
+cnt->1
+v1->(1,int)
+OutputList: 
+File table: 
+Heap: 
+1->1
+SemaphoreTable:
+ID: 1 -> (Count: 1, Threads: [])
+
+Program State: 
+ID: 1
+ExecStack: 
+Acquire(cnt);print(readHeap(v1)-1);Release(cnt)
+SymTable: 
+cnt->1
+v1->(1,int)
+OutputList: 
+File table: 
+Heap: 
+1->1
+SemaphoreTable:
+ID: 1 -> (Count: 1, Threads: [2])
+
+Program State: 
+ID: 2
+ExecStack: 
+writeHeap(v1,readHeap(v1)*10);print(readHeap(v1));Release(cnt)
+SymTable: 
+cnt->1
+v1->(1,int)
+OutputList: 
+File table: 
+Heap: 
+1->1
+SemaphoreTable:
+ID: 1 -> (Count: 1, Threads: [2])
+
+Program State: 
+ID: 3
+ExecStack: 
+Acquire(cnt);writeHeap(v1,readHeap(v1)*10);writeHeap(v1,readHeap(v1)*2);print(readHeap(v1));Release(cnt)
+SymTable: 
+cnt->1
+v1->(1,int)
+OutputList: 
+File table: 
+Heap: 
+1->1
+SemaphoreTable:
+ID: 1 -> (Count: 1, Threads: [2])
+
+Program State: 
+ID: 1
+ExecStack: 
+Acquire(cnt);print(readHeap(v1)-1);Release(cnt)
+SymTable: 
+cnt->1
+v1->(1,int)
+OutputList: 
+File table: 
+Heap: 
+1->1
+SemaphoreTable:
+ID: 1 -> (Count: 1, Threads: [2])
+
+Program State: 
+ID: 2
+ExecStack: 
+writeHeap(v1,readHeap(v1)*10);print(readHeap(v1));Release(cnt)
+SymTable: 
+cnt->1
+v1->(1,int)
+OutputList: 
+File table: 
+Heap: 
+1->1
+SemaphoreTable:
+ID: 1 -> (Count: 1, Threads: [2])
+
+Program State: 
+ID: 3
+ExecStack: 
+Acquire(cnt);writeHeap(v1,readHeap(v1)*10);writeHeap(v1,readHeap(v1)*2);print(readHeap(v1));Release(cnt)
+SymTable: 
+cnt->1
+v1->(1,int)
+OutputList: 
+File table: 
+Heap: 
+1->1
+SemaphoreTable:
+ID: 1 -> (Count: 1, Threads: [2])
+
+Program State: 
+ID: 1
+ExecStack: 
+print(readHeap(v1)-1);Release(cnt)
+Acquire(cnt)
+SymTable: 
+cnt->1
+v1->(1,int)
+OutputList: 
+File table: 
+Heap: 
+1->1
+SemaphoreTable:
+ID: 1 -> (Count: 1, Threads: [2])
+
+Program State: 
+ID: 2
+ExecStack: 
+print(readHeap(v1));Release(cnt)
+writeHeap(v1,readHeap(v1)*10)
+SymTable: 
+cnt->1
+v1->(1,int)
+OutputList: 
+File table: 
+Heap: 
+1->1
+SemaphoreTable:
+ID: 1 -> (Count: 1, Threads: [2])
+
+Program State: 
+ID: 3
+ExecStack: 
+writeHeap(v1,readHeap(v1)*10);writeHeap(v1,readHeap(v1)*2);print(readHeap(v1));Release(cnt)
+Acquire(cnt)
+SymTable: 
+cnt->1
+v1->(1,int)
+OutputList: 
+File table: 
+Heap: 
+1->1
+SemaphoreTable:
+ID: 1 -> (Count: 1, Threads: [2])
+
+Program State: 
+ID: 1
+ExecStack: 
+print(readHeap(v1)-1);Release(cnt)
+Acquire(cnt)
+SymTable: 
+cnt->1
+v1->(1,int)
+OutputList: 
+File table: 
+Heap: 
+1->1
+SemaphoreTable:
+ID: 1 -> (Count: 1, Threads: [2])
+
+Program State: 
+ID: 2
+ExecStack: 
+print(readHeap(v1));Release(cnt)
+writeHeap(v1,readHeap(v1)*10)
+SymTable: 
+cnt->1
+v1->(1,int)
+OutputList: 
+File table: 
+Heap: 
+1->1
+SemaphoreTable:
+ID: 1 -> (Count: 1, Threads: [2])
+
+Program State: 
+ID: 3
+ExecStack: 
+writeHeap(v1,readHeap(v1)*10);writeHeap(v1,readHeap(v1)*2);print(readHeap(v1));Release(cnt)
+Acquire(cnt)
+SymTable: 
+cnt->1
+v1->(1,int)
+OutputList: 
+File table: 
+Heap: 
+1->1
+SemaphoreTable:
+ID: 1 -> (Count: 1, Threads: [2])
+
+Program State: 
+ID: 1
+ExecStack: 
+print(readHeap(v1)-1);Release(cnt)
+Acquire(cnt)
+SymTable: 
+cnt->1
+v1->(1,int)
+OutputList: 
+File table: 
+Heap: 
+1->10
+SemaphoreTable:
+ID: 1 -> (Count: 1, Threads: [2])
+
+Program State: 
+ID: 2
+ExecStack: 
+print(readHeap(v1));Release(cnt)
+SymTable: 
+cnt->1
+v1->(1,int)
+OutputList: 
+File table: 
+Heap: 
+1->10
+SemaphoreTable:
+ID: 1 -> (Count: 1, Threads: [2])
+
+Program State: 
+ID: 3
+ExecStack: 
+writeHeap(v1,readHeap(v1)*10);writeHeap(v1,readHeap(v1)*2);print(readHeap(v1));Release(cnt)
+Acquire(cnt)
+SymTable: 
+cnt->1
+v1->(1,int)
+OutputList: 
+File table: 
+Heap: 
+1->10
+SemaphoreTable:
+ID: 1 -> (Count: 1, Threads: [2])
+
+Program State: 
+ID: 1
+ExecStack: 
+print(readHeap(v1)-1);Release(cnt)
+Acquire(cnt)
+SymTable: 
+cnt->1
+v1->(1,int)
+OutputList: 
+File table: 
+Heap: 
+1->10
+SemaphoreTable:
+ID: 1 -> (Count: 1, Threads: [2])
+
+Program State: 
+ID: 2
+ExecStack: 
+print(readHeap(v1));Release(cnt)
+SymTable: 
+cnt->1
+v1->(1,int)
+OutputList: 
+File table: 
+Heap: 
+1->10
+SemaphoreTable:
+ID: 1 -> (Count: 1, Threads: [2])
+
+Program State: 
+ID: 3
+ExecStack: 
+writeHeap(v1,readHeap(v1)*10);writeHeap(v1,readHeap(v1)*2);print(readHeap(v1));Release(cnt)
+Acquire(cnt)
+SymTable: 
+cnt->1
+v1->(1,int)
+OutputList: 
+File table: 
+Heap: 
+1->10
+SemaphoreTable:
+ID: 1 -> (Count: 1, Threads: [2])
+
+Program State: 
+ID: 1
+ExecStack: 
+print(readHeap(v1)-1);Release(cnt)
+Acquire(cnt)
+SymTable: 
+cnt->1
+v1->(1,int)
+OutputList: 
+File table: 
+Heap: 
+1->10
+SemaphoreTable:
+ID: 1 -> (Count: 1, Threads: [2])
+
+Program State: 
+ID: 2
+ExecStack: 
+Release(cnt)
+print(readHeap(v1))
+SymTable: 
+cnt->1
+v1->(1,int)
+OutputList: 
+File table: 
+Heap: 
+1->10
+SemaphoreTable:
+ID: 1 -> (Count: 1, Threads: [2])
+
+Program State: 
+ID: 3
+ExecStack: 
+writeHeap(v1,readHeap(v1)*10);writeHeap(v1,readHeap(v1)*2);print(readHeap(v1));Release(cnt)
+Acquire(cnt)
+SymTable: 
+cnt->1
+v1->(1,int)
+OutputList: 
+File table: 
+Heap: 
+1->10
+SemaphoreTable:
+ID: 1 -> (Count: 1, Threads: [2])
+
+Program State: 
+ID: 1
+ExecStack: 
+print(readHeap(v1)-1);Release(cnt)
+Acquire(cnt)
+SymTable: 
+cnt->1
+v1->(1,int)
+OutputList: 
+File table: 
+Heap: 
+1->10
+SemaphoreTable:
+ID: 1 -> (Count: 1, Threads: [2])
+
+Program State: 
+ID: 2
+ExecStack: 
+Release(cnt)
+print(readHeap(v1))
+SymTable: 
+cnt->1
+v1->(1,int)
+OutputList: 
+File table: 
+Heap: 
+1->10
+SemaphoreTable:
+ID: 1 -> (Count: 1, Threads: [2])
+
+Program State: 
+ID: 3
+ExecStack: 
+writeHeap(v1,readHeap(v1)*10);writeHeap(v1,readHeap(v1)*2);print(readHeap(v1));Release(cnt)
+Acquire(cnt)
+SymTable: 
+cnt->1
+v1->(1,int)
+OutputList: 
+File table: 
+Heap: 
+1->10
+SemaphoreTable:
+ID: 1 -> (Count: 1, Threads: [2])
+
+Program State: 
+ID: 1
+ExecStack: 
+print(readHeap(v1)-1);Release(cnt)
+Acquire(cnt)
+SymTable: 
+cnt->1
+v1->(1,int)
+OutputList: 
+10
+File table: 
+Heap: 
+1->10
+SemaphoreTable:
+ID: 1 -> (Count: 1, Threads: [2])
+
+Program State: 
+ID: 2
+ExecStack: 
+Release(cnt)
+SymTable: 
+cnt->1
+v1->(1,int)
+OutputList: 
+10
+File table: 
+Heap: 
+1->10
+SemaphoreTable:
+ID: 1 -> (Count: 1, Threads: [2])
+
+Program State: 
+ID: 3
+ExecStack: 
+writeHeap(v1,readHeap(v1)*10);writeHeap(v1,readHeap(v1)*2);print(readHeap(v1));Release(cnt)
+Acquire(cnt)
+SymTable: 
+cnt->1
+v1->(1,int)
+OutputList: 
+10
+File table: 
+Heap: 
+1->10
+SemaphoreTable:
+ID: 1 -> (Count: 1, Threads: [2])
+
+Program State: 
+ID: 1
+ExecStack: 
+print(readHeap(v1)-1);Release(cnt)
+Acquire(cnt)
+SymTable: 
+cnt->1
+v1->(1,int)
+OutputList: 
+10
+File table: 
+Heap: 
+1->10
+SemaphoreTable:
+ID: 1 -> (Count: 1, Threads: [2])
+
+Program State: 
+ID: 2
+ExecStack: 
+Release(cnt)
+SymTable: 
+cnt->1
+v1->(1,int)
+OutputList: 
+10
+File table: 
+Heap: 
+1->10
+SemaphoreTable:
+ID: 1 -> (Count: 1, Threads: [2])
+
+Program State: 
+ID: 3
+ExecStack: 
+writeHeap(v1,readHeap(v1)*10);writeHeap(v1,readHeap(v1)*2);print(readHeap(v1));Release(cnt)
+Acquire(cnt)
+SymTable: 
+cnt->1
+v1->(1,int)
+OutputList: 
+10
+File table: 
+Heap: 
+1->10
+SemaphoreTable:
+ID: 1 -> (Count: 1, Threads: [2])
+
+Program State: 
+ID: 1
+ExecStack: 
+print(readHeap(v1)-1);Release(cnt)
+Acquire(cnt)
+SymTable: 
+cnt->1
+v1->(1,int)
+OutputList: 
+10
+File table: 
+Heap: 
+1->10
+SemaphoreTable:
+ID: 1 -> (Count: 1, Threads: [])
+
+Program State: 
+ID: 2
+ExecStack: 
+SymTable: 
+cnt->1
+v1->(1,int)
+OutputList: 
+10
+File table: 
+Heap: 
+1->10
+SemaphoreTable:
+ID: 1 -> (Count: 1, Threads: [])
+
+Program State: 
+ID: 3
+ExecStack: 
+writeHeap(v1,readHeap(v1)*10);writeHeap(v1,readHeap(v1)*2);print(readHeap(v1));Release(cnt)
+Acquire(cnt)
+SymTable: 
+cnt->1
+v1->(1,int)
+OutputList: 
+10
+File table: 
+Heap: 
+1->10
+SemaphoreTable:
+ID: 1 -> (Count: 1, Threads: [])
+
+Program State: 
+ID: 1
+ExecStack: 
+print(readHeap(v1)-1);Release(cnt)
+Acquire(cnt)
+SymTable: 
+cnt->1
+v1->(1,int)
+OutputList: 
+10
+File table: 
+Heap: 
+1->10
+SemaphoreTable:
+ID: 1 -> (Count: 1, Threads: [])
+
+Program State: 
+ID: 3
+ExecStack: 
+writeHeap(v1,readHeap(v1)*10);writeHeap(v1,readHeap(v1)*2);print(readHeap(v1));Release(cnt)
+Acquire(cnt)
+SymTable: 
+cnt->1
+v1->(1,int)
+OutputList: 
+10
+File table: 
+Heap: 
+1->10
+SemaphoreTable:
+ID: 1 -> (Count: 1, Threads: [])
+
+Program State: 
+ID: 1
+ExecStack: 
+print(readHeap(v1)-1);Release(cnt)
+SymTable: 
+cnt->1
+v1->(1,int)
+OutputList: 
+10
+File table: 
+Heap: 
+1->10
+SemaphoreTable:
+ID: 1 -> (Count: 1, Threads: [1])
+
+Program State: 
+ID: 3
+ExecStack: 
+writeHeap(v1,readHeap(v1)*10);writeHeap(v1,readHeap(v1)*2);print(readHeap(v1));Release(cnt)
+Acquire(cnt)
+SymTable: 
+cnt->1
+v1->(1,int)
+OutputList: 
+10
+File table: 
+Heap: 
+1->10
+SemaphoreTable:
+ID: 1 -> (Count: 1, Threads: [1])
+
+Program State: 
+ID: 1
+ExecStack: 
+print(readHeap(v1)-1);Release(cnt)
+SymTable: 
+cnt->1
+v1->(1,int)
+OutputList: 
+10
+File table: 
+Heap: 
+1->10
+SemaphoreTable:
+ID: 1 -> (Count: 1, Threads: [1])
+
+Program State: 
+ID: 3
+ExecStack: 
+writeHeap(v1,readHeap(v1)*10);writeHeap(v1,readHeap(v1)*2);print(readHeap(v1));Release(cnt)
+Acquire(cnt)
+SymTable: 
+cnt->1
+v1->(1,int)
+OutputList: 
+10
+File table: 
+Heap: 
+1->10
+SemaphoreTable:
+ID: 1 -> (Count: 1, Threads: [1])
+
+Program State: 
+ID: 1
+ExecStack: 
+Release(cnt)
+print(readHeap(v1)-1)
+SymTable: 
+cnt->1
+v1->(1,int)
+OutputList: 
+10
+File table: 
+Heap: 
+1->10
+SemaphoreTable:
+ID: 1 -> (Count: 1, Threads: [1])
+
+Program State: 
+ID: 3
+ExecStack: 
+writeHeap(v1,readHeap(v1)*10);writeHeap(v1,readHeap(v1)*2);print(readHeap(v1));Release(cnt)
+Acquire(cnt)
+SymTable: 
+cnt->1
+v1->(1,int)
+OutputList: 
+10
+File table: 
+Heap: 
+1->10
+SemaphoreTable:
+ID: 1 -> (Count: 1, Threads: [1])
+
+Program State: 
+ID: 1
+ExecStack: 
+Release(cnt)
+print(readHeap(v1)-1)
+SymTable: 
+cnt->1
+v1->(1,int)
+OutputList: 
+10
+File table: 
+Heap: 
+1->10
+SemaphoreTable:
+ID: 1 -> (Count: 1, Threads: [1])
+
+Program State: 
+ID: 3
+ExecStack: 
+writeHeap(v1,readHeap(v1)*10);writeHeap(v1,readHeap(v1)*2);print(readHeap(v1));Release(cnt)
+Acquire(cnt)
+SymTable: 
+cnt->1
+v1->(1,int)
+OutputList: 
+10
+File table: 
+Heap: 
+1->10
+SemaphoreTable:
+ID: 1 -> (Count: 1, Threads: [1])
+
+Program State: 
+ID: 1
+ExecStack: 
+Release(cnt)
+SymTable: 
+cnt->1
+v1->(1,int)
+OutputList: 
+10
+9
+File table: 
+Heap: 
+1->10
+SemaphoreTable:
+ID: 1 -> (Count: 1, Threads: [1])
+
+Program State: 
+ID: 3
+ExecStack: 
+writeHeap(v1,readHeap(v1)*10);writeHeap(v1,readHeap(v1)*2);print(readHeap(v1));Release(cnt)
+Acquire(cnt)
+SymTable: 
+cnt->1
+v1->(1,int)
+OutputList: 
+10
+9
+File table: 
+Heap: 
+1->10
+SemaphoreTable:
+ID: 1 -> (Count: 1, Threads: [1])
+
+Program State: 
+ID: 1
+ExecStack: 
+Release(cnt)
+SymTable: 
+cnt->1
+v1->(1,int)
+OutputList: 
+10
+9
+File table: 
+Heap: 
+1->10
+SemaphoreTable:
+ID: 1 -> (Count: 1, Threads: [1])
+
+Program State: 
+ID: 3
+ExecStack: 
+writeHeap(v1,readHeap(v1)*10);writeHeap(v1,readHeap(v1)*2);print(readHeap(v1));Release(cnt)
+Acquire(cnt)
+SymTable: 
+cnt->1
+v1->(1,int)
+OutputList: 
+10
+9
+File table: 
+Heap: 
+1->10
+SemaphoreTable:
+ID: 1 -> (Count: 1, Threads: [1])
+
+Program State: 
+ID: 1
+ExecStack: 
+SymTable: 
+cnt->1
+v1->(1,int)
+OutputList: 
+10
+9
+File table: 
+Heap: 
+1->10
+SemaphoreTable:
+ID: 1 -> (Count: 1, Threads: [3])
+
+Program State: 
+ID: 3
+ExecStack: 
+writeHeap(v1,readHeap(v1)*10);writeHeap(v1,readHeap(v1)*2);print(readHeap(v1));Release(cnt)
+SymTable: 
+cnt->1
+v1->(1,int)
+OutputList: 
+10
+9
+File table: 
+Heap: 
+1->10
+SemaphoreTable:
+ID: 1 -> (Count: 1, Threads: [3])
+
+Program State: 
+ID: 3
+ExecStack: 
+writeHeap(v1,readHeap(v1)*10);writeHeap(v1,readHeap(v1)*2);print(readHeap(v1));Release(cnt)
+SymTable: 
+cnt->1
+v1->(1,int)
+OutputList: 
+10
+9
+File table: 
+Heap: 
+1->10
+SemaphoreTable:
+ID: 1 -> (Count: 1, Threads: [3])
+
+Program State: 
+ID: 3
+ExecStack: 
+writeHeap(v1,readHeap(v1)*2);print(readHeap(v1));Release(cnt)
+writeHeap(v1,readHeap(v1)*10)
+SymTable: 
+cnt->1
+v1->(1,int)
+OutputList: 
+10
+9
+File table: 
+Heap: 
+1->10
+SemaphoreTable:
+ID: 1 -> (Count: 1, Threads: [3])
+

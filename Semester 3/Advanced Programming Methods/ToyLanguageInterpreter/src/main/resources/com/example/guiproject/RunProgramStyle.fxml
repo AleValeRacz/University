@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane prefHeight="743.0" prefWidth="965.0" xmlns="http://javafx.com/javafx/17.0.12" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.guiproject.RunProgramController">
+    <children>
+        <!-- Symbol Table -->
+        <VBox layoutX="27.0" layoutY="25.0" prefHeight="229.0" prefWidth="203.0">
+            <children>
+                <Label prefHeight="18.0" prefWidth="202.0" text="Symbol Table:" />
+                <TableView fx:id="symbolTableView" prefHeight="212.0" prefWidth="450.0">
+                    <columns>
+                        <TableColumn fx:id="nameSymbolTableColumn" prefWidth="99.99996757507324" text="Symbol" />
+                        <TableColumn fx:id="valueSymbolTableColumn" prefWidth="103.2000503540039" text="Value" />
+                    </columns>
+                </TableView>
+            </children>
+        </VBox>
+
+        <!-- Heap Table -->
+        <VBox layoutX="259.0" layoutY="25.0" prefHeight="229.0" prefWidth="203.0">
+            <children>
+                <Label prefHeight="18.0" prefWidth="202.0" text="Heap Table:" />
+                <TableView fx:id="heapTable" prefHeight="212.0" prefWidth="450.0">
+                    <columns>
+                        <TableColumn fx:id="addressHeapTableColumn" prefWidth="99.99996757507324" text="Address" />
+                        <TableColumn fx:id="valueHeapTableColumn" prefWidth="103.2000503540039" text="Value" />
+                    </columns>
+                </TableView>
+            </children>
+        </VBox>
+
+        <!-- File Table -->
+        <VBox layoutX="490.0" layoutY="25.0" prefHeight="229.0" prefWidth="203.0">
+            <children>
+                <Label prefHeight="18.0" prefWidth="202.0" text="File Table:" />
+                <ListView fx:id="fileListView" prefHeight="212.0" prefWidth="203.0" />
+            </children>
+        </VBox>
+
+        <!-- Program State List -->
+        <VBox layoutX="722.0" layoutY="25.0" prefHeight="230.0" prefWidth="203.0">
+            <children>
+                <Label text="Number of Program States:" />
+                <TextField fx:id="noOfPrograms" prefHeight="26.0" prefWidth="202.0" />
+                <Label prefHeight="18.0" prefWidth="200.0" text="States:" />
+                <ListView fx:id="programStateListView" prefHeight="173.0" prefWidth="203.0" />
+            </children>
+        </VBox>
+
+        <!-- Execution Stack -->
+        <VBox layoutX="27.0" layoutY="282.0" prefHeight="229.0" prefWidth="203.0">
+            <children>
+                <Label prefHeight="18.0" prefWidth="202.0" text="Exe Stack:" />
+                <ListView fx:id="exeStackListView" prefHeight="212.0" prefWidth="203.0" />
+            </children>
+        </VBox>
+
+        <!-- Output -->
+        <VBox layoutX="259.0" layoutY="282.0" prefHeight="229.0" prefWidth="203.0">
+            <children>
+                <Label prefHeight="18.0" prefWidth="202.0" text="Out:" />
+                <ListView fx:id="outListView" prefHeight="213.0" prefWidth="174.0" />
+            </children>
+        </VBox>
+
+        <!-- Semaphore Table -->
+        <VBox layoutX="490.0" layoutY="282.0" prefHeight="229.0" prefWidth="425.0">
+            <children>
+                <Label prefHeight="18.0" prefWidth="425.0" text="Semaphore Table:" />
+                <TableView fx:id="semaphoreTableTableView" prefHeight="246.0" prefWidth="361.0">
+                    <columns>
+                        <TableColumn fx:id="idSemaphoreTableColumn" prefWidth="100.0" text="ID" />
+                        <TableColumn fx:id="countSemaphoreTableColumn" prefWidth="150.0" text="Count" />
+                        <TableColumn fx:id="threadsSemaphoreTableColumn" prefWidth="175.0" text="Threads" />
+                    </columns>
+                </TableView>
+            </children>
+        </VBox>
+
+        <!-- Run One Step Button -->
+        <Button fx:id="runOneStepButton" layoutX="445.0" layoutY="556.0" mnemonicParsing="false" onAction="#runOneStepButtonHandler" text="Run One Step" />
+      <TableView fx:id="latchTableTableView" layoutX="122.0" layoutY="518.0" prefHeight="202.0" prefWidth="257.0">
+        <columns>
+          <TableColumn fx:id="locationLatchTableColumn" prefWidth="127.19998931884766" text="location" />
+          <TableColumn fx:id="valueLatchTableColumn" prefWidth="130.39999389648438" text="value" />
+        </columns>
+      </TableView>
+      <TableView fx:id="lockTableTableView" layoutX="640.0" layoutY="519.0" prefHeight="200.0" prefWidth="232.0">
+        <columns>
+          <TableColumn fx:id="locationLockTableColumn" prefWidth="121.4000244140625" text="location" />
+          <TableColumn fx:id="valueLockTableColumn" prefWidth="109.79998779296875" text="value" />
+        </columns>
+      </TableView>
+    </children>
+    <padding>
+        <Insets left="20.0" right="20.0" top="20.0" />
+    </padding>
+</AnchorPane>

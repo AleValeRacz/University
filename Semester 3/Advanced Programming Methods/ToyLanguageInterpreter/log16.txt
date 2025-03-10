@@ -1,0 +1,7478 @@
+Program State: 
+ID: 1
+ExecStack: 
+ref int v1;ref int v2;ref int v3;int cnt;new(v1,2);new(v2,3);new(v3,4);newLatch(cnt,readHeap(v2));fork(writeHeap(v1,readHeap(v1)*10);print(readHeap(v1));countDown(cnt));fork(writeHeap(v2,readHeap(v2)*10);print(readHeap(v2));countDown(cnt));fork(writeHeap(v3,readHeap(v3)*10);print(readHeap(v3));countDown(cnt));await(cnt);print(100);countDown(cnt);print(100)
+SymTable: 
+OutputList: 
+File table: 
+Heap: 
+SemaphoreTable:
+latchTable:
+
+Program State: 
+ID: 1
+ExecStack: 
+ref int v2;ref int v3;int cnt;new(v1,2);new(v2,3);new(v3,4);newLatch(cnt,readHeap(v2));fork(writeHeap(v1,readHeap(v1)*10);print(readHeap(v1));countDown(cnt));fork(writeHeap(v2,readHeap(v2)*10);print(readHeap(v2));countDown(cnt));fork(writeHeap(v3,readHeap(v3)*10);print(readHeap(v3));countDown(cnt));await(cnt);print(100);countDown(cnt);print(100)
+ref int v1
+SymTable: 
+OutputList: 
+File table: 
+Heap: 
+SemaphoreTable:
+latchTable:
+
+Program State: 
+ID: 1
+ExecStack: 
+ref int v2;ref int v3;int cnt;new(v1,2);new(v2,3);new(v3,4);newLatch(cnt,readHeap(v2));fork(writeHeap(v1,readHeap(v1)*10);print(readHeap(v1));countDown(cnt));fork(writeHeap(v2,readHeap(v2)*10);print(readHeap(v2));countDown(cnt));fork(writeHeap(v3,readHeap(v3)*10);print(readHeap(v3));countDown(cnt));await(cnt);print(100);countDown(cnt);print(100)
+ref int v1
+SymTable: 
+OutputList: 
+File table: 
+Heap: 
+SemaphoreTable:
+latchTable:
+
+Program State: 
+ID: 1
+ExecStack: 
+ref int v2;ref int v3;int cnt;new(v1,2);new(v2,3);new(v3,4);newLatch(cnt,readHeap(v2));fork(writeHeap(v1,readHeap(v1)*10);print(readHeap(v1));countDown(cnt));fork(writeHeap(v2,readHeap(v2)*10);print(readHeap(v2));countDown(cnt));fork(writeHeap(v3,readHeap(v3)*10);print(readHeap(v3));countDown(cnt));await(cnt);print(100);countDown(cnt);print(100)
+SymTable: 
+v1->(0,int)
+OutputList: 
+File table: 
+Heap: 
+SemaphoreTable:
+latchTable:
+
+Program State: 
+ID: 1
+ExecStack: 
+ref int v2;ref int v3;int cnt;new(v1,2);new(v2,3);new(v3,4);newLatch(cnt,readHeap(v2));fork(writeHeap(v1,readHeap(v1)*10);print(readHeap(v1));countDown(cnt));fork(writeHeap(v2,readHeap(v2)*10);print(readHeap(v2));countDown(cnt));fork(writeHeap(v3,readHeap(v3)*10);print(readHeap(v3));countDown(cnt));await(cnt);print(100);countDown(cnt);print(100)
+SymTable: 
+v1->(0,int)
+OutputList: 
+File table: 
+Heap: 
+SemaphoreTable:
+latchTable:
+
+Program State: 
+ID: 1
+ExecStack: 
+ref int v3;int cnt;new(v1,2);new(v2,3);new(v3,4);newLatch(cnt,readHeap(v2));fork(writeHeap(v1,readHeap(v1)*10);print(readHeap(v1));countDown(cnt));fork(writeHeap(v2,readHeap(v2)*10);print(readHeap(v2));countDown(cnt));fork(writeHeap(v3,readHeap(v3)*10);print(readHeap(v3));countDown(cnt));await(cnt);print(100);countDown(cnt);print(100)
+ref int v2
+SymTable: 
+v1->(0,int)
+OutputList: 
+File table: 
+Heap: 
+SemaphoreTable:
+latchTable:
+
+Program State: 
+ID: 1
+ExecStack: 
+ref int v3;int cnt;new(v1,2);new(v2,3);new(v3,4);newLatch(cnt,readHeap(v2));fork(writeHeap(v1,readHeap(v1)*10);print(readHeap(v1));countDown(cnt));fork(writeHeap(v2,readHeap(v2)*10);print(readHeap(v2));countDown(cnt));fork(writeHeap(v3,readHeap(v3)*10);print(readHeap(v3));countDown(cnt));await(cnt);print(100);countDown(cnt);print(100)
+ref int v2
+SymTable: 
+v1->(0,int)
+OutputList: 
+File table: 
+Heap: 
+SemaphoreTable:
+latchTable:
+
+Program State: 
+ID: 1
+ExecStack: 
+ref int v3;int cnt;new(v1,2);new(v2,3);new(v3,4);newLatch(cnt,readHeap(v2));fork(writeHeap(v1,readHeap(v1)*10);print(readHeap(v1));countDown(cnt));fork(writeHeap(v2,readHeap(v2)*10);print(readHeap(v2));countDown(cnt));fork(writeHeap(v3,readHeap(v3)*10);print(readHeap(v3));countDown(cnt));await(cnt);print(100);countDown(cnt);print(100)
+SymTable: 
+v1->(0,int)
+v2->(0,int)
+OutputList: 
+File table: 
+Heap: 
+SemaphoreTable:
+latchTable:
+
+Program State: 
+ID: 1
+ExecStack: 
+ref int v3;int cnt;new(v1,2);new(v2,3);new(v3,4);newLatch(cnt,readHeap(v2));fork(writeHeap(v1,readHeap(v1)*10);print(readHeap(v1));countDown(cnt));fork(writeHeap(v2,readHeap(v2)*10);print(readHeap(v2));countDown(cnt));fork(writeHeap(v3,readHeap(v3)*10);print(readHeap(v3));countDown(cnt));await(cnt);print(100);countDown(cnt);print(100)
+SymTable: 
+v1->(0,int)
+v2->(0,int)
+OutputList: 
+File table: 
+Heap: 
+SemaphoreTable:
+latchTable:
+
+Program State: 
+ID: 1
+ExecStack: 
+int cnt;new(v1,2);new(v2,3);new(v3,4);newLatch(cnt,readHeap(v2));fork(writeHeap(v1,readHeap(v1)*10);print(readHeap(v1));countDown(cnt));fork(writeHeap(v2,readHeap(v2)*10);print(readHeap(v2));countDown(cnt));fork(writeHeap(v3,readHeap(v3)*10);print(readHeap(v3));countDown(cnt));await(cnt);print(100);countDown(cnt);print(100)
+ref int v3
+SymTable: 
+v1->(0,int)
+v2->(0,int)
+OutputList: 
+File table: 
+Heap: 
+SemaphoreTable:
+latchTable:
+
+Program State: 
+ID: 1
+ExecStack: 
+int cnt;new(v1,2);new(v2,3);new(v3,4);newLatch(cnt,readHeap(v2));fork(writeHeap(v1,readHeap(v1)*10);print(readHeap(v1));countDown(cnt));fork(writeHeap(v2,readHeap(v2)*10);print(readHeap(v2));countDown(cnt));fork(writeHeap(v3,readHeap(v3)*10);print(readHeap(v3));countDown(cnt));await(cnt);print(100);countDown(cnt);print(100)
+ref int v3
+SymTable: 
+v1->(0,int)
+v2->(0,int)
+OutputList: 
+File table: 
+Heap: 
+SemaphoreTable:
+latchTable:
+
+Program State: 
+ID: 1
+ExecStack: 
+int cnt;new(v1,2);new(v2,3);new(v3,4);newLatch(cnt,readHeap(v2));fork(writeHeap(v1,readHeap(v1)*10);print(readHeap(v1));countDown(cnt));fork(writeHeap(v2,readHeap(v2)*10);print(readHeap(v2));countDown(cnt));fork(writeHeap(v3,readHeap(v3)*10);print(readHeap(v3));countDown(cnt));await(cnt);print(100);countDown(cnt);print(100)
+SymTable: 
+v1->(0,int)
+v2->(0,int)
+v3->(0,int)
+OutputList: 
+File table: 
+Heap: 
+SemaphoreTable:
+latchTable:
+
+Program State: 
+ID: 1
+ExecStack: 
+int cnt;new(v1,2);new(v2,3);new(v3,4);newLatch(cnt,readHeap(v2));fork(writeHeap(v1,readHeap(v1)*10);print(readHeap(v1));countDown(cnt));fork(writeHeap(v2,readHeap(v2)*10);print(readHeap(v2));countDown(cnt));fork(writeHeap(v3,readHeap(v3)*10);print(readHeap(v3));countDown(cnt));await(cnt);print(100);countDown(cnt);print(100)
+SymTable: 
+v1->(0,int)
+v2->(0,int)
+v3->(0,int)
+OutputList: 
+File table: 
+Heap: 
+SemaphoreTable:
+latchTable:
+
+Program State: 
+ID: 1
+ExecStack: 
+new(v1,2);new(v2,3);new(v3,4);newLatch(cnt,readHeap(v2));fork(writeHeap(v1,readHeap(v1)*10);print(readHeap(v1));countDown(cnt));fork(writeHeap(v2,readHeap(v2)*10);print(readHeap(v2));countDown(cnt));fork(writeHeap(v3,readHeap(v3)*10);print(readHeap(v3));countDown(cnt));await(cnt);print(100);countDown(cnt);print(100)
+int cnt
+SymTable: 
+v1->(0,int)
+v2->(0,int)
+v3->(0,int)
+OutputList: 
+File table: 
+Heap: 
+SemaphoreTable:
+latchTable:
+
+Program State: 
+ID: 1
+ExecStack: 
+new(v1,2);new(v2,3);new(v3,4);newLatch(cnt,readHeap(v2));fork(writeHeap(v1,readHeap(v1)*10);print(readHeap(v1));countDown(cnt));fork(writeHeap(v2,readHeap(v2)*10);print(readHeap(v2));countDown(cnt));fork(writeHeap(v3,readHeap(v3)*10);print(readHeap(v3));countDown(cnt));await(cnt);print(100);countDown(cnt);print(100)
+int cnt
+SymTable: 
+v1->(0,int)
+v2->(0,int)
+v3->(0,int)
+OutputList: 
+File table: 
+Heap: 
+SemaphoreTable:
+latchTable:
+
+Program State: 
+ID: 1
+ExecStack: 
+new(v1,2);new(v2,3);new(v3,4);newLatch(cnt,readHeap(v2));fork(writeHeap(v1,readHeap(v1)*10);print(readHeap(v1));countDown(cnt));fork(writeHeap(v2,readHeap(v2)*10);print(readHeap(v2));countDown(cnt));fork(writeHeap(v3,readHeap(v3)*10);print(readHeap(v3));countDown(cnt));await(cnt);print(100);countDown(cnt);print(100)
+SymTable: 
+cnt->0
+v1->(0,int)
+v2->(0,int)
+v3->(0,int)
+OutputList: 
+File table: 
+Heap: 
+SemaphoreTable:
+latchTable:
+
+Program State: 
+ID: 1
+ExecStack: 
+new(v1,2);new(v2,3);new(v3,4);newLatch(cnt,readHeap(v2));fork(writeHeap(v1,readHeap(v1)*10);print(readHeap(v1));countDown(cnt));fork(writeHeap(v2,readHeap(v2)*10);print(readHeap(v2));countDown(cnt));fork(writeHeap(v3,readHeap(v3)*10);print(readHeap(v3));countDown(cnt));await(cnt);print(100);countDown(cnt);print(100)
+SymTable: 
+cnt->0
+v1->(0,int)
+v2->(0,int)
+v3->(0,int)
+OutputList: 
+File table: 
+Heap: 
+SemaphoreTable:
+latchTable:
+
+Program State: 
+ID: 1
+ExecStack: 
+new(v2,3);new(v3,4);newLatch(cnt,readHeap(v2));fork(writeHeap(v1,readHeap(v1)*10);print(readHeap(v1));countDown(cnt));fork(writeHeap(v2,readHeap(v2)*10);print(readHeap(v2));countDown(cnt));fork(writeHeap(v3,readHeap(v3)*10);print(readHeap(v3));countDown(cnt));await(cnt);print(100);countDown(cnt);print(100)
+new(v1,2)
+SymTable: 
+cnt->0
+v1->(0,int)
+v2->(0,int)
+v3->(0,int)
+OutputList: 
+File table: 
+Heap: 
+SemaphoreTable:
+latchTable:
+
+Program State: 
+ID: 1
+ExecStack: 
+new(v2,3);new(v3,4);newLatch(cnt,readHeap(v2));fork(writeHeap(v1,readHeap(v1)*10);print(readHeap(v1));countDown(cnt));fork(writeHeap(v2,readHeap(v2)*10);print(readHeap(v2));countDown(cnt));fork(writeHeap(v3,readHeap(v3)*10);print(readHeap(v3));countDown(cnt));await(cnt);print(100);countDown(cnt);print(100)
+new(v1,2)
+SymTable: 
+cnt->0
+v1->(0,int)
+v2->(0,int)
+v3->(0,int)
+OutputList: 
+File table: 
+Heap: 
+SemaphoreTable:
+latchTable:
+
+Program State: 
+ID: 1
+ExecStack: 
+new(v2,3);new(v3,4);newLatch(cnt,readHeap(v2));fork(writeHeap(v1,readHeap(v1)*10);print(readHeap(v1));countDown(cnt));fork(writeHeap(v2,readHeap(v2)*10);print(readHeap(v2));countDown(cnt));fork(writeHeap(v3,readHeap(v3)*10);print(readHeap(v3));countDown(cnt));await(cnt);print(100);countDown(cnt);print(100)
+SymTable: 
+cnt->0
+v1->(1,int)
+v2->(0,int)
+v3->(0,int)
+OutputList: 
+File table: 
+Heap: 
+1->2
+SemaphoreTable:
+latchTable:
+
+Program State: 
+ID: 1
+ExecStack: 
+new(v2,3);new(v3,4);newLatch(cnt,readHeap(v2));fork(writeHeap(v1,readHeap(v1)*10);print(readHeap(v1));countDown(cnt));fork(writeHeap(v2,readHeap(v2)*10);print(readHeap(v2));countDown(cnt));fork(writeHeap(v3,readHeap(v3)*10);print(readHeap(v3));countDown(cnt));await(cnt);print(100);countDown(cnt);print(100)
+SymTable: 
+cnt->0
+v1->(1,int)
+v2->(0,int)
+v3->(0,int)
+OutputList: 
+File table: 
+Heap: 
+1->2
+SemaphoreTable:
+latchTable:
+
+Program State: 
+ID: 1
+ExecStack: 
+new(v3,4);newLatch(cnt,readHeap(v2));fork(writeHeap(v1,readHeap(v1)*10);print(readHeap(v1));countDown(cnt));fork(writeHeap(v2,readHeap(v2)*10);print(readHeap(v2));countDown(cnt));fork(writeHeap(v3,readHeap(v3)*10);print(readHeap(v3));countDown(cnt));await(cnt);print(100);countDown(cnt);print(100)
+new(v2,3)
+SymTable: 
+cnt->0
+v1->(1,int)
+v2->(0,int)
+v3->(0,int)
+OutputList: 
+File table: 
+Heap: 
+1->2
+SemaphoreTable:
+latchTable:
+
+Program State: 
+ID: 1
+ExecStack: 
+new(v3,4);newLatch(cnt,readHeap(v2));fork(writeHeap(v1,readHeap(v1)*10);print(readHeap(v1));countDown(cnt));fork(writeHeap(v2,readHeap(v2)*10);print(readHeap(v2));countDown(cnt));fork(writeHeap(v3,readHeap(v3)*10);print(readHeap(v3));countDown(cnt));await(cnt);print(100);countDown(cnt);print(100)
+new(v2,3)
+SymTable: 
+cnt->0
+v1->(1,int)
+v2->(0,int)
+v3->(0,int)
+OutputList: 
+File table: 
+Heap: 
+1->2
+SemaphoreTable:
+latchTable:
+
+Program State: 
+ID: 1
+ExecStack: 
+new(v3,4);newLatch(cnt,readHeap(v2));fork(writeHeap(v1,readHeap(v1)*10);print(readHeap(v1));countDown(cnt));fork(writeHeap(v2,readHeap(v2)*10);print(readHeap(v2));countDown(cnt));fork(writeHeap(v3,readHeap(v3)*10);print(readHeap(v3));countDown(cnt));await(cnt);print(100);countDown(cnt);print(100)
+SymTable: 
+cnt->0
+v1->(1,int)
+v2->(2,int)
+v3->(0,int)
+OutputList: 
+File table: 
+Heap: 
+1->2
+2->3
+SemaphoreTable:
+latchTable:
+
+Program State: 
+ID: 1
+ExecStack: 
+new(v3,4);newLatch(cnt,readHeap(v2));fork(writeHeap(v1,readHeap(v1)*10);print(readHeap(v1));countDown(cnt));fork(writeHeap(v2,readHeap(v2)*10);print(readHeap(v2));countDown(cnt));fork(writeHeap(v3,readHeap(v3)*10);print(readHeap(v3));countDown(cnt));await(cnt);print(100);countDown(cnt);print(100)
+SymTable: 
+cnt->0
+v1->(1,int)
+v2->(2,int)
+v3->(0,int)
+OutputList: 
+File table: 
+Heap: 
+1->2
+2->3
+SemaphoreTable:
+latchTable:
+
+Program State: 
+ID: 1
+ExecStack: 
+newLatch(cnt,readHeap(v2));fork(writeHeap(v1,readHeap(v1)*10);print(readHeap(v1));countDown(cnt));fork(writeHeap(v2,readHeap(v2)*10);print(readHeap(v2));countDown(cnt));fork(writeHeap(v3,readHeap(v3)*10);print(readHeap(v3));countDown(cnt));await(cnt);print(100);countDown(cnt);print(100)
+new(v3,4)
+SymTable: 
+cnt->0
+v1->(1,int)
+v2->(2,int)
+v3->(0,int)
+OutputList: 
+File table: 
+Heap: 
+1->2
+2->3
+SemaphoreTable:
+latchTable:
+
+Program State: 
+ID: 1
+ExecStack: 
+newLatch(cnt,readHeap(v2));fork(writeHeap(v1,readHeap(v1)*10);print(readHeap(v1));countDown(cnt));fork(writeHeap(v2,readHeap(v2)*10);print(readHeap(v2));countDown(cnt));fork(writeHeap(v3,readHeap(v3)*10);print(readHeap(v3));countDown(cnt));await(cnt);print(100);countDown(cnt);print(100)
+new(v3,4)
+SymTable: 
+cnt->0
+v1->(1,int)
+v2->(2,int)
+v3->(0,int)
+OutputList: 
+File table: 
+Heap: 
+1->2
+2->3
+SemaphoreTable:
+latchTable:
+
+Program State: 
+ID: 1
+ExecStack: 
+newLatch(cnt,readHeap(v2));fork(writeHeap(v1,readHeap(v1)*10);print(readHeap(v1));countDown(cnt));fork(writeHeap(v2,readHeap(v2)*10);print(readHeap(v2));countDown(cnt));fork(writeHeap(v3,readHeap(v3)*10);print(readHeap(v3));countDown(cnt));await(cnt);print(100);countDown(cnt);print(100)
+SymTable: 
+cnt->0
+v1->(1,int)
+v2->(2,int)
+v3->(3,int)
+OutputList: 
+File table: 
+Heap: 
+1->2
+2->3
+3->4
+SemaphoreTable:
+latchTable:
+
+Program State: 
+ID: 1
+ExecStack: 
+newLatch(cnt,readHeap(v2));fork(writeHeap(v1,readHeap(v1)*10);print(readHeap(v1));countDown(cnt));fork(writeHeap(v2,readHeap(v2)*10);print(readHeap(v2));countDown(cnt));fork(writeHeap(v3,readHeap(v3)*10);print(readHeap(v3));countDown(cnt));await(cnt);print(100);countDown(cnt);print(100)
+SymTable: 
+cnt->0
+v1->(1,int)
+v2->(2,int)
+v3->(3,int)
+OutputList: 
+File table: 
+Heap: 
+1->2
+2->3
+3->4
+SemaphoreTable:
+latchTable:
+
+Program State: 
+ID: 1
+ExecStack: 
+fork(writeHeap(v1,readHeap(v1)*10);print(readHeap(v1));countDown(cnt));fork(writeHeap(v2,readHeap(v2)*10);print(readHeap(v2));countDown(cnt));fork(writeHeap(v3,readHeap(v3)*10);print(readHeap(v3));countDown(cnt));await(cnt);print(100);countDown(cnt);print(100)
+newLatch(cnt,readHeap(v2))
+SymTable: 
+cnt->0
+v1->(1,int)
+v2->(2,int)
+v3->(3,int)
+OutputList: 
+File table: 
+Heap: 
+1->2
+2->3
+3->4
+SemaphoreTable:
+latchTable:
+
+Program State: 
+ID: 1
+ExecStack: 
+fork(writeHeap(v1,readHeap(v1)*10);print(readHeap(v1));countDown(cnt));fork(writeHeap(v2,readHeap(v2)*10);print(readHeap(v2));countDown(cnt));fork(writeHeap(v3,readHeap(v3)*10);print(readHeap(v3));countDown(cnt));await(cnt);print(100);countDown(cnt);print(100)
+newLatch(cnt,readHeap(v2))
+SymTable: 
+cnt->0
+v1->(1,int)
+v2->(2,int)
+v3->(3,int)
+OutputList: 
+File table: 
+Heap: 
+1->2
+2->3
+3->4
+SemaphoreTable:
+latchTable:
+
+Program State: 
+ID: 1
+ExecStack: 
+fork(writeHeap(v1,readHeap(v1)*10);print(readHeap(v1));countDown(cnt));fork(writeHeap(v2,readHeap(v2)*10);print(readHeap(v2));countDown(cnt));fork(writeHeap(v3,readHeap(v3)*10);print(readHeap(v3));countDown(cnt));await(cnt);print(100);countDown(cnt);print(100)
+SymTable: 
+cnt->1
+v1->(1,int)
+v2->(2,int)
+v3->(3,int)
+OutputList: 
+File table: 
+Heap: 
+1->2
+2->3
+3->4
+SemaphoreTable:
+latchTable:
+location: 1->value: 3
+Program State: 
+ID: 1
+ExecStack: 
+fork(writeHeap(v1,readHeap(v1)*10);print(readHeap(v1));countDown(cnt));fork(writeHeap(v2,readHeap(v2)*10);print(readHeap(v2));countDown(cnt));fork(writeHeap(v3,readHeap(v3)*10);print(readHeap(v3));countDown(cnt));await(cnt);print(100);countDown(cnt);print(100)
+SymTable: 
+cnt->1
+v1->(1,int)
+v2->(2,int)
+v3->(3,int)
+OutputList: 
+File table: 
+Heap: 
+1->2
+2->3
+3->4
+SemaphoreTable:
+latchTable:
+location: 1->value: 3
+Program State: 
+ID: 1
+ExecStack: 
+fork(writeHeap(v2,readHeap(v2)*10);print(readHeap(v2));countDown(cnt));fork(writeHeap(v3,readHeap(v3)*10);print(readHeap(v3));countDown(cnt));await(cnt);print(100);countDown(cnt);print(100)
+fork(writeHeap(v1,readHeap(v1)*10);print(readHeap(v1));countDown(cnt))
+SymTable: 
+cnt->1
+v1->(1,int)
+v2->(2,int)
+v3->(3,int)
+OutputList: 
+File table: 
+Heap: 
+1->2
+2->3
+3->4
+SemaphoreTable:
+latchTable:
+location: 1->value: 3
+Program State: 
+ID: 1
+ExecStack: 
+fork(writeHeap(v2,readHeap(v2)*10);print(readHeap(v2));countDown(cnt));fork(writeHeap(v3,readHeap(v3)*10);print(readHeap(v3));countDown(cnt));await(cnt);print(100);countDown(cnt);print(100)
+fork(writeHeap(v1,readHeap(v1)*10);print(readHeap(v1));countDown(cnt))
+SymTable: 
+cnt->1
+v1->(1,int)
+v2->(2,int)
+v3->(3,int)
+OutputList: 
+File table: 
+Heap: 
+1->2
+2->3
+3->4
+SemaphoreTable:
+latchTable:
+location: 1->value: 3
+Program State: 
+ID: 1
+ExecStack: 
+fork(writeHeap(v2,readHeap(v2)*10);print(readHeap(v2));countDown(cnt));fork(writeHeap(v3,readHeap(v3)*10);print(readHeap(v3));countDown(cnt));await(cnt);print(100);countDown(cnt);print(100)
+SymTable: 
+cnt->1
+v1->(1,int)
+v2->(2,int)
+v3->(3,int)
+OutputList: 
+File table: 
+Heap: 
+1->2
+2->3
+3->4
+SemaphoreTable:
+latchTable:
+location: 1->value: 3
+Program State: 
+ID: 2
+ExecStack: 
+writeHeap(v1,readHeap(v1)*10);print(readHeap(v1));countDown(cnt)
+SymTable: 
+cnt->1
+v1->(1,int)
+v2->(2,int)
+v3->(3,int)
+OutputList: 
+File table: 
+Heap: 
+1->2
+2->3
+3->4
+SemaphoreTable:
+latchTable:
+location: 1->value: 3
+Program State: 
+ID: 1
+ExecStack: 
+fork(writeHeap(v2,readHeap(v2)*10);print(readHeap(v2));countDown(cnt));fork(writeHeap(v3,readHeap(v3)*10);print(readHeap(v3));countDown(cnt));await(cnt);print(100);countDown(cnt);print(100)
+SymTable: 
+cnt->1
+v1->(1,int)
+v2->(2,int)
+v3->(3,int)
+OutputList: 
+File table: 
+Heap: 
+1->2
+2->3
+3->4
+SemaphoreTable:
+latchTable:
+location: 1->value: 3
+Program State: 
+ID: 2
+ExecStack: 
+writeHeap(v1,readHeap(v1)*10);print(readHeap(v1));countDown(cnt)
+SymTable: 
+cnt->1
+v1->(1,int)
+v2->(2,int)
+v3->(3,int)
+OutputList: 
+File table: 
+Heap: 
+1->2
+2->3
+3->4
+SemaphoreTable:
+latchTable:
+location: 1->value: 3
+Program State: 
+ID: 1
+ExecStack: 
+fork(writeHeap(v3,readHeap(v3)*10);print(readHeap(v3));countDown(cnt));await(cnt);print(100);countDown(cnt);print(100)
+fork(writeHeap(v2,readHeap(v2)*10);print(readHeap(v2));countDown(cnt))
+SymTable: 
+cnt->1
+v1->(1,int)
+v2->(2,int)
+v3->(3,int)
+OutputList: 
+File table: 
+Heap: 
+1->2
+2->3
+3->4
+SemaphoreTable:
+latchTable:
+location: 1->value: 3
+Program State: 
+ID: 2
+ExecStack: 
+print(readHeap(v1));countDown(cnt)
+writeHeap(v1,readHeap(v1)*10)
+SymTable: 
+cnt->1
+v1->(1,int)
+v2->(2,int)
+v3->(3,int)
+OutputList: 
+File table: 
+Heap: 
+1->2
+2->3
+3->4
+SemaphoreTable:
+latchTable:
+location: 1->value: 3
+Program State: 
+ID: 1
+ExecStack: 
+fork(writeHeap(v3,readHeap(v3)*10);print(readHeap(v3));countDown(cnt));await(cnt);print(100);countDown(cnt);print(100)
+fork(writeHeap(v2,readHeap(v2)*10);print(readHeap(v2));countDown(cnt))
+SymTable: 
+cnt->1
+v1->(1,int)
+v2->(2,int)
+v3->(3,int)
+OutputList: 
+File table: 
+Heap: 
+1->2
+2->3
+3->4
+SemaphoreTable:
+latchTable:
+location: 1->value: 3
+Program State: 
+ID: 2
+ExecStack: 
+print(readHeap(v1));countDown(cnt)
+writeHeap(v1,readHeap(v1)*10)
+SymTable: 
+cnt->1
+v1->(1,int)
+v2->(2,int)
+v3->(3,int)
+OutputList: 
+File table: 
+Heap: 
+1->2
+2->3
+3->4
+SemaphoreTable:
+latchTable:
+location: 1->value: 3
+Program State: 
+ID: 1
+ExecStack: 
+fork(writeHeap(v3,readHeap(v3)*10);print(readHeap(v3));countDown(cnt));await(cnt);print(100);countDown(cnt);print(100)
+SymTable: 
+cnt->1
+v1->(1,int)
+v2->(2,int)
+v3->(3,int)
+OutputList: 
+File table: 
+Heap: 
+1->20
+2->3
+3->4
+SemaphoreTable:
+latchTable:
+location: 1->value: 3
+Program State: 
+ID: 2
+ExecStack: 
+print(readHeap(v1));countDown(cnt)
+SymTable: 
+cnt->1
+v1->(1,int)
+v2->(2,int)
+v3->(3,int)
+OutputList: 
+File table: 
+Heap: 
+1->20
+2->3
+3->4
+SemaphoreTable:
+latchTable:
+location: 1->value: 3
+Program State: 
+ID: 3
+ExecStack: 
+writeHeap(v2,readHeap(v2)*10);print(readHeap(v2));countDown(cnt)
+SymTable: 
+cnt->1
+v1->(1,int)
+v2->(2,int)
+v3->(3,int)
+OutputList: 
+File table: 
+Heap: 
+1->20
+2->3
+3->4
+SemaphoreTable:
+latchTable:
+location: 1->value: 3
+Program State: 
+ID: 1
+ExecStack: 
+fork(writeHeap(v3,readHeap(v3)*10);print(readHeap(v3));countDown(cnt));await(cnt);print(100);countDown(cnt);print(100)
+SymTable: 
+cnt->1
+v1->(1,int)
+v2->(2,int)
+v3->(3,int)
+OutputList: 
+File table: 
+Heap: 
+1->20
+2->3
+3->4
+SemaphoreTable:
+latchTable:
+location: 1->value: 3
+Program State: 
+ID: 2
+ExecStack: 
+print(readHeap(v1));countDown(cnt)
+SymTable: 
+cnt->1
+v1->(1,int)
+v2->(2,int)
+v3->(3,int)
+OutputList: 
+File table: 
+Heap: 
+1->20
+2->3
+3->4
+SemaphoreTable:
+latchTable:
+location: 1->value: 3
+Program State: 
+ID: 3
+ExecStack: 
+writeHeap(v2,readHeap(v2)*10);print(readHeap(v2));countDown(cnt)
+SymTable: 
+cnt->1
+v1->(1,int)
+v2->(2,int)
+v3->(3,int)
+OutputList: 
+File table: 
+Heap: 
+1->20
+2->3
+3->4
+SemaphoreTable:
+latchTable:
+location: 1->value: 3
+Program State: 
+ID: 1
+ExecStack: 
+await(cnt);print(100);countDown(cnt);print(100)
+fork(writeHeap(v3,readHeap(v3)*10);print(readHeap(v3));countDown(cnt))
+SymTable: 
+cnt->1
+v1->(1,int)
+v2->(2,int)
+v3->(3,int)
+OutputList: 
+File table: 
+Heap: 
+1->20
+2->3
+3->4
+SemaphoreTable:
+latchTable:
+location: 1->value: 3
+Program State: 
+ID: 2
+ExecStack: 
+countDown(cnt)
+print(readHeap(v1))
+SymTable: 
+cnt->1
+v1->(1,int)
+v2->(2,int)
+v3->(3,int)
+OutputList: 
+File table: 
+Heap: 
+1->20
+2->3
+3->4
+SemaphoreTable:
+latchTable:
+location: 1->value: 3
+Program State: 
+ID: 3
+ExecStack: 
+print(readHeap(v2));countDown(cnt)
+writeHeap(v2,readHeap(v2)*10)
+SymTable: 
+cnt->1
+v1->(1,int)
+v2->(2,int)
+v3->(3,int)
+OutputList: 
+File table: 
+Heap: 
+1->20
+2->3
+3->4
+SemaphoreTable:
+latchTable:
+location: 1->value: 3
+Program State: 
+ID: 1
+ExecStack: 
+await(cnt);print(100);countDown(cnt);print(100)
+fork(writeHeap(v3,readHeap(v3)*10);print(readHeap(v3));countDown(cnt))
+SymTable: 
+cnt->1
+v1->(1,int)
+v2->(2,int)
+v3->(3,int)
+OutputList: 
+File table: 
+Heap: 
+1->20
+2->3
+3->4
+SemaphoreTable:
+latchTable:
+location: 1->value: 3
+Program State: 
+ID: 2
+ExecStack: 
+countDown(cnt)
+print(readHeap(v1))
+SymTable: 
+cnt->1
+v1->(1,int)
+v2->(2,int)
+v3->(3,int)
+OutputList: 
+File table: 
+Heap: 
+1->20
+2->3
+3->4
+SemaphoreTable:
+latchTable:
+location: 1->value: 3
+Program State: 
+ID: 3
+ExecStack: 
+print(readHeap(v2));countDown(cnt)
+writeHeap(v2,readHeap(v2)*10)
+SymTable: 
+cnt->1
+v1->(1,int)
+v2->(2,int)
+v3->(3,int)
+OutputList: 
+File table: 
+Heap: 
+1->20
+2->3
+3->4
+SemaphoreTable:
+latchTable:
+location: 1->value: 3
+Program State: 
+ID: 1
+ExecStack: 
+await(cnt);print(100);countDown(cnt);print(100)
+SymTable: 
+cnt->1
+v1->(1,int)
+v2->(2,int)
+v3->(3,int)
+OutputList: 
+20
+File table: 
+Heap: 
+1->20
+2->30
+3->4
+SemaphoreTable:
+latchTable:
+location: 1->value: 3
+Program State: 
+ID: 2
+ExecStack: 
+countDown(cnt)
+SymTable: 
+cnt->1
+v1->(1,int)
+v2->(2,int)
+v3->(3,int)
+OutputList: 
+20
+File table: 
+Heap: 
+1->20
+2->30
+3->4
+SemaphoreTable:
+latchTable:
+location: 1->value: 3
+Program State: 
+ID: 3
+ExecStack: 
+print(readHeap(v2));countDown(cnt)
+SymTable: 
+cnt->1
+v1->(1,int)
+v2->(2,int)
+v3->(3,int)
+OutputList: 
+20
+File table: 
+Heap: 
+1->20
+2->30
+3->4
+SemaphoreTable:
+latchTable:
+location: 1->value: 3
+Program State: 
+ID: 4
+ExecStack: 
+writeHeap(v3,readHeap(v3)*10);print(readHeap(v3));countDown(cnt)
+SymTable: 
+cnt->1
+v1->(1,int)
+v2->(2,int)
+v3->(3,int)
+OutputList: 
+20
+File table: 
+Heap: 
+1->20
+2->30
+3->4
+SemaphoreTable:
+latchTable:
+location: 1->value: 3
+Program State: 
+ID: 1
+ExecStack: 
+await(cnt);print(100);countDown(cnt);print(100)
+SymTable: 
+cnt->1
+v1->(1,int)
+v2->(2,int)
+v3->(3,int)
+OutputList: 
+20
+File table: 
+Heap: 
+1->20
+2->30
+3->4
+SemaphoreTable:
+latchTable:
+location: 1->value: 3
+Program State: 
+ID: 2
+ExecStack: 
+countDown(cnt)
+SymTable: 
+cnt->1
+v1->(1,int)
+v2->(2,int)
+v3->(3,int)
+OutputList: 
+20
+File table: 
+Heap: 
+1->20
+2->30
+3->4
+SemaphoreTable:
+latchTable:
+location: 1->value: 3
+Program State: 
+ID: 3
+ExecStack: 
+print(readHeap(v2));countDown(cnt)
+SymTable: 
+cnt->1
+v1->(1,int)
+v2->(2,int)
+v3->(3,int)
+OutputList: 
+20
+File table: 
+Heap: 
+1->20
+2->30
+3->4
+SemaphoreTable:
+latchTable:
+location: 1->value: 3
+Program State: 
+ID: 4
+ExecStack: 
+writeHeap(v3,readHeap(v3)*10);print(readHeap(v3));countDown(cnt)
+SymTable: 
+cnt->1
+v1->(1,int)
+v2->(2,int)
+v3->(3,int)
+OutputList: 
+20
+File table: 
+Heap: 
+1->20
+2->30
+3->4
+SemaphoreTable:
+latchTable:
+location: 1->value: 3
+Program State: 
+ID: 1
+ExecStack: 
+print(100);countDown(cnt);print(100)
+await(cnt)
+SymTable: 
+cnt->1
+v1->(1,int)
+v2->(2,int)
+v3->(3,int)
+OutputList: 
+20
+2
+File table: 
+Heap: 
+1->20
+2->30
+3->4
+SemaphoreTable:
+latchTable:
+location: 1->value: 2
+Program State: 
+ID: 2
+ExecStack: 
+SymTable: 
+cnt->1
+v1->(1,int)
+v2->(2,int)
+v3->(3,int)
+OutputList: 
+20
+2
+File table: 
+Heap: 
+1->20
+2->30
+3->4
+SemaphoreTable:
+latchTable:
+location: 1->value: 2
+Program State: 
+ID: 3
+ExecStack: 
+countDown(cnt)
+print(readHeap(v2))
+SymTable: 
+cnt->1
+v1->(1,int)
+v2->(2,int)
+v3->(3,int)
+OutputList: 
+20
+2
+File table: 
+Heap: 
+1->20
+2->30
+3->4
+SemaphoreTable:
+latchTable:
+location: 1->value: 2
+Program State: 
+ID: 4
+ExecStack: 
+print(readHeap(v3));countDown(cnt)
+writeHeap(v3,readHeap(v3)*10)
+SymTable: 
+cnt->1
+v1->(1,int)
+v2->(2,int)
+v3->(3,int)
+OutputList: 
+20
+2
+File table: 
+Heap: 
+1->20
+2->30
+3->4
+SemaphoreTable:
+latchTable:
+location: 1->value: 2
+Program State: 
+ID: 1
+ExecStack: 
+print(100);countDown(cnt);print(100)
+await(cnt)
+SymTable: 
+cnt->1
+v1->(1,int)
+v2->(2,int)
+v3->(3,int)
+OutputList: 
+20
+2
+File table: 
+Heap: 
+1->20
+2->30
+3->4
+SemaphoreTable:
+latchTable:
+location: 1->value: 2
+Program State: 
+ID: 3
+ExecStack: 
+countDown(cnt)
+print(readHeap(v2))
+SymTable: 
+cnt->1
+v1->(1,int)
+v2->(2,int)
+v3->(3,int)
+OutputList: 
+20
+2
+File table: 
+Heap: 
+1->20
+2->30
+3->4
+SemaphoreTable:
+latchTable:
+location: 1->value: 2
+Program State: 
+ID: 4
+ExecStack: 
+print(readHeap(v3));countDown(cnt)
+writeHeap(v3,readHeap(v3)*10)
+SymTable: 
+cnt->1
+v1->(1,int)
+v2->(2,int)
+v3->(3,int)
+OutputList: 
+20
+2
+File table: 
+Heap: 
+1->20
+2->30
+3->4
+SemaphoreTable:
+latchTable:
+location: 1->value: 2
+Program State: 
+ID: 1
+ExecStack: 
+print(100);countDown(cnt);print(100)
+await(cnt)
+SymTable: 
+cnt->1
+v1->(1,int)
+v2->(2,int)
+v3->(3,int)
+OutputList: 
+20
+2
+30
+File table: 
+Heap: 
+1->20
+2->30
+3->40
+SemaphoreTable:
+latchTable:
+location: 1->value: 2
+Program State: 
+ID: 3
+ExecStack: 
+countDown(cnt)
+SymTable: 
+cnt->1
+v1->(1,int)
+v2->(2,int)
+v3->(3,int)
+OutputList: 
+20
+2
+30
+File table: 
+Heap: 
+1->20
+2->30
+3->40
+SemaphoreTable:
+latchTable:
+location: 1->value: 2
+Program State: 
+ID: 4
+ExecStack: 
+print(readHeap(v3));countDown(cnt)
+SymTable: 
+cnt->1
+v1->(1,int)
+v2->(2,int)
+v3->(3,int)
+OutputList: 
+20
+2
+30
+File table: 
+Heap: 
+1->20
+2->30
+3->40
+SemaphoreTable:
+latchTable:
+location: 1->value: 2
+Program State: 
+ID: 1
+ExecStack: 
+print(100);countDown(cnt);print(100)
+await(cnt)
+SymTable: 
+cnt->1
+v1->(1,int)
+v2->(2,int)
+v3->(3,int)
+OutputList: 
+20
+2
+30
+File table: 
+Heap: 
+1->20
+2->30
+3->40
+SemaphoreTable:
+latchTable:
+location: 1->value: 2
+Program State: 
+ID: 3
+ExecStack: 
+countDown(cnt)
+SymTable: 
+cnt->1
+v1->(1,int)
+v2->(2,int)
+v3->(3,int)
+OutputList: 
+20
+2
+30
+File table: 
+Heap: 
+1->20
+2->30
+3->40
+SemaphoreTable:
+latchTable:
+location: 1->value: 2
+Program State: 
+ID: 4
+ExecStack: 
+print(readHeap(v3));countDown(cnt)
+SymTable: 
+cnt->1
+v1->(1,int)
+v2->(2,int)
+v3->(3,int)
+OutputList: 
+20
+2
+30
+File table: 
+Heap: 
+1->20
+2->30
+3->40
+SemaphoreTable:
+latchTable:
+location: 1->value: 2
+Program State: 
+ID: 1
+ExecStack: 
+print(100);countDown(cnt);print(100)
+await(cnt)
+SymTable: 
+cnt->1
+v1->(1,int)
+v2->(2,int)
+v3->(3,int)
+OutputList: 
+20
+2
+30
+3
+File table: 
+Heap: 
+1->20
+2->30
+3->40
+SemaphoreTable:
+latchTable:
+location: 1->value: 1
+Program State: 
+ID: 3
+ExecStack: 
+SymTable: 
+cnt->1
+v1->(1,int)
+v2->(2,int)
+v3->(3,int)
+OutputList: 
+20
+2
+30
+3
+File table: 
+Heap: 
+1->20
+2->30
+3->40
+SemaphoreTable:
+latchTable:
+location: 1->value: 1
+Program State: 
+ID: 4
+ExecStack: 
+countDown(cnt)
+print(readHeap(v3))
+SymTable: 
+cnt->1
+v1->(1,int)
+v2->(2,int)
+v3->(3,int)
+OutputList: 
+20
+2
+30
+3
+File table: 
+Heap: 
+1->20
+2->30
+3->40
+SemaphoreTable:
+latchTable:
+location: 1->value: 1
+Program State: 
+ID: 1
+ExecStack: 
+print(100);countDown(cnt);print(100)
+await(cnt)
+SymTable: 
+cnt->1
+v1->(1,int)
+v2->(2,int)
+v3->(3,int)
+OutputList: 
+20
+2
+30
+3
+File table: 
+Heap: 
+1->20
+2->30
+3->40
+SemaphoreTable:
+latchTable:
+location: 1->value: 1
+Program State: 
+ID: 4
+ExecStack: 
+countDown(cnt)
+print(readHeap(v3))
+SymTable: 
+cnt->1
+v1->(1,int)
+v2->(2,int)
+v3->(3,int)
+OutputList: 
+20
+2
+30
+3
+File table: 
+Heap: 
+1->20
+2->30
+3->40
+SemaphoreTable:
+latchTable:
+location: 1->value: 1
+Program State: 
+ID: 1
+ExecStack: 
+print(100);countDown(cnt);print(100)
+await(cnt)
+SymTable: 
+cnt->1
+v1->(1,int)
+v2->(2,int)
+v3->(3,int)
+OutputList: 
+20
+2
+30
+3
+40
+File table: 
+Heap: 
+1->20
+2->30
+3->40
+SemaphoreTable:
+latchTable:
+location: 1->value: 1
+Program State: 
+ID: 4
+ExecStack: 
+countDown(cnt)
+SymTable: 
+cnt->1
+v1->(1,int)
+v2->(2,int)
+v3->(3,int)
+OutputList: 
+20
+2
+30
+3
+40
+File table: 
+Heap: 
+1->20
+2->30
+3->40
+SemaphoreTable:
+latchTable:
+location: 1->value: 1
+Program State: 
+ID: 1
+ExecStack: 
+print(100);countDown(cnt);print(100)
+await(cnt)
+SymTable: 
+cnt->1
+v1->(1,int)
+v2->(2,int)
+v3->(3,int)
+OutputList: 
+20
+2
+30
+3
+40
+File table: 
+Heap: 
+1->20
+2->30
+3->40
+SemaphoreTable:
+latchTable:
+location: 1->value: 1
+Program State: 
+ID: 4
+ExecStack: 
+countDown(cnt)
+SymTable: 
+cnt->1
+v1->(1,int)
+v2->(2,int)
+v3->(3,int)
+OutputList: 
+20
+2
+30
+3
+40
+File table: 
+Heap: 
+1->20
+2->30
+3->40
+SemaphoreTable:
+latchTable:
+location: 1->value: 1
+Program State: 
+ID: 1
+ExecStack: 
+print(100);countDown(cnt);print(100)
+await(cnt)
+SymTable: 
+cnt->1
+v1->(1,int)
+v2->(2,int)
+v3->(3,int)
+OutputList: 
+20
+2
+30
+3
+40
+4
+File table: 
+Heap: 
+1->20
+2->30
+3->40
+SemaphoreTable:
+latchTable:
+location: 1->value: 0
+Program State: 
+ID: 4
+ExecStack: 
+SymTable: 
+cnt->1
+v1->(1,int)
+v2->(2,int)
+v3->(3,int)
+OutputList: 
+20
+2
+30
+3
+40
+4
+File table: 
+Heap: 
+1->20
+2->30
+3->40
+SemaphoreTable:
+latchTable:
+location: 1->value: 0
+Program State: 
+ID: 1
+ExecStack: 
+print(100);countDown(cnt);print(100)
+await(cnt)
+SymTable: 
+cnt->1
+v1->(1,int)
+v2->(2,int)
+v3->(3,int)
+OutputList: 
+20
+2
+30
+3
+40
+4
+File table: 
+Heap: 
+1->20
+2->30
+3->40
+SemaphoreTable:
+latchTable:
+location: 1->value: 0
+Program State: 
+ID: 1
+ExecStack: 
+print(100);countDown(cnt);print(100)
+SymTable: 
+cnt->1
+v1->(1,int)
+v2->(2,int)
+v3->(3,int)
+OutputList: 
+20
+2
+30
+3
+40
+4
+File table: 
+Heap: 
+1->20
+2->30
+3->40
+SemaphoreTable:
+latchTable:
+location: 1->value: 0
+Program State: 
+ID: 1
+ExecStack: 
+print(100);countDown(cnt);print(100)
+SymTable: 
+cnt->1
+v1->(1,int)
+v2->(2,int)
+v3->(3,int)
+OutputList: 
+20
+2
+30
+3
+40
+4
+File table: 
+Heap: 
+1->20
+2->30
+3->40
+SemaphoreTable:
+latchTable:
+location: 1->value: 0
+Program State: 
+ID: 1
+ExecStack: 
+countDown(cnt);print(100)
+print(100)
+SymTable: 
+cnt->1
+v1->(1,int)
+v2->(2,int)
+v3->(3,int)
+OutputList: 
+20
+2
+30
+3
+40
+4
+File table: 
+Heap: 
+1->20
+2->30
+3->40
+SemaphoreTable:
+latchTable:
+location: 1->value: 0
+Program State: 
+ID: 1
+ExecStack: 
+countDown(cnt);print(100)
+print(100)
+SymTable: 
+cnt->1
+v1->(1,int)
+v2->(2,int)
+v3->(3,int)
+OutputList: 
+20
+2
+30
+3
+40
+4
+File table: 
+Heap: 
+1->20
+2->30
+3->40
+SemaphoreTable:
+latchTable:
+location: 1->value: 0
+Program State: 
+ID: 1
+ExecStack: 
+countDown(cnt);print(100)
+SymTable: 
+cnt->1
+v1->(1,int)
+v2->(2,int)
+v3->(3,int)
+OutputList: 
+20
+2
+30
+3
+40
+4
+100
+File table: 
+Heap: 
+1->20
+2->30
+3->40
+SemaphoreTable:
+latchTable:
+location: 1->value: 0
+Program State: 
+ID: 1
+ExecStack: 
+countDown(cnt);print(100)
+SymTable: 
+cnt->1
+v1->(1,int)
+v2->(2,int)
+v3->(3,int)
+OutputList: 
+20
+2
+30
+3
+40
+4
+100
+File table: 
+Heap: 
+1->20
+2->30
+3->40
+SemaphoreTable:
+latchTable:
+location: 1->value: 0
+Program State: 
+ID: 1
+ExecStack: 
+print(100)
+countDown(cnt)
+SymTable: 
+cnt->1
+v1->(1,int)
+v2->(2,int)
+v3->(3,int)
+OutputList: 
+20
+2
+30
+3
+40
+4
+100
+File table: 
+Heap: 
+1->20
+2->30
+3->40
+SemaphoreTable:
+latchTable:
+location: 1->value: 0
+Program State: 
+ID: 1
+ExecStack: 
+print(100)
+countDown(cnt)
+SymTable: 
+cnt->1
+v1->(1,int)
+v2->(2,int)
+v3->(3,int)
+OutputList: 
+20
+2
+30
+3
+40
+4
+100
+File table: 
+Heap: 
+1->20
+2->30
+3->40
+SemaphoreTable:
+latchTable:
+location: 1->value: 0
+Program State: 
+ID: 1
+ExecStack: 
+print(100)
+SymTable: 
+cnt->1
+v1->(1,int)
+v2->(2,int)
+v3->(3,int)
+OutputList: 
+20
+2
+30
+3
+40
+4
+100
+1
+File table: 
+Heap: 
+1->20
+2->30
+3->40
+SemaphoreTable:
+latchTable:
+location: 1->value: 0
+Program State: 
+ID: 1
+ExecStack: 
+print(100)
+SymTable: 
+cnt->1
+v1->(1,int)
+v2->(2,int)
+v3->(3,int)
+OutputList: 
+20
+2
+30
+3
+40
+4
+100
+1
+File table: 
+Heap: 
+1->20
+2->30
+3->40
+SemaphoreTable:
+latchTable:
+location: 1->value: 0
+Program State: 
+ID: 1
+ExecStack: 
+SymTable: 
+cnt->1
+v1->(1,int)
+v2->(2,int)
+v3->(3,int)
+OutputList: 
+20
+2
+30
+3
+40
+4
+100
+1
+100
+File table: 
+Heap: 
+1->20
+2->30
+3->40
+SemaphoreTable:
+latchTable:
+location: 1->value: 0
+Program State: 
+ID: 1
+ExecStack: 
+ref int v1;ref int v2;ref int v3;int cnt;new(v1,2);new(v2,3);new(v3,4);newLatch(cnt,readHeap(v2));fork(writeHeap(v1,readHeap(v1)*10);print(readHeap(v1));countDown(cnt));fork(writeHeap(v2,readHeap(v2)*10);print(readHeap(v2));countDown(cnt));fork(writeHeap(v3,readHeap(v3)*10);print(readHeap(v3));countDown(cnt));await(cnt);print(100);countDown(cnt);print(100)
+SymTable: 
+OutputList: 
+File table: 
+Heap: 
+SemaphoreTable:
+latchTable:
+
+Program State: 
+ID: 1
+ExecStack: 
+ref int v2;ref int v3;int cnt;new(v1,2);new(v2,3);new(v3,4);newLatch(cnt,readHeap(v2));fork(writeHeap(v1,readHeap(v1)*10);print(readHeap(v1));countDown(cnt));fork(writeHeap(v2,readHeap(v2)*10);print(readHeap(v2));countDown(cnt));fork(writeHeap(v3,readHeap(v3)*10);print(readHeap(v3));countDown(cnt));await(cnt);print(100);countDown(cnt);print(100)
+ref int v1
+SymTable: 
+OutputList: 
+File table: 
+Heap: 
+SemaphoreTable:
+latchTable:
+
+Program State: 
+ID: 1
+ExecStack: 
+ref int v2;ref int v3;int cnt;new(v1,2);new(v2,3);new(v3,4);newLatch(cnt,readHeap(v2));fork(writeHeap(v1,readHeap(v1)*10);print(readHeap(v1));countDown(cnt));fork(writeHeap(v2,readHeap(v2)*10);print(readHeap(v2));countDown(cnt));fork(writeHeap(v3,readHeap(v3)*10);print(readHeap(v3));countDown(cnt));await(cnt);print(100);countDown(cnt);print(100)
+ref int v1
+SymTable: 
+OutputList: 
+File table: 
+Heap: 
+SemaphoreTable:
+latchTable:
+
+Program State: 
+ID: 1
+ExecStack: 
+ref int v2;ref int v3;int cnt;new(v1,2);new(v2,3);new(v3,4);newLatch(cnt,readHeap(v2));fork(writeHeap(v1,readHeap(v1)*10);print(readHeap(v1));countDown(cnt));fork(writeHeap(v2,readHeap(v2)*10);print(readHeap(v2));countDown(cnt));fork(writeHeap(v3,readHeap(v3)*10);print(readHeap(v3));countDown(cnt));await(cnt);print(100);countDown(cnt);print(100)
+SymTable: 
+v1->(0,int)
+OutputList: 
+File table: 
+Heap: 
+SemaphoreTable:
+latchTable:
+
+Program State: 
+ID: 1
+ExecStack: 
+ref int v2;ref int v3;int cnt;new(v1,2);new(v2,3);new(v3,4);newLatch(cnt,readHeap(v2));fork(writeHeap(v1,readHeap(v1)*10);print(readHeap(v1));countDown(cnt));fork(writeHeap(v2,readHeap(v2)*10);print(readHeap(v2));countDown(cnt));fork(writeHeap(v3,readHeap(v3)*10);print(readHeap(v3));countDown(cnt));await(cnt);print(100);countDown(cnt);print(100)
+SymTable: 
+v1->(0,int)
+OutputList: 
+File table: 
+Heap: 
+SemaphoreTable:
+latchTable:
+
+Program State: 
+ID: 1
+ExecStack: 
+ref int v3;int cnt;new(v1,2);new(v2,3);new(v3,4);newLatch(cnt,readHeap(v2));fork(writeHeap(v1,readHeap(v1)*10);print(readHeap(v1));countDown(cnt));fork(writeHeap(v2,readHeap(v2)*10);print(readHeap(v2));countDown(cnt));fork(writeHeap(v3,readHeap(v3)*10);print(readHeap(v3));countDown(cnt));await(cnt);print(100);countDown(cnt);print(100)
+ref int v2
+SymTable: 
+v1->(0,int)
+OutputList: 
+File table: 
+Heap: 
+SemaphoreTable:
+latchTable:
+
+Program State: 
+ID: 1
+ExecStack: 
+ref int v3;int cnt;new(v1,2);new(v2,3);new(v3,4);newLatch(cnt,readHeap(v2));fork(writeHeap(v1,readHeap(v1)*10);print(readHeap(v1));countDown(cnt));fork(writeHeap(v2,readHeap(v2)*10);print(readHeap(v2));countDown(cnt));fork(writeHeap(v3,readHeap(v3)*10);print(readHeap(v3));countDown(cnt));await(cnt);print(100);countDown(cnt);print(100)
+ref int v2
+SymTable: 
+v1->(0,int)
+OutputList: 
+File table: 
+Heap: 
+SemaphoreTable:
+latchTable:
+
+Program State: 
+ID: 1
+ExecStack: 
+ref int v3;int cnt;new(v1,2);new(v2,3);new(v3,4);newLatch(cnt,readHeap(v2));fork(writeHeap(v1,readHeap(v1)*10);print(readHeap(v1));countDown(cnt));fork(writeHeap(v2,readHeap(v2)*10);print(readHeap(v2));countDown(cnt));fork(writeHeap(v3,readHeap(v3)*10);print(readHeap(v3));countDown(cnt));await(cnt);print(100);countDown(cnt);print(100)
+SymTable: 
+v1->(0,int)
+v2->(0,int)
+OutputList: 
+File table: 
+Heap: 
+SemaphoreTable:
+latchTable:
+
+Program State: 
+ID: 1
+ExecStack: 
+ref int v3;int cnt;new(v1,2);new(v2,3);new(v3,4);newLatch(cnt,readHeap(v2));fork(writeHeap(v1,readHeap(v1)*10);print(readHeap(v1));countDown(cnt));fork(writeHeap(v2,readHeap(v2)*10);print(readHeap(v2));countDown(cnt));fork(writeHeap(v3,readHeap(v3)*10);print(readHeap(v3));countDown(cnt));await(cnt);print(100);countDown(cnt);print(100)
+SymTable: 
+v1->(0,int)
+v2->(0,int)
+OutputList: 
+File table: 
+Heap: 
+SemaphoreTable:
+latchTable:
+
+Program State: 
+ID: 1
+ExecStack: 
+int cnt;new(v1,2);new(v2,3);new(v3,4);newLatch(cnt,readHeap(v2));fork(writeHeap(v1,readHeap(v1)*10);print(readHeap(v1));countDown(cnt));fork(writeHeap(v2,readHeap(v2)*10);print(readHeap(v2));countDown(cnt));fork(writeHeap(v3,readHeap(v3)*10);print(readHeap(v3));countDown(cnt));await(cnt);print(100);countDown(cnt);print(100)
+ref int v3
+SymTable: 
+v1->(0,int)
+v2->(0,int)
+OutputList: 
+File table: 
+Heap: 
+SemaphoreTable:
+latchTable:
+
+Program State: 
+ID: 1
+ExecStack: 
+int cnt;new(v1,2);new(v2,3);new(v3,4);newLatch(cnt,readHeap(v2));fork(writeHeap(v1,readHeap(v1)*10);print(readHeap(v1));countDown(cnt));fork(writeHeap(v2,readHeap(v2)*10);print(readHeap(v2));countDown(cnt));fork(writeHeap(v3,readHeap(v3)*10);print(readHeap(v3));countDown(cnt));await(cnt);print(100);countDown(cnt);print(100)
+ref int v3
+SymTable: 
+v1->(0,int)
+v2->(0,int)
+OutputList: 
+File table: 
+Heap: 
+SemaphoreTable:
+latchTable:
+
+Program State: 
+ID: 1
+ExecStack: 
+int cnt;new(v1,2);new(v2,3);new(v3,4);newLatch(cnt,readHeap(v2));fork(writeHeap(v1,readHeap(v1)*10);print(readHeap(v1));countDown(cnt));fork(writeHeap(v2,readHeap(v2)*10);print(readHeap(v2));countDown(cnt));fork(writeHeap(v3,readHeap(v3)*10);print(readHeap(v3));countDown(cnt));await(cnt);print(100);countDown(cnt);print(100)
+SymTable: 
+v1->(0,int)
+v2->(0,int)
+v3->(0,int)
+OutputList: 
+File table: 
+Heap: 
+SemaphoreTable:
+latchTable:
+
+Program State: 
+ID: 1
+ExecStack: 
+int cnt;new(v1,2);new(v2,3);new(v3,4);newLatch(cnt,readHeap(v2));fork(writeHeap(v1,readHeap(v1)*10);print(readHeap(v1));countDown(cnt));fork(writeHeap(v2,readHeap(v2)*10);print(readHeap(v2));countDown(cnt));fork(writeHeap(v3,readHeap(v3)*10);print(readHeap(v3));countDown(cnt));await(cnt);print(100);countDown(cnt);print(100)
+SymTable: 
+v1->(0,int)
+v2->(0,int)
+v3->(0,int)
+OutputList: 
+File table: 
+Heap: 
+SemaphoreTable:
+latchTable:
+
+Program State: 
+ID: 1
+ExecStack: 
+new(v1,2);new(v2,3);new(v3,4);newLatch(cnt,readHeap(v2));fork(writeHeap(v1,readHeap(v1)*10);print(readHeap(v1));countDown(cnt));fork(writeHeap(v2,readHeap(v2)*10);print(readHeap(v2));countDown(cnt));fork(writeHeap(v3,readHeap(v3)*10);print(readHeap(v3));countDown(cnt));await(cnt);print(100);countDown(cnt);print(100)
+int cnt
+SymTable: 
+v1->(0,int)
+v2->(0,int)
+v3->(0,int)
+OutputList: 
+File table: 
+Heap: 
+SemaphoreTable:
+latchTable:
+
+Program State: 
+ID: 1
+ExecStack: 
+new(v1,2);new(v2,3);new(v3,4);newLatch(cnt,readHeap(v2));fork(writeHeap(v1,readHeap(v1)*10);print(readHeap(v1));countDown(cnt));fork(writeHeap(v2,readHeap(v2)*10);print(readHeap(v2));countDown(cnt));fork(writeHeap(v3,readHeap(v3)*10);print(readHeap(v3));countDown(cnt));await(cnt);print(100);countDown(cnt);print(100)
+int cnt
+SymTable: 
+v1->(0,int)
+v2->(0,int)
+v3->(0,int)
+OutputList: 
+File table: 
+Heap: 
+SemaphoreTable:
+latchTable:
+
+Program State: 
+ID: 1
+ExecStack: 
+new(v1,2);new(v2,3);new(v3,4);newLatch(cnt,readHeap(v2));fork(writeHeap(v1,readHeap(v1)*10);print(readHeap(v1));countDown(cnt));fork(writeHeap(v2,readHeap(v2)*10);print(readHeap(v2));countDown(cnt));fork(writeHeap(v3,readHeap(v3)*10);print(readHeap(v3));countDown(cnt));await(cnt);print(100);countDown(cnt);print(100)
+SymTable: 
+cnt->0
+v1->(0,int)
+v2->(0,int)
+v3->(0,int)
+OutputList: 
+File table: 
+Heap: 
+SemaphoreTable:
+latchTable:
+
+Program State: 
+ID: 1
+ExecStack: 
+new(v1,2);new(v2,3);new(v3,4);newLatch(cnt,readHeap(v2));fork(writeHeap(v1,readHeap(v1)*10);print(readHeap(v1));countDown(cnt));fork(writeHeap(v2,readHeap(v2)*10);print(readHeap(v2));countDown(cnt));fork(writeHeap(v3,readHeap(v3)*10);print(readHeap(v3));countDown(cnt));await(cnt);print(100);countDown(cnt);print(100)
+SymTable: 
+cnt->0
+v1->(0,int)
+v2->(0,int)
+v3->(0,int)
+OutputList: 
+File table: 
+Heap: 
+SemaphoreTable:
+latchTable:
+
+Program State: 
+ID: 1
+ExecStack: 
+new(v2,3);new(v3,4);newLatch(cnt,readHeap(v2));fork(writeHeap(v1,readHeap(v1)*10);print(readHeap(v1));countDown(cnt));fork(writeHeap(v2,readHeap(v2)*10);print(readHeap(v2));countDown(cnt));fork(writeHeap(v3,readHeap(v3)*10);print(readHeap(v3));countDown(cnt));await(cnt);print(100);countDown(cnt);print(100)
+new(v1,2)
+SymTable: 
+cnt->0
+v1->(0,int)
+v2->(0,int)
+v3->(0,int)
+OutputList: 
+File table: 
+Heap: 
+SemaphoreTable:
+latchTable:
+
+Program State: 
+ID: 1
+ExecStack: 
+new(v2,3);new(v3,4);newLatch(cnt,readHeap(v2));fork(writeHeap(v1,readHeap(v1)*10);print(readHeap(v1));countDown(cnt));fork(writeHeap(v2,readHeap(v2)*10);print(readHeap(v2));countDown(cnt));fork(writeHeap(v3,readHeap(v3)*10);print(readHeap(v3));countDown(cnt));await(cnt);print(100);countDown(cnt);print(100)
+new(v1,2)
+SymTable: 
+cnt->0
+v1->(0,int)
+v2->(0,int)
+v3->(0,int)
+OutputList: 
+File table: 
+Heap: 
+SemaphoreTable:
+latchTable:
+
+Program State: 
+ID: 1
+ExecStack: 
+new(v2,3);new(v3,4);newLatch(cnt,readHeap(v2));fork(writeHeap(v1,readHeap(v1)*10);print(readHeap(v1));countDown(cnt));fork(writeHeap(v2,readHeap(v2)*10);print(readHeap(v2));countDown(cnt));fork(writeHeap(v3,readHeap(v3)*10);print(readHeap(v3));countDown(cnt));await(cnt);print(100);countDown(cnt);print(100)
+SymTable: 
+cnt->0
+v1->(1,int)
+v2->(0,int)
+v3->(0,int)
+OutputList: 
+File table: 
+Heap: 
+1->2
+SemaphoreTable:
+latchTable:
+
+Program State: 
+ID: 1
+ExecStack: 
+new(v2,3);new(v3,4);newLatch(cnt,readHeap(v2));fork(writeHeap(v1,readHeap(v1)*10);print(readHeap(v1));countDown(cnt));fork(writeHeap(v2,readHeap(v2)*10);print(readHeap(v2));countDown(cnt));fork(writeHeap(v3,readHeap(v3)*10);print(readHeap(v3));countDown(cnt));await(cnt);print(100);countDown(cnt);print(100)
+SymTable: 
+cnt->0
+v1->(1,int)
+v2->(0,int)
+v3->(0,int)
+OutputList: 
+File table: 
+Heap: 
+1->2
+SemaphoreTable:
+latchTable:
+
+Program State: 
+ID: 1
+ExecStack: 
+new(v3,4);newLatch(cnt,readHeap(v2));fork(writeHeap(v1,readHeap(v1)*10);print(readHeap(v1));countDown(cnt));fork(writeHeap(v2,readHeap(v2)*10);print(readHeap(v2));countDown(cnt));fork(writeHeap(v3,readHeap(v3)*10);print(readHeap(v3));countDown(cnt));await(cnt);print(100);countDown(cnt);print(100)
+new(v2,3)
+SymTable: 
+cnt->0
+v1->(1,int)
+v2->(0,int)
+v3->(0,int)
+OutputList: 
+File table: 
+Heap: 
+1->2
+SemaphoreTable:
+latchTable:
+
+Program State: 
+ID: 1
+ExecStack: 
+new(v3,4);newLatch(cnt,readHeap(v2));fork(writeHeap(v1,readHeap(v1)*10);print(readHeap(v1));countDown(cnt));fork(writeHeap(v2,readHeap(v2)*10);print(readHeap(v2));countDown(cnt));fork(writeHeap(v3,readHeap(v3)*10);print(readHeap(v3));countDown(cnt));await(cnt);print(100);countDown(cnt);print(100)
+new(v2,3)
+SymTable: 
+cnt->0
+v1->(1,int)
+v2->(0,int)
+v3->(0,int)
+OutputList: 
+File table: 
+Heap: 
+1->2
+SemaphoreTable:
+latchTable:
+
+Program State: 
+ID: 1
+ExecStack: 
+new(v3,4);newLatch(cnt,readHeap(v2));fork(writeHeap(v1,readHeap(v1)*10);print(readHeap(v1));countDown(cnt));fork(writeHeap(v2,readHeap(v2)*10);print(readHeap(v2));countDown(cnt));fork(writeHeap(v3,readHeap(v3)*10);print(readHeap(v3));countDown(cnt));await(cnt);print(100);countDown(cnt);print(100)
+SymTable: 
+cnt->0
+v1->(1,int)
+v2->(2,int)
+v3->(0,int)
+OutputList: 
+File table: 
+Heap: 
+1->2
+2->3
+SemaphoreTable:
+latchTable:
+
+Program State: 
+ID: 1
+ExecStack: 
+new(v3,4);newLatch(cnt,readHeap(v2));fork(writeHeap(v1,readHeap(v1)*10);print(readHeap(v1));countDown(cnt));fork(writeHeap(v2,readHeap(v2)*10);print(readHeap(v2));countDown(cnt));fork(writeHeap(v3,readHeap(v3)*10);print(readHeap(v3));countDown(cnt));await(cnt);print(100);countDown(cnt);print(100)
+SymTable: 
+cnt->0
+v1->(1,int)
+v2->(2,int)
+v3->(0,int)
+OutputList: 
+File table: 
+Heap: 
+1->2
+2->3
+SemaphoreTable:
+latchTable:
+
+Program State: 
+ID: 1
+ExecStack: 
+newLatch(cnt,readHeap(v2));fork(writeHeap(v1,readHeap(v1)*10);print(readHeap(v1));countDown(cnt));fork(writeHeap(v2,readHeap(v2)*10);print(readHeap(v2));countDown(cnt));fork(writeHeap(v3,readHeap(v3)*10);print(readHeap(v3));countDown(cnt));await(cnt);print(100);countDown(cnt);print(100)
+new(v3,4)
+SymTable: 
+cnt->0
+v1->(1,int)
+v2->(2,int)
+v3->(0,int)
+OutputList: 
+File table: 
+Heap: 
+1->2
+2->3
+SemaphoreTable:
+latchTable:
+
+Program State: 
+ID: 1
+ExecStack: 
+newLatch(cnt,readHeap(v2));fork(writeHeap(v1,readHeap(v1)*10);print(readHeap(v1));countDown(cnt));fork(writeHeap(v2,readHeap(v2)*10);print(readHeap(v2));countDown(cnt));fork(writeHeap(v3,readHeap(v3)*10);print(readHeap(v3));countDown(cnt));await(cnt);print(100);countDown(cnt);print(100)
+new(v3,4)
+SymTable: 
+cnt->0
+v1->(1,int)
+v2->(2,int)
+v3->(0,int)
+OutputList: 
+File table: 
+Heap: 
+1->2
+2->3
+SemaphoreTable:
+latchTable:
+
+Program State: 
+ID: 1
+ExecStack: 
+newLatch(cnt,readHeap(v2));fork(writeHeap(v1,readHeap(v1)*10);print(readHeap(v1));countDown(cnt));fork(writeHeap(v2,readHeap(v2)*10);print(readHeap(v2));countDown(cnt));fork(writeHeap(v3,readHeap(v3)*10);print(readHeap(v3));countDown(cnt));await(cnt);print(100);countDown(cnt);print(100)
+SymTable: 
+cnt->0
+v1->(1,int)
+v2->(2,int)
+v3->(3,int)
+OutputList: 
+File table: 
+Heap: 
+1->2
+2->3
+3->4
+SemaphoreTable:
+latchTable:
+
+Program State: 
+ID: 1
+ExecStack: 
+newLatch(cnt,readHeap(v2));fork(writeHeap(v1,readHeap(v1)*10);print(readHeap(v1));countDown(cnt));fork(writeHeap(v2,readHeap(v2)*10);print(readHeap(v2));countDown(cnt));fork(writeHeap(v3,readHeap(v3)*10);print(readHeap(v3));countDown(cnt));await(cnt);print(100);countDown(cnt);print(100)
+SymTable: 
+cnt->0
+v1->(1,int)
+v2->(2,int)
+v3->(3,int)
+OutputList: 
+File table: 
+Heap: 
+1->2
+2->3
+3->4
+SemaphoreTable:
+latchTable:
+
+Program State: 
+ID: 1
+ExecStack: 
+fork(writeHeap(v1,readHeap(v1)*10);print(readHeap(v1));countDown(cnt));fork(writeHeap(v2,readHeap(v2)*10);print(readHeap(v2));countDown(cnt));fork(writeHeap(v3,readHeap(v3)*10);print(readHeap(v3));countDown(cnt));await(cnt);print(100);countDown(cnt);print(100)
+newLatch(cnt,readHeap(v2))
+SymTable: 
+cnt->0
+v1->(1,int)
+v2->(2,int)
+v3->(3,int)
+OutputList: 
+File table: 
+Heap: 
+1->2
+2->3
+3->4
+SemaphoreTable:
+latchTable:
+
+Program State: 
+ID: 1
+ExecStack: 
+fork(writeHeap(v1,readHeap(v1)*10);print(readHeap(v1));countDown(cnt));fork(writeHeap(v2,readHeap(v2)*10);print(readHeap(v2));countDown(cnt));fork(writeHeap(v3,readHeap(v3)*10);print(readHeap(v3));countDown(cnt));await(cnt);print(100);countDown(cnt);print(100)
+newLatch(cnt,readHeap(v2))
+SymTable: 
+cnt->0
+v1->(1,int)
+v2->(2,int)
+v3->(3,int)
+OutputList: 
+File table: 
+Heap: 
+1->2
+2->3
+3->4
+SemaphoreTable:
+latchTable:
+
+Program State: 
+ID: 1
+ExecStack: 
+fork(writeHeap(v1,readHeap(v1)*10);print(readHeap(v1));countDown(cnt));fork(writeHeap(v2,readHeap(v2)*10);print(readHeap(v2));countDown(cnt));fork(writeHeap(v3,readHeap(v3)*10);print(readHeap(v3));countDown(cnt));await(cnt);print(100);countDown(cnt);print(100)
+SymTable: 
+cnt->1
+v1->(1,int)
+v2->(2,int)
+v3->(3,int)
+OutputList: 
+File table: 
+Heap: 
+1->2
+2->3
+3->4
+SemaphoreTable:
+latchTable:
+location: 1->value: 3
+Program State: 
+ID: 1
+ExecStack: 
+fork(writeHeap(v1,readHeap(v1)*10);print(readHeap(v1));countDown(cnt));fork(writeHeap(v2,readHeap(v2)*10);print(readHeap(v2));countDown(cnt));fork(writeHeap(v3,readHeap(v3)*10);print(readHeap(v3));countDown(cnt));await(cnt);print(100);countDown(cnt);print(100)
+SymTable: 
+cnt->1
+v1->(1,int)
+v2->(2,int)
+v3->(3,int)
+OutputList: 
+File table: 
+Heap: 
+1->2
+2->3
+3->4
+SemaphoreTable:
+latchTable:
+location: 1->value: 3
+Program State: 
+ID: 1
+ExecStack: 
+fork(writeHeap(v2,readHeap(v2)*10);print(readHeap(v2));countDown(cnt));fork(writeHeap(v3,readHeap(v3)*10);print(readHeap(v3));countDown(cnt));await(cnt);print(100);countDown(cnt);print(100)
+fork(writeHeap(v1,readHeap(v1)*10);print(readHeap(v1));countDown(cnt))
+SymTable: 
+cnt->1
+v1->(1,int)
+v2->(2,int)
+v3->(3,int)
+OutputList: 
+File table: 
+Heap: 
+1->2
+2->3
+3->4
+SemaphoreTable:
+latchTable:
+location: 1->value: 3
+Program State: 
+ID: 1
+ExecStack: 
+fork(writeHeap(v2,readHeap(v2)*10);print(readHeap(v2));countDown(cnt));fork(writeHeap(v3,readHeap(v3)*10);print(readHeap(v3));countDown(cnt));await(cnt);print(100);countDown(cnt);print(100)
+fork(writeHeap(v1,readHeap(v1)*10);print(readHeap(v1));countDown(cnt))
+SymTable: 
+cnt->1
+v1->(1,int)
+v2->(2,int)
+v3->(3,int)
+OutputList: 
+File table: 
+Heap: 
+1->2
+2->3
+3->4
+SemaphoreTable:
+latchTable:
+location: 1->value: 3
+Program State: 
+ID: 1
+ExecStack: 
+fork(writeHeap(v2,readHeap(v2)*10);print(readHeap(v2));countDown(cnt));fork(writeHeap(v3,readHeap(v3)*10);print(readHeap(v3));countDown(cnt));await(cnt);print(100);countDown(cnt);print(100)
+SymTable: 
+cnt->1
+v1->(1,int)
+v2->(2,int)
+v3->(3,int)
+OutputList: 
+File table: 
+Heap: 
+1->2
+2->3
+3->4
+SemaphoreTable:
+latchTable:
+location: 1->value: 3
+Program State: 
+ID: 2
+ExecStack: 
+writeHeap(v1,readHeap(v1)*10);print(readHeap(v1));countDown(cnt)
+SymTable: 
+cnt->1
+v1->(1,int)
+v2->(2,int)
+v3->(3,int)
+OutputList: 
+File table: 
+Heap: 
+1->2
+2->3
+3->4
+SemaphoreTable:
+latchTable:
+location: 1->value: 3
+Program State: 
+ID: 1
+ExecStack: 
+fork(writeHeap(v2,readHeap(v2)*10);print(readHeap(v2));countDown(cnt));fork(writeHeap(v3,readHeap(v3)*10);print(readHeap(v3));countDown(cnt));await(cnt);print(100);countDown(cnt);print(100)
+SymTable: 
+cnt->1
+v1->(1,int)
+v2->(2,int)
+v3->(3,int)
+OutputList: 
+File table: 
+Heap: 
+1->2
+2->3
+3->4
+SemaphoreTable:
+latchTable:
+location: 1->value: 3
+Program State: 
+ID: 2
+ExecStack: 
+writeHeap(v1,readHeap(v1)*10);print(readHeap(v1));countDown(cnt)
+SymTable: 
+cnt->1
+v1->(1,int)
+v2->(2,int)
+v3->(3,int)
+OutputList: 
+File table: 
+Heap: 
+1->2
+2->3
+3->4
+SemaphoreTable:
+latchTable:
+location: 1->value: 3
+Program State: 
+ID: 1
+ExecStack: 
+fork(writeHeap(v3,readHeap(v3)*10);print(readHeap(v3));countDown(cnt));await(cnt);print(100);countDown(cnt);print(100)
+fork(writeHeap(v2,readHeap(v2)*10);print(readHeap(v2));countDown(cnt))
+SymTable: 
+cnt->1
+v1->(1,int)
+v2->(2,int)
+v3->(3,int)
+OutputList: 
+File table: 
+Heap: 
+1->2
+2->3
+3->4
+SemaphoreTable:
+latchTable:
+location: 1->value: 3
+Program State: 
+ID: 2
+ExecStack: 
+print(readHeap(v1));countDown(cnt)
+writeHeap(v1,readHeap(v1)*10)
+SymTable: 
+cnt->1
+v1->(1,int)
+v2->(2,int)
+v3->(3,int)
+OutputList: 
+File table: 
+Heap: 
+1->2
+2->3
+3->4
+SemaphoreTable:
+latchTable:
+location: 1->value: 3
+Program State: 
+ID: 1
+ExecStack: 
+fork(writeHeap(v3,readHeap(v3)*10);print(readHeap(v3));countDown(cnt));await(cnt);print(100);countDown(cnt);print(100)
+fork(writeHeap(v2,readHeap(v2)*10);print(readHeap(v2));countDown(cnt))
+SymTable: 
+cnt->1
+v1->(1,int)
+v2->(2,int)
+v3->(3,int)
+OutputList: 
+File table: 
+Heap: 
+1->2
+2->3
+3->4
+SemaphoreTable:
+latchTable:
+location: 1->value: 3
+Program State: 
+ID: 2
+ExecStack: 
+print(readHeap(v1));countDown(cnt)
+writeHeap(v1,readHeap(v1)*10)
+SymTable: 
+cnt->1
+v1->(1,int)
+v2->(2,int)
+v3->(3,int)
+OutputList: 
+File table: 
+Heap: 
+1->2
+2->3
+3->4
+SemaphoreTable:
+latchTable:
+location: 1->value: 3
+Program State: 
+ID: 1
+ExecStack: 
+fork(writeHeap(v3,readHeap(v3)*10);print(readHeap(v3));countDown(cnt));await(cnt);print(100);countDown(cnt);print(100)
+SymTable: 
+cnt->1
+v1->(1,int)
+v2->(2,int)
+v3->(3,int)
+OutputList: 
+File table: 
+Heap: 
+1->20
+2->3
+3->4
+SemaphoreTable:
+latchTable:
+location: 1->value: 3
+Program State: 
+ID: 2
+ExecStack: 
+print(readHeap(v1));countDown(cnt)
+SymTable: 
+cnt->1
+v1->(1,int)
+v2->(2,int)
+v3->(3,int)
+OutputList: 
+File table: 
+Heap: 
+1->20
+2->3
+3->4
+SemaphoreTable:
+latchTable:
+location: 1->value: 3
+Program State: 
+ID: 3
+ExecStack: 
+writeHeap(v2,readHeap(v2)*10);print(readHeap(v2));countDown(cnt)
+SymTable: 
+cnt->1
+v1->(1,int)
+v2->(2,int)
+v3->(3,int)
+OutputList: 
+File table: 
+Heap: 
+1->20
+2->3
+3->4
+SemaphoreTable:
+latchTable:
+location: 1->value: 3
+Program State: 
+ID: 1
+ExecStack: 
+fork(writeHeap(v3,readHeap(v3)*10);print(readHeap(v3));countDown(cnt));await(cnt);print(100);countDown(cnt);print(100)
+SymTable: 
+cnt->1
+v1->(1,int)
+v2->(2,int)
+v3->(3,int)
+OutputList: 
+File table: 
+Heap: 
+1->20
+2->3
+3->4
+SemaphoreTable:
+latchTable:
+location: 1->value: 3
+Program State: 
+ID: 2
+ExecStack: 
+print(readHeap(v1));countDown(cnt)
+SymTable: 
+cnt->1
+v1->(1,int)
+v2->(2,int)
+v3->(3,int)
+OutputList: 
+File table: 
+Heap: 
+1->20
+2->3
+3->4
+SemaphoreTable:
+latchTable:
+location: 1->value: 3
+Program State: 
+ID: 3
+ExecStack: 
+writeHeap(v2,readHeap(v2)*10);print(readHeap(v2));countDown(cnt)
+SymTable: 
+cnt->1
+v1->(1,int)
+v2->(2,int)
+v3->(3,int)
+OutputList: 
+File table: 
+Heap: 
+1->20
+2->3
+3->4
+SemaphoreTable:
+latchTable:
+location: 1->value: 3
+Program State: 
+ID: 1
+ExecStack: 
+await(cnt);print(100);countDown(cnt);print(100)
+fork(writeHeap(v3,readHeap(v3)*10);print(readHeap(v3));countDown(cnt))
+SymTable: 
+cnt->1
+v1->(1,int)
+v2->(2,int)
+v3->(3,int)
+OutputList: 
+File table: 
+Heap: 
+1->20
+2->3
+3->4
+SemaphoreTable:
+latchTable:
+location: 1->value: 3
+Program State: 
+ID: 2
+ExecStack: 
+countDown(cnt)
+print(readHeap(v1))
+SymTable: 
+cnt->1
+v1->(1,int)
+v2->(2,int)
+v3->(3,int)
+OutputList: 
+File table: 
+Heap: 
+1->20
+2->3
+3->4
+SemaphoreTable:
+latchTable:
+location: 1->value: 3
+Program State: 
+ID: 3
+ExecStack: 
+print(readHeap(v2));countDown(cnt)
+writeHeap(v2,readHeap(v2)*10)
+SymTable: 
+cnt->1
+v1->(1,int)
+v2->(2,int)
+v3->(3,int)
+OutputList: 
+File table: 
+Heap: 
+1->20
+2->3
+3->4
+SemaphoreTable:
+latchTable:
+location: 1->value: 3
+Program State: 
+ID: 1
+ExecStack: 
+await(cnt);print(100);countDown(cnt);print(100)
+fork(writeHeap(v3,readHeap(v3)*10);print(readHeap(v3));countDown(cnt))
+SymTable: 
+cnt->1
+v1->(1,int)
+v2->(2,int)
+v3->(3,int)
+OutputList: 
+File table: 
+Heap: 
+1->20
+2->3
+3->4
+SemaphoreTable:
+latchTable:
+location: 1->value: 3
+Program State: 
+ID: 2
+ExecStack: 
+countDown(cnt)
+print(readHeap(v1))
+SymTable: 
+cnt->1
+v1->(1,int)
+v2->(2,int)
+v3->(3,int)
+OutputList: 
+File table: 
+Heap: 
+1->20
+2->3
+3->4
+SemaphoreTable:
+latchTable:
+location: 1->value: 3
+Program State: 
+ID: 3
+ExecStack: 
+print(readHeap(v2));countDown(cnt)
+writeHeap(v2,readHeap(v2)*10)
+SymTable: 
+cnt->1
+v1->(1,int)
+v2->(2,int)
+v3->(3,int)
+OutputList: 
+File table: 
+Heap: 
+1->20
+2->3
+3->4
+SemaphoreTable:
+latchTable:
+location: 1->value: 3
+Program State: 
+ID: 1
+ExecStack: 
+await(cnt);print(100);countDown(cnt);print(100)
+SymTable: 
+cnt->1
+v1->(1,int)
+v2->(2,int)
+v3->(3,int)
+OutputList: 
+20
+File table: 
+Heap: 
+1->20
+2->30
+3->4
+SemaphoreTable:
+latchTable:
+location: 1->value: 3
+Program State: 
+ID: 2
+ExecStack: 
+countDown(cnt)
+SymTable: 
+cnt->1
+v1->(1,int)
+v2->(2,int)
+v3->(3,int)
+OutputList: 
+20
+File table: 
+Heap: 
+1->20
+2->30
+3->4
+SemaphoreTable:
+latchTable:
+location: 1->value: 3
+Program State: 
+ID: 3
+ExecStack: 
+print(readHeap(v2));countDown(cnt)
+SymTable: 
+cnt->1
+v1->(1,int)
+v2->(2,int)
+v3->(3,int)
+OutputList: 
+20
+File table: 
+Heap: 
+1->20
+2->30
+3->4
+SemaphoreTable:
+latchTable:
+location: 1->value: 3
+Program State: 
+ID: 4
+ExecStack: 
+writeHeap(v3,readHeap(v3)*10);print(readHeap(v3));countDown(cnt)
+SymTable: 
+cnt->1
+v1->(1,int)
+v2->(2,int)
+v3->(3,int)
+OutputList: 
+20
+File table: 
+Heap: 
+1->20
+2->30
+3->4
+SemaphoreTable:
+latchTable:
+location: 1->value: 3
+Program State: 
+ID: 1
+ExecStack: 
+await(cnt);print(100);countDown(cnt);print(100)
+SymTable: 
+cnt->1
+v1->(1,int)
+v2->(2,int)
+v3->(3,int)
+OutputList: 
+20
+File table: 
+Heap: 
+1->20
+2->30
+3->4
+SemaphoreTable:
+latchTable:
+location: 1->value: 3
+Program State: 
+ID: 2
+ExecStack: 
+countDown(cnt)
+SymTable: 
+cnt->1
+v1->(1,int)
+v2->(2,int)
+v3->(3,int)
+OutputList: 
+20
+File table: 
+Heap: 
+1->20
+2->30
+3->4
+SemaphoreTable:
+latchTable:
+location: 1->value: 3
+Program State: 
+ID: 3
+ExecStack: 
+print(readHeap(v2));countDown(cnt)
+SymTable: 
+cnt->1
+v1->(1,int)
+v2->(2,int)
+v3->(3,int)
+OutputList: 
+20
+File table: 
+Heap: 
+1->20
+2->30
+3->4
+SemaphoreTable:
+latchTable:
+location: 1->value: 3
+Program State: 
+ID: 4
+ExecStack: 
+writeHeap(v3,readHeap(v3)*10);print(readHeap(v3));countDown(cnt)
+SymTable: 
+cnt->1
+v1->(1,int)
+v2->(2,int)
+v3->(3,int)
+OutputList: 
+20
+File table: 
+Heap: 
+1->20
+2->30
+3->4
+SemaphoreTable:
+latchTable:
+location: 1->value: 3
+Program State: 
+ID: 1
+ExecStack: 
+print(100);countDown(cnt);print(100)
+await(cnt)
+SymTable: 
+cnt->1
+v1->(1,int)
+v2->(2,int)
+v3->(3,int)
+OutputList: 
+20
+2
+File table: 
+Heap: 
+1->20
+2->30
+3->4
+SemaphoreTable:
+latchTable:
+location: 1->value: 2
+Program State: 
+ID: 2
+ExecStack: 
+SymTable: 
+cnt->1
+v1->(1,int)
+v2->(2,int)
+v3->(3,int)
+OutputList: 
+20
+2
+File table: 
+Heap: 
+1->20
+2->30
+3->4
+SemaphoreTable:
+latchTable:
+location: 1->value: 2
+Program State: 
+ID: 3
+ExecStack: 
+countDown(cnt)
+print(readHeap(v2))
+SymTable: 
+cnt->1
+v1->(1,int)
+v2->(2,int)
+v3->(3,int)
+OutputList: 
+20
+2
+File table: 
+Heap: 
+1->20
+2->30
+3->4
+SemaphoreTable:
+latchTable:
+location: 1->value: 2
+Program State: 
+ID: 4
+ExecStack: 
+print(readHeap(v3));countDown(cnt)
+writeHeap(v3,readHeap(v3)*10)
+SymTable: 
+cnt->1
+v1->(1,int)
+v2->(2,int)
+v3->(3,int)
+OutputList: 
+20
+2
+File table: 
+Heap: 
+1->20
+2->30
+3->4
+SemaphoreTable:
+latchTable:
+location: 1->value: 2
+Program State: 
+ID: 1
+ExecStack: 
+print(100);countDown(cnt);print(100)
+await(cnt)
+SymTable: 
+cnt->1
+v1->(1,int)
+v2->(2,int)
+v3->(3,int)
+OutputList: 
+20
+2
+File table: 
+Heap: 
+1->20
+2->30
+3->4
+SemaphoreTable:
+latchTable:
+location: 1->value: 2
+Program State: 
+ID: 3
+ExecStack: 
+countDown(cnt)
+print(readHeap(v2))
+SymTable: 
+cnt->1
+v1->(1,int)
+v2->(2,int)
+v3->(3,int)
+OutputList: 
+20
+2
+File table: 
+Heap: 
+1->20
+2->30
+3->4
+SemaphoreTable:
+latchTable:
+location: 1->value: 2
+Program State: 
+ID: 4
+ExecStack: 
+print(readHeap(v3));countDown(cnt)
+writeHeap(v3,readHeap(v3)*10)
+SymTable: 
+cnt->1
+v1->(1,int)
+v2->(2,int)
+v3->(3,int)
+OutputList: 
+20
+2
+File table: 
+Heap: 
+1->20
+2->30
+3->4
+SemaphoreTable:
+latchTable:
+location: 1->value: 2
+Program State: 
+ID: 1
+ExecStack: 
+print(100);countDown(cnt);print(100)
+await(cnt)
+SymTable: 
+cnt->1
+v1->(1,int)
+v2->(2,int)
+v3->(3,int)
+OutputList: 
+20
+2
+30
+File table: 
+Heap: 
+1->20
+2->30
+3->40
+SemaphoreTable:
+latchTable:
+location: 1->value: 2
+Program State: 
+ID: 3
+ExecStack: 
+countDown(cnt)
+SymTable: 
+cnt->1
+v1->(1,int)
+v2->(2,int)
+v3->(3,int)
+OutputList: 
+20
+2
+30
+File table: 
+Heap: 
+1->20
+2->30
+3->40
+SemaphoreTable:
+latchTable:
+location: 1->value: 2
+Program State: 
+ID: 4
+ExecStack: 
+print(readHeap(v3));countDown(cnt)
+SymTable: 
+cnt->1
+v1->(1,int)
+v2->(2,int)
+v3->(3,int)
+OutputList: 
+20
+2
+30
+File table: 
+Heap: 
+1->20
+2->30
+3->40
+SemaphoreTable:
+latchTable:
+location: 1->value: 2
+Program State: 
+ID: 1
+ExecStack: 
+print(100);countDown(cnt);print(100)
+await(cnt)
+SymTable: 
+cnt->1
+v1->(1,int)
+v2->(2,int)
+v3->(3,int)
+OutputList: 
+20
+2
+30
+File table: 
+Heap: 
+1->20
+2->30
+3->40
+SemaphoreTable:
+latchTable:
+location: 1->value: 2
+Program State: 
+ID: 3
+ExecStack: 
+countDown(cnt)
+SymTable: 
+cnt->1
+v1->(1,int)
+v2->(2,int)
+v3->(3,int)
+OutputList: 
+20
+2
+30
+File table: 
+Heap: 
+1->20
+2->30
+3->40
+SemaphoreTable:
+latchTable:
+location: 1->value: 2
+Program State: 
+ID: 4
+ExecStack: 
+print(readHeap(v3));countDown(cnt)
+SymTable: 
+cnt->1
+v1->(1,int)
+v2->(2,int)
+v3->(3,int)
+OutputList: 
+20
+2
+30
+File table: 
+Heap: 
+1->20
+2->30
+3->40
+SemaphoreTable:
+latchTable:
+location: 1->value: 2
+Program State: 
+ID: 1
+ExecStack: 
+print(100);countDown(cnt);print(100)
+await(cnt)
+SymTable: 
+cnt->1
+v1->(1,int)
+v2->(2,int)
+v3->(3,int)
+OutputList: 
+20
+2
+30
+3
+File table: 
+Heap: 
+1->20
+2->30
+3->40
+SemaphoreTable:
+latchTable:
+location: 1->value: 1
+Program State: 
+ID: 3
+ExecStack: 
+SymTable: 
+cnt->1
+v1->(1,int)
+v2->(2,int)
+v3->(3,int)
+OutputList: 
+20
+2
+30
+3
+File table: 
+Heap: 
+1->20
+2->30
+3->40
+SemaphoreTable:
+latchTable:
+location: 1->value: 1
+Program State: 
+ID: 4
+ExecStack: 
+countDown(cnt)
+print(readHeap(v3))
+SymTable: 
+cnt->1
+v1->(1,int)
+v2->(2,int)
+v3->(3,int)
+OutputList: 
+20
+2
+30
+3
+File table: 
+Heap: 
+1->20
+2->30
+3->40
+SemaphoreTable:
+latchTable:
+location: 1->value: 1
+Program State: 
+ID: 1
+ExecStack: 
+print(100);countDown(cnt);print(100)
+await(cnt)
+SymTable: 
+cnt->1
+v1->(1,int)
+v2->(2,int)
+v3->(3,int)
+OutputList: 
+20
+2
+30
+3
+File table: 
+Heap: 
+1->20
+2->30
+3->40
+SemaphoreTable:
+latchTable:
+location: 1->value: 1
+Program State: 
+ID: 4
+ExecStack: 
+countDown(cnt)
+print(readHeap(v3))
+SymTable: 
+cnt->1
+v1->(1,int)
+v2->(2,int)
+v3->(3,int)
+OutputList: 
+20
+2
+30
+3
+File table: 
+Heap: 
+1->20
+2->30
+3->40
+SemaphoreTable:
+latchTable:
+location: 1->value: 1
+Program State: 
+ID: 1
+ExecStack: 
+print(100);countDown(cnt);print(100)
+await(cnt)
+SymTable: 
+cnt->1
+v1->(1,int)
+v2->(2,int)
+v3->(3,int)
+OutputList: 
+20
+2
+30
+3
+40
+File table: 
+Heap: 
+1->20
+2->30
+3->40
+SemaphoreTable:
+latchTable:
+location: 1->value: 1
+Program State: 
+ID: 4
+ExecStack: 
+countDown(cnt)
+SymTable: 
+cnt->1
+v1->(1,int)
+v2->(2,int)
+v3->(3,int)
+OutputList: 
+20
+2
+30
+3
+40
+File table: 
+Heap: 
+1->20
+2->30
+3->40
+SemaphoreTable:
+latchTable:
+location: 1->value: 1
+Program State: 
+ID: 1
+ExecStack: 
+print(100);countDown(cnt);print(100)
+await(cnt)
+SymTable: 
+cnt->1
+v1->(1,int)
+v2->(2,int)
+v3->(3,int)
+OutputList: 
+20
+2
+30
+3
+40
+File table: 
+Heap: 
+1->20
+2->30
+3->40
+SemaphoreTable:
+latchTable:
+location: 1->value: 1
+Program State: 
+ID: 4
+ExecStack: 
+countDown(cnt)
+SymTable: 
+cnt->1
+v1->(1,int)
+v2->(2,int)
+v3->(3,int)
+OutputList: 
+20
+2
+30
+3
+40
+File table: 
+Heap: 
+1->20
+2->30
+3->40
+SemaphoreTable:
+latchTable:
+location: 1->value: 1
+Program State: 
+ID: 1
+ExecStack: 
+print(100);countDown(cnt);print(100)
+await(cnt)
+SymTable: 
+cnt->1
+v1->(1,int)
+v2->(2,int)
+v3->(3,int)
+OutputList: 
+20
+2
+30
+3
+40
+4
+File table: 
+Heap: 
+1->20
+2->30
+3->40
+SemaphoreTable:
+latchTable:
+location: 1->value: 0
+Program State: 
+ID: 4
+ExecStack: 
+SymTable: 
+cnt->1
+v1->(1,int)
+v2->(2,int)
+v3->(3,int)
+OutputList: 
+20
+2
+30
+3
+40
+4
+File table: 
+Heap: 
+1->20
+2->30
+3->40
+SemaphoreTable:
+latchTable:
+location: 1->value: 0
+Program State: 
+ID: 1
+ExecStack: 
+print(100);countDown(cnt);print(100)
+await(cnt)
+SymTable: 
+cnt->1
+v1->(1,int)
+v2->(2,int)
+v3->(3,int)
+OutputList: 
+20
+2
+30
+3
+40
+4
+File table: 
+Heap: 
+1->20
+2->30
+3->40
+SemaphoreTable:
+latchTable:
+location: 1->value: 0
+Program State: 
+ID: 1
+ExecStack: 
+print(100);countDown(cnt);print(100)
+SymTable: 
+cnt->1
+v1->(1,int)
+v2->(2,int)
+v3->(3,int)
+OutputList: 
+20
+2
+30
+3
+40
+4
+File table: 
+Heap: 
+1->20
+2->30
+3->40
+SemaphoreTable:
+latchTable:
+location: 1->value: 0
+Program State: 
+ID: 1
+ExecStack: 
+print(100);countDown(cnt);print(100)
+SymTable: 
+cnt->1
+v1->(1,int)
+v2->(2,int)
+v3->(3,int)
+OutputList: 
+20
+2
+30
+3
+40
+4
+File table: 
+Heap: 
+1->20
+2->30
+3->40
+SemaphoreTable:
+latchTable:
+location: 1->value: 0
+Program State: 
+ID: 1
+ExecStack: 
+countDown(cnt);print(100)
+print(100)
+SymTable: 
+cnt->1
+v1->(1,int)
+v2->(2,int)
+v3->(3,int)
+OutputList: 
+20
+2
+30
+3
+40
+4
+File table: 
+Heap: 
+1->20
+2->30
+3->40
+SemaphoreTable:
+latchTable:
+location: 1->value: 0
+Program State: 
+ID: 1
+ExecStack: 
+countDown(cnt);print(100)
+print(100)
+SymTable: 
+cnt->1
+v1->(1,int)
+v2->(2,int)
+v3->(3,int)
+OutputList: 
+20
+2
+30
+3
+40
+4
+File table: 
+Heap: 
+1->20
+2->30
+3->40
+SemaphoreTable:
+latchTable:
+location: 1->value: 0
+Program State: 
+ID: 1
+ExecStack: 
+countDown(cnt);print(100)
+SymTable: 
+cnt->1
+v1->(1,int)
+v2->(2,int)
+v3->(3,int)
+OutputList: 
+20
+2
+30
+3
+40
+4
+100
+File table: 
+Heap: 
+1->20
+2->30
+3->40
+SemaphoreTable:
+latchTable:
+location: 1->value: 0
+Program State: 
+ID: 1
+ExecStack: 
+countDown(cnt);print(100)
+SymTable: 
+cnt->1
+v1->(1,int)
+v2->(2,int)
+v3->(3,int)
+OutputList: 
+20
+2
+30
+3
+40
+4
+100
+File table: 
+Heap: 
+1->20
+2->30
+3->40
+SemaphoreTable:
+latchTable:
+location: 1->value: 0
+Program State: 
+ID: 1
+ExecStack: 
+print(100)
+countDown(cnt)
+SymTable: 
+cnt->1
+v1->(1,int)
+v2->(2,int)
+v3->(3,int)
+OutputList: 
+20
+2
+30
+3
+40
+4
+100
+File table: 
+Heap: 
+1->20
+2->30
+3->40
+SemaphoreTable:
+latchTable:
+location: 1->value: 0
+Program State: 
+ID: 1
+ExecStack: 
+print(100)
+countDown(cnt)
+SymTable: 
+cnt->1
+v1->(1,int)
+v2->(2,int)
+v3->(3,int)
+OutputList: 
+20
+2
+30
+3
+40
+4
+100
+File table: 
+Heap: 
+1->20
+2->30
+3->40
+SemaphoreTable:
+latchTable:
+location: 1->value: 0
+Program State: 
+ID: 1
+ExecStack: 
+print(100)
+SymTable: 
+cnt->1
+v1->(1,int)
+v2->(2,int)
+v3->(3,int)
+OutputList: 
+20
+2
+30
+3
+40
+4
+100
+1
+File table: 
+Heap: 
+1->20
+2->30
+3->40
+SemaphoreTable:
+latchTable:
+location: 1->value: 0
+Program State: 
+ID: 1
+ExecStack: 
+print(100)
+SymTable: 
+cnt->1
+v1->(1,int)
+v2->(2,int)
+v3->(3,int)
+OutputList: 
+20
+2
+30
+3
+40
+4
+100
+1
+File table: 
+Heap: 
+1->20
+2->30
+3->40
+SemaphoreTable:
+latchTable:
+location: 1->value: 0
+Program State: 
+ID: 1
+ExecStack: 
+SymTable: 
+cnt->1
+v1->(1,int)
+v2->(2,int)
+v3->(3,int)
+OutputList: 
+20
+2
+30
+3
+40
+4
+100
+1
+100
+File table: 
+Heap: 
+1->20
+2->30
+3->40
+SemaphoreTable:
+latchTable:
+location: 1->value: 0
+Program State: 
+ID: 1
+ExecStack: 
+ref int v1;ref int v2;ref int v3;int cnt;new(v1,2);new(v2,3);new(v3,4);newLatch(cnt,readHeap(v2));fork(writeHeap(v1,readHeap(v1)*10);print(readHeap(v1));countDown(cnt));fork(writeHeap(v2,readHeap(v2)*10);print(readHeap(v2));countDown(cnt));fork(writeHeap(v3,readHeap(v3)*10);print(readHeap(v3));countDown(cnt));await(cnt);print(100);countDown(cnt);print(100)
+SymTable: 
+OutputList: 
+File table: 
+Heap: 
+SemaphoreTable:
+latchTable:
+
+Program State: 
+ID: 1
+ExecStack: 
+ref int v2;ref int v3;int cnt;new(v1,2);new(v2,3);new(v3,4);newLatch(cnt,readHeap(v2));fork(writeHeap(v1,readHeap(v1)*10);print(readHeap(v1));countDown(cnt));fork(writeHeap(v2,readHeap(v2)*10);print(readHeap(v2));countDown(cnt));fork(writeHeap(v3,readHeap(v3)*10);print(readHeap(v3));countDown(cnt));await(cnt);print(100);countDown(cnt);print(100)
+ref int v1
+SymTable: 
+OutputList: 
+File table: 
+Heap: 
+SemaphoreTable:
+latchTable:
+
+Program State: 
+ID: 1
+ExecStack: 
+ref int v2;ref int v3;int cnt;new(v1,2);new(v2,3);new(v3,4);newLatch(cnt,readHeap(v2));fork(writeHeap(v1,readHeap(v1)*10);print(readHeap(v1));countDown(cnt));fork(writeHeap(v2,readHeap(v2)*10);print(readHeap(v2));countDown(cnt));fork(writeHeap(v3,readHeap(v3)*10);print(readHeap(v3));countDown(cnt));await(cnt);print(100);countDown(cnt);print(100)
+ref int v1
+SymTable: 
+OutputList: 
+File table: 
+Heap: 
+SemaphoreTable:
+latchTable:
+
+Program State: 
+ID: 1
+ExecStack: 
+ref int v2;ref int v3;int cnt;new(v1,2);new(v2,3);new(v3,4);newLatch(cnt,readHeap(v2));fork(writeHeap(v1,readHeap(v1)*10);print(readHeap(v1));countDown(cnt));fork(writeHeap(v2,readHeap(v2)*10);print(readHeap(v2));countDown(cnt));fork(writeHeap(v3,readHeap(v3)*10);print(readHeap(v3));countDown(cnt));await(cnt);print(100);countDown(cnt);print(100)
+SymTable: 
+v1->(0,int)
+OutputList: 
+File table: 
+Heap: 
+SemaphoreTable:
+latchTable:
+
+Program State: 
+ID: 1
+ExecStack: 
+ref int v2;ref int v3;int cnt;new(v1,2);new(v2,3);new(v3,4);newLatch(cnt,readHeap(v2));fork(writeHeap(v1,readHeap(v1)*10);print(readHeap(v1));countDown(cnt));fork(writeHeap(v2,readHeap(v2)*10);print(readHeap(v2));countDown(cnt));fork(writeHeap(v3,readHeap(v3)*10);print(readHeap(v3));countDown(cnt));await(cnt);print(100);countDown(cnt);print(100)
+SymTable: 
+v1->(0,int)
+OutputList: 
+File table: 
+Heap: 
+SemaphoreTable:
+latchTable:
+
+Program State: 
+ID: 1
+ExecStack: 
+ref int v3;int cnt;new(v1,2);new(v2,3);new(v3,4);newLatch(cnt,readHeap(v2));fork(writeHeap(v1,readHeap(v1)*10);print(readHeap(v1));countDown(cnt));fork(writeHeap(v2,readHeap(v2)*10);print(readHeap(v2));countDown(cnt));fork(writeHeap(v3,readHeap(v3)*10);print(readHeap(v3));countDown(cnt));await(cnt);print(100);countDown(cnt);print(100)
+ref int v2
+SymTable: 
+v1->(0,int)
+OutputList: 
+File table: 
+Heap: 
+SemaphoreTable:
+latchTable:
+
+Program State: 
+ID: 1
+ExecStack: 
+ref int v3;int cnt;new(v1,2);new(v2,3);new(v3,4);newLatch(cnt,readHeap(v2));fork(writeHeap(v1,readHeap(v1)*10);print(readHeap(v1));countDown(cnt));fork(writeHeap(v2,readHeap(v2)*10);print(readHeap(v2));countDown(cnt));fork(writeHeap(v3,readHeap(v3)*10);print(readHeap(v3));countDown(cnt));await(cnt);print(100);countDown(cnt);print(100)
+ref int v2
+SymTable: 
+v1->(0,int)
+OutputList: 
+File table: 
+Heap: 
+SemaphoreTable:
+latchTable:
+
+Program State: 
+ID: 1
+ExecStack: 
+ref int v3;int cnt;new(v1,2);new(v2,3);new(v3,4);newLatch(cnt,readHeap(v2));fork(writeHeap(v1,readHeap(v1)*10);print(readHeap(v1));countDown(cnt));fork(writeHeap(v2,readHeap(v2)*10);print(readHeap(v2));countDown(cnt));fork(writeHeap(v3,readHeap(v3)*10);print(readHeap(v3));countDown(cnt));await(cnt);print(100);countDown(cnt);print(100)
+SymTable: 
+v1->(0,int)
+v2->(0,int)
+OutputList: 
+File table: 
+Heap: 
+SemaphoreTable:
+latchTable:
+
+Program State: 
+ID: 1
+ExecStack: 
+ref int v3;int cnt;new(v1,2);new(v2,3);new(v3,4);newLatch(cnt,readHeap(v2));fork(writeHeap(v1,readHeap(v1)*10);print(readHeap(v1));countDown(cnt));fork(writeHeap(v2,readHeap(v2)*10);print(readHeap(v2));countDown(cnt));fork(writeHeap(v3,readHeap(v3)*10);print(readHeap(v3));countDown(cnt));await(cnt);print(100);countDown(cnt);print(100)
+SymTable: 
+v1->(0,int)
+v2->(0,int)
+OutputList: 
+File table: 
+Heap: 
+SemaphoreTable:
+latchTable:
+
+Program State: 
+ID: 1
+ExecStack: 
+int cnt;new(v1,2);new(v2,3);new(v3,4);newLatch(cnt,readHeap(v2));fork(writeHeap(v1,readHeap(v1)*10);print(readHeap(v1));countDown(cnt));fork(writeHeap(v2,readHeap(v2)*10);print(readHeap(v2));countDown(cnt));fork(writeHeap(v3,readHeap(v3)*10);print(readHeap(v3));countDown(cnt));await(cnt);print(100);countDown(cnt);print(100)
+ref int v3
+SymTable: 
+v1->(0,int)
+v2->(0,int)
+OutputList: 
+File table: 
+Heap: 
+SemaphoreTable:
+latchTable:
+
+Program State: 
+ID: 1
+ExecStack: 
+int cnt;new(v1,2);new(v2,3);new(v3,4);newLatch(cnt,readHeap(v2));fork(writeHeap(v1,readHeap(v1)*10);print(readHeap(v1));countDown(cnt));fork(writeHeap(v2,readHeap(v2)*10);print(readHeap(v2));countDown(cnt));fork(writeHeap(v3,readHeap(v3)*10);print(readHeap(v3));countDown(cnt));await(cnt);print(100);countDown(cnt);print(100)
+ref int v3
+SymTable: 
+v1->(0,int)
+v2->(0,int)
+OutputList: 
+File table: 
+Heap: 
+SemaphoreTable:
+latchTable:
+
+Program State: 
+ID: 1
+ExecStack: 
+int cnt;new(v1,2);new(v2,3);new(v3,4);newLatch(cnt,readHeap(v2));fork(writeHeap(v1,readHeap(v1)*10);print(readHeap(v1));countDown(cnt));fork(writeHeap(v2,readHeap(v2)*10);print(readHeap(v2));countDown(cnt));fork(writeHeap(v3,readHeap(v3)*10);print(readHeap(v3));countDown(cnt));await(cnt);print(100);countDown(cnt);print(100)
+SymTable: 
+v1->(0,int)
+v2->(0,int)
+v3->(0,int)
+OutputList: 
+File table: 
+Heap: 
+SemaphoreTable:
+latchTable:
+
+Program State: 
+ID: 1
+ExecStack: 
+int cnt;new(v1,2);new(v2,3);new(v3,4);newLatch(cnt,readHeap(v2));fork(writeHeap(v1,readHeap(v1)*10);print(readHeap(v1));countDown(cnt));fork(writeHeap(v2,readHeap(v2)*10);print(readHeap(v2));countDown(cnt));fork(writeHeap(v3,readHeap(v3)*10);print(readHeap(v3));countDown(cnt));await(cnt);print(100);countDown(cnt);print(100)
+SymTable: 
+v1->(0,int)
+v2->(0,int)
+v3->(0,int)
+OutputList: 
+File table: 
+Heap: 
+SemaphoreTable:
+latchTable:
+
+Program State: 
+ID: 1
+ExecStack: 
+new(v1,2);new(v2,3);new(v3,4);newLatch(cnt,readHeap(v2));fork(writeHeap(v1,readHeap(v1)*10);print(readHeap(v1));countDown(cnt));fork(writeHeap(v2,readHeap(v2)*10);print(readHeap(v2));countDown(cnt));fork(writeHeap(v3,readHeap(v3)*10);print(readHeap(v3));countDown(cnt));await(cnt);print(100);countDown(cnt);print(100)
+int cnt
+SymTable: 
+v1->(0,int)
+v2->(0,int)
+v3->(0,int)
+OutputList: 
+File table: 
+Heap: 
+SemaphoreTable:
+latchTable:
+
+Program State: 
+ID: 1
+ExecStack: 
+new(v1,2);new(v2,3);new(v3,4);newLatch(cnt,readHeap(v2));fork(writeHeap(v1,readHeap(v1)*10);print(readHeap(v1));countDown(cnt));fork(writeHeap(v2,readHeap(v2)*10);print(readHeap(v2));countDown(cnt));fork(writeHeap(v3,readHeap(v3)*10);print(readHeap(v3));countDown(cnt));await(cnt);print(100);countDown(cnt);print(100)
+int cnt
+SymTable: 
+v1->(0,int)
+v2->(0,int)
+v3->(0,int)
+OutputList: 
+File table: 
+Heap: 
+SemaphoreTable:
+latchTable:
+
+Program State: 
+ID: 1
+ExecStack: 
+new(v1,2);new(v2,3);new(v3,4);newLatch(cnt,readHeap(v2));fork(writeHeap(v1,readHeap(v1)*10);print(readHeap(v1));countDown(cnt));fork(writeHeap(v2,readHeap(v2)*10);print(readHeap(v2));countDown(cnt));fork(writeHeap(v3,readHeap(v3)*10);print(readHeap(v3));countDown(cnt));await(cnt);print(100);countDown(cnt);print(100)
+SymTable: 
+cnt->0
+v1->(0,int)
+v2->(0,int)
+v3->(0,int)
+OutputList: 
+File table: 
+Heap: 
+SemaphoreTable:
+latchTable:
+
+Program State: 
+ID: 1
+ExecStack: 
+new(v1,2);new(v2,3);new(v3,4);newLatch(cnt,readHeap(v2));fork(writeHeap(v1,readHeap(v1)*10);print(readHeap(v1));countDown(cnt));fork(writeHeap(v2,readHeap(v2)*10);print(readHeap(v2));countDown(cnt));fork(writeHeap(v3,readHeap(v3)*10);print(readHeap(v3));countDown(cnt));await(cnt);print(100);countDown(cnt);print(100)
+SymTable: 
+cnt->0
+v1->(0,int)
+v2->(0,int)
+v3->(0,int)
+OutputList: 
+File table: 
+Heap: 
+SemaphoreTable:
+latchTable:
+
+Program State: 
+ID: 1
+ExecStack: 
+new(v2,3);new(v3,4);newLatch(cnt,readHeap(v2));fork(writeHeap(v1,readHeap(v1)*10);print(readHeap(v1));countDown(cnt));fork(writeHeap(v2,readHeap(v2)*10);print(readHeap(v2));countDown(cnt));fork(writeHeap(v3,readHeap(v3)*10);print(readHeap(v3));countDown(cnt));await(cnt);print(100);countDown(cnt);print(100)
+new(v1,2)
+SymTable: 
+cnt->0
+v1->(0,int)
+v2->(0,int)
+v3->(0,int)
+OutputList: 
+File table: 
+Heap: 
+SemaphoreTable:
+latchTable:
+
+Program State: 
+ID: 1
+ExecStack: 
+new(v2,3);new(v3,4);newLatch(cnt,readHeap(v2));fork(writeHeap(v1,readHeap(v1)*10);print(readHeap(v1));countDown(cnt));fork(writeHeap(v2,readHeap(v2)*10);print(readHeap(v2));countDown(cnt));fork(writeHeap(v3,readHeap(v3)*10);print(readHeap(v3));countDown(cnt));await(cnt);print(100);countDown(cnt);print(100)
+new(v1,2)
+SymTable: 
+cnt->0
+v1->(0,int)
+v2->(0,int)
+v3->(0,int)
+OutputList: 
+File table: 
+Heap: 
+SemaphoreTable:
+latchTable:
+
+Program State: 
+ID: 1
+ExecStack: 
+new(v2,3);new(v3,4);newLatch(cnt,readHeap(v2));fork(writeHeap(v1,readHeap(v1)*10);print(readHeap(v1));countDown(cnt));fork(writeHeap(v2,readHeap(v2)*10);print(readHeap(v2));countDown(cnt));fork(writeHeap(v3,readHeap(v3)*10);print(readHeap(v3));countDown(cnt));await(cnt);print(100);countDown(cnt);print(100)
+SymTable: 
+cnt->0
+v1->(1,int)
+v2->(0,int)
+v3->(0,int)
+OutputList: 
+File table: 
+Heap: 
+1->2
+SemaphoreTable:
+latchTable:
+
+Program State: 
+ID: 1
+ExecStack: 
+new(v2,3);new(v3,4);newLatch(cnt,readHeap(v2));fork(writeHeap(v1,readHeap(v1)*10);print(readHeap(v1));countDown(cnt));fork(writeHeap(v2,readHeap(v2)*10);print(readHeap(v2));countDown(cnt));fork(writeHeap(v3,readHeap(v3)*10);print(readHeap(v3));countDown(cnt));await(cnt);print(100);countDown(cnt);print(100)
+SymTable: 
+cnt->0
+v1->(1,int)
+v2->(0,int)
+v3->(0,int)
+OutputList: 
+File table: 
+Heap: 
+1->2
+SemaphoreTable:
+latchTable:
+
+Program State: 
+ID: 1
+ExecStack: 
+new(v3,4);newLatch(cnt,readHeap(v2));fork(writeHeap(v1,readHeap(v1)*10);print(readHeap(v1));countDown(cnt));fork(writeHeap(v2,readHeap(v2)*10);print(readHeap(v2));countDown(cnt));fork(writeHeap(v3,readHeap(v3)*10);print(readHeap(v3));countDown(cnt));await(cnt);print(100);countDown(cnt);print(100)
+new(v2,3)
+SymTable: 
+cnt->0
+v1->(1,int)
+v2->(0,int)
+v3->(0,int)
+OutputList: 
+File table: 
+Heap: 
+1->2
+SemaphoreTable:
+latchTable:
+
+Program State: 
+ID: 1
+ExecStack: 
+new(v3,4);newLatch(cnt,readHeap(v2));fork(writeHeap(v1,readHeap(v1)*10);print(readHeap(v1));countDown(cnt));fork(writeHeap(v2,readHeap(v2)*10);print(readHeap(v2));countDown(cnt));fork(writeHeap(v3,readHeap(v3)*10);print(readHeap(v3));countDown(cnt));await(cnt);print(100);countDown(cnt);print(100)
+new(v2,3)
+SymTable: 
+cnt->0
+v1->(1,int)
+v2->(0,int)
+v3->(0,int)
+OutputList: 
+File table: 
+Heap: 
+1->2
+SemaphoreTable:
+latchTable:
+
+Program State: 
+ID: 1
+ExecStack: 
+new(v3,4);newLatch(cnt,readHeap(v2));fork(writeHeap(v1,readHeap(v1)*10);print(readHeap(v1));countDown(cnt));fork(writeHeap(v2,readHeap(v2)*10);print(readHeap(v2));countDown(cnt));fork(writeHeap(v3,readHeap(v3)*10);print(readHeap(v3));countDown(cnt));await(cnt);print(100);countDown(cnt);print(100)
+SymTable: 
+cnt->0
+v1->(1,int)
+v2->(2,int)
+v3->(0,int)
+OutputList: 
+File table: 
+Heap: 
+1->2
+2->3
+SemaphoreTable:
+latchTable:
+
+Program State: 
+ID: 1
+ExecStack: 
+new(v3,4);newLatch(cnt,readHeap(v2));fork(writeHeap(v1,readHeap(v1)*10);print(readHeap(v1));countDown(cnt));fork(writeHeap(v2,readHeap(v2)*10);print(readHeap(v2));countDown(cnt));fork(writeHeap(v3,readHeap(v3)*10);print(readHeap(v3));countDown(cnt));await(cnt);print(100);countDown(cnt);print(100)
+SymTable: 
+cnt->0
+v1->(1,int)
+v2->(2,int)
+v3->(0,int)
+OutputList: 
+File table: 
+Heap: 
+1->2
+2->3
+SemaphoreTable:
+latchTable:
+
+Program State: 
+ID: 1
+ExecStack: 
+newLatch(cnt,readHeap(v2));fork(writeHeap(v1,readHeap(v1)*10);print(readHeap(v1));countDown(cnt));fork(writeHeap(v2,readHeap(v2)*10);print(readHeap(v2));countDown(cnt));fork(writeHeap(v3,readHeap(v3)*10);print(readHeap(v3));countDown(cnt));await(cnt);print(100);countDown(cnt);print(100)
+new(v3,4)
+SymTable: 
+cnt->0
+v1->(1,int)
+v2->(2,int)
+v3->(0,int)
+OutputList: 
+File table: 
+Heap: 
+1->2
+2->3
+SemaphoreTable:
+latchTable:
+
+Program State: 
+ID: 1
+ExecStack: 
+newLatch(cnt,readHeap(v2));fork(writeHeap(v1,readHeap(v1)*10);print(readHeap(v1));countDown(cnt));fork(writeHeap(v2,readHeap(v2)*10);print(readHeap(v2));countDown(cnt));fork(writeHeap(v3,readHeap(v3)*10);print(readHeap(v3));countDown(cnt));await(cnt);print(100);countDown(cnt);print(100)
+new(v3,4)
+SymTable: 
+cnt->0
+v1->(1,int)
+v2->(2,int)
+v3->(0,int)
+OutputList: 
+File table: 
+Heap: 
+1->2
+2->3
+SemaphoreTable:
+latchTable:
+
+Program State: 
+ID: 1
+ExecStack: 
+newLatch(cnt,readHeap(v2));fork(writeHeap(v1,readHeap(v1)*10);print(readHeap(v1));countDown(cnt));fork(writeHeap(v2,readHeap(v2)*10);print(readHeap(v2));countDown(cnt));fork(writeHeap(v3,readHeap(v3)*10);print(readHeap(v3));countDown(cnt));await(cnt);print(100);countDown(cnt);print(100)
+SymTable: 
+cnt->0
+v1->(1,int)
+v2->(2,int)
+v3->(3,int)
+OutputList: 
+File table: 
+Heap: 
+1->2
+2->3
+3->4
+SemaphoreTable:
+latchTable:
+
+Program State: 
+ID: 1
+ExecStack: 
+newLatch(cnt,readHeap(v2));fork(writeHeap(v1,readHeap(v1)*10);print(readHeap(v1));countDown(cnt));fork(writeHeap(v2,readHeap(v2)*10);print(readHeap(v2));countDown(cnt));fork(writeHeap(v3,readHeap(v3)*10);print(readHeap(v3));countDown(cnt));await(cnt);print(100);countDown(cnt);print(100)
+SymTable: 
+cnt->0
+v1->(1,int)
+v2->(2,int)
+v3->(3,int)
+OutputList: 
+File table: 
+Heap: 
+1->2
+2->3
+3->4
+SemaphoreTable:
+latchTable:
+
+Program State: 
+ID: 1
+ExecStack: 
+fork(writeHeap(v1,readHeap(v1)*10);print(readHeap(v1));countDown(cnt));fork(writeHeap(v2,readHeap(v2)*10);print(readHeap(v2));countDown(cnt));fork(writeHeap(v3,readHeap(v3)*10);print(readHeap(v3));countDown(cnt));await(cnt);print(100);countDown(cnt);print(100)
+newLatch(cnt,readHeap(v2))
+SymTable: 
+cnt->0
+v1->(1,int)
+v2->(2,int)
+v3->(3,int)
+OutputList: 
+File table: 
+Heap: 
+1->2
+2->3
+3->4
+SemaphoreTable:
+latchTable:
+
+Program State: 
+ID: 1
+ExecStack: 
+fork(writeHeap(v1,readHeap(v1)*10);print(readHeap(v1));countDown(cnt));fork(writeHeap(v2,readHeap(v2)*10);print(readHeap(v2));countDown(cnt));fork(writeHeap(v3,readHeap(v3)*10);print(readHeap(v3));countDown(cnt));await(cnt);print(100);countDown(cnt);print(100)
+newLatch(cnt,readHeap(v2))
+SymTable: 
+cnt->0
+v1->(1,int)
+v2->(2,int)
+v3->(3,int)
+OutputList: 
+File table: 
+Heap: 
+1->2
+2->3
+3->4
+SemaphoreTable:
+latchTable:
+
+Program State: 
+ID: 1
+ExecStack: 
+fork(writeHeap(v1,readHeap(v1)*10);print(readHeap(v1));countDown(cnt));fork(writeHeap(v2,readHeap(v2)*10);print(readHeap(v2));countDown(cnt));fork(writeHeap(v3,readHeap(v3)*10);print(readHeap(v3));countDown(cnt));await(cnt);print(100);countDown(cnt);print(100)
+SymTable: 
+cnt->1
+v1->(1,int)
+v2->(2,int)
+v3->(3,int)
+OutputList: 
+File table: 
+Heap: 
+1->2
+2->3
+3->4
+SemaphoreTable:
+latchTable:
+location: 1->value: 3
+Program State: 
+ID: 1
+ExecStack: 
+fork(writeHeap(v1,readHeap(v1)*10);print(readHeap(v1));countDown(cnt));fork(writeHeap(v2,readHeap(v2)*10);print(readHeap(v2));countDown(cnt));fork(writeHeap(v3,readHeap(v3)*10);print(readHeap(v3));countDown(cnt));await(cnt);print(100);countDown(cnt);print(100)
+SymTable: 
+cnt->1
+v1->(1,int)
+v2->(2,int)
+v3->(3,int)
+OutputList: 
+File table: 
+Heap: 
+1->2
+2->3
+3->4
+SemaphoreTable:
+latchTable:
+location: 1->value: 3
+Program State: 
+ID: 1
+ExecStack: 
+fork(writeHeap(v2,readHeap(v2)*10);print(readHeap(v2));countDown(cnt));fork(writeHeap(v3,readHeap(v3)*10);print(readHeap(v3));countDown(cnt));await(cnt);print(100);countDown(cnt);print(100)
+fork(writeHeap(v1,readHeap(v1)*10);print(readHeap(v1));countDown(cnt))
+SymTable: 
+cnt->1
+v1->(1,int)
+v2->(2,int)
+v3->(3,int)
+OutputList: 
+File table: 
+Heap: 
+1->2
+2->3
+3->4
+SemaphoreTable:
+latchTable:
+location: 1->value: 3
+Program State: 
+ID: 1
+ExecStack: 
+fork(writeHeap(v2,readHeap(v2)*10);print(readHeap(v2));countDown(cnt));fork(writeHeap(v3,readHeap(v3)*10);print(readHeap(v3));countDown(cnt));await(cnt);print(100);countDown(cnt);print(100)
+fork(writeHeap(v1,readHeap(v1)*10);print(readHeap(v1));countDown(cnt))
+SymTable: 
+cnt->1
+v1->(1,int)
+v2->(2,int)
+v3->(3,int)
+OutputList: 
+File table: 
+Heap: 
+1->2
+2->3
+3->4
+SemaphoreTable:
+latchTable:
+location: 1->value: 3
+Program State: 
+ID: 1
+ExecStack: 
+fork(writeHeap(v2,readHeap(v2)*10);print(readHeap(v2));countDown(cnt));fork(writeHeap(v3,readHeap(v3)*10);print(readHeap(v3));countDown(cnt));await(cnt);print(100);countDown(cnt);print(100)
+SymTable: 
+cnt->1
+v1->(1,int)
+v2->(2,int)
+v3->(3,int)
+OutputList: 
+File table: 
+Heap: 
+1->2
+2->3
+3->4
+SemaphoreTable:
+latchTable:
+location: 1->value: 3
+Program State: 
+ID: 2
+ExecStack: 
+writeHeap(v1,readHeap(v1)*10);print(readHeap(v1));countDown(cnt)
+SymTable: 
+cnt->1
+v1->(1,int)
+v2->(2,int)
+v3->(3,int)
+OutputList: 
+File table: 
+Heap: 
+1->2
+2->3
+3->4
+SemaphoreTable:
+latchTable:
+location: 1->value: 3
+Program State: 
+ID: 1
+ExecStack: 
+fork(writeHeap(v2,readHeap(v2)*10);print(readHeap(v2));countDown(cnt));fork(writeHeap(v3,readHeap(v3)*10);print(readHeap(v3));countDown(cnt));await(cnt);print(100);countDown(cnt);print(100)
+SymTable: 
+cnt->1
+v1->(1,int)
+v2->(2,int)
+v3->(3,int)
+OutputList: 
+File table: 
+Heap: 
+1->2
+2->3
+3->4
+SemaphoreTable:
+latchTable:
+location: 1->value: 3
+Program State: 
+ID: 2
+ExecStack: 
+writeHeap(v1,readHeap(v1)*10);print(readHeap(v1));countDown(cnt)
+SymTable: 
+cnt->1
+v1->(1,int)
+v2->(2,int)
+v3->(3,int)
+OutputList: 
+File table: 
+Heap: 
+1->2
+2->3
+3->4
+SemaphoreTable:
+latchTable:
+location: 1->value: 3
+Program State: 
+ID: 1
+ExecStack: 
+fork(writeHeap(v3,readHeap(v3)*10);print(readHeap(v3));countDown(cnt));await(cnt);print(100);countDown(cnt);print(100)
+fork(writeHeap(v2,readHeap(v2)*10);print(readHeap(v2));countDown(cnt))
+SymTable: 
+cnt->1
+v1->(1,int)
+v2->(2,int)
+v3->(3,int)
+OutputList: 
+File table: 
+Heap: 
+1->2
+2->3
+3->4
+SemaphoreTable:
+latchTable:
+location: 1->value: 3
+Program State: 
+ID: 2
+ExecStack: 
+print(readHeap(v1));countDown(cnt)
+writeHeap(v1,readHeap(v1)*10)
+SymTable: 
+cnt->1
+v1->(1,int)
+v2->(2,int)
+v3->(3,int)
+OutputList: 
+File table: 
+Heap: 
+1->2
+2->3
+3->4
+SemaphoreTable:
+latchTable:
+location: 1->value: 3
+Program State: 
+ID: 1
+ExecStack: 
+fork(writeHeap(v3,readHeap(v3)*10);print(readHeap(v3));countDown(cnt));await(cnt);print(100);countDown(cnt);print(100)
+fork(writeHeap(v2,readHeap(v2)*10);print(readHeap(v2));countDown(cnt))
+SymTable: 
+cnt->1
+v1->(1,int)
+v2->(2,int)
+v3->(3,int)
+OutputList: 
+File table: 
+Heap: 
+1->2
+2->3
+3->4
+SemaphoreTable:
+latchTable:
+location: 1->value: 3
+Program State: 
+ID: 2
+ExecStack: 
+print(readHeap(v1));countDown(cnt)
+writeHeap(v1,readHeap(v1)*10)
+SymTable: 
+cnt->1
+v1->(1,int)
+v2->(2,int)
+v3->(3,int)
+OutputList: 
+File table: 
+Heap: 
+1->2
+2->3
+3->4
+SemaphoreTable:
+latchTable:
+location: 1->value: 3
+Program State: 
+ID: 1
+ExecStack: 
+fork(writeHeap(v3,readHeap(v3)*10);print(readHeap(v3));countDown(cnt));await(cnt);print(100);countDown(cnt);print(100)
+SymTable: 
+cnt->1
+v1->(1,int)
+v2->(2,int)
+v3->(3,int)
+OutputList: 
+File table: 
+Heap: 
+1->20
+2->3
+3->4
+SemaphoreTable:
+latchTable:
+location: 1->value: 3
+Program State: 
+ID: 2
+ExecStack: 
+print(readHeap(v1));countDown(cnt)
+SymTable: 
+cnt->1
+v1->(1,int)
+v2->(2,int)
+v3->(3,int)
+OutputList: 
+File table: 
+Heap: 
+1->20
+2->3
+3->4
+SemaphoreTable:
+latchTable:
+location: 1->value: 3
+Program State: 
+ID: 3
+ExecStack: 
+writeHeap(v2,readHeap(v2)*10);print(readHeap(v2));countDown(cnt)
+SymTable: 
+cnt->1
+v1->(1,int)
+v2->(2,int)
+v3->(3,int)
+OutputList: 
+File table: 
+Heap: 
+1->20
+2->3
+3->4
+SemaphoreTable:
+latchTable:
+location: 1->value: 3
+Program State: 
+ID: 1
+ExecStack: 
+fork(writeHeap(v3,readHeap(v3)*10);print(readHeap(v3));countDown(cnt));await(cnt);print(100);countDown(cnt);print(100)
+SymTable: 
+cnt->1
+v1->(1,int)
+v2->(2,int)
+v3->(3,int)
+OutputList: 
+File table: 
+Heap: 
+1->20
+2->3
+3->4
+SemaphoreTable:
+latchTable:
+location: 1->value: 3
+Program State: 
+ID: 2
+ExecStack: 
+print(readHeap(v1));countDown(cnt)
+SymTable: 
+cnt->1
+v1->(1,int)
+v2->(2,int)
+v3->(3,int)
+OutputList: 
+File table: 
+Heap: 
+1->20
+2->3
+3->4
+SemaphoreTable:
+latchTable:
+location: 1->value: 3
+Program State: 
+ID: 3
+ExecStack: 
+writeHeap(v2,readHeap(v2)*10);print(readHeap(v2));countDown(cnt)
+SymTable: 
+cnt->1
+v1->(1,int)
+v2->(2,int)
+v3->(3,int)
+OutputList: 
+File table: 
+Heap: 
+1->20
+2->3
+3->4
+SemaphoreTable:
+latchTable:
+location: 1->value: 3
+Program State: 
+ID: 1
+ExecStack: 
+await(cnt);print(100);countDown(cnt);print(100)
+fork(writeHeap(v3,readHeap(v3)*10);print(readHeap(v3));countDown(cnt))
+SymTable: 
+cnt->1
+v1->(1,int)
+v2->(2,int)
+v3->(3,int)
+OutputList: 
+File table: 
+Heap: 
+1->20
+2->3
+3->4
+SemaphoreTable:
+latchTable:
+location: 1->value: 3
+Program State: 
+ID: 2
+ExecStack: 
+countDown(cnt)
+print(readHeap(v1))
+SymTable: 
+cnt->1
+v1->(1,int)
+v2->(2,int)
+v3->(3,int)
+OutputList: 
+File table: 
+Heap: 
+1->20
+2->3
+3->4
+SemaphoreTable:
+latchTable:
+location: 1->value: 3
+Program State: 
+ID: 3
+ExecStack: 
+print(readHeap(v2));countDown(cnt)
+writeHeap(v2,readHeap(v2)*10)
+SymTable: 
+cnt->1
+v1->(1,int)
+v2->(2,int)
+v3->(3,int)
+OutputList: 
+File table: 
+Heap: 
+1->20
+2->3
+3->4
+SemaphoreTable:
+latchTable:
+location: 1->value: 3
+Program State: 
+ID: 1
+ExecStack: 
+await(cnt);print(100);countDown(cnt);print(100)
+fork(writeHeap(v3,readHeap(v3)*10);print(readHeap(v3));countDown(cnt))
+SymTable: 
+cnt->1
+v1->(1,int)
+v2->(2,int)
+v3->(3,int)
+OutputList: 
+File table: 
+Heap: 
+1->20
+2->3
+3->4
+SemaphoreTable:
+latchTable:
+location: 1->value: 3
+Program State: 
+ID: 2
+ExecStack: 
+countDown(cnt)
+print(readHeap(v1))
+SymTable: 
+cnt->1
+v1->(1,int)
+v2->(2,int)
+v3->(3,int)
+OutputList: 
+File table: 
+Heap: 
+1->20
+2->3
+3->4
+SemaphoreTable:
+latchTable:
+location: 1->value: 3
+Program State: 
+ID: 3
+ExecStack: 
+print(readHeap(v2));countDown(cnt)
+writeHeap(v2,readHeap(v2)*10)
+SymTable: 
+cnt->1
+v1->(1,int)
+v2->(2,int)
+v3->(3,int)
+OutputList: 
+File table: 
+Heap: 
+1->20
+2->3
+3->4
+SemaphoreTable:
+latchTable:
+location: 1->value: 3
+Program State: 
+ID: 1
+ExecStack: 
+await(cnt);print(100);countDown(cnt);print(100)
+SymTable: 
+cnt->1
+v1->(1,int)
+v2->(2,int)
+v3->(3,int)
+OutputList: 
+20
+File table: 
+Heap: 
+1->20
+2->30
+3->4
+SemaphoreTable:
+latchTable:
+location: 1->value: 3
+Program State: 
+ID: 2
+ExecStack: 
+countDown(cnt)
+SymTable: 
+cnt->1
+v1->(1,int)
+v2->(2,int)
+v3->(3,int)
+OutputList: 
+20
+File table: 
+Heap: 
+1->20
+2->30
+3->4
+SemaphoreTable:
+latchTable:
+location: 1->value: 3
+Program State: 
+ID: 3
+ExecStack: 
+print(readHeap(v2));countDown(cnt)
+SymTable: 
+cnt->1
+v1->(1,int)
+v2->(2,int)
+v3->(3,int)
+OutputList: 
+20
+File table: 
+Heap: 
+1->20
+2->30
+3->4
+SemaphoreTable:
+latchTable:
+location: 1->value: 3
+Program State: 
+ID: 4
+ExecStack: 
+writeHeap(v3,readHeap(v3)*10);print(readHeap(v3));countDown(cnt)
+SymTable: 
+cnt->1
+v1->(1,int)
+v2->(2,int)
+v3->(3,int)
+OutputList: 
+20
+File table: 
+Heap: 
+1->20
+2->30
+3->4
+SemaphoreTable:
+latchTable:
+location: 1->value: 3
+Program State: 
+ID: 1
+ExecStack: 
+await(cnt);print(100);countDown(cnt);print(100)
+SymTable: 
+cnt->1
+v1->(1,int)
+v2->(2,int)
+v3->(3,int)
+OutputList: 
+20
+File table: 
+Heap: 
+1->20
+2->30
+3->4
+SemaphoreTable:
+latchTable:
+location: 1->value: 3
+Program State: 
+ID: 2
+ExecStack: 
+countDown(cnt)
+SymTable: 
+cnt->1
+v1->(1,int)
+v2->(2,int)
+v3->(3,int)
+OutputList: 
+20
+File table: 
+Heap: 
+1->20
+2->30
+3->4
+SemaphoreTable:
+latchTable:
+location: 1->value: 3
+Program State: 
+ID: 3
+ExecStack: 
+print(readHeap(v2));countDown(cnt)
+SymTable: 
+cnt->1
+v1->(1,int)
+v2->(2,int)
+v3->(3,int)
+OutputList: 
+20
+File table: 
+Heap: 
+1->20
+2->30
+3->4
+SemaphoreTable:
+latchTable:
+location: 1->value: 3
+Program State: 
+ID: 4
+ExecStack: 
+writeHeap(v3,readHeap(v3)*10);print(readHeap(v3));countDown(cnt)
+SymTable: 
+cnt->1
+v1->(1,int)
+v2->(2,int)
+v3->(3,int)
+OutputList: 
+20
+File table: 
+Heap: 
+1->20
+2->30
+3->4
+SemaphoreTable:
+latchTable:
+location: 1->value: 3
+Program State: 
+ID: 1
+ExecStack: 
+print(100);countDown(cnt);print(100)
+await(cnt)
+SymTable: 
+cnt->1
+v1->(1,int)
+v2->(2,int)
+v3->(3,int)
+OutputList: 
+20
+2
+File table: 
+Heap: 
+1->20
+2->30
+3->4
+SemaphoreTable:
+latchTable:
+location: 1->value: 2
+Program State: 
+ID: 2
+ExecStack: 
+SymTable: 
+cnt->1
+v1->(1,int)
+v2->(2,int)
+v3->(3,int)
+OutputList: 
+20
+2
+File table: 
+Heap: 
+1->20
+2->30
+3->4
+SemaphoreTable:
+latchTable:
+location: 1->value: 2
+Program State: 
+ID: 3
+ExecStack: 
+countDown(cnt)
+print(readHeap(v2))
+SymTable: 
+cnt->1
+v1->(1,int)
+v2->(2,int)
+v3->(3,int)
+OutputList: 
+20
+2
+File table: 
+Heap: 
+1->20
+2->30
+3->4
+SemaphoreTable:
+latchTable:
+location: 1->value: 2
+Program State: 
+ID: 4
+ExecStack: 
+print(readHeap(v3));countDown(cnt)
+writeHeap(v3,readHeap(v3)*10)
+SymTable: 
+cnt->1
+v1->(1,int)
+v2->(2,int)
+v3->(3,int)
+OutputList: 
+20
+2
+File table: 
+Heap: 
+1->20
+2->30
+3->4
+SemaphoreTable:
+latchTable:
+location: 1->value: 2
+Program State: 
+ID: 1
+ExecStack: 
+print(100);countDown(cnt);print(100)
+await(cnt)
+SymTable: 
+cnt->1
+v1->(1,int)
+v2->(2,int)
+v3->(3,int)
+OutputList: 
+20
+2
+File table: 
+Heap: 
+1->20
+2->30
+3->4
+SemaphoreTable:
+latchTable:
+location: 1->value: 2
+Program State: 
+ID: 3
+ExecStack: 
+countDown(cnt)
+print(readHeap(v2))
+SymTable: 
+cnt->1
+v1->(1,int)
+v2->(2,int)
+v3->(3,int)
+OutputList: 
+20
+2
+File table: 
+Heap: 
+1->20
+2->30
+3->4
+SemaphoreTable:
+latchTable:
+location: 1->value: 2
+Program State: 
+ID: 4
+ExecStack: 
+print(readHeap(v3));countDown(cnt)
+writeHeap(v3,readHeap(v3)*10)
+SymTable: 
+cnt->1
+v1->(1,int)
+v2->(2,int)
+v3->(3,int)
+OutputList: 
+20
+2
+File table: 
+Heap: 
+1->20
+2->30
+3->4
+SemaphoreTable:
+latchTable:
+location: 1->value: 2
+Program State: 
+ID: 1
+ExecStack: 
+print(100);countDown(cnt);print(100)
+await(cnt)
+SymTable: 
+cnt->1
+v1->(1,int)
+v2->(2,int)
+v3->(3,int)
+OutputList: 
+20
+2
+30
+File table: 
+Heap: 
+1->20
+2->30
+3->40
+SemaphoreTable:
+latchTable:
+location: 1->value: 2
+Program State: 
+ID: 3
+ExecStack: 
+countDown(cnt)
+SymTable: 
+cnt->1
+v1->(1,int)
+v2->(2,int)
+v3->(3,int)
+OutputList: 
+20
+2
+30
+File table: 
+Heap: 
+1->20
+2->30
+3->40
+SemaphoreTable:
+latchTable:
+location: 1->value: 2
+Program State: 
+ID: 4
+ExecStack: 
+print(readHeap(v3));countDown(cnt)
+SymTable: 
+cnt->1
+v1->(1,int)
+v2->(2,int)
+v3->(3,int)
+OutputList: 
+20
+2
+30
+File table: 
+Heap: 
+1->20
+2->30
+3->40
+SemaphoreTable:
+latchTable:
+location: 1->value: 2
+Program State: 
+ID: 1
+ExecStack: 
+print(100);countDown(cnt);print(100)
+await(cnt)
+SymTable: 
+cnt->1
+v1->(1,int)
+v2->(2,int)
+v3->(3,int)
+OutputList: 
+20
+2
+30
+File table: 
+Heap: 
+1->20
+2->30
+3->40
+SemaphoreTable:
+latchTable:
+location: 1->value: 2
+Program State: 
+ID: 3
+ExecStack: 
+countDown(cnt)
+SymTable: 
+cnt->1
+v1->(1,int)
+v2->(2,int)
+v3->(3,int)
+OutputList: 
+20
+2
+30
+File table: 
+Heap: 
+1->20
+2->30
+3->40
+SemaphoreTable:
+latchTable:
+location: 1->value: 2
+Program State: 
+ID: 4
+ExecStack: 
+print(readHeap(v3));countDown(cnt)
+SymTable: 
+cnt->1
+v1->(1,int)
+v2->(2,int)
+v3->(3,int)
+OutputList: 
+20
+2
+30
+File table: 
+Heap: 
+1->20
+2->30
+3->40
+SemaphoreTable:
+latchTable:
+location: 1->value: 2
+Program State: 
+ID: 1
+ExecStack: 
+print(100);countDown(cnt);print(100)
+await(cnt)
+SymTable: 
+cnt->1
+v1->(1,int)
+v2->(2,int)
+v3->(3,int)
+OutputList: 
+20
+2
+30
+3
+File table: 
+Heap: 
+1->20
+2->30
+3->40
+SemaphoreTable:
+latchTable:
+location: 1->value: 1
+Program State: 
+ID: 3
+ExecStack: 
+SymTable: 
+cnt->1
+v1->(1,int)
+v2->(2,int)
+v3->(3,int)
+OutputList: 
+20
+2
+30
+3
+File table: 
+Heap: 
+1->20
+2->30
+3->40
+SemaphoreTable:
+latchTable:
+location: 1->value: 1
+Program State: 
+ID: 4
+ExecStack: 
+countDown(cnt)
+print(readHeap(v3))
+SymTable: 
+cnt->1
+v1->(1,int)
+v2->(2,int)
+v3->(3,int)
+OutputList: 
+20
+2
+30
+3
+File table: 
+Heap: 
+1->20
+2->30
+3->40
+SemaphoreTable:
+latchTable:
+location: 1->value: 1
+Program State: 
+ID: 1
+ExecStack: 
+print(100);countDown(cnt);print(100)
+await(cnt)
+SymTable: 
+cnt->1
+v1->(1,int)
+v2->(2,int)
+v3->(3,int)
+OutputList: 
+20
+2
+30
+3
+File table: 
+Heap: 
+1->20
+2->30
+3->40
+SemaphoreTable:
+latchTable:
+location: 1->value: 1
+Program State: 
+ID: 4
+ExecStack: 
+countDown(cnt)
+print(readHeap(v3))
+SymTable: 
+cnt->1
+v1->(1,int)
+v2->(2,int)
+v3->(3,int)
+OutputList: 
+20
+2
+30
+3
+File table: 
+Heap: 
+1->20
+2->30
+3->40
+SemaphoreTable:
+latchTable:
+location: 1->value: 1
+Program State: 
+ID: 1
+ExecStack: 
+print(100);countDown(cnt);print(100)
+await(cnt)
+SymTable: 
+cnt->1
+v1->(1,int)
+v2->(2,int)
+v3->(3,int)
+OutputList: 
+20
+2
+30
+3
+40
+File table: 
+Heap: 
+1->20
+2->30
+3->40
+SemaphoreTable:
+latchTable:
+location: 1->value: 1
+Program State: 
+ID: 4
+ExecStack: 
+countDown(cnt)
+SymTable: 
+cnt->1
+v1->(1,int)
+v2->(2,int)
+v3->(3,int)
+OutputList: 
+20
+2
+30
+3
+40
+File table: 
+Heap: 
+1->20
+2->30
+3->40
+SemaphoreTable:
+latchTable:
+location: 1->value: 1
+Program State: 
+ID: 1
+ExecStack: 
+print(100);countDown(cnt);print(100)
+await(cnt)
+SymTable: 
+cnt->1
+v1->(1,int)
+v2->(2,int)
+v3->(3,int)
+OutputList: 
+20
+2
+30
+3
+40
+File table: 
+Heap: 
+1->20
+2->30
+3->40
+SemaphoreTable:
+latchTable:
+location: 1->value: 1
+Program State: 
+ID: 4
+ExecStack: 
+countDown(cnt)
+SymTable: 
+cnt->1
+v1->(1,int)
+v2->(2,int)
+v3->(3,int)
+OutputList: 
+20
+2
+30
+3
+40
+File table: 
+Heap: 
+1->20
+2->30
+3->40
+SemaphoreTable:
+latchTable:
+location: 1->value: 1
+Program State: 
+ID: 1
+ExecStack: 
+print(100);countDown(cnt);print(100)
+await(cnt)
+SymTable: 
+cnt->1
+v1->(1,int)
+v2->(2,int)
+v3->(3,int)
+OutputList: 
+20
+2
+30
+3
+40
+4
+File table: 
+Heap: 
+1->20
+2->30
+3->40
+SemaphoreTable:
+latchTable:
+location: 1->value: 0
+Program State: 
+ID: 4
+ExecStack: 
+SymTable: 
+cnt->1
+v1->(1,int)
+v2->(2,int)
+v3->(3,int)
+OutputList: 
+20
+2
+30
+3
+40
+4
+File table: 
+Heap: 
+1->20
+2->30
+3->40
+SemaphoreTable:
+latchTable:
+location: 1->value: 0
+Program State: 
+ID: 1
+ExecStack: 
+print(100);countDown(cnt);print(100)
+await(cnt)
+SymTable: 
+cnt->1
+v1->(1,int)
+v2->(2,int)
+v3->(3,int)
+OutputList: 
+20
+2
+30
+3
+40
+4
+File table: 
+Heap: 
+1->20
+2->30
+3->40
+SemaphoreTable:
+latchTable:
+location: 1->value: 0
+Program State: 
+ID: 1
+ExecStack: 
+print(100);countDown(cnt);print(100)
+SymTable: 
+cnt->1
+v1->(1,int)
+v2->(2,int)
+v3->(3,int)
+OutputList: 
+20
+2
+30
+3
+40
+4
+File table: 
+Heap: 
+1->20
+2->30
+3->40
+SemaphoreTable:
+latchTable:
+location: 1->value: 0
+Program State: 
+ID: 1
+ExecStack: 
+print(100);countDown(cnt);print(100)
+SymTable: 
+cnt->1
+v1->(1,int)
+v2->(2,int)
+v3->(3,int)
+OutputList: 
+20
+2
+30
+3
+40
+4
+File table: 
+Heap: 
+1->20
+2->30
+3->40
+SemaphoreTable:
+latchTable:
+location: 1->value: 0
+Program State: 
+ID: 1
+ExecStack: 
+countDown(cnt);print(100)
+print(100)
+SymTable: 
+cnt->1
+v1->(1,int)
+v2->(2,int)
+v3->(3,int)
+OutputList: 
+20
+2
+30
+3
+40
+4
+File table: 
+Heap: 
+1->20
+2->30
+3->40
+SemaphoreTable:
+latchTable:
+location: 1->value: 0
+Program State: 
+ID: 1
+ExecStack: 
+ref int v1;ref int v2;ref int v3;int cnt;new(v1,2);new(v2,3);new(v3,4);newLatch(cnt,readHeap(v2));fork(writeHeap(v1,readHeap(v1)*10);print(readHeap(v1));countDown(cnt));fork(writeHeap(v2,readHeap(v2)*10);print(readHeap(v2));countDown(cnt));fork(writeHeap(v3,readHeap(v3)*10);print(readHeap(v3));countDown(cnt));await(cnt);print(100);countDown(cnt);print(100)
+SymTable: 
+OutputList: 
+File table: 
+Heap: 
+SemaphoreTable:
+latchTable:
+lockTable:
+
+Program State: 
+ID: 1
+ExecStack: 
+ref int v2;ref int v3;int cnt;new(v1,2);new(v2,3);new(v3,4);newLatch(cnt,readHeap(v2));fork(writeHeap(v1,readHeap(v1)*10);print(readHeap(v1));countDown(cnt));fork(writeHeap(v2,readHeap(v2)*10);print(readHeap(v2));countDown(cnt));fork(writeHeap(v3,readHeap(v3)*10);print(readHeap(v3));countDown(cnt));await(cnt);print(100);countDown(cnt);print(100)
+ref int v1
+SymTable: 
+OutputList: 
+File table: 
+Heap: 
+SemaphoreTable:
+latchTable:
+lockTable:
+
+Program State: 
+ID: 1
+ExecStack: 
+ref int v2;ref int v3;int cnt;new(v1,2);new(v2,3);new(v3,4);newLatch(cnt,readHeap(v2));fork(writeHeap(v1,readHeap(v1)*10);print(readHeap(v1));countDown(cnt));fork(writeHeap(v2,readHeap(v2)*10);print(readHeap(v2));countDown(cnt));fork(writeHeap(v3,readHeap(v3)*10);print(readHeap(v3));countDown(cnt));await(cnt);print(100);countDown(cnt);print(100)
+ref int v1
+SymTable: 
+OutputList: 
+File table: 
+Heap: 
+SemaphoreTable:
+latchTable:
+lockTable:
+
+Program State: 
+ID: 1
+ExecStack: 
+ref int v2;ref int v3;int cnt;new(v1,2);new(v2,3);new(v3,4);newLatch(cnt,readHeap(v2));fork(writeHeap(v1,readHeap(v1)*10);print(readHeap(v1));countDown(cnt));fork(writeHeap(v2,readHeap(v2)*10);print(readHeap(v2));countDown(cnt));fork(writeHeap(v3,readHeap(v3)*10);print(readHeap(v3));countDown(cnt));await(cnt);print(100);countDown(cnt);print(100)
+SymTable: 
+v1->(0,int)
+OutputList: 
+File table: 
+Heap: 
+SemaphoreTable:
+latchTable:
+lockTable:
+
+Program State: 
+ID: 1
+ExecStack: 
+ref int v2;ref int v3;int cnt;new(v1,2);new(v2,3);new(v3,4);newLatch(cnt,readHeap(v2));fork(writeHeap(v1,readHeap(v1)*10);print(readHeap(v1));countDown(cnt));fork(writeHeap(v2,readHeap(v2)*10);print(readHeap(v2));countDown(cnt));fork(writeHeap(v3,readHeap(v3)*10);print(readHeap(v3));countDown(cnt));await(cnt);print(100);countDown(cnt);print(100)
+SymTable: 
+v1->(0,int)
+OutputList: 
+File table: 
+Heap: 
+SemaphoreTable:
+latchTable:
+lockTable:
+
+Program State: 
+ID: 1
+ExecStack: 
+ref int v3;int cnt;new(v1,2);new(v2,3);new(v3,4);newLatch(cnt,readHeap(v2));fork(writeHeap(v1,readHeap(v1)*10);print(readHeap(v1));countDown(cnt));fork(writeHeap(v2,readHeap(v2)*10);print(readHeap(v2));countDown(cnt));fork(writeHeap(v3,readHeap(v3)*10);print(readHeap(v3));countDown(cnt));await(cnt);print(100);countDown(cnt);print(100)
+ref int v2
+SymTable: 
+v1->(0,int)
+OutputList: 
+File table: 
+Heap: 
+SemaphoreTable:
+latchTable:
+lockTable:
+
+Program State: 
+ID: 1
+ExecStack: 
+ref int v3;int cnt;new(v1,2);new(v2,3);new(v3,4);newLatch(cnt,readHeap(v2));fork(writeHeap(v1,readHeap(v1)*10);print(readHeap(v1));countDown(cnt));fork(writeHeap(v2,readHeap(v2)*10);print(readHeap(v2));countDown(cnt));fork(writeHeap(v3,readHeap(v3)*10);print(readHeap(v3));countDown(cnt));await(cnt);print(100);countDown(cnt);print(100)
+ref int v2
+SymTable: 
+v1->(0,int)
+OutputList: 
+File table: 
+Heap: 
+SemaphoreTable:
+latchTable:
+lockTable:
+
+Program State: 
+ID: 1
+ExecStack: 
+ref int v3;int cnt;new(v1,2);new(v2,3);new(v3,4);newLatch(cnt,readHeap(v2));fork(writeHeap(v1,readHeap(v1)*10);print(readHeap(v1));countDown(cnt));fork(writeHeap(v2,readHeap(v2)*10);print(readHeap(v2));countDown(cnt));fork(writeHeap(v3,readHeap(v3)*10);print(readHeap(v3));countDown(cnt));await(cnt);print(100);countDown(cnt);print(100)
+SymTable: 
+v1->(0,int)
+v2->(0,int)
+OutputList: 
+File table: 
+Heap: 
+SemaphoreTable:
+latchTable:
+lockTable:
+
+Program State: 
+ID: 1
+ExecStack: 
+ref int v3;int cnt;new(v1,2);new(v2,3);new(v3,4);newLatch(cnt,readHeap(v2));fork(writeHeap(v1,readHeap(v1)*10);print(readHeap(v1));countDown(cnt));fork(writeHeap(v2,readHeap(v2)*10);print(readHeap(v2));countDown(cnt));fork(writeHeap(v3,readHeap(v3)*10);print(readHeap(v3));countDown(cnt));await(cnt);print(100);countDown(cnt);print(100)
+SymTable: 
+v1->(0,int)
+v2->(0,int)
+OutputList: 
+File table: 
+Heap: 
+SemaphoreTable:
+latchTable:
+lockTable:
+
+Program State: 
+ID: 1
+ExecStack: 
+int cnt;new(v1,2);new(v2,3);new(v3,4);newLatch(cnt,readHeap(v2));fork(writeHeap(v1,readHeap(v1)*10);print(readHeap(v1));countDown(cnt));fork(writeHeap(v2,readHeap(v2)*10);print(readHeap(v2));countDown(cnt));fork(writeHeap(v3,readHeap(v3)*10);print(readHeap(v3));countDown(cnt));await(cnt);print(100);countDown(cnt);print(100)
+ref int v3
+SymTable: 
+v1->(0,int)
+v2->(0,int)
+OutputList: 
+File table: 
+Heap: 
+SemaphoreTable:
+latchTable:
+lockTable:
+
+Program State: 
+ID: 1
+ExecStack: 
+int cnt;new(v1,2);new(v2,3);new(v3,4);newLatch(cnt,readHeap(v2));fork(writeHeap(v1,readHeap(v1)*10);print(readHeap(v1));countDown(cnt));fork(writeHeap(v2,readHeap(v2)*10);print(readHeap(v2));countDown(cnt));fork(writeHeap(v3,readHeap(v3)*10);print(readHeap(v3));countDown(cnt));await(cnt);print(100);countDown(cnt);print(100)
+ref int v3
+SymTable: 
+v1->(0,int)
+v2->(0,int)
+OutputList: 
+File table: 
+Heap: 
+SemaphoreTable:
+latchTable:
+lockTable:
+
+Program State: 
+ID: 1
+ExecStack: 
+int cnt;new(v1,2);new(v2,3);new(v3,4);newLatch(cnt,readHeap(v2));fork(writeHeap(v1,readHeap(v1)*10);print(readHeap(v1));countDown(cnt));fork(writeHeap(v2,readHeap(v2)*10);print(readHeap(v2));countDown(cnt));fork(writeHeap(v3,readHeap(v3)*10);print(readHeap(v3));countDown(cnt));await(cnt);print(100);countDown(cnt);print(100)
+SymTable: 
+v1->(0,int)
+v2->(0,int)
+v3->(0,int)
+OutputList: 
+File table: 
+Heap: 
+SemaphoreTable:
+latchTable:
+lockTable:
+
+Program State: 
+ID: 1
+ExecStack: 
+int cnt;new(v1,2);new(v2,3);new(v3,4);newLatch(cnt,readHeap(v2));fork(writeHeap(v1,readHeap(v1)*10);print(readHeap(v1));countDown(cnt));fork(writeHeap(v2,readHeap(v2)*10);print(readHeap(v2));countDown(cnt));fork(writeHeap(v3,readHeap(v3)*10);print(readHeap(v3));countDown(cnt));await(cnt);print(100);countDown(cnt);print(100)
+SymTable: 
+v1->(0,int)
+v2->(0,int)
+v3->(0,int)
+OutputList: 
+File table: 
+Heap: 
+SemaphoreTable:
+latchTable:
+lockTable:
+
+Program State: 
+ID: 1
+ExecStack: 
+new(v1,2);new(v2,3);new(v3,4);newLatch(cnt,readHeap(v2));fork(writeHeap(v1,readHeap(v1)*10);print(readHeap(v1));countDown(cnt));fork(writeHeap(v2,readHeap(v2)*10);print(readHeap(v2));countDown(cnt));fork(writeHeap(v3,readHeap(v3)*10);print(readHeap(v3));countDown(cnt));await(cnt);print(100);countDown(cnt);print(100)
+int cnt
+SymTable: 
+v1->(0,int)
+v2->(0,int)
+v3->(0,int)
+OutputList: 
+File table: 
+Heap: 
+SemaphoreTable:
+latchTable:
+lockTable:
+
+Program State: 
+ID: 1
+ExecStack: 
+new(v1,2);new(v2,3);new(v3,4);newLatch(cnt,readHeap(v2));fork(writeHeap(v1,readHeap(v1)*10);print(readHeap(v1));countDown(cnt));fork(writeHeap(v2,readHeap(v2)*10);print(readHeap(v2));countDown(cnt));fork(writeHeap(v3,readHeap(v3)*10);print(readHeap(v3));countDown(cnt));await(cnt);print(100);countDown(cnt);print(100)
+int cnt
+SymTable: 
+v1->(0,int)
+v2->(0,int)
+v3->(0,int)
+OutputList: 
+File table: 
+Heap: 
+SemaphoreTable:
+latchTable:
+lockTable:
+
+Program State: 
+ID: 1
+ExecStack: 
+new(v1,2);new(v2,3);new(v3,4);newLatch(cnt,readHeap(v2));fork(writeHeap(v1,readHeap(v1)*10);print(readHeap(v1));countDown(cnt));fork(writeHeap(v2,readHeap(v2)*10);print(readHeap(v2));countDown(cnt));fork(writeHeap(v3,readHeap(v3)*10);print(readHeap(v3));countDown(cnt));await(cnt);print(100);countDown(cnt);print(100)
+SymTable: 
+cnt->0
+v1->(0,int)
+v2->(0,int)
+v3->(0,int)
+OutputList: 
+File table: 
+Heap: 
+SemaphoreTable:
+latchTable:
+lockTable:
+
+Program State: 
+ID: 1
+ExecStack: 
+new(v1,2);new(v2,3);new(v3,4);newLatch(cnt,readHeap(v2));fork(writeHeap(v1,readHeap(v1)*10);print(readHeap(v1));countDown(cnt));fork(writeHeap(v2,readHeap(v2)*10);print(readHeap(v2));countDown(cnt));fork(writeHeap(v3,readHeap(v3)*10);print(readHeap(v3));countDown(cnt));await(cnt);print(100);countDown(cnt);print(100)
+SymTable: 
+cnt->0
+v1->(0,int)
+v2->(0,int)
+v3->(0,int)
+OutputList: 
+File table: 
+Heap: 
+SemaphoreTable:
+latchTable:
+lockTable:
+
+Program State: 
+ID: 1
+ExecStack: 
+new(v2,3);new(v3,4);newLatch(cnt,readHeap(v2));fork(writeHeap(v1,readHeap(v1)*10);print(readHeap(v1));countDown(cnt));fork(writeHeap(v2,readHeap(v2)*10);print(readHeap(v2));countDown(cnt));fork(writeHeap(v3,readHeap(v3)*10);print(readHeap(v3));countDown(cnt));await(cnt);print(100);countDown(cnt);print(100)
+new(v1,2)
+SymTable: 
+cnt->0
+v1->(0,int)
+v2->(0,int)
+v3->(0,int)
+OutputList: 
+File table: 
+Heap: 
+SemaphoreTable:
+latchTable:
+lockTable:
+
+Program State: 
+ID: 1
+ExecStack: 
+new(v2,3);new(v3,4);newLatch(cnt,readHeap(v2));fork(writeHeap(v1,readHeap(v1)*10);print(readHeap(v1));countDown(cnt));fork(writeHeap(v2,readHeap(v2)*10);print(readHeap(v2));countDown(cnt));fork(writeHeap(v3,readHeap(v3)*10);print(readHeap(v3));countDown(cnt));await(cnt);print(100);countDown(cnt);print(100)
+new(v1,2)
+SymTable: 
+cnt->0
+v1->(0,int)
+v2->(0,int)
+v3->(0,int)
+OutputList: 
+File table: 
+Heap: 
+SemaphoreTable:
+latchTable:
+lockTable:
+
+Program State: 
+ID: 1
+ExecStack: 
+new(v2,3);new(v3,4);newLatch(cnt,readHeap(v2));fork(writeHeap(v1,readHeap(v1)*10);print(readHeap(v1));countDown(cnt));fork(writeHeap(v2,readHeap(v2)*10);print(readHeap(v2));countDown(cnt));fork(writeHeap(v3,readHeap(v3)*10);print(readHeap(v3));countDown(cnt));await(cnt);print(100);countDown(cnt);print(100)
+SymTable: 
+cnt->0
+v1->(1,int)
+v2->(0,int)
+v3->(0,int)
+OutputList: 
+File table: 
+Heap: 
+1->2
+SemaphoreTable:
+latchTable:
+lockTable:
+
+Program State: 
+ID: 1
+ExecStack: 
+new(v2,3);new(v3,4);newLatch(cnt,readHeap(v2));fork(writeHeap(v1,readHeap(v1)*10);print(readHeap(v1));countDown(cnt));fork(writeHeap(v2,readHeap(v2)*10);print(readHeap(v2));countDown(cnt));fork(writeHeap(v3,readHeap(v3)*10);print(readHeap(v3));countDown(cnt));await(cnt);print(100);countDown(cnt);print(100)
+SymTable: 
+cnt->0
+v1->(1,int)
+v2->(0,int)
+v3->(0,int)
+OutputList: 
+File table: 
+Heap: 
+1->2
+SemaphoreTable:
+latchTable:
+lockTable:
+
+Program State: 
+ID: 1
+ExecStack: 
+new(v3,4);newLatch(cnt,readHeap(v2));fork(writeHeap(v1,readHeap(v1)*10);print(readHeap(v1));countDown(cnt));fork(writeHeap(v2,readHeap(v2)*10);print(readHeap(v2));countDown(cnt));fork(writeHeap(v3,readHeap(v3)*10);print(readHeap(v3));countDown(cnt));await(cnt);print(100);countDown(cnt);print(100)
+new(v2,3)
+SymTable: 
+cnt->0
+v1->(1,int)
+v2->(0,int)
+v3->(0,int)
+OutputList: 
+File table: 
+Heap: 
+1->2
+SemaphoreTable:
+latchTable:
+lockTable:
+
+Program State: 
+ID: 1
+ExecStack: 
+new(v3,4);newLatch(cnt,readHeap(v2));fork(writeHeap(v1,readHeap(v1)*10);print(readHeap(v1));countDown(cnt));fork(writeHeap(v2,readHeap(v2)*10);print(readHeap(v2));countDown(cnt));fork(writeHeap(v3,readHeap(v3)*10);print(readHeap(v3));countDown(cnt));await(cnt);print(100);countDown(cnt);print(100)
+new(v2,3)
+SymTable: 
+cnt->0
+v1->(1,int)
+v2->(0,int)
+v3->(0,int)
+OutputList: 
+File table: 
+Heap: 
+1->2
+SemaphoreTable:
+latchTable:
+lockTable:
+
+Program State: 
+ID: 1
+ExecStack: 
+new(v3,4);newLatch(cnt,readHeap(v2));fork(writeHeap(v1,readHeap(v1)*10);print(readHeap(v1));countDown(cnt));fork(writeHeap(v2,readHeap(v2)*10);print(readHeap(v2));countDown(cnt));fork(writeHeap(v3,readHeap(v3)*10);print(readHeap(v3));countDown(cnt));await(cnt);print(100);countDown(cnt);print(100)
+SymTable: 
+cnt->0
+v1->(1,int)
+v2->(2,int)
+v3->(0,int)
+OutputList: 
+File table: 
+Heap: 
+1->2
+2->3
+SemaphoreTable:
+latchTable:
+lockTable:
+
+Program State: 
+ID: 1
+ExecStack: 
+new(v3,4);newLatch(cnt,readHeap(v2));fork(writeHeap(v1,readHeap(v1)*10);print(readHeap(v1));countDown(cnt));fork(writeHeap(v2,readHeap(v2)*10);print(readHeap(v2));countDown(cnt));fork(writeHeap(v3,readHeap(v3)*10);print(readHeap(v3));countDown(cnt));await(cnt);print(100);countDown(cnt);print(100)
+SymTable: 
+cnt->0
+v1->(1,int)
+v2->(2,int)
+v3->(0,int)
+OutputList: 
+File table: 
+Heap: 
+1->2
+2->3
+SemaphoreTable:
+latchTable:
+lockTable:
+
+Program State: 
+ID: 1
+ExecStack: 
+newLatch(cnt,readHeap(v2));fork(writeHeap(v1,readHeap(v1)*10);print(readHeap(v1));countDown(cnt));fork(writeHeap(v2,readHeap(v2)*10);print(readHeap(v2));countDown(cnt));fork(writeHeap(v3,readHeap(v3)*10);print(readHeap(v3));countDown(cnt));await(cnt);print(100);countDown(cnt);print(100)
+new(v3,4)
+SymTable: 
+cnt->0
+v1->(1,int)
+v2->(2,int)
+v3->(0,int)
+OutputList: 
+File table: 
+Heap: 
+1->2
+2->3
+SemaphoreTable:
+latchTable:
+lockTable:
+
+Program State: 
+ID: 1
+ExecStack: 
+newLatch(cnt,readHeap(v2));fork(writeHeap(v1,readHeap(v1)*10);print(readHeap(v1));countDown(cnt));fork(writeHeap(v2,readHeap(v2)*10);print(readHeap(v2));countDown(cnt));fork(writeHeap(v3,readHeap(v3)*10);print(readHeap(v3));countDown(cnt));await(cnt);print(100);countDown(cnt);print(100)
+new(v3,4)
+SymTable: 
+cnt->0
+v1->(1,int)
+v2->(2,int)
+v3->(0,int)
+OutputList: 
+File table: 
+Heap: 
+1->2
+2->3
+SemaphoreTable:
+latchTable:
+lockTable:
+
+Program State: 
+ID: 1
+ExecStack: 
+newLatch(cnt,readHeap(v2));fork(writeHeap(v1,readHeap(v1)*10);print(readHeap(v1));countDown(cnt));fork(writeHeap(v2,readHeap(v2)*10);print(readHeap(v2));countDown(cnt));fork(writeHeap(v3,readHeap(v3)*10);print(readHeap(v3));countDown(cnt));await(cnt);print(100);countDown(cnt);print(100)
+SymTable: 
+cnt->0
+v1->(1,int)
+v2->(2,int)
+v3->(3,int)
+OutputList: 
+File table: 
+Heap: 
+1->2
+2->3
+3->4
+SemaphoreTable:
+latchTable:
+lockTable:
+
+Program State: 
+ID: 1
+ExecStack: 
+newLatch(cnt,readHeap(v2));fork(writeHeap(v1,readHeap(v1)*10);print(readHeap(v1));countDown(cnt));fork(writeHeap(v2,readHeap(v2)*10);print(readHeap(v2));countDown(cnt));fork(writeHeap(v3,readHeap(v3)*10);print(readHeap(v3));countDown(cnt));await(cnt);print(100);countDown(cnt);print(100)
+SymTable: 
+cnt->0
+v1->(1,int)
+v2->(2,int)
+v3->(3,int)
+OutputList: 
+File table: 
+Heap: 
+1->2
+2->3
+3->4
+SemaphoreTable:
+latchTable:
+lockTable:
+
+Program State: 
+ID: 1
+ExecStack: 
+fork(writeHeap(v1,readHeap(v1)*10);print(readHeap(v1));countDown(cnt));fork(writeHeap(v2,readHeap(v2)*10);print(readHeap(v2));countDown(cnt));fork(writeHeap(v3,readHeap(v3)*10);print(readHeap(v3));countDown(cnt));await(cnt);print(100);countDown(cnt);print(100)
+newLatch(cnt,readHeap(v2))
+SymTable: 
+cnt->0
+v1->(1,int)
+v2->(2,int)
+v3->(3,int)
+OutputList: 
+File table: 
+Heap: 
+1->2
+2->3
+3->4
+SemaphoreTable:
+latchTable:
+lockTable:
+
+Program State: 
+ID: 1
+ExecStack: 
+fork(writeHeap(v1,readHeap(v1)*10);print(readHeap(v1));countDown(cnt));fork(writeHeap(v2,readHeap(v2)*10);print(readHeap(v2));countDown(cnt));fork(writeHeap(v3,readHeap(v3)*10);print(readHeap(v3));countDown(cnt));await(cnt);print(100);countDown(cnt);print(100)
+newLatch(cnt,readHeap(v2))
+SymTable: 
+cnt->0
+v1->(1,int)
+v2->(2,int)
+v3->(3,int)
+OutputList: 
+File table: 
+Heap: 
+1->2
+2->3
+3->4
+SemaphoreTable:
+latchTable:
+lockTable:
+
+Program State: 
+ID: 1
+ExecStack: 
+fork(writeHeap(v1,readHeap(v1)*10);print(readHeap(v1));countDown(cnt));fork(writeHeap(v2,readHeap(v2)*10);print(readHeap(v2));countDown(cnt));fork(writeHeap(v3,readHeap(v3)*10);print(readHeap(v3));countDown(cnt));await(cnt);print(100);countDown(cnt);print(100)
+SymTable: 
+cnt->1
+v1->(1,int)
+v2->(2,int)
+v3->(3,int)
+OutputList: 
+File table: 
+Heap: 
+1->2
+2->3
+3->4
+SemaphoreTable:
+latchTable:
+location: 1->value: 3lockTable:
+
+Program State: 
+ID: 1
+ExecStack: 
+fork(writeHeap(v1,readHeap(v1)*10);print(readHeap(v1));countDown(cnt));fork(writeHeap(v2,readHeap(v2)*10);print(readHeap(v2));countDown(cnt));fork(writeHeap(v3,readHeap(v3)*10);print(readHeap(v3));countDown(cnt));await(cnt);print(100);countDown(cnt);print(100)
+SymTable: 
+cnt->1
+v1->(1,int)
+v2->(2,int)
+v3->(3,int)
+OutputList: 
+File table: 
+Heap: 
+1->2
+2->3
+3->4
+SemaphoreTable:
+latchTable:
+location: 1->value: 3lockTable:
+
+Program State: 
+ID: 1
+ExecStack: 
+fork(writeHeap(v2,readHeap(v2)*10);print(readHeap(v2));countDown(cnt));fork(writeHeap(v3,readHeap(v3)*10);print(readHeap(v3));countDown(cnt));await(cnt);print(100);countDown(cnt);print(100)
+fork(writeHeap(v1,readHeap(v1)*10);print(readHeap(v1));countDown(cnt))
+SymTable: 
+cnt->1
+v1->(1,int)
+v2->(2,int)
+v3->(3,int)
+OutputList: 
+File table: 
+Heap: 
+1->2
+2->3
+3->4
+SemaphoreTable:
+latchTable:
+location: 1->value: 3lockTable:
+
+Program State: 
+ID: 1
+ExecStack: 
+fork(writeHeap(v2,readHeap(v2)*10);print(readHeap(v2));countDown(cnt));fork(writeHeap(v3,readHeap(v3)*10);print(readHeap(v3));countDown(cnt));await(cnt);print(100);countDown(cnt);print(100)
+fork(writeHeap(v1,readHeap(v1)*10);print(readHeap(v1));countDown(cnt))
+SymTable: 
+cnt->1
+v1->(1,int)
+v2->(2,int)
+v3->(3,int)
+OutputList: 
+File table: 
+Heap: 
+1->2
+2->3
+3->4
+SemaphoreTable:
+latchTable:
+location: 1->value: 3lockTable:
+
+Program State: 
+ID: 1
+ExecStack: 
+fork(writeHeap(v2,readHeap(v2)*10);print(readHeap(v2));countDown(cnt));fork(writeHeap(v3,readHeap(v3)*10);print(readHeap(v3));countDown(cnt));await(cnt);print(100);countDown(cnt);print(100)
+SymTable: 
+cnt->1
+v1->(1,int)
+v2->(2,int)
+v3->(3,int)
+OutputList: 
+File table: 
+Heap: 
+1->2
+2->3
+3->4
+SemaphoreTable:
+latchTable:
+location: 1->value: 3lockTable:
+
+Program State: 
+ID: 2
+ExecStack: 
+writeHeap(v1,readHeap(v1)*10);print(readHeap(v1));countDown(cnt)
+SymTable: 
+cnt->1
+v1->(1,int)
+v2->(2,int)
+v3->(3,int)
+OutputList: 
+File table: 
+Heap: 
+1->2
+2->3
+3->4
+SemaphoreTable:
+latchTable:
+location: 1->value: 3lockTable:
+
+Program State: 
+ID: 1
+ExecStack: 
+fork(writeHeap(v2,readHeap(v2)*10);print(readHeap(v2));countDown(cnt));fork(writeHeap(v3,readHeap(v3)*10);print(readHeap(v3));countDown(cnt));await(cnt);print(100);countDown(cnt);print(100)
+SymTable: 
+cnt->1
+v1->(1,int)
+v2->(2,int)
+v3->(3,int)
+OutputList: 
+File table: 
+Heap: 
+1->2
+2->3
+3->4
+SemaphoreTable:
+latchTable:
+location: 1->value: 3lockTable:
+
+Program State: 
+ID: 2
+ExecStack: 
+writeHeap(v1,readHeap(v1)*10);print(readHeap(v1));countDown(cnt)
+SymTable: 
+cnt->1
+v1->(1,int)
+v2->(2,int)
+v3->(3,int)
+OutputList: 
+File table: 
+Heap: 
+1->2
+2->3
+3->4
+SemaphoreTable:
+latchTable:
+location: 1->value: 3lockTable:
+
+Program State: 
+ID: 1
+ExecStack: 
+fork(writeHeap(v3,readHeap(v3)*10);print(readHeap(v3));countDown(cnt));await(cnt);print(100);countDown(cnt);print(100)
+fork(writeHeap(v2,readHeap(v2)*10);print(readHeap(v2));countDown(cnt))
+SymTable: 
+cnt->1
+v1->(1,int)
+v2->(2,int)
+v3->(3,int)
+OutputList: 
+File table: 
+Heap: 
+1->2
+2->3
+3->4
+SemaphoreTable:
+latchTable:
+location: 1->value: 3lockTable:
+
+Program State: 
+ID: 2
+ExecStack: 
+print(readHeap(v1));countDown(cnt)
+writeHeap(v1,readHeap(v1)*10)
+SymTable: 
+cnt->1
+v1->(1,int)
+v2->(2,int)
+v3->(3,int)
+OutputList: 
+File table: 
+Heap: 
+1->2
+2->3
+3->4
+SemaphoreTable:
+latchTable:
+location: 1->value: 3lockTable:
+
+Program State: 
+ID: 1
+ExecStack: 
+fork(writeHeap(v3,readHeap(v3)*10);print(readHeap(v3));countDown(cnt));await(cnt);print(100);countDown(cnt);print(100)
+fork(writeHeap(v2,readHeap(v2)*10);print(readHeap(v2));countDown(cnt))
+SymTable: 
+cnt->1
+v1->(1,int)
+v2->(2,int)
+v3->(3,int)
+OutputList: 
+File table: 
+Heap: 
+1->2
+2->3
+3->4
+SemaphoreTable:
+latchTable:
+location: 1->value: 3lockTable:
+
+Program State: 
+ID: 2
+ExecStack: 
+print(readHeap(v1));countDown(cnt)
+writeHeap(v1,readHeap(v1)*10)
+SymTable: 
+cnt->1
+v1->(1,int)
+v2->(2,int)
+v3->(3,int)
+OutputList: 
+File table: 
+Heap: 
+1->2
+2->3
+3->4
+SemaphoreTable:
+latchTable:
+location: 1->value: 3lockTable:
+
+Program State: 
+ID: 1
+ExecStack: 
+fork(writeHeap(v3,readHeap(v3)*10);print(readHeap(v3));countDown(cnt));await(cnt);print(100);countDown(cnt);print(100)
+SymTable: 
+cnt->1
+v1->(1,int)
+v2->(2,int)
+v3->(3,int)
+OutputList: 
+File table: 
+Heap: 
+1->20
+2->3
+3->4
+SemaphoreTable:
+latchTable:
+location: 1->value: 3lockTable:
+
+Program State: 
+ID: 2
+ExecStack: 
+print(readHeap(v1));countDown(cnt)
+SymTable: 
+cnt->1
+v1->(1,int)
+v2->(2,int)
+v3->(3,int)
+OutputList: 
+File table: 
+Heap: 
+1->20
+2->3
+3->4
+SemaphoreTable:
+latchTable:
+location: 1->value: 3lockTable:
+
+Program State: 
+ID: 3
+ExecStack: 
+writeHeap(v2,readHeap(v2)*10);print(readHeap(v2));countDown(cnt)
+SymTable: 
+cnt->1
+v1->(1,int)
+v2->(2,int)
+v3->(3,int)
+OutputList: 
+File table: 
+Heap: 
+1->20
+2->3
+3->4
+SemaphoreTable:
+latchTable:
+location: 1->value: 3lockTable:
+
+Program State: 
+ID: 1
+ExecStack: 
+fork(writeHeap(v3,readHeap(v3)*10);print(readHeap(v3));countDown(cnt));await(cnt);print(100);countDown(cnt);print(100)
+SymTable: 
+cnt->1
+v1->(1,int)
+v2->(2,int)
+v3->(3,int)
+OutputList: 
+File table: 
+Heap: 
+1->20
+2->3
+3->4
+SemaphoreTable:
+latchTable:
+location: 1->value: 3lockTable:
+
+Program State: 
+ID: 2
+ExecStack: 
+print(readHeap(v1));countDown(cnt)
+SymTable: 
+cnt->1
+v1->(1,int)
+v2->(2,int)
+v3->(3,int)
+OutputList: 
+File table: 
+Heap: 
+1->20
+2->3
+3->4
+SemaphoreTable:
+latchTable:
+location: 1->value: 3lockTable:
+
+Program State: 
+ID: 3
+ExecStack: 
+writeHeap(v2,readHeap(v2)*10);print(readHeap(v2));countDown(cnt)
+SymTable: 
+cnt->1
+v1->(1,int)
+v2->(2,int)
+v3->(3,int)
+OutputList: 
+File table: 
+Heap: 
+1->20
+2->3
+3->4
+SemaphoreTable:
+latchTable:
+location: 1->value: 3lockTable:
+
+Program State: 
+ID: 1
+ExecStack: 
+await(cnt);print(100);countDown(cnt);print(100)
+fork(writeHeap(v3,readHeap(v3)*10);print(readHeap(v3));countDown(cnt))
+SymTable: 
+cnt->1
+v1->(1,int)
+v2->(2,int)
+v3->(3,int)
+OutputList: 
+File table: 
+Heap: 
+1->20
+2->3
+3->4
+SemaphoreTable:
+latchTable:
+location: 1->value: 3lockTable:
+
+Program State: 
+ID: 2
+ExecStack: 
+countDown(cnt)
+print(readHeap(v1))
+SymTable: 
+cnt->1
+v1->(1,int)
+v2->(2,int)
+v3->(3,int)
+OutputList: 
+File table: 
+Heap: 
+1->20
+2->3
+3->4
+SemaphoreTable:
+latchTable:
+location: 1->value: 3lockTable:
+
+Program State: 
+ID: 3
+ExecStack: 
+print(readHeap(v2));countDown(cnt)
+writeHeap(v2,readHeap(v2)*10)
+SymTable: 
+cnt->1
+v1->(1,int)
+v2->(2,int)
+v3->(3,int)
+OutputList: 
+File table: 
+Heap: 
+1->20
+2->3
+3->4
+SemaphoreTable:
+latchTable:
+location: 1->value: 3lockTable:
+
+Program State: 
+ID: 1
+ExecStack: 
+await(cnt);print(100);countDown(cnt);print(100)
+fork(writeHeap(v3,readHeap(v3)*10);print(readHeap(v3));countDown(cnt))
+SymTable: 
+cnt->1
+v1->(1,int)
+v2->(2,int)
+v3->(3,int)
+OutputList: 
+File table: 
+Heap: 
+1->20
+2->3
+3->4
+SemaphoreTable:
+latchTable:
+location: 1->value: 3lockTable:
+
+Program State: 
+ID: 2
+ExecStack: 
+countDown(cnt)
+print(readHeap(v1))
+SymTable: 
+cnt->1
+v1->(1,int)
+v2->(2,int)
+v3->(3,int)
+OutputList: 
+File table: 
+Heap: 
+1->20
+2->3
+3->4
+SemaphoreTable:
+latchTable:
+location: 1->value: 3lockTable:
+
+Program State: 
+ID: 3
+ExecStack: 
+print(readHeap(v2));countDown(cnt)
+writeHeap(v2,readHeap(v2)*10)
+SymTable: 
+cnt->1
+v1->(1,int)
+v2->(2,int)
+v3->(3,int)
+OutputList: 
+File table: 
+Heap: 
+1->20
+2->3
+3->4
+SemaphoreTable:
+latchTable:
+location: 1->value: 3lockTable:
+
+Program State: 
+ID: 1
+ExecStack: 
+await(cnt);print(100);countDown(cnt);print(100)
+SymTable: 
+cnt->1
+v1->(1,int)
+v2->(2,int)
+v3->(3,int)
+OutputList: 
+20
+File table: 
+Heap: 
+1->20
+2->30
+3->4
+SemaphoreTable:
+latchTable:
+location: 1->value: 3lockTable:
+
+Program State: 
+ID: 2
+ExecStack: 
+countDown(cnt)
+SymTable: 
+cnt->1
+v1->(1,int)
+v2->(2,int)
+v3->(3,int)
+OutputList: 
+20
+File table: 
+Heap: 
+1->20
+2->30
+3->4
+SemaphoreTable:
+latchTable:
+location: 1->value: 3lockTable:
+
+Program State: 
+ID: 3
+ExecStack: 
+print(readHeap(v2));countDown(cnt)
+SymTable: 
+cnt->1
+v1->(1,int)
+v2->(2,int)
+v3->(3,int)
+OutputList: 
+20
+File table: 
+Heap: 
+1->20
+2->30
+3->4
+SemaphoreTable:
+latchTable:
+location: 1->value: 3lockTable:
+
+Program State: 
+ID: 4
+ExecStack: 
+writeHeap(v3,readHeap(v3)*10);print(readHeap(v3));countDown(cnt)
+SymTable: 
+cnt->1
+v1->(1,int)
+v2->(2,int)
+v3->(3,int)
+OutputList: 
+20
+File table: 
+Heap: 
+1->20
+2->30
+3->4
+SemaphoreTable:
+latchTable:
+location: 1->value: 3lockTable:
+
+Program State: 
+ID: 1
+ExecStack: 
+await(cnt);print(100);countDown(cnt);print(100)
+SymTable: 
+cnt->1
+v1->(1,int)
+v2->(2,int)
+v3->(3,int)
+OutputList: 
+20
+File table: 
+Heap: 
+1->20
+2->30
+3->4
+SemaphoreTable:
+latchTable:
+location: 1->value: 3lockTable:
+
+Program State: 
+ID: 2
+ExecStack: 
+countDown(cnt)
+SymTable: 
+cnt->1
+v1->(1,int)
+v2->(2,int)
+v3->(3,int)
+OutputList: 
+20
+File table: 
+Heap: 
+1->20
+2->30
+3->4
+SemaphoreTable:
+latchTable:
+location: 1->value: 3lockTable:
+
+Program State: 
+ID: 3
+ExecStack: 
+print(readHeap(v2));countDown(cnt)
+SymTable: 
+cnt->1
+v1->(1,int)
+v2->(2,int)
+v3->(3,int)
+OutputList: 
+20
+File table: 
+Heap: 
+1->20
+2->30
+3->4
+SemaphoreTable:
+latchTable:
+location: 1->value: 3lockTable:
+
+Program State: 
+ID: 4
+ExecStack: 
+writeHeap(v3,readHeap(v3)*10);print(readHeap(v3));countDown(cnt)
+SymTable: 
+cnt->1
+v1->(1,int)
+v2->(2,int)
+v3->(3,int)
+OutputList: 
+20
+File table: 
+Heap: 
+1->20
+2->30
+3->4
+SemaphoreTable:
+latchTable:
+location: 1->value: 3lockTable:
+
+Program State: 
+ID: 1
+ExecStack: 
+print(100);countDown(cnt);print(100)
+await(cnt)
+SymTable: 
+cnt->1
+v1->(1,int)
+v2->(2,int)
+v3->(3,int)
+OutputList: 
+20
+2
+File table: 
+Heap: 
+1->20
+2->30
+3->4
+SemaphoreTable:
+latchTable:
+location: 1->value: 2lockTable:
+
+Program State: 
+ID: 2
+ExecStack: 
+SymTable: 
+cnt->1
+v1->(1,int)
+v2->(2,int)
+v3->(3,int)
+OutputList: 
+20
+2
+File table: 
+Heap: 
+1->20
+2->30
+3->4
+SemaphoreTable:
+latchTable:
+location: 1->value: 2lockTable:
+
+Program State: 
+ID: 3
+ExecStack: 
+countDown(cnt)
+print(readHeap(v2))
+SymTable: 
+cnt->1
+v1->(1,int)
+v2->(2,int)
+v3->(3,int)
+OutputList: 
+20
+2
+File table: 
+Heap: 
+1->20
+2->30
+3->4
+SemaphoreTable:
+latchTable:
+location: 1->value: 2lockTable:
+
+Program State: 
+ID: 4
+ExecStack: 
+print(readHeap(v3));countDown(cnt)
+writeHeap(v3,readHeap(v3)*10)
+SymTable: 
+cnt->1
+v1->(1,int)
+v2->(2,int)
+v3->(3,int)
+OutputList: 
+20
+2
+File table: 
+Heap: 
+1->20
+2->30
+3->4
+SemaphoreTable:
+latchTable:
+location: 1->value: 2lockTable:
+
+Program State: 
+ID: 1
+ExecStack: 
+print(100);countDown(cnt);print(100)
+await(cnt)
+SymTable: 
+cnt->1
+v1->(1,int)
+v2->(2,int)
+v3->(3,int)
+OutputList: 
+20
+2
+File table: 
+Heap: 
+1->20
+2->30
+3->4
+SemaphoreTable:
+latchTable:
+location: 1->value: 2lockTable:
+
+Program State: 
+ID: 3
+ExecStack: 
+countDown(cnt)
+print(readHeap(v2))
+SymTable: 
+cnt->1
+v1->(1,int)
+v2->(2,int)
+v3->(3,int)
+OutputList: 
+20
+2
+File table: 
+Heap: 
+1->20
+2->30
+3->4
+SemaphoreTable:
+latchTable:
+location: 1->value: 2lockTable:
+
+Program State: 
+ID: 4
+ExecStack: 
+print(readHeap(v3));countDown(cnt)
+writeHeap(v3,readHeap(v3)*10)
+SymTable: 
+cnt->1
+v1->(1,int)
+v2->(2,int)
+v3->(3,int)
+OutputList: 
+20
+2
+File table: 
+Heap: 
+1->20
+2->30
+3->4
+SemaphoreTable:
+latchTable:
+location: 1->value: 2lockTable:
+
+Program State: 
+ID: 1
+ExecStack: 
+print(100);countDown(cnt);print(100)
+await(cnt)
+SymTable: 
+cnt->1
+v1->(1,int)
+v2->(2,int)
+v3->(3,int)
+OutputList: 
+20
+2
+30
+File table: 
+Heap: 
+1->20
+2->30
+3->40
+SemaphoreTable:
+latchTable:
+location: 1->value: 2lockTable:
+
+Program State: 
+ID: 3
+ExecStack: 
+countDown(cnt)
+SymTable: 
+cnt->1
+v1->(1,int)
+v2->(2,int)
+v3->(3,int)
+OutputList: 
+20
+2
+30
+File table: 
+Heap: 
+1->20
+2->30
+3->40
+SemaphoreTable:
+latchTable:
+location: 1->value: 2lockTable:
+
+Program State: 
+ID: 4
+ExecStack: 
+print(readHeap(v3));countDown(cnt)
+SymTable: 
+cnt->1
+v1->(1,int)
+v2->(2,int)
+v3->(3,int)
+OutputList: 
+20
+2
+30
+File table: 
+Heap: 
+1->20
+2->30
+3->40
+SemaphoreTable:
+latchTable:
+location: 1->value: 2lockTable:
+
+Program State: 
+ID: 1
+ExecStack: 
+print(100);countDown(cnt);print(100)
+await(cnt)
+SymTable: 
+cnt->1
+v1->(1,int)
+v2->(2,int)
+v3->(3,int)
+OutputList: 
+20
+2
+30
+File table: 
+Heap: 
+1->20
+2->30
+3->40
+SemaphoreTable:
+latchTable:
+location: 1->value: 2lockTable:
+
+Program State: 
+ID: 3
+ExecStack: 
+countDown(cnt)
+SymTable: 
+cnt->1
+v1->(1,int)
+v2->(2,int)
+v3->(3,int)
+OutputList: 
+20
+2
+30
+File table: 
+Heap: 
+1->20
+2->30
+3->40
+SemaphoreTable:
+latchTable:
+location: 1->value: 2lockTable:
+
+Program State: 
+ID: 4
+ExecStack: 
+print(readHeap(v3));countDown(cnt)
+SymTable: 
+cnt->1
+v1->(1,int)
+v2->(2,int)
+v3->(3,int)
+OutputList: 
+20
+2
+30
+File table: 
+Heap: 
+1->20
+2->30
+3->40
+SemaphoreTable:
+latchTable:
+location: 1->value: 2lockTable:
+
+Program State: 
+ID: 1
+ExecStack: 
+print(100);countDown(cnt);print(100)
+await(cnt)
+SymTable: 
+cnt->1
+v1->(1,int)
+v2->(2,int)
+v3->(3,int)
+OutputList: 
+20
+2
+30
+3
+File table: 
+Heap: 
+1->20
+2->30
+3->40
+SemaphoreTable:
+latchTable:
+location: 1->value: 1lockTable:
+
+Program State: 
+ID: 3
+ExecStack: 
+SymTable: 
+cnt->1
+v1->(1,int)
+v2->(2,int)
+v3->(3,int)
+OutputList: 
+20
+2
+30
+3
+File table: 
+Heap: 
+1->20
+2->30
+3->40
+SemaphoreTable:
+latchTable:
+location: 1->value: 1lockTable:
+
+Program State: 
+ID: 4
+ExecStack: 
+countDown(cnt)
+print(readHeap(v3))
+SymTable: 
+cnt->1
+v1->(1,int)
+v2->(2,int)
+v3->(3,int)
+OutputList: 
+20
+2
+30
+3
+File table: 
+Heap: 
+1->20
+2->30
+3->40
+SemaphoreTable:
+latchTable:
+location: 1->value: 1lockTable:
+
+Program State: 
+ID: 1
+ExecStack: 
+print(100);countDown(cnt);print(100)
+await(cnt)
+SymTable: 
+cnt->1
+v1->(1,int)
+v2->(2,int)
+v3->(3,int)
+OutputList: 
+20
+2
+30
+3
+File table: 
+Heap: 
+1->20
+2->30
+3->40
+SemaphoreTable:
+latchTable:
+location: 1->value: 1lockTable:
+
+Program State: 
+ID: 4
+ExecStack: 
+countDown(cnt)
+print(readHeap(v3))
+SymTable: 
+cnt->1
+v1->(1,int)
+v2->(2,int)
+v3->(3,int)
+OutputList: 
+20
+2
+30
+3
+File table: 
+Heap: 
+1->20
+2->30
+3->40
+SemaphoreTable:
+latchTable:
+location: 1->value: 1lockTable:
+
+Program State: 
+ID: 1
+ExecStack: 
+print(100);countDown(cnt);print(100)
+await(cnt)
+SymTable: 
+cnt->1
+v1->(1,int)
+v2->(2,int)
+v3->(3,int)
+OutputList: 
+20
+2
+30
+3
+40
+File table: 
+Heap: 
+1->20
+2->30
+3->40
+SemaphoreTable:
+latchTable:
+location: 1->value: 1lockTable:
+
+Program State: 
+ID: 4
+ExecStack: 
+countDown(cnt)
+SymTable: 
+cnt->1
+v1->(1,int)
+v2->(2,int)
+v3->(3,int)
+OutputList: 
+20
+2
+30
+3
+40
+File table: 
+Heap: 
+1->20
+2->30
+3->40
+SemaphoreTable:
+latchTable:
+location: 1->value: 1lockTable:
+
+Program State: 
+ID: 1
+ExecStack: 
+print(100);countDown(cnt);print(100)
+await(cnt)
+SymTable: 
+cnt->1
+v1->(1,int)
+v2->(2,int)
+v3->(3,int)
+OutputList: 
+20
+2
+30
+3
+40
+File table: 
+Heap: 
+1->20
+2->30
+3->40
+SemaphoreTable:
+latchTable:
+location: 1->value: 1lockTable:
+
+Program State: 
+ID: 4
+ExecStack: 
+countDown(cnt)
+SymTable: 
+cnt->1
+v1->(1,int)
+v2->(2,int)
+v3->(3,int)
+OutputList: 
+20
+2
+30
+3
+40
+File table: 
+Heap: 
+1->20
+2->30
+3->40
+SemaphoreTable:
+latchTable:
+location: 1->value: 1lockTable:
+
+Program State: 
+ID: 1
+ExecStack: 
+print(100);countDown(cnt);print(100)
+await(cnt)
+SymTable: 
+cnt->1
+v1->(1,int)
+v2->(2,int)
+v3->(3,int)
+OutputList: 
+20
+2
+30
+3
+40
+4
+File table: 
+Heap: 
+1->20
+2->30
+3->40
+SemaphoreTable:
+latchTable:
+location: 1->value: 0lockTable:
+
+Program State: 
+ID: 4
+ExecStack: 
+SymTable: 
+cnt->1
+v1->(1,int)
+v2->(2,int)
+v3->(3,int)
+OutputList: 
+20
+2
+30
+3
+40
+4
+File table: 
+Heap: 
+1->20
+2->30
+3->40
+SemaphoreTable:
+latchTable:
+location: 1->value: 0lockTable:
+
+Program State: 
+ID: 1
+ExecStack: 
+print(100);countDown(cnt);print(100)
+await(cnt)
+SymTable: 
+cnt->1
+v1->(1,int)
+v2->(2,int)
+v3->(3,int)
+OutputList: 
+20
+2
+30
+3
+40
+4
+File table: 
+Heap: 
+1->20
+2->30
+3->40
+SemaphoreTable:
+latchTable:
+location: 1->value: 0lockTable:
+
+Program State: 
+ID: 1
+ExecStack: 
+print(100);countDown(cnt);print(100)
+SymTable: 
+cnt->1
+v1->(1,int)
+v2->(2,int)
+v3->(3,int)
+OutputList: 
+20
+2
+30
+3
+40
+4
+File table: 
+Heap: 
+1->20
+2->30
+3->40
+SemaphoreTable:
+latchTable:
+location: 1->value: 0lockTable:
+
+Program State: 
+ID: 1
+ExecStack: 
+print(100);countDown(cnt);print(100)
+SymTable: 
+cnt->1
+v1->(1,int)
+v2->(2,int)
+v3->(3,int)
+OutputList: 
+20
+2
+30
+3
+40
+4
+File table: 
+Heap: 
+1->20
+2->30
+3->40
+SemaphoreTable:
+latchTable:
+location: 1->value: 0lockTable:
+
+Program State: 
+ID: 1
+ExecStack: 
+countDown(cnt);print(100)
+print(100)
+SymTable: 
+cnt->1
+v1->(1,int)
+v2->(2,int)
+v3->(3,int)
+OutputList: 
+20
+2
+30
+3
+40
+4
+File table: 
+Heap: 
+1->20
+2->30
+3->40
+SemaphoreTable:
+latchTable:
+location: 1->value: 0lockTable:
+
+Program State: 
+ID: 1
+ExecStack: 
+countDown(cnt);print(100)
+print(100)
+SymTable: 
+cnt->1
+v1->(1,int)
+v2->(2,int)
+v3->(3,int)
+OutputList: 
+20
+2
+30
+3
+40
+4
+File table: 
+Heap: 
+1->20
+2->30
+3->40
+SemaphoreTable:
+latchTable:
+location: 1->value: 0lockTable:
+
+Program State: 
+ID: 1
+ExecStack: 
+countDown(cnt);print(100)
+SymTable: 
+cnt->1
+v1->(1,int)
+v2->(2,int)
+v3->(3,int)
+OutputList: 
+20
+2
+30
+3
+40
+4
+100
+File table: 
+Heap: 
+1->20
+2->30
+3->40
+SemaphoreTable:
+latchTable:
+location: 1->value: 0lockTable:
+
+Program State: 
+ID: 1
+ExecStack: 
+countDown(cnt);print(100)
+SymTable: 
+cnt->1
+v1->(1,int)
+v2->(2,int)
+v3->(3,int)
+OutputList: 
+20
+2
+30
+3
+40
+4
+100
+File table: 
+Heap: 
+1->20
+2->30
+3->40
+SemaphoreTable:
+latchTable:
+location: 1->value: 0lockTable:
+
+Program State: 
+ID: 1
+ExecStack: 
+print(100)
+countDown(cnt)
+SymTable: 
+cnt->1
+v1->(1,int)
+v2->(2,int)
+v3->(3,int)
+OutputList: 
+20
+2
+30
+3
+40
+4
+100
+File table: 
+Heap: 
+1->20
+2->30
+3->40
+SemaphoreTable:
+latchTable:
+location: 1->value: 0lockTable:
+
+Program State: 
+ID: 1
+ExecStack: 
+print(100)
+countDown(cnt)
+SymTable: 
+cnt->1
+v1->(1,int)
+v2->(2,int)
+v3->(3,int)
+OutputList: 
+20
+2
+30
+3
+40
+4
+100
+File table: 
+Heap: 
+1->20
+2->30
+3->40
+SemaphoreTable:
+latchTable:
+location: 1->value: 0lockTable:
+
+Program State: 
+ID: 1
+ExecStack: 
+print(100)
+SymTable: 
+cnt->1
+v1->(1,int)
+v2->(2,int)
+v3->(3,int)
+OutputList: 
+20
+2
+30
+3
+40
+4
+100
+1
+File table: 
+Heap: 
+1->20
+2->30
+3->40
+SemaphoreTable:
+latchTable:
+location: 1->value: 0lockTable:
+
+Program State: 
+ID: 1
+ExecStack: 
+print(100)
+SymTable: 
+cnt->1
+v1->(1,int)
+v2->(2,int)
+v3->(3,int)
+OutputList: 
+20
+2
+30
+3
+40
+4
+100
+1
+File table: 
+Heap: 
+1->20
+2->30
+3->40
+SemaphoreTable:
+latchTable:
+location: 1->value: 0lockTable:
+
+Program State: 
+ID: 1
+ExecStack: 
+SymTable: 
+cnt->1
+v1->(1,int)
+v2->(2,int)
+v3->(3,int)
+OutputList: 
+20
+2
+30
+3
+40
+4
+100
+1
+100
+File table: 
+Heap: 
+1->20
+2->30
+3->40
+SemaphoreTable:
+latchTable:
+location: 1->value: 0lockTable:
+

@@ -1,0 +1,3999 @@
+Program State: 
+ID: 1
+ExecStack: 
+int v;ref int a;v=10;new(a,22);fork(writeHeap(a,30);v=32;print(v);print(readHeap(a)));print(v);print(readHeap(a))
+SymTable: 
+OutputList: 
+File table: 
+Heap: 
+
+Program State: 
+ID: 1
+ExecStack: 
+ref int a;v=10;new(a,22);fork(writeHeap(a,30);v=32;print(v);print(readHeap(a)));print(v);print(readHeap(a))
+int v
+SymTable: 
+OutputList: 
+File table: 
+Heap: 
+
+Program State: 
+ID: 1
+ExecStack: 
+ref int a;v=10;new(a,22);fork(writeHeap(a,30);v=32;print(v);print(readHeap(a)));print(v);print(readHeap(a))
+int v
+SymTable: 
+OutputList: 
+File table: 
+Heap: 
+
+Program State: 
+ID: 1
+ExecStack: 
+ref int a;v=10;new(a,22);fork(writeHeap(a,30);v=32;print(v);print(readHeap(a)));print(v);print(readHeap(a))
+SymTable: 
+v->0
+OutputList: 
+File table: 
+Heap: 
+
+Program State: 
+ID: 1
+ExecStack: 
+ref int a;v=10;new(a,22);fork(writeHeap(a,30);v=32;print(v);print(readHeap(a)));print(v);print(readHeap(a))
+SymTable: 
+v->0
+OutputList: 
+File table: 
+Heap: 
+
+Program State: 
+ID: 1
+ExecStack: 
+v=10;new(a,22);fork(writeHeap(a,30);v=32;print(v);print(readHeap(a)));print(v);print(readHeap(a))
+ref int a
+SymTable: 
+v->0
+OutputList: 
+File table: 
+Heap: 
+
+Program State: 
+ID: 1
+ExecStack: 
+v=10;new(a,22);fork(writeHeap(a,30);v=32;print(v);print(readHeap(a)));print(v);print(readHeap(a))
+ref int a
+SymTable: 
+v->0
+OutputList: 
+File table: 
+Heap: 
+
+Program State: 
+ID: 1
+ExecStack: 
+v=10;new(a,22);fork(writeHeap(a,30);v=32;print(v);print(readHeap(a)));print(v);print(readHeap(a))
+SymTable: 
+a->(0,int)
+v->0
+OutputList: 
+File table: 
+Heap: 
+
+Program State: 
+ID: 1
+ExecStack: 
+v=10;new(a,22);fork(writeHeap(a,30);v=32;print(v);print(readHeap(a)));print(v);print(readHeap(a))
+SymTable: 
+a->(0,int)
+v->0
+OutputList: 
+File table: 
+Heap: 
+
+Program State: 
+ID: 1
+ExecStack: 
+new(a,22);fork(writeHeap(a,30);v=32;print(v);print(readHeap(a)));print(v);print(readHeap(a))
+v=10
+SymTable: 
+a->(0,int)
+v->0
+OutputList: 
+File table: 
+Heap: 
+
+Program State: 
+ID: 1
+ExecStack: 
+new(a,22);fork(writeHeap(a,30);v=32;print(v);print(readHeap(a)));print(v);print(readHeap(a))
+v=10
+SymTable: 
+a->(0,int)
+v->0
+OutputList: 
+File table: 
+Heap: 
+
+Program State: 
+ID: 1
+ExecStack: 
+new(a,22);fork(writeHeap(a,30);v=32;print(v);print(readHeap(a)));print(v);print(readHeap(a))
+SymTable: 
+a->(0,int)
+v->10
+OutputList: 
+File table: 
+Heap: 
+
+Program State: 
+ID: 1
+ExecStack: 
+new(a,22);fork(writeHeap(a,30);v=32;print(v);print(readHeap(a)));print(v);print(readHeap(a))
+SymTable: 
+a->(0,int)
+v->10
+OutputList: 
+File table: 
+Heap: 
+
+Program State: 
+ID: 1
+ExecStack: 
+fork(writeHeap(a,30);v=32;print(v);print(readHeap(a)));print(v);print(readHeap(a))
+new(a,22)
+SymTable: 
+a->(0,int)
+v->10
+OutputList: 
+File table: 
+Heap: 
+
+Program State: 
+ID: 1
+ExecStack: 
+fork(writeHeap(a,30);v=32;print(v);print(readHeap(a)));print(v);print(readHeap(a))
+new(a,22)
+SymTable: 
+a->(0,int)
+v->10
+OutputList: 
+File table: 
+Heap: 
+
+Program State: 
+ID: 1
+ExecStack: 
+fork(writeHeap(a,30);v=32;print(v);print(readHeap(a)));print(v);print(readHeap(a))
+SymTable: 
+a->(1,int)
+v->10
+OutputList: 
+File table: 
+Heap: 
+1->22
+
+Program State: 
+ID: 1
+ExecStack: 
+fork(writeHeap(a,30);v=32;print(v);print(readHeap(a)));print(v);print(readHeap(a))
+SymTable: 
+a->(1,int)
+v->10
+OutputList: 
+File table: 
+Heap: 
+1->22
+
+Program State: 
+ID: 1
+ExecStack: 
+print(v);print(readHeap(a))
+fork(writeHeap(a,30);v=32;print(v);print(readHeap(a)))
+SymTable: 
+a->(1,int)
+v->10
+OutputList: 
+File table: 
+Heap: 
+1->22
+
+Program State: 
+ID: 1
+ExecStack: 
+print(v);print(readHeap(a))
+fork(writeHeap(a,30);v=32;print(v);print(readHeap(a)))
+SymTable: 
+a->(1,int)
+v->10
+OutputList: 
+File table: 
+Heap: 
+1->22
+
+Program State: 
+ID: 1
+ExecStack: 
+print(v);print(readHeap(a))
+SymTable: 
+a->(1,int)
+v->10
+OutputList: 
+File table: 
+Heap: 
+1->22
+
+Program State: 
+ID: 2
+ExecStack: 
+writeHeap(a,30);v=32;print(v);print(readHeap(a))
+SymTable: 
+a->(1,int)
+v->10
+OutputList: 
+File table: 
+Heap: 
+1->22
+
+Program State: 
+ID: 1
+ExecStack: 
+print(v);print(readHeap(a))
+SymTable: 
+a->(1,int)
+v->10
+OutputList: 
+File table: 
+Heap: 
+1->22
+
+Program State: 
+ID: 2
+ExecStack: 
+writeHeap(a,30);v=32;print(v);print(readHeap(a))
+SymTable: 
+a->(1,int)
+v->10
+OutputList: 
+File table: 
+Heap: 
+1->22
+
+Program State: 
+ID: 1
+ExecStack: 
+print(readHeap(a))
+print(v)
+SymTable: 
+a->(1,int)
+v->10
+OutputList: 
+File table: 
+Heap: 
+1->22
+
+Program State: 
+ID: 2
+ExecStack: 
+v=32;print(v);print(readHeap(a))
+writeHeap(a,30)
+SymTable: 
+a->(1,int)
+v->10
+OutputList: 
+File table: 
+Heap: 
+1->22
+
+Program State: 
+ID: 1
+ExecStack: 
+print(readHeap(a))
+print(v)
+SymTable: 
+a->(1,int)
+v->10
+OutputList: 
+File table: 
+Heap: 
+1->22
+
+Program State: 
+ID: 2
+ExecStack: 
+v=32;print(v);print(readHeap(a))
+writeHeap(a,30)
+SymTable: 
+a->(1,int)
+v->10
+OutputList: 
+File table: 
+Heap: 
+1->22
+
+Program State: 
+ID: 1
+ExecStack: 
+print(readHeap(a))
+SymTable: 
+a->(1,int)
+v->10
+OutputList: 
+10
+File table: 
+Heap: 
+1->30
+
+Program State: 
+ID: 2
+ExecStack: 
+v=32;print(v);print(readHeap(a))
+SymTable: 
+a->(1,int)
+v->10
+OutputList: 
+10
+File table: 
+Heap: 
+1->30
+
+Program State: 
+ID: 1
+ExecStack: 
+print(readHeap(a))
+SymTable: 
+a->(1,int)
+v->10
+OutputList: 
+10
+File table: 
+Heap: 
+1->30
+
+Program State: 
+ID: 2
+ExecStack: 
+v=32;print(v);print(readHeap(a))
+SymTable: 
+a->(1,int)
+v->10
+OutputList: 
+10
+File table: 
+Heap: 
+1->30
+
+Program State: 
+ID: 1
+ExecStack: 
+SymTable: 
+a->(1,int)
+v->10
+OutputList: 
+10
+30
+File table: 
+Heap: 
+1->30
+
+Program State: 
+ID: 2
+ExecStack: 
+print(v);print(readHeap(a))
+v=32
+SymTable: 
+a->(1,int)
+v->10
+OutputList: 
+10
+30
+File table: 
+Heap: 
+1->30
+
+Program State: 
+ID: 2
+ExecStack: 
+print(v);print(readHeap(a))
+v=32
+SymTable: 
+a->(1,int)
+v->10
+OutputList: 
+10
+30
+File table: 
+Heap: 
+1->30
+
+Program State: 
+ID: 2
+ExecStack: 
+print(v);print(readHeap(a))
+SymTable: 
+a->(1,int)
+v->32
+OutputList: 
+10
+30
+File table: 
+Heap: 
+1->30
+
+Program State: 
+ID: 2
+ExecStack: 
+print(v);print(readHeap(a))
+SymTable: 
+a->(1,int)
+v->32
+OutputList: 
+10
+30
+File table: 
+Heap: 
+1->30
+
+Program State: 
+ID: 2
+ExecStack: 
+print(readHeap(a))
+print(v)
+SymTable: 
+a->(1,int)
+v->32
+OutputList: 
+10
+30
+File table: 
+Heap: 
+1->30
+
+Program State: 
+ID: 2
+ExecStack: 
+print(readHeap(a))
+print(v)
+SymTable: 
+a->(1,int)
+v->32
+OutputList: 
+10
+30
+File table: 
+Heap: 
+1->30
+
+Program State: 
+ID: 2
+ExecStack: 
+print(readHeap(a))
+SymTable: 
+a->(1,int)
+v->32
+OutputList: 
+10
+30
+32
+File table: 
+Heap: 
+1->30
+
+Program State: 
+ID: 2
+ExecStack: 
+print(readHeap(a))
+SymTable: 
+a->(1,int)
+v->32
+OutputList: 
+10
+30
+32
+File table: 
+Heap: 
+1->30
+
+Program State: 
+ID: 2
+ExecStack: 
+SymTable: 
+a->(1,int)
+v->32
+OutputList: 
+10
+30
+32
+30
+File table: 
+Heap: 
+1->30
+
+Program State: 
+ID: 1
+ExecStack: 
+int v;ref int a;v=10;new(a,22);fork(writeHeap(a,30);v=32;print(v);print(readHeap(a)));print(v);print(readHeap(a))
+SymTable: 
+OutputList: 
+File table: 
+Heap: 
+
+Program State: 
+ID: 1
+ExecStack: 
+ref int a;v=10;new(a,22);fork(writeHeap(a,30);v=32;print(v);print(readHeap(a)));print(v);print(readHeap(a))
+int v
+SymTable: 
+OutputList: 
+File table: 
+Heap: 
+
+Program State: 
+ID: 1
+ExecStack: 
+ref int a;v=10;new(a,22);fork(writeHeap(a,30);v=32;print(v);print(readHeap(a)));print(v);print(readHeap(a))
+int v
+SymTable: 
+OutputList: 
+File table: 
+Heap: 
+
+Program State: 
+ID: 1
+ExecStack: 
+ref int a;v=10;new(a,22);fork(writeHeap(a,30);v=32;print(v);print(readHeap(a)));print(v);print(readHeap(a))
+SymTable: 
+v->0
+OutputList: 
+File table: 
+Heap: 
+
+Program State: 
+ID: 1
+ExecStack: 
+ref int a;v=10;new(a,22);fork(writeHeap(a,30);v=32;print(v);print(readHeap(a)));print(v);print(readHeap(a))
+SymTable: 
+v->0
+OutputList: 
+File table: 
+Heap: 
+
+Program State: 
+ID: 1
+ExecStack: 
+v=10;new(a,22);fork(writeHeap(a,30);v=32;print(v);print(readHeap(a)));print(v);print(readHeap(a))
+ref int a
+SymTable: 
+v->0
+OutputList: 
+File table: 
+Heap: 
+
+Program State: 
+ID: 1
+ExecStack: 
+v=10;new(a,22);fork(writeHeap(a,30);v=32;print(v);print(readHeap(a)));print(v);print(readHeap(a))
+ref int a
+SymTable: 
+v->0
+OutputList: 
+File table: 
+Heap: 
+
+Program State: 
+ID: 1
+ExecStack: 
+v=10;new(a,22);fork(writeHeap(a,30);v=32;print(v);print(readHeap(a)));print(v);print(readHeap(a))
+SymTable: 
+a->(0,int)
+v->0
+OutputList: 
+File table: 
+Heap: 
+
+Program State: 
+ID: 1
+ExecStack: 
+v=10;new(a,22);fork(writeHeap(a,30);v=32;print(v);print(readHeap(a)));print(v);print(readHeap(a))
+SymTable: 
+a->(0,int)
+v->0
+OutputList: 
+File table: 
+Heap: 
+
+Program State: 
+ID: 1
+ExecStack: 
+new(a,22);fork(writeHeap(a,30);v=32;print(v);print(readHeap(a)));print(v);print(readHeap(a))
+v=10
+SymTable: 
+a->(0,int)
+v->0
+OutputList: 
+File table: 
+Heap: 
+
+Program State: 
+ID: 1
+ExecStack: 
+new(a,22);fork(writeHeap(a,30);v=32;print(v);print(readHeap(a)));print(v);print(readHeap(a))
+v=10
+SymTable: 
+a->(0,int)
+v->0
+OutputList: 
+File table: 
+Heap: 
+
+Program State: 
+ID: 1
+ExecStack: 
+new(a,22);fork(writeHeap(a,30);v=32;print(v);print(readHeap(a)));print(v);print(readHeap(a))
+SymTable: 
+a->(0,int)
+v->10
+OutputList: 
+File table: 
+Heap: 
+
+Program State: 
+ID: 1
+ExecStack: 
+new(a,22);fork(writeHeap(a,30);v=32;print(v);print(readHeap(a)));print(v);print(readHeap(a))
+SymTable: 
+a->(0,int)
+v->10
+OutputList: 
+File table: 
+Heap: 
+
+Program State: 
+ID: 1
+ExecStack: 
+fork(writeHeap(a,30);v=32;print(v);print(readHeap(a)));print(v);print(readHeap(a))
+new(a,22)
+SymTable: 
+a->(0,int)
+v->10
+OutputList: 
+File table: 
+Heap: 
+
+Program State: 
+ID: 1
+ExecStack: 
+fork(writeHeap(a,30);v=32;print(v);print(readHeap(a)));print(v);print(readHeap(a))
+new(a,22)
+SymTable: 
+a->(0,int)
+v->10
+OutputList: 
+File table: 
+Heap: 
+
+Program State: 
+ID: 1
+ExecStack: 
+fork(writeHeap(a,30);v=32;print(v);print(readHeap(a)));print(v);print(readHeap(a))
+SymTable: 
+a->(1,int)
+v->10
+OutputList: 
+File table: 
+Heap: 
+1->22
+
+Program State: 
+ID: 1
+ExecStack: 
+fork(writeHeap(a,30);v=32;print(v);print(readHeap(a)));print(v);print(readHeap(a))
+SymTable: 
+a->(1,int)
+v->10
+OutputList: 
+File table: 
+Heap: 
+1->22
+
+Program State: 
+ID: 1
+ExecStack: 
+print(v);print(readHeap(a))
+fork(writeHeap(a,30);v=32;print(v);print(readHeap(a)))
+SymTable: 
+a->(1,int)
+v->10
+OutputList: 
+File table: 
+Heap: 
+1->22
+
+Program State: 
+ID: 1
+ExecStack: 
+print(v);print(readHeap(a))
+fork(writeHeap(a,30);v=32;print(v);print(readHeap(a)))
+SymTable: 
+a->(1,int)
+v->10
+OutputList: 
+File table: 
+Heap: 
+1->22
+
+Program State: 
+ID: 1
+ExecStack: 
+print(v);print(readHeap(a))
+SymTable: 
+a->(1,int)
+v->10
+OutputList: 
+File table: 
+Heap: 
+1->22
+
+Program State: 
+ID: 3
+ExecStack: 
+writeHeap(a,30);v=32;print(v);print(readHeap(a))
+SymTable: 
+a->(1,int)
+v->10
+OutputList: 
+File table: 
+Heap: 
+1->22
+
+Program State: 
+ID: 1
+ExecStack: 
+print(v);print(readHeap(a))
+SymTable: 
+a->(1,int)
+v->10
+OutputList: 
+File table: 
+Heap: 
+1->22
+
+Program State: 
+ID: 3
+ExecStack: 
+writeHeap(a,30);v=32;print(v);print(readHeap(a))
+SymTable: 
+a->(1,int)
+v->10
+OutputList: 
+File table: 
+Heap: 
+1->22
+
+Program State: 
+ID: 1
+ExecStack: 
+print(readHeap(a))
+print(v)
+SymTable: 
+a->(1,int)
+v->10
+OutputList: 
+File table: 
+Heap: 
+1->22
+
+Program State: 
+ID: 3
+ExecStack: 
+v=32;print(v);print(readHeap(a))
+writeHeap(a,30)
+SymTable: 
+a->(1,int)
+v->10
+OutputList: 
+File table: 
+Heap: 
+1->22
+
+Program State: 
+ID: 1
+ExecStack: 
+print(readHeap(a))
+print(v)
+SymTable: 
+a->(1,int)
+v->10
+OutputList: 
+File table: 
+Heap: 
+1->22
+
+Program State: 
+ID: 3
+ExecStack: 
+v=32;print(v);print(readHeap(a))
+writeHeap(a,30)
+SymTable: 
+a->(1,int)
+v->10
+OutputList: 
+File table: 
+Heap: 
+1->22
+
+Program State: 
+ID: 1
+ExecStack: 
+print(readHeap(a))
+SymTable: 
+a->(1,int)
+v->10
+OutputList: 
+10
+File table: 
+Heap: 
+1->30
+
+Program State: 
+ID: 3
+ExecStack: 
+v=32;print(v);print(readHeap(a))
+SymTable: 
+a->(1,int)
+v->10
+OutputList: 
+10
+File table: 
+Heap: 
+1->30
+
+Program State: 
+ID: 1
+ExecStack: 
+print(readHeap(a))
+SymTable: 
+a->(1,int)
+v->10
+OutputList: 
+10
+File table: 
+Heap: 
+1->30
+
+Program State: 
+ID: 3
+ExecStack: 
+v=32;print(v);print(readHeap(a))
+SymTable: 
+a->(1,int)
+v->10
+OutputList: 
+10
+File table: 
+Heap: 
+1->30
+
+Program State: 
+ID: 1
+ExecStack: 
+SymTable: 
+a->(1,int)
+v->10
+OutputList: 
+10
+30
+File table: 
+Heap: 
+1->30
+
+Program State: 
+ID: 3
+ExecStack: 
+print(v);print(readHeap(a))
+v=32
+SymTable: 
+a->(1,int)
+v->10
+OutputList: 
+10
+30
+File table: 
+Heap: 
+1->30
+
+Program State: 
+ID: 3
+ExecStack: 
+print(v);print(readHeap(a))
+v=32
+SymTable: 
+a->(1,int)
+v->10
+OutputList: 
+10
+30
+File table: 
+Heap: 
+1->30
+
+Program State: 
+ID: 3
+ExecStack: 
+print(v);print(readHeap(a))
+SymTable: 
+a->(1,int)
+v->32
+OutputList: 
+10
+30
+File table: 
+Heap: 
+1->30
+
+Program State: 
+ID: 3
+ExecStack: 
+print(v);print(readHeap(a))
+SymTable: 
+a->(1,int)
+v->32
+OutputList: 
+10
+30
+File table: 
+Heap: 
+1->30
+
+Program State: 
+ID: 3
+ExecStack: 
+print(readHeap(a))
+print(v)
+SymTable: 
+a->(1,int)
+v->32
+OutputList: 
+10
+30
+File table: 
+Heap: 
+1->30
+
+Program State: 
+ID: 3
+ExecStack: 
+print(readHeap(a))
+print(v)
+SymTable: 
+a->(1,int)
+v->32
+OutputList: 
+10
+30
+File table: 
+Heap: 
+1->30
+
+Program State: 
+ID: 3
+ExecStack: 
+print(readHeap(a))
+SymTable: 
+a->(1,int)
+v->32
+OutputList: 
+10
+30
+32
+File table: 
+Heap: 
+1->30
+
+Program State: 
+ID: 3
+ExecStack: 
+print(readHeap(a))
+SymTable: 
+a->(1,int)
+v->32
+OutputList: 
+10
+30
+32
+File table: 
+Heap: 
+1->30
+
+Program State: 
+ID: 3
+ExecStack: 
+SymTable: 
+a->(1,int)
+v->32
+OutputList: 
+10
+30
+32
+30
+File table: 
+Heap: 
+1->30
+
+Program State: 
+ID: 1
+ExecStack: 
+int v;ref int a;v=10;new(a,22);fork(writeHeap(a,30);v=32;print(v);print(readHeap(a)));print(v);print(readHeap(a))
+SymTable: 
+OutputList: 
+File table: 
+Heap: 
+
+Program State: 
+ID: 1
+ExecStack: 
+ref int a;v=10;new(a,22);fork(writeHeap(a,30);v=32;print(v);print(readHeap(a)));print(v);print(readHeap(a))
+int v
+SymTable: 
+OutputList: 
+File table: 
+Heap: 
+
+Program State: 
+ID: 1
+ExecStack: 
+ref int a;v=10;new(a,22);fork(writeHeap(a,30);v=32;print(v);print(readHeap(a)));print(v);print(readHeap(a))
+int v
+SymTable: 
+OutputList: 
+File table: 
+Heap: 
+
+Program State: 
+ID: 1
+ExecStack: 
+ref int a;v=10;new(a,22);fork(writeHeap(a,30);v=32;print(v);print(readHeap(a)));print(v);print(readHeap(a))
+SymTable: 
+v->0
+OutputList: 
+File table: 
+Heap: 
+
+Program State: 
+ID: 1
+ExecStack: 
+ref int a;v=10;new(a,22);fork(writeHeap(a,30);v=32;print(v);print(readHeap(a)));print(v);print(readHeap(a))
+SymTable: 
+v->0
+OutputList: 
+File table: 
+Heap: 
+
+Program State: 
+ID: 1
+ExecStack: 
+v=10;new(a,22);fork(writeHeap(a,30);v=32;print(v);print(readHeap(a)));print(v);print(readHeap(a))
+ref int a
+SymTable: 
+v->0
+OutputList: 
+File table: 
+Heap: 
+
+Program State: 
+ID: 1
+ExecStack: 
+v=10;new(a,22);fork(writeHeap(a,30);v=32;print(v);print(readHeap(a)));print(v);print(readHeap(a))
+ref int a
+SymTable: 
+v->0
+OutputList: 
+File table: 
+Heap: 
+
+Program State: 
+ID: 1
+ExecStack: 
+v=10;new(a,22);fork(writeHeap(a,30);v=32;print(v);print(readHeap(a)));print(v);print(readHeap(a))
+SymTable: 
+a->(0,int)
+v->0
+OutputList: 
+File table: 
+Heap: 
+
+Program State: 
+ID: 1
+ExecStack: 
+v=10;new(a,22);fork(writeHeap(a,30);v=32;print(v);print(readHeap(a)));print(v);print(readHeap(a))
+SymTable: 
+a->(0,int)
+v->0
+OutputList: 
+File table: 
+Heap: 
+
+Program State: 
+ID: 1
+ExecStack: 
+new(a,22);fork(writeHeap(a,30);v=32;print(v);print(readHeap(a)));print(v);print(readHeap(a))
+v=10
+SymTable: 
+a->(0,int)
+v->0
+OutputList: 
+File table: 
+Heap: 
+
+Program State: 
+ID: 1
+ExecStack: 
+new(a,22);fork(writeHeap(a,30);v=32;print(v);print(readHeap(a)));print(v);print(readHeap(a))
+v=10
+SymTable: 
+a->(0,int)
+v->0
+OutputList: 
+File table: 
+Heap: 
+
+Program State: 
+ID: 1
+ExecStack: 
+new(a,22);fork(writeHeap(a,30);v=32;print(v);print(readHeap(a)));print(v);print(readHeap(a))
+SymTable: 
+a->(0,int)
+v->10
+OutputList: 
+File table: 
+Heap: 
+
+Program State: 
+ID: 1
+ExecStack: 
+new(a,22);fork(writeHeap(a,30);v=32;print(v);print(readHeap(a)));print(v);print(readHeap(a))
+SymTable: 
+a->(0,int)
+v->10
+OutputList: 
+File table: 
+Heap: 
+
+Program State: 
+ID: 1
+ExecStack: 
+fork(writeHeap(a,30);v=32;print(v);print(readHeap(a)));print(v);print(readHeap(a))
+new(a,22)
+SymTable: 
+a->(0,int)
+v->10
+OutputList: 
+File table: 
+Heap: 
+
+Program State: 
+ID: 1
+ExecStack: 
+fork(writeHeap(a,30);v=32;print(v);print(readHeap(a)));print(v);print(readHeap(a))
+new(a,22)
+SymTable: 
+a->(0,int)
+v->10
+OutputList: 
+File table: 
+Heap: 
+
+Program State: 
+ID: 1
+ExecStack: 
+fork(writeHeap(a,30);v=32;print(v);print(readHeap(a)));print(v);print(readHeap(a))
+SymTable: 
+a->(1,int)
+v->10
+OutputList: 
+File table: 
+Heap: 
+1->22
+
+Program State: 
+ID: 1
+ExecStack: 
+fork(writeHeap(a,30);v=32;print(v);print(readHeap(a)));print(v);print(readHeap(a))
+SymTable: 
+a->(1,int)
+v->10
+OutputList: 
+File table: 
+Heap: 
+1->22
+
+Program State: 
+ID: 1
+ExecStack: 
+print(v);print(readHeap(a))
+fork(writeHeap(a,30);v=32;print(v);print(readHeap(a)))
+SymTable: 
+a->(1,int)
+v->10
+OutputList: 
+File table: 
+Heap: 
+1->22
+
+Program State: 
+ID: 1
+ExecStack: 
+print(v);print(readHeap(a))
+fork(writeHeap(a,30);v=32;print(v);print(readHeap(a)))
+SymTable: 
+a->(1,int)
+v->10
+OutputList: 
+File table: 
+Heap: 
+1->22
+
+Program State: 
+ID: 1
+ExecStack: 
+print(v);print(readHeap(a))
+SymTable: 
+a->(1,int)
+v->10
+OutputList: 
+File table: 
+Heap: 
+1->22
+
+Program State: 
+ID: 2
+ExecStack: 
+writeHeap(a,30);v=32;print(v);print(readHeap(a))
+SymTable: 
+a->(1,int)
+v->10
+OutputList: 
+File table: 
+Heap: 
+1->22
+
+Program State: 
+ID: 1
+ExecStack: 
+print(v);print(readHeap(a))
+SymTable: 
+a->(1,int)
+v->10
+OutputList: 
+File table: 
+Heap: 
+1->22
+
+Program State: 
+ID: 2
+ExecStack: 
+writeHeap(a,30);v=32;print(v);print(readHeap(a))
+SymTable: 
+a->(1,int)
+v->10
+OutputList: 
+File table: 
+Heap: 
+1->22
+
+Program State: 
+ID: 1
+ExecStack: 
+print(readHeap(a))
+print(v)
+SymTable: 
+a->(1,int)
+v->10
+OutputList: 
+File table: 
+Heap: 
+1->22
+
+Program State: 
+ID: 2
+ExecStack: 
+v=32;print(v);print(readHeap(a))
+writeHeap(a,30)
+SymTable: 
+a->(1,int)
+v->10
+OutputList: 
+File table: 
+Heap: 
+1->22
+
+Program State: 
+ID: 1
+ExecStack: 
+print(readHeap(a))
+print(v)
+SymTable: 
+a->(1,int)
+v->10
+OutputList: 
+File table: 
+Heap: 
+1->22
+
+Program State: 
+ID: 2
+ExecStack: 
+v=32;print(v);print(readHeap(a))
+writeHeap(a,30)
+SymTable: 
+a->(1,int)
+v->10
+OutputList: 
+File table: 
+Heap: 
+1->22
+
+Program State: 
+ID: 1
+ExecStack: 
+print(readHeap(a))
+SymTable: 
+a->(1,int)
+v->10
+OutputList: 
+10
+File table: 
+Heap: 
+1->30
+
+Program State: 
+ID: 2
+ExecStack: 
+v=32;print(v);print(readHeap(a))
+SymTable: 
+a->(1,int)
+v->10
+OutputList: 
+10
+File table: 
+Heap: 
+1->30
+
+Program State: 
+ID: 1
+ExecStack: 
+print(readHeap(a))
+SymTable: 
+a->(1,int)
+v->10
+OutputList: 
+10
+File table: 
+Heap: 
+1->30
+
+Program State: 
+ID: 2
+ExecStack: 
+v=32;print(v);print(readHeap(a))
+SymTable: 
+a->(1,int)
+v->10
+OutputList: 
+10
+File table: 
+Heap: 
+1->30
+
+Program State: 
+ID: 1
+ExecStack: 
+SymTable: 
+a->(1,int)
+v->10
+OutputList: 
+10
+30
+File table: 
+Heap: 
+1->30
+
+Program State: 
+ID: 2
+ExecStack: 
+print(v);print(readHeap(a))
+v=32
+SymTable: 
+a->(1,int)
+v->10
+OutputList: 
+10
+30
+File table: 
+Heap: 
+1->30
+
+Program State: 
+ID: 2
+ExecStack: 
+print(v);print(readHeap(a))
+v=32
+SymTable: 
+a->(1,int)
+v->10
+OutputList: 
+10
+30
+File table: 
+Heap: 
+1->30
+
+Program State: 
+ID: 2
+ExecStack: 
+print(v);print(readHeap(a))
+SymTable: 
+a->(1,int)
+v->32
+OutputList: 
+10
+30
+File table: 
+Heap: 
+1->30
+
+Program State: 
+ID: 2
+ExecStack: 
+print(v);print(readHeap(a))
+SymTable: 
+a->(1,int)
+v->32
+OutputList: 
+10
+30
+File table: 
+Heap: 
+1->30
+
+Program State: 
+ID: 2
+ExecStack: 
+print(readHeap(a))
+print(v)
+SymTable: 
+a->(1,int)
+v->32
+OutputList: 
+10
+30
+File table: 
+Heap: 
+1->30
+
+Program State: 
+ID: 2
+ExecStack: 
+print(readHeap(a))
+print(v)
+SymTable: 
+a->(1,int)
+v->32
+OutputList: 
+10
+30
+File table: 
+Heap: 
+1->30
+
+Program State: 
+ID: 2
+ExecStack: 
+print(readHeap(a))
+SymTable: 
+a->(1,int)
+v->32
+OutputList: 
+10
+30
+32
+File table: 
+Heap: 
+1->30
+
+Program State: 
+ID: 2
+ExecStack: 
+print(readHeap(a))
+SymTable: 
+a->(1,int)
+v->32
+OutputList: 
+10
+30
+32
+File table: 
+Heap: 
+1->30
+
+Program State: 
+ID: 2
+ExecStack: 
+SymTable: 
+a->(1,int)
+v->32
+OutputList: 
+10
+30
+32
+30
+File table: 
+Heap: 
+1->30
+
+Program State: 
+ID: 1
+ExecStack: 
+int v;ref int a;v=10;new(a,22);fork(writeHeap(a,30);v=32;print(v);print(readHeap(a)));print(v);print(readHeap(a))
+SymTable: 
+OutputList: 
+File table: 
+Heap: 
+
+Program State: 
+ID: 1
+ExecStack: 
+ref int a;v=10;new(a,22);fork(writeHeap(a,30);v=32;print(v);print(readHeap(a)));print(v);print(readHeap(a))
+int v
+SymTable: 
+OutputList: 
+File table: 
+Heap: 
+
+Program State: 
+ID: 1
+ExecStack: 
+ref int a;v=10;new(a,22);fork(writeHeap(a,30);v=32;print(v);print(readHeap(a)));print(v);print(readHeap(a))
+int v
+SymTable: 
+OutputList: 
+File table: 
+Heap: 
+
+Program State: 
+ID: 1
+ExecStack: 
+ref int a;v=10;new(a,22);fork(writeHeap(a,30);v=32;print(v);print(readHeap(a)));print(v);print(readHeap(a))
+SymTable: 
+v->0
+OutputList: 
+File table: 
+Heap: 
+
+Program State: 
+ID: 1
+ExecStack: 
+ref int a;v=10;new(a,22);fork(writeHeap(a,30);v=32;print(v);print(readHeap(a)));print(v);print(readHeap(a))
+SymTable: 
+v->0
+OutputList: 
+File table: 
+Heap: 
+
+Program State: 
+ID: 1
+ExecStack: 
+v=10;new(a,22);fork(writeHeap(a,30);v=32;print(v);print(readHeap(a)));print(v);print(readHeap(a))
+ref int a
+SymTable: 
+v->0
+OutputList: 
+File table: 
+Heap: 
+
+Program State: 
+ID: 1
+ExecStack: 
+v=10;new(a,22);fork(writeHeap(a,30);v=32;print(v);print(readHeap(a)));print(v);print(readHeap(a))
+ref int a
+SymTable: 
+v->0
+OutputList: 
+File table: 
+Heap: 
+
+Program State: 
+ID: 1
+ExecStack: 
+v=10;new(a,22);fork(writeHeap(a,30);v=32;print(v);print(readHeap(a)));print(v);print(readHeap(a))
+SymTable: 
+a->(0,int)
+v->0
+OutputList: 
+File table: 
+Heap: 
+
+Program State: 
+ID: 1
+ExecStack: 
+v=10;new(a,22);fork(writeHeap(a,30);v=32;print(v);print(readHeap(a)));print(v);print(readHeap(a))
+SymTable: 
+a->(0,int)
+v->0
+OutputList: 
+File table: 
+Heap: 
+
+Program State: 
+ID: 1
+ExecStack: 
+new(a,22);fork(writeHeap(a,30);v=32;print(v);print(readHeap(a)));print(v);print(readHeap(a))
+v=10
+SymTable: 
+a->(0,int)
+v->0
+OutputList: 
+File table: 
+Heap: 
+
+Program State: 
+ID: 1
+ExecStack: 
+new(a,22);fork(writeHeap(a,30);v=32;print(v);print(readHeap(a)));print(v);print(readHeap(a))
+v=10
+SymTable: 
+a->(0,int)
+v->0
+OutputList: 
+File table: 
+Heap: 
+
+Program State: 
+ID: 1
+ExecStack: 
+new(a,22);fork(writeHeap(a,30);v=32;print(v);print(readHeap(a)));print(v);print(readHeap(a))
+SymTable: 
+a->(0,int)
+v->10
+OutputList: 
+File table: 
+Heap: 
+
+Program State: 
+ID: 1
+ExecStack: 
+new(a,22);fork(writeHeap(a,30);v=32;print(v);print(readHeap(a)));print(v);print(readHeap(a))
+SymTable: 
+a->(0,int)
+v->10
+OutputList: 
+File table: 
+Heap: 
+
+Program State: 
+ID: 1
+ExecStack: 
+fork(writeHeap(a,30);v=32;print(v);print(readHeap(a)));print(v);print(readHeap(a))
+new(a,22)
+SymTable: 
+a->(0,int)
+v->10
+OutputList: 
+File table: 
+Heap: 
+
+Program State: 
+ID: 1
+ExecStack: 
+fork(writeHeap(a,30);v=32;print(v);print(readHeap(a)));print(v);print(readHeap(a))
+new(a,22)
+SymTable: 
+a->(0,int)
+v->10
+OutputList: 
+File table: 
+Heap: 
+
+Program State: 
+ID: 1
+ExecStack: 
+fork(writeHeap(a,30);v=32;print(v);print(readHeap(a)));print(v);print(readHeap(a))
+SymTable: 
+a->(1,int)
+v->10
+OutputList: 
+File table: 
+Heap: 
+1->22
+
+Program State: 
+ID: 1
+ExecStack: 
+fork(writeHeap(a,30);v=32;print(v);print(readHeap(a)));print(v);print(readHeap(a))
+SymTable: 
+a->(1,int)
+v->10
+OutputList: 
+File table: 
+Heap: 
+1->22
+
+Program State: 
+ID: 1
+ExecStack: 
+print(v);print(readHeap(a))
+fork(writeHeap(a,30);v=32;print(v);print(readHeap(a)))
+SymTable: 
+a->(1,int)
+v->10
+OutputList: 
+File table: 
+Heap: 
+1->22
+
+Program State: 
+ID: 1
+ExecStack: 
+print(v);print(readHeap(a))
+fork(writeHeap(a,30);v=32;print(v);print(readHeap(a)))
+SymTable: 
+a->(1,int)
+v->10
+OutputList: 
+File table: 
+Heap: 
+1->22
+
+Program State: 
+ID: 1
+ExecStack: 
+print(v);print(readHeap(a))
+SymTable: 
+a->(1,int)
+v->10
+OutputList: 
+File table: 
+Heap: 
+1->22
+
+Program State: 
+ID: 2
+ExecStack: 
+writeHeap(a,30);v=32;print(v);print(readHeap(a))
+SymTable: 
+a->(1,int)
+v->10
+OutputList: 
+File table: 
+Heap: 
+1->22
+
+Program State: 
+ID: 1
+ExecStack: 
+print(v);print(readHeap(a))
+SymTable: 
+a->(1,int)
+v->10
+OutputList: 
+File table: 
+Heap: 
+1->22
+
+Program State: 
+ID: 2
+ExecStack: 
+writeHeap(a,30);v=32;print(v);print(readHeap(a))
+SymTable: 
+a->(1,int)
+v->10
+OutputList: 
+File table: 
+Heap: 
+1->22
+
+Program State: 
+ID: 1
+ExecStack: 
+print(readHeap(a))
+print(v)
+SymTable: 
+a->(1,int)
+v->10
+OutputList: 
+File table: 
+Heap: 
+1->22
+
+Program State: 
+ID: 2
+ExecStack: 
+v=32;print(v);print(readHeap(a))
+writeHeap(a,30)
+SymTable: 
+a->(1,int)
+v->10
+OutputList: 
+File table: 
+Heap: 
+1->22
+
+Program State: 
+ID: 1
+ExecStack: 
+print(readHeap(a))
+print(v)
+SymTable: 
+a->(1,int)
+v->10
+OutputList: 
+File table: 
+Heap: 
+1->22
+
+Program State: 
+ID: 2
+ExecStack: 
+v=32;print(v);print(readHeap(a))
+writeHeap(a,30)
+SymTable: 
+a->(1,int)
+v->10
+OutputList: 
+File table: 
+Heap: 
+1->22
+
+Program State: 
+ID: 1
+ExecStack: 
+print(readHeap(a))
+SymTable: 
+a->(1,int)
+v->10
+OutputList: 
+10
+File table: 
+Heap: 
+1->30
+
+Program State: 
+ID: 2
+ExecStack: 
+v=32;print(v);print(readHeap(a))
+SymTable: 
+a->(1,int)
+v->10
+OutputList: 
+10
+File table: 
+Heap: 
+1->30
+
+Program State: 
+ID: 1
+ExecStack: 
+print(readHeap(a))
+SymTable: 
+a->(1,int)
+v->10
+OutputList: 
+10
+File table: 
+Heap: 
+1->30
+
+Program State: 
+ID: 2
+ExecStack: 
+v=32;print(v);print(readHeap(a))
+SymTable: 
+a->(1,int)
+v->10
+OutputList: 
+10
+File table: 
+Heap: 
+1->30
+
+Program State: 
+ID: 1
+ExecStack: 
+SymTable: 
+a->(1,int)
+v->10
+OutputList: 
+10
+30
+File table: 
+Heap: 
+1->30
+
+Program State: 
+ID: 2
+ExecStack: 
+print(v);print(readHeap(a))
+v=32
+SymTable: 
+a->(1,int)
+v->10
+OutputList: 
+10
+30
+File table: 
+Heap: 
+1->30
+
+Program State: 
+ID: 2
+ExecStack: 
+print(v);print(readHeap(a))
+v=32
+SymTable: 
+a->(1,int)
+v->10
+OutputList: 
+10
+30
+File table: 
+Heap: 
+1->30
+
+Program State: 
+ID: 2
+ExecStack: 
+print(v);print(readHeap(a))
+SymTable: 
+a->(1,int)
+v->32
+OutputList: 
+10
+30
+File table: 
+Heap: 
+1->30
+
+Program State: 
+ID: 2
+ExecStack: 
+print(v);print(readHeap(a))
+SymTable: 
+a->(1,int)
+v->32
+OutputList: 
+10
+30
+File table: 
+Heap: 
+1->30
+
+Program State: 
+ID: 2
+ExecStack: 
+print(readHeap(a))
+print(v)
+SymTable: 
+a->(1,int)
+v->32
+OutputList: 
+10
+30
+File table: 
+Heap: 
+1->30
+
+Program State: 
+ID: 2
+ExecStack: 
+print(readHeap(a))
+print(v)
+SymTable: 
+a->(1,int)
+v->32
+OutputList: 
+10
+30
+File table: 
+Heap: 
+1->30
+
+Program State: 
+ID: 2
+ExecStack: 
+print(readHeap(a))
+SymTable: 
+a->(1,int)
+v->32
+OutputList: 
+10
+30
+32
+File table: 
+Heap: 
+1->30
+
+Program State: 
+ID: 2
+ExecStack: 
+print(readHeap(a))
+SymTable: 
+a->(1,int)
+v->32
+OutputList: 
+10
+30
+32
+File table: 
+Heap: 
+1->30
+
+Program State: 
+ID: 2
+ExecStack: 
+SymTable: 
+a->(1,int)
+v->32
+OutputList: 
+10
+30
+32
+30
+File table: 
+Heap: 
+1->30
+
+Program State: 
+ID: 1
+ExecStack: 
+int v;ref int a;v=10;new(a,22);fork(writeHeap(a,30);v=32;print(v);print(readHeap(a)));print(v);print(readHeap(a))
+SymTable: 
+OutputList: 
+File table: 
+Heap: 
+
+Program State: 
+ID: 1
+ExecStack: 
+ref int a;v=10;new(a,22);fork(writeHeap(a,30);v=32;print(v);print(readHeap(a)));print(v);print(readHeap(a))
+int v
+SymTable: 
+OutputList: 
+File table: 
+Heap: 
+
+Program State: 
+ID: 1
+ExecStack: 
+ref int a;v=10;new(a,22);fork(writeHeap(a,30);v=32;print(v);print(readHeap(a)));print(v);print(readHeap(a))
+int v
+SymTable: 
+OutputList: 
+File table: 
+Heap: 
+
+Program State: 
+ID: 1
+ExecStack: 
+ref int a;v=10;new(a,22);fork(writeHeap(a,30);v=32;print(v);print(readHeap(a)));print(v);print(readHeap(a))
+SymTable: 
+v->0
+OutputList: 
+File table: 
+Heap: 
+
+Program State: 
+ID: 1
+ExecStack: 
+ref int a;v=10;new(a,22);fork(writeHeap(a,30);v=32;print(v);print(readHeap(a)));print(v);print(readHeap(a))
+SymTable: 
+v->0
+OutputList: 
+File table: 
+Heap: 
+
+Program State: 
+ID: 1
+ExecStack: 
+v=10;new(a,22);fork(writeHeap(a,30);v=32;print(v);print(readHeap(a)));print(v);print(readHeap(a))
+ref int a
+SymTable: 
+v->0
+OutputList: 
+File table: 
+Heap: 
+
+Program State: 
+ID: 1
+ExecStack: 
+v=10;new(a,22);fork(writeHeap(a,30);v=32;print(v);print(readHeap(a)));print(v);print(readHeap(a))
+ref int a
+SymTable: 
+v->0
+OutputList: 
+File table: 
+Heap: 
+
+Program State: 
+ID: 1
+ExecStack: 
+v=10;new(a,22);fork(writeHeap(a,30);v=32;print(v);print(readHeap(a)));print(v);print(readHeap(a))
+SymTable: 
+a->(0,int)
+v->0
+OutputList: 
+File table: 
+Heap: 
+
+Program State: 
+ID: 1
+ExecStack: 
+v=10;new(a,22);fork(writeHeap(a,30);v=32;print(v);print(readHeap(a)));print(v);print(readHeap(a))
+SymTable: 
+a->(0,int)
+v->0
+OutputList: 
+File table: 
+Heap: 
+
+Program State: 
+ID: 1
+ExecStack: 
+new(a,22);fork(writeHeap(a,30);v=32;print(v);print(readHeap(a)));print(v);print(readHeap(a))
+v=10
+SymTable: 
+a->(0,int)
+v->0
+OutputList: 
+File table: 
+Heap: 
+
+Program State: 
+ID: 1
+ExecStack: 
+new(a,22);fork(writeHeap(a,30);v=32;print(v);print(readHeap(a)));print(v);print(readHeap(a))
+v=10
+SymTable: 
+a->(0,int)
+v->0
+OutputList: 
+File table: 
+Heap: 
+
+Program State: 
+ID: 1
+ExecStack: 
+new(a,22);fork(writeHeap(a,30);v=32;print(v);print(readHeap(a)));print(v);print(readHeap(a))
+SymTable: 
+a->(0,int)
+v->10
+OutputList: 
+File table: 
+Heap: 
+
+Program State: 
+ID: 1
+ExecStack: 
+new(a,22);fork(writeHeap(a,30);v=32;print(v);print(readHeap(a)));print(v);print(readHeap(a))
+SymTable: 
+a->(0,int)
+v->10
+OutputList: 
+File table: 
+Heap: 
+
+Program State: 
+ID: 1
+ExecStack: 
+fork(writeHeap(a,30);v=32;print(v);print(readHeap(a)));print(v);print(readHeap(a))
+new(a,22)
+SymTable: 
+a->(0,int)
+v->10
+OutputList: 
+File table: 
+Heap: 
+
+Program State: 
+ID: 1
+ExecStack: 
+fork(writeHeap(a,30);v=32;print(v);print(readHeap(a)));print(v);print(readHeap(a))
+new(a,22)
+SymTable: 
+a->(0,int)
+v->10
+OutputList: 
+File table: 
+Heap: 
+
+Program State: 
+ID: 1
+ExecStack: 
+fork(writeHeap(a,30);v=32;print(v);print(readHeap(a)));print(v);print(readHeap(a))
+SymTable: 
+a->(1,int)
+v->10
+OutputList: 
+File table: 
+Heap: 
+1->22
+
+Program State: 
+ID: 1
+ExecStack: 
+fork(writeHeap(a,30);v=32;print(v);print(readHeap(a)));print(v);print(readHeap(a))
+SymTable: 
+a->(1,int)
+v->10
+OutputList: 
+File table: 
+Heap: 
+1->22
+
+Program State: 
+ID: 1
+ExecStack: 
+print(v);print(readHeap(a))
+fork(writeHeap(a,30);v=32;print(v);print(readHeap(a)))
+SymTable: 
+a->(1,int)
+v->10
+OutputList: 
+File table: 
+Heap: 
+1->22
+
+Program State: 
+ID: 1
+ExecStack: 
+print(v);print(readHeap(a))
+fork(writeHeap(a,30);v=32;print(v);print(readHeap(a)))
+SymTable: 
+a->(1,int)
+v->10
+OutputList: 
+File table: 
+Heap: 
+1->22
+
+Program State: 
+ID: 1
+ExecStack: 
+print(v);print(readHeap(a))
+SymTable: 
+a->(1,int)
+v->10
+OutputList: 
+File table: 
+Heap: 
+1->22
+
+Program State: 
+ID: 2
+ExecStack: 
+writeHeap(a,30);v=32;print(v);print(readHeap(a))
+SymTable: 
+a->(1,int)
+v->10
+OutputList: 
+File table: 
+Heap: 
+1->22
+
+Program State: 
+ID: 1
+ExecStack: 
+print(v);print(readHeap(a))
+SymTable: 
+a->(1,int)
+v->10
+OutputList: 
+File table: 
+Heap: 
+1->22
+
+Program State: 
+ID: 2
+ExecStack: 
+writeHeap(a,30);v=32;print(v);print(readHeap(a))
+SymTable: 
+a->(1,int)
+v->10
+OutputList: 
+File table: 
+Heap: 
+1->22
+
+Program State: 
+ID: 1
+ExecStack: 
+print(readHeap(a))
+print(v)
+SymTable: 
+a->(1,int)
+v->10
+OutputList: 
+File table: 
+Heap: 
+1->22
+
+Program State: 
+ID: 2
+ExecStack: 
+v=32;print(v);print(readHeap(a))
+writeHeap(a,30)
+SymTable: 
+a->(1,int)
+v->10
+OutputList: 
+File table: 
+Heap: 
+1->22
+
+Program State: 
+ID: 1
+ExecStack: 
+print(readHeap(a))
+print(v)
+SymTable: 
+a->(1,int)
+v->10
+OutputList: 
+File table: 
+Heap: 
+1->22
+
+Program State: 
+ID: 2
+ExecStack: 
+v=32;print(v);print(readHeap(a))
+writeHeap(a,30)
+SymTable: 
+a->(1,int)
+v->10
+OutputList: 
+File table: 
+Heap: 
+1->22
+
+Program State: 
+ID: 1
+ExecStack: 
+print(readHeap(a))
+SymTable: 
+a->(1,int)
+v->10
+OutputList: 
+10
+File table: 
+Heap: 
+1->30
+
+Program State: 
+ID: 2
+ExecStack: 
+v=32;print(v);print(readHeap(a))
+SymTable: 
+a->(1,int)
+v->10
+OutputList: 
+10
+File table: 
+Heap: 
+1->30
+
+Program State: 
+ID: 1
+ExecStack: 
+print(readHeap(a))
+SymTable: 
+a->(1,int)
+v->10
+OutputList: 
+10
+File table: 
+Heap: 
+1->30
+
+Program State: 
+ID: 2
+ExecStack: 
+v=32;print(v);print(readHeap(a))
+SymTable: 
+a->(1,int)
+v->10
+OutputList: 
+10
+File table: 
+Heap: 
+1->30
+
+Program State: 
+ID: 1
+ExecStack: 
+SymTable: 
+a->(1,int)
+v->10
+OutputList: 
+10
+30
+File table: 
+Heap: 
+1->30
+
+Program State: 
+ID: 2
+ExecStack: 
+print(v);print(readHeap(a))
+v=32
+SymTable: 
+a->(1,int)
+v->10
+OutputList: 
+10
+30
+File table: 
+Heap: 
+1->30
+
+Program State: 
+ID: 2
+ExecStack: 
+print(v);print(readHeap(a))
+v=32
+SymTable: 
+a->(1,int)
+v->10
+OutputList: 
+10
+30
+File table: 
+Heap: 
+1->30
+
+Program State: 
+ID: 2
+ExecStack: 
+print(v);print(readHeap(a))
+SymTable: 
+a->(1,int)
+v->32
+OutputList: 
+10
+30
+File table: 
+Heap: 
+1->30
+
+Program State: 
+ID: 2
+ExecStack: 
+print(v);print(readHeap(a))
+SymTable: 
+a->(1,int)
+v->32
+OutputList: 
+10
+30
+File table: 
+Heap: 
+1->30
+
+Program State: 
+ID: 2
+ExecStack: 
+print(readHeap(a))
+print(v)
+SymTable: 
+a->(1,int)
+v->32
+OutputList: 
+10
+30
+File table: 
+Heap: 
+1->30
+
+Program State: 
+ID: 2
+ExecStack: 
+print(readHeap(a))
+print(v)
+SymTable: 
+a->(1,int)
+v->32
+OutputList: 
+10
+30
+File table: 
+Heap: 
+1->30
+
+Program State: 
+ID: 2
+ExecStack: 
+print(readHeap(a))
+SymTable: 
+a->(1,int)
+v->32
+OutputList: 
+10
+30
+32
+File table: 
+Heap: 
+1->30
+
+Program State: 
+ID: 2
+ExecStack: 
+print(readHeap(a))
+SymTable: 
+a->(1,int)
+v->32
+OutputList: 
+10
+30
+32
+File table: 
+Heap: 
+1->30
+
+Program State: 
+ID: 2
+ExecStack: 
+SymTable: 
+a->(1,int)
+v->32
+OutputList: 
+10
+30
+32
+30
+File table: 
+Heap: 
+1->30
+
+Program State: 
+ID: 1
+ExecStack: 
+int v;ref int a;v=10;new(a,22);fork(writeHeap(a,30);v=32;print(v);print(readHeap(a)));print(v);print(readHeap(a))
+SymTable: 
+OutputList: 
+File table: 
+Heap: 
+
+Program State: 
+ID: 1
+ExecStack: 
+ref int a;v=10;new(a,22);fork(writeHeap(a,30);v=32;print(v);print(readHeap(a)));print(v);print(readHeap(a))
+int v
+SymTable: 
+OutputList: 
+File table: 
+Heap: 
+
+Program State: 
+ID: 1
+ExecStack: 
+ref int a;v=10;new(a,22);fork(writeHeap(a,30);v=32;print(v);print(readHeap(a)));print(v);print(readHeap(a))
+int v
+SymTable: 
+OutputList: 
+File table: 
+Heap: 
+
+Program State: 
+ID: 1
+ExecStack: 
+ref int a;v=10;new(a,22);fork(writeHeap(a,30);v=32;print(v);print(readHeap(a)));print(v);print(readHeap(a))
+SymTable: 
+v->0
+OutputList: 
+File table: 
+Heap: 
+
+Program State: 
+ID: 1
+ExecStack: 
+ref int a;v=10;new(a,22);fork(writeHeap(a,30);v=32;print(v);print(readHeap(a)));print(v);print(readHeap(a))
+SymTable: 
+v->0
+OutputList: 
+File table: 
+Heap: 
+
+Program State: 
+ID: 1
+ExecStack: 
+v=10;new(a,22);fork(writeHeap(a,30);v=32;print(v);print(readHeap(a)));print(v);print(readHeap(a))
+ref int a
+SymTable: 
+v->0
+OutputList: 
+File table: 
+Heap: 
+
+Program State: 
+ID: 1
+ExecStack: 
+v=10;new(a,22);fork(writeHeap(a,30);v=32;print(v);print(readHeap(a)));print(v);print(readHeap(a))
+ref int a
+SymTable: 
+v->0
+OutputList: 
+File table: 
+Heap: 
+
+Program State: 
+ID: 1
+ExecStack: 
+v=10;new(a,22);fork(writeHeap(a,30);v=32;print(v);print(readHeap(a)));print(v);print(readHeap(a))
+SymTable: 
+a->(0,int)
+v->0
+OutputList: 
+File table: 
+Heap: 
+
+Program State: 
+ID: 1
+ExecStack: 
+v=10;new(a,22);fork(writeHeap(a,30);v=32;print(v);print(readHeap(a)));print(v);print(readHeap(a))
+SymTable: 
+a->(0,int)
+v->0
+OutputList: 
+File table: 
+Heap: 
+
+Program State: 
+ID: 1
+ExecStack: 
+new(a,22);fork(writeHeap(a,30);v=32;print(v);print(readHeap(a)));print(v);print(readHeap(a))
+v=10
+SymTable: 
+a->(0,int)
+v->0
+OutputList: 
+File table: 
+Heap: 
+
+Program State: 
+ID: 1
+ExecStack: 
+new(a,22);fork(writeHeap(a,30);v=32;print(v);print(readHeap(a)));print(v);print(readHeap(a))
+v=10
+SymTable: 
+a->(0,int)
+v->0
+OutputList: 
+File table: 
+Heap: 
+
+Program State: 
+ID: 1
+ExecStack: 
+new(a,22);fork(writeHeap(a,30);v=32;print(v);print(readHeap(a)));print(v);print(readHeap(a))
+SymTable: 
+a->(0,int)
+v->10
+OutputList: 
+File table: 
+Heap: 
+
+Program State: 
+ID: 1
+ExecStack: 
+new(a,22);fork(writeHeap(a,30);v=32;print(v);print(readHeap(a)));print(v);print(readHeap(a))
+SymTable: 
+a->(0,int)
+v->10
+OutputList: 
+File table: 
+Heap: 
+
+Program State: 
+ID: 1
+ExecStack: 
+fork(writeHeap(a,30);v=32;print(v);print(readHeap(a)));print(v);print(readHeap(a))
+new(a,22)
+SymTable: 
+a->(0,int)
+v->10
+OutputList: 
+File table: 
+Heap: 
+
+Program State: 
+ID: 1
+ExecStack: 
+fork(writeHeap(a,30);v=32;print(v);print(readHeap(a)));print(v);print(readHeap(a))
+new(a,22)
+SymTable: 
+a->(0,int)
+v->10
+OutputList: 
+File table: 
+Heap: 
+
+Program State: 
+ID: 1
+ExecStack: 
+fork(writeHeap(a,30);v=32;print(v);print(readHeap(a)));print(v);print(readHeap(a))
+SymTable: 
+a->(1,int)
+v->10
+OutputList: 
+File table: 
+Heap: 
+1->22
+
+Program State: 
+ID: 1
+ExecStack: 
+fork(writeHeap(a,30);v=32;print(v);print(readHeap(a)));print(v);print(readHeap(a))
+SymTable: 
+a->(1,int)
+v->10
+OutputList: 
+File table: 
+Heap: 
+1->22
+
+Program State: 
+ID: 1
+ExecStack: 
+print(v);print(readHeap(a))
+fork(writeHeap(a,30);v=32;print(v);print(readHeap(a)))
+SymTable: 
+a->(1,int)
+v->10
+OutputList: 
+File table: 
+Heap: 
+1->22
+
+Program State: 
+ID: 1
+ExecStack: 
+print(v);print(readHeap(a))
+fork(writeHeap(a,30);v=32;print(v);print(readHeap(a)))
+SymTable: 
+a->(1,int)
+v->10
+OutputList: 
+File table: 
+Heap: 
+1->22
+
+Program State: 
+ID: 1
+ExecStack: 
+print(v);print(readHeap(a))
+SymTable: 
+a->(1,int)
+v->10
+OutputList: 
+File table: 
+Heap: 
+1->22
+
+Program State: 
+ID: 2
+ExecStack: 
+writeHeap(a,30);v=32;print(v);print(readHeap(a))
+SymTable: 
+a->(1,int)
+v->10
+OutputList: 
+File table: 
+Heap: 
+1->22
+
+Program State: 
+ID: 1
+ExecStack: 
+print(v);print(readHeap(a))
+SymTable: 
+a->(1,int)
+v->10
+OutputList: 
+File table: 
+Heap: 
+1->22
+
+Program State: 
+ID: 2
+ExecStack: 
+writeHeap(a,30);v=32;print(v);print(readHeap(a))
+SymTable: 
+a->(1,int)
+v->10
+OutputList: 
+File table: 
+Heap: 
+1->22
+
+Program State: 
+ID: 1
+ExecStack: 
+print(readHeap(a))
+print(v)
+SymTable: 
+a->(1,int)
+v->10
+OutputList: 
+File table: 
+Heap: 
+1->22
+
+Program State: 
+ID: 2
+ExecStack: 
+v=32;print(v);print(readHeap(a))
+writeHeap(a,30)
+SymTable: 
+a->(1,int)
+v->10
+OutputList: 
+File table: 
+Heap: 
+1->22
+
+Program State: 
+ID: 1
+ExecStack: 
+print(readHeap(a))
+print(v)
+SymTable: 
+a->(1,int)
+v->10
+OutputList: 
+File table: 
+Heap: 
+1->22
+
+Program State: 
+ID: 2
+ExecStack: 
+v=32;print(v);print(readHeap(a))
+writeHeap(a,30)
+SymTable: 
+a->(1,int)
+v->10
+OutputList: 
+File table: 
+Heap: 
+1->22
+
+Program State: 
+ID: 1
+ExecStack: 
+print(readHeap(a))
+SymTable: 
+a->(1,int)
+v->10
+OutputList: 
+10
+File table: 
+Heap: 
+1->30
+
+Program State: 
+ID: 2
+ExecStack: 
+v=32;print(v);print(readHeap(a))
+SymTable: 
+a->(1,int)
+v->10
+OutputList: 
+10
+File table: 
+Heap: 
+1->30
+
+Program State: 
+ID: 1
+ExecStack: 
+print(readHeap(a))
+SymTable: 
+a->(1,int)
+v->10
+OutputList: 
+10
+File table: 
+Heap: 
+1->30
+
+Program State: 
+ID: 2
+ExecStack: 
+v=32;print(v);print(readHeap(a))
+SymTable: 
+a->(1,int)
+v->10
+OutputList: 
+10
+File table: 
+Heap: 
+1->30
+
+Program State: 
+ID: 1
+ExecStack: 
+SymTable: 
+a->(1,int)
+v->10
+OutputList: 
+10
+30
+File table: 
+Heap: 
+1->30
+
+Program State: 
+ID: 2
+ExecStack: 
+print(v);print(readHeap(a))
+v=32
+SymTable: 
+a->(1,int)
+v->10
+OutputList: 
+10
+30
+File table: 
+Heap: 
+1->30
+
+Program State: 
+ID: 2
+ExecStack: 
+print(v);print(readHeap(a))
+v=32
+SymTable: 
+a->(1,int)
+v->10
+OutputList: 
+10
+30
+File table: 
+Heap: 
+1->30
+
+Program State: 
+ID: 2
+ExecStack: 
+print(v);print(readHeap(a))
+SymTable: 
+a->(1,int)
+v->32
+OutputList: 
+10
+30
+File table: 
+Heap: 
+1->30
+
+Program State: 
+ID: 1
+ExecStack: 
+int v;ref int a;v=10;new(a,22);fork(writeHeap(a,30);v=32;print(v);print(readHeap(a)));print(v);print(readHeap(a))
+SymTable: 
+OutputList: 
+File table: 
+Heap: 
+
+Program State: 
+ID: 1
+ExecStack: 
+ref int a;v=10;new(a,22);fork(writeHeap(a,30);v=32;print(v);print(readHeap(a)));print(v);print(readHeap(a))
+int v
+SymTable: 
+OutputList: 
+File table: 
+Heap: 
+
+Program State: 
+ID: 1
+ExecStack: 
+ref int a;v=10;new(a,22);fork(writeHeap(a,30);v=32;print(v);print(readHeap(a)));print(v);print(readHeap(a))
+int v
+SymTable: 
+OutputList: 
+File table: 
+Heap: 
+
+Program State: 
+ID: 1
+ExecStack: 
+ref int a;v=10;new(a,22);fork(writeHeap(a,30);v=32;print(v);print(readHeap(a)));print(v);print(readHeap(a))
+SymTable: 
+v->0
+OutputList: 
+File table: 
+Heap: 
+
+Program State: 
+ID: 1
+ExecStack: 
+ref int a;v=10;new(a,22);fork(writeHeap(a,30);v=32;print(v);print(readHeap(a)));print(v);print(readHeap(a))
+SymTable: 
+v->0
+OutputList: 
+File table: 
+Heap: 
+
+Program State: 
+ID: 1
+ExecStack: 
+v=10;new(a,22);fork(writeHeap(a,30);v=32;print(v);print(readHeap(a)));print(v);print(readHeap(a))
+ref int a
+SymTable: 
+v->0
+OutputList: 
+File table: 
+Heap: 
+
+Program State: 
+ID: 1
+ExecStack: 
+v=10;new(a,22);fork(writeHeap(a,30);v=32;print(v);print(readHeap(a)));print(v);print(readHeap(a))
+ref int a
+SymTable: 
+v->0
+OutputList: 
+File table: 
+Heap: 
+
+Program State: 
+ID: 1
+ExecStack: 
+v=10;new(a,22);fork(writeHeap(a,30);v=32;print(v);print(readHeap(a)));print(v);print(readHeap(a))
+SymTable: 
+a->(0,int)
+v->0
+OutputList: 
+File table: 
+Heap: 
+
+Program State: 
+ID: 1
+ExecStack: 
+v=10;new(a,22);fork(writeHeap(a,30);v=32;print(v);print(readHeap(a)));print(v);print(readHeap(a))
+SymTable: 
+a->(0,int)
+v->0
+OutputList: 
+File table: 
+Heap: 
+
+Program State: 
+ID: 1
+ExecStack: 
+new(a,22);fork(writeHeap(a,30);v=32;print(v);print(readHeap(a)));print(v);print(readHeap(a))
+v=10
+SymTable: 
+a->(0,int)
+v->0
+OutputList: 
+File table: 
+Heap: 
+
+Program State: 
+ID: 1
+ExecStack: 
+new(a,22);fork(writeHeap(a,30);v=32;print(v);print(readHeap(a)));print(v);print(readHeap(a))
+v=10
+SymTable: 
+a->(0,int)
+v->0
+OutputList: 
+File table: 
+Heap: 
+
+Program State: 
+ID: 1
+ExecStack: 
+new(a,22);fork(writeHeap(a,30);v=32;print(v);print(readHeap(a)));print(v);print(readHeap(a))
+SymTable: 
+a->(0,int)
+v->10
+OutputList: 
+File table: 
+Heap: 
+
+Program State: 
+ID: 1
+ExecStack: 
+new(a,22);fork(writeHeap(a,30);v=32;print(v);print(readHeap(a)));print(v);print(readHeap(a))
+SymTable: 
+a->(0,int)
+v->10
+OutputList: 
+File table: 
+Heap: 
+
+Program State: 
+ID: 1
+ExecStack: 
+fork(writeHeap(a,30);v=32;print(v);print(readHeap(a)));print(v);print(readHeap(a))
+new(a,22)
+SymTable: 
+a->(0,int)
+v->10
+OutputList: 
+File table: 
+Heap: 
+
+Program State: 
+ID: 1
+ExecStack: 
+fork(writeHeap(a,30);v=32;print(v);print(readHeap(a)));print(v);print(readHeap(a))
+new(a,22)
+SymTable: 
+a->(0,int)
+v->10
+OutputList: 
+File table: 
+Heap: 
+
+Program State: 
+ID: 1
+ExecStack: 
+fork(writeHeap(a,30);v=32;print(v);print(readHeap(a)));print(v);print(readHeap(a))
+SymTable: 
+a->(1,int)
+v->10
+OutputList: 
+File table: 
+Heap: 
+1->22
+
+Program State: 
+ID: 1
+ExecStack: 
+fork(writeHeap(a,30);v=32;print(v);print(readHeap(a)));print(v);print(readHeap(a))
+SymTable: 
+a->(1,int)
+v->10
+OutputList: 
+File table: 
+Heap: 
+1->22
+
+Program State: 
+ID: 1
+ExecStack: 
+print(v);print(readHeap(a))
+fork(writeHeap(a,30);v=32;print(v);print(readHeap(a)))
+SymTable: 
+a->(1,int)
+v->10
+OutputList: 
+File table: 
+Heap: 
+1->22
+
+Program State: 
+ID: 1
+ExecStack: 
+print(v);print(readHeap(a))
+fork(writeHeap(a,30);v=32;print(v);print(readHeap(a)))
+SymTable: 
+a->(1,int)
+v->10
+OutputList: 
+File table: 
+Heap: 
+1->22
+
+Program State: 
+ID: 1
+ExecStack: 
+print(v);print(readHeap(a))
+SymTable: 
+a->(1,int)
+v->10
+OutputList: 
+File table: 
+Heap: 
+1->22
+
+Program State: 
+ID: 2
+ExecStack: 
+writeHeap(a,30);v=32;print(v);print(readHeap(a))
+SymTable: 
+a->(1,int)
+v->10
+OutputList: 
+File table: 
+Heap: 
+1->22
+
+Program State: 
+ID: 1
+ExecStack: 
+print(v);print(readHeap(a))
+SymTable: 
+a->(1,int)
+v->10
+OutputList: 
+File table: 
+Heap: 
+1->22
+
+Program State: 
+ID: 2
+ExecStack: 
+writeHeap(a,30);v=32;print(v);print(readHeap(a))
+SymTable: 
+a->(1,int)
+v->10
+OutputList: 
+File table: 
+Heap: 
+1->22
+
+Program State: 
+ID: 1
+ExecStack: 
+print(readHeap(a))
+print(v)
+SymTable: 
+a->(1,int)
+v->10
+OutputList: 
+File table: 
+Heap: 
+1->22
+
+Program State: 
+ID: 2
+ExecStack: 
+v=32;print(v);print(readHeap(a))
+writeHeap(a,30)
+SymTable: 
+a->(1,int)
+v->10
+OutputList: 
+File table: 
+Heap: 
+1->22
+
+Program State: 
+ID: 1
+ExecStack: 
+print(readHeap(a))
+print(v)
+SymTable: 
+a->(1,int)
+v->10
+OutputList: 
+File table: 
+Heap: 
+1->22
+
+Program State: 
+ID: 2
+ExecStack: 
+v=32;print(v);print(readHeap(a))
+writeHeap(a,30)
+SymTable: 
+a->(1,int)
+v->10
+OutputList: 
+File table: 
+Heap: 
+1->22
+
+Program State: 
+ID: 1
+ExecStack: 
+print(readHeap(a))
+SymTable: 
+a->(1,int)
+v->10
+OutputList: 
+10
+File table: 
+Heap: 
+1->30
+
+Program State: 
+ID: 2
+ExecStack: 
+v=32;print(v);print(readHeap(a))
+SymTable: 
+a->(1,int)
+v->10
+OutputList: 
+10
+File table: 
+Heap: 
+1->30
+
+Program State: 
+ID: 1
+ExecStack: 
+print(readHeap(a))
+SymTable: 
+a->(1,int)
+v->10
+OutputList: 
+10
+File table: 
+Heap: 
+1->30
+
+Program State: 
+ID: 2
+ExecStack: 
+v=32;print(v);print(readHeap(a))
+SymTable: 
+a->(1,int)
+v->10
+OutputList: 
+10
+File table: 
+Heap: 
+1->30
+
+Program State: 
+ID: 1
+ExecStack: 
+SymTable: 
+a->(1,int)
+v->10
+OutputList: 
+10
+30
+File table: 
+Heap: 
+1->30
+
+Program State: 
+ID: 2
+ExecStack: 
+print(v);print(readHeap(a))
+v=32
+SymTable: 
+a->(1,int)
+v->10
+OutputList: 
+10
+30
+File table: 
+Heap: 
+1->30
+
+Program State: 
+ID: 2
+ExecStack: 
+print(v);print(readHeap(a))
+v=32
+SymTable: 
+a->(1,int)
+v->10
+OutputList: 
+10
+30
+File table: 
+Heap: 
+1->30
+
+Program State: 
+ID: 2
+ExecStack: 
+print(v);print(readHeap(a))
+SymTable: 
+a->(1,int)
+v->32
+OutputList: 
+10
+30
+File table: 
+Heap: 
+1->30
+
+Program State: 
+ID: 2
+ExecStack: 
+print(v);print(readHeap(a))
+SymTable: 
+a->(1,int)
+v->32
+OutputList: 
+10
+30
+File table: 
+Heap: 
+1->30
+
+Program State: 
+ID: 2
+ExecStack: 
+print(readHeap(a))
+print(v)
+SymTable: 
+a->(1,int)
+v->32
+OutputList: 
+10
+30
+File table: 
+Heap: 
+1->30
+
+Program State: 
+ID: 2
+ExecStack: 
+print(readHeap(a))
+print(v)
+SymTable: 
+a->(1,int)
+v->32
+OutputList: 
+10
+30
+File table: 
+Heap: 
+1->30
+
+Program State: 
+ID: 2
+ExecStack: 
+print(readHeap(a))
+SymTable: 
+a->(1,int)
+v->32
+OutputList: 
+10
+30
+32
+File table: 
+Heap: 
+1->30
+
+Program State: 
+ID: 2
+ExecStack: 
+print(readHeap(a))
+SymTable: 
+a->(1,int)
+v->32
+OutputList: 
+10
+30
+32
+File table: 
+Heap: 
+1->30
+
+Program State: 
+ID: 2
+ExecStack: 
+SymTable: 
+a->(1,int)
+v->32
+OutputList: 
+10
+30
+32
+30
+File table: 
+Heap: 
+1->30
+
+Program State: 
+ID: 1
+ExecStack: 
+int v;ref int a;v=10;new(a,22);fork(writeHeap(a,30);v=32;print(v);print(readHeap(a)));print(v);print(readHeap(a))
+SymTable: 
+OutputList: 
+File table: 
+Heap: 
+
+Program State: 
+ID: 1
+ExecStack: 
+ref int a;v=10;new(a,22);fork(writeHeap(a,30);v=32;print(v);print(readHeap(a)));print(v);print(readHeap(a))
+int v
+SymTable: 
+OutputList: 
+File table: 
+Heap: 
+
+Program State: 
+ID: 1
+ExecStack: 
+ref int a;v=10;new(a,22);fork(writeHeap(a,30);v=32;print(v);print(readHeap(a)));print(v);print(readHeap(a))
+int v
+SymTable: 
+OutputList: 
+File table: 
+Heap: 
+
+Program State: 
+ID: 1
+ExecStack: 
+ref int a;v=10;new(a,22);fork(writeHeap(a,30);v=32;print(v);print(readHeap(a)));print(v);print(readHeap(a))
+SymTable: 
+v->0
+OutputList: 
+File table: 
+Heap: 
+
+Program State: 
+ID: 1
+ExecStack: 
+ref int a;v=10;new(a,22);fork(writeHeap(a,30);v=32;print(v);print(readHeap(a)));print(v);print(readHeap(a))
+SymTable: 
+v->0
+OutputList: 
+File table: 
+Heap: 
+
+Program State: 
+ID: 1
+ExecStack: 
+v=10;new(a,22);fork(writeHeap(a,30);v=32;print(v);print(readHeap(a)));print(v);print(readHeap(a))
+ref int a
+SymTable: 
+v->0
+OutputList: 
+File table: 
+Heap: 
+
+Program State: 
+ID: 1
+ExecStack: 
+v=10;new(a,22);fork(writeHeap(a,30);v=32;print(v);print(readHeap(a)));print(v);print(readHeap(a))
+ref int a
+SymTable: 
+v->0
+OutputList: 
+File table: 
+Heap: 
+
+Program State: 
+ID: 1
+ExecStack: 
+v=10;new(a,22);fork(writeHeap(a,30);v=32;print(v);print(readHeap(a)));print(v);print(readHeap(a))
+SymTable: 
+a->(0,int)
+v->0
+OutputList: 
+File table: 
+Heap: 
+
+Program State: 
+ID: 1
+ExecStack: 
+v=10;new(a,22);fork(writeHeap(a,30);v=32;print(v);print(readHeap(a)));print(v);print(readHeap(a))
+SymTable: 
+a->(0,int)
+v->0
+OutputList: 
+File table: 
+Heap: 
+
+Program State: 
+ID: 1
+ExecStack: 
+new(a,22);fork(writeHeap(a,30);v=32;print(v);print(readHeap(a)));print(v);print(readHeap(a))
+v=10
+SymTable: 
+a->(0,int)
+v->0
+OutputList: 
+File table: 
+Heap: 
+
+Program State: 
+ID: 1
+ExecStack: 
+new(a,22);fork(writeHeap(a,30);v=32;print(v);print(readHeap(a)));print(v);print(readHeap(a))
+v=10
+SymTable: 
+a->(0,int)
+v->0
+OutputList: 
+File table: 
+Heap: 
+
+Program State: 
+ID: 1
+ExecStack: 
+new(a,22);fork(writeHeap(a,30);v=32;print(v);print(readHeap(a)));print(v);print(readHeap(a))
+SymTable: 
+a->(0,int)
+v->10
+OutputList: 
+File table: 
+Heap: 
+
+Program State: 
+ID: 1
+ExecStack: 
+new(a,22);fork(writeHeap(a,30);v=32;print(v);print(readHeap(a)));print(v);print(readHeap(a))
+SymTable: 
+a->(0,int)
+v->10
+OutputList: 
+File table: 
+Heap: 
+
+Program State: 
+ID: 1
+ExecStack: 
+fork(writeHeap(a,30);v=32;print(v);print(readHeap(a)));print(v);print(readHeap(a))
+new(a,22)
+SymTable: 
+a->(0,int)
+v->10
+OutputList: 
+File table: 
+Heap: 
+
+Program State: 
+ID: 1
+ExecStack: 
+fork(writeHeap(a,30);v=32;print(v);print(readHeap(a)));print(v);print(readHeap(a))
+new(a,22)
+SymTable: 
+a->(0,int)
+v->10
+OutputList: 
+File table: 
+Heap: 
+
+Program State: 
+ID: 1
+ExecStack: 
+fork(writeHeap(a,30);v=32;print(v);print(readHeap(a)));print(v);print(readHeap(a))
+SymTable: 
+a->(1,int)
+v->10
+OutputList: 
+File table: 
+Heap: 
+1->22
+
+Program State: 
+ID: 1
+ExecStack: 
+fork(writeHeap(a,30);v=32;print(v);print(readHeap(a)));print(v);print(readHeap(a))
+SymTable: 
+a->(1,int)
+v->10
+OutputList: 
+File table: 
+Heap: 
+1->22
+
+Program State: 
+ID: 1
+ExecStack: 
+print(v);print(readHeap(a))
+fork(writeHeap(a,30);v=32;print(v);print(readHeap(a)))
+SymTable: 
+a->(1,int)
+v->10
+OutputList: 
+File table: 
+Heap: 
+1->22
+
+Program State: 
+ID: 1
+ExecStack: 
+print(v);print(readHeap(a))
+fork(writeHeap(a,30);v=32;print(v);print(readHeap(a)))
+SymTable: 
+a->(1,int)
+v->10
+OutputList: 
+File table: 
+Heap: 
+1->22
+
+Program State: 
+ID: 1
+ExecStack: 
+print(v);print(readHeap(a))
+SymTable: 
+a->(1,int)
+v->10
+OutputList: 
+File table: 
+Heap: 
+1->22
+
+Program State: 
+ID: 2
+ExecStack: 
+writeHeap(a,30);v=32;print(v);print(readHeap(a))
+SymTable: 
+a->(1,int)
+v->10
+OutputList: 
+File table: 
+Heap: 
+1->22
+
+Program State: 
+ID: 1
+ExecStack: 
+print(v);print(readHeap(a))
+SymTable: 
+a->(1,int)
+v->10
+OutputList: 
+File table: 
+Heap: 
+1->22
+
+Program State: 
+ID: 2
+ExecStack: 
+writeHeap(a,30);v=32;print(v);print(readHeap(a))
+SymTable: 
+a->(1,int)
+v->10
+OutputList: 
+File table: 
+Heap: 
+1->22
+
+Program State: 
+ID: 1
+ExecStack: 
+print(readHeap(a))
+print(v)
+SymTable: 
+a->(1,int)
+v->10
+OutputList: 
+File table: 
+Heap: 
+1->22
+
+Program State: 
+ID: 2
+ExecStack: 
+v=32;print(v);print(readHeap(a))
+writeHeap(a,30)
+SymTable: 
+a->(1,int)
+v->10
+OutputList: 
+File table: 
+Heap: 
+1->22
+
+Program State: 
+ID: 1
+ExecStack: 
+print(readHeap(a))
+print(v)
+SymTable: 
+a->(1,int)
+v->10
+OutputList: 
+File table: 
+Heap: 
+1->22
+
+Program State: 
+ID: 2
+ExecStack: 
+v=32;print(v);print(readHeap(a))
+writeHeap(a,30)
+SymTable: 
+a->(1,int)
+v->10
+OutputList: 
+File table: 
+Heap: 
+1->22
+
+Program State: 
+ID: 1
+ExecStack: 
+print(readHeap(a))
+SymTable: 
+a->(1,int)
+v->10
+OutputList: 
+10
+File table: 
+Heap: 
+1->30
+
+Program State: 
+ID: 2
+ExecStack: 
+v=32;print(v);print(readHeap(a))
+SymTable: 
+a->(1,int)
+v->10
+OutputList: 
+10
+File table: 
+Heap: 
+1->30
+
+Program State: 
+ID: 1
+ExecStack: 
+print(readHeap(a))
+SymTable: 
+a->(1,int)
+v->10
+OutputList: 
+10
+File table: 
+Heap: 
+1->30
+
+Program State: 
+ID: 2
+ExecStack: 
+v=32;print(v);print(readHeap(a))
+SymTable: 
+a->(1,int)
+v->10
+OutputList: 
+10
+File table: 
+Heap: 
+1->30
+
+Program State: 
+ID: 1
+ExecStack: 
+SymTable: 
+a->(1,int)
+v->10
+OutputList: 
+10
+30
+File table: 
+Heap: 
+1->30
+
+Program State: 
+ID: 2
+ExecStack: 
+print(v);print(readHeap(a))
+v=32
+SymTable: 
+a->(1,int)
+v->10
+OutputList: 
+10
+30
+File table: 
+Heap: 
+1->30
+
+Program State: 
+ID: 2
+ExecStack: 
+print(v);print(readHeap(a))
+v=32
+SymTable: 
+a->(1,int)
+v->10
+OutputList: 
+10
+30
+File table: 
+Heap: 
+1->30
+
+Program State: 
+ID: 2
+ExecStack: 
+print(v);print(readHeap(a))
+SymTable: 
+a->(1,int)
+v->32
+OutputList: 
+10
+30
+File table: 
+Heap: 
+1->30
+
+Program State: 
+ID: 2
+ExecStack: 
+print(v);print(readHeap(a))
+SymTable: 
+a->(1,int)
+v->32
+OutputList: 
+10
+30
+File table: 
+Heap: 
+1->30
+
+Program State: 
+ID: 2
+ExecStack: 
+print(readHeap(a))
+print(v)
+SymTable: 
+a->(1,int)
+v->32
+OutputList: 
+10
+30
+File table: 
+Heap: 
+1->30
+
+Program State: 
+ID: 2
+ExecStack: 
+print(readHeap(a))
+print(v)
+SymTable: 
+a->(1,int)
+v->32
+OutputList: 
+10
+30
+File table: 
+Heap: 
+1->30
+
+Program State: 
+ID: 2
+ExecStack: 
+print(readHeap(a))
+SymTable: 
+a->(1,int)
+v->32
+OutputList: 
+10
+30
+32
+File table: 
+Heap: 
+1->30
+
+Program State: 
+ID: 2
+ExecStack: 
+print(readHeap(a))
+SymTable: 
+a->(1,int)
+v->32
+OutputList: 
+10
+30
+32
+File table: 
+Heap: 
+1->30
+
+Program State: 
+ID: 2
+ExecStack: 
+SymTable: 
+a->(1,int)
+v->32
+OutputList: 
+10
+30
+32
+30
+File table: 
+Heap: 
+1->30
+

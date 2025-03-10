@@ -1,0 +1,140 @@
+Program State: 
+ID: 1
+ExecStack: 
+int v;v=2;print(v)
+SymTable: 
+OutputList: 
+File table: 
+Heap: 
+
+Program State: 
+ID: 1
+ExecStack: 
+v=2;print(v)
+int v
+SymTable: 
+OutputList: 
+File table: 
+Heap: 
+
+Program State: 
+ID: 1
+ExecStack: 
+v=2;print(v)
+int v
+SymTable: 
+OutputList: 
+File table: 
+Heap: 
+
+Program State: 
+ID: 1
+ExecStack: 
+v=2;print(v)
+SymTable: 
+v->0
+OutputList: 
+File table: 
+Heap: 
+
+Program State: 
+ID: 1
+ExecStack: 
+int v;v=2;print(v)
+SymTable: 
+OutputList: 
+File table: 
+Heap: 
+
+Program State: 
+ID: 1
+ExecStack: 
+v=2;print(v)
+int v
+SymTable: 
+OutputList: 
+File table: 
+Heap: 
+
+Program State: 
+ID: 1
+ExecStack: 
+v=2;print(v)
+int v
+SymTable: 
+OutputList: 
+File table: 
+Heap: 
+
+Program State: 
+ID: 1
+ExecStack: 
+v=2;print(v)
+SymTable: 
+v->0
+OutputList: 
+File table: 
+Heap: 
+
+Program State: 
+ID: 1
+ExecStack: 
+v=2;print(v)
+SymTable: 
+v->0
+OutputList: 
+File table: 
+Heap: 
+
+Program State: 
+ID: 1
+ExecStack: 
+print(v)
+v=2
+SymTable: 
+v->0
+OutputList: 
+File table: 
+Heap: 
+
+Program State: 
+ID: 1
+ExecStack: 
+print(v)
+v=2
+SymTable: 
+v->0
+OutputList: 
+File table: 
+Heap: 
+
+Program State: 
+ID: 1
+ExecStack: 
+print(v)
+SymTable: 
+v->2
+OutputList: 
+File table: 
+Heap: 
+
+Program State: 
+ID: 1
+ExecStack: 
+print(v)
+SymTable: 
+v->2
+OutputList: 
+File table: 
+Heap: 
+
+Program State: 
+ID: 1
+ExecStack: 
+SymTable: 
+v->2
+OutputList: 
+2
+File table: 
+Heap: 
+

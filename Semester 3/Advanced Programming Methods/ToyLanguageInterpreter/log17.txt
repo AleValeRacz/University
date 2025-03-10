@@ -1,0 +1,5197 @@
+Program State: 
+ID: 1
+ExecStack: 
+ref int v1;ref int v2;int x;int q;new(v1,20);new(v2,30);model.statements.NewLockStatement@3a313ed2;fork(fork(model.statements.LockStatement@27fe97de;writeHeap(v1,readHeap(v1)-1);model.statements.UnlockStatement@15a420f1);model.statements.LockStatement@2b35068a;writeHeap(v1,readHeap(v1)*10);model.statements.UnlockStatement@18417a90);model.statements.NewLockStatement@4bd25e21;fork(fork(model.statements.LockStatement@7fc54c02;writeHeap(v2,readHeap(v2)+5);model.statements.UnlockStatement@7cc71426);model.statements.LockStatement@6f4174d4;writeHeap(v2,readHeap(v2)*10);model.statements.UnlockStatement@363b0c4b);NopStatement;NopStatement;NopStatement;NopStatement;model.statements.LockStatement@63cbf3d2;print(readHeap(v1));model.statements.UnlockStatement@27e9bda9;model.statements.LockStatement@436a8a54;print(readHeap(v2));model.statements.UnlockStatement@2ddd8f26
+SymTable: 
+OutputList: 
+File table: 
+Heap: 
+SemaphoreTable:
+latchTable:
+lockTable:
+
+Program State: 
+ID: 1
+ExecStack: 
+ref int v2;int x;int q;new(v1,20);new(v2,30);model.statements.NewLockStatement@3a313ed2;fork(fork(model.statements.LockStatement@27fe97de;writeHeap(v1,readHeap(v1)-1);model.statements.UnlockStatement@15a420f1);model.statements.LockStatement@2b35068a;writeHeap(v1,readHeap(v1)*10);model.statements.UnlockStatement@18417a90);model.statements.NewLockStatement@4bd25e21;fork(fork(model.statements.LockStatement@7fc54c02;writeHeap(v2,readHeap(v2)+5);model.statements.UnlockStatement@7cc71426);model.statements.LockStatement@6f4174d4;writeHeap(v2,readHeap(v2)*10);model.statements.UnlockStatement@363b0c4b);NopStatement;NopStatement;NopStatement;NopStatement;model.statements.LockStatement@63cbf3d2;print(readHeap(v1));model.statements.UnlockStatement@27e9bda9;model.statements.LockStatement@436a8a54;print(readHeap(v2));model.statements.UnlockStatement@2ddd8f26
+ref int v1
+SymTable: 
+OutputList: 
+File table: 
+Heap: 
+SemaphoreTable:
+latchTable:
+lockTable:
+
+Program State: 
+ID: 1
+ExecStack: 
+ref int v2;int x;int q;new(v1,20);new(v2,30);model.statements.NewLockStatement@3a313ed2;fork(fork(model.statements.LockStatement@27fe97de;writeHeap(v1,readHeap(v1)-1);model.statements.UnlockStatement@15a420f1);model.statements.LockStatement@2b35068a;writeHeap(v1,readHeap(v1)*10);model.statements.UnlockStatement@18417a90);model.statements.NewLockStatement@4bd25e21;fork(fork(model.statements.LockStatement@7fc54c02;writeHeap(v2,readHeap(v2)+5);model.statements.UnlockStatement@7cc71426);model.statements.LockStatement@6f4174d4;writeHeap(v2,readHeap(v2)*10);model.statements.UnlockStatement@363b0c4b);NopStatement;NopStatement;NopStatement;NopStatement;model.statements.LockStatement@63cbf3d2;print(readHeap(v1));model.statements.UnlockStatement@27e9bda9;model.statements.LockStatement@436a8a54;print(readHeap(v2));model.statements.UnlockStatement@2ddd8f26
+ref int v1
+SymTable: 
+OutputList: 
+File table: 
+Heap: 
+SemaphoreTable:
+latchTable:
+lockTable:
+
+Program State: 
+ID: 1
+ExecStack: 
+ref int v2;int x;int q;new(v1,20);new(v2,30);model.statements.NewLockStatement@3a313ed2;fork(fork(model.statements.LockStatement@27fe97de;writeHeap(v1,readHeap(v1)-1);model.statements.UnlockStatement@15a420f1);model.statements.LockStatement@2b35068a;writeHeap(v1,readHeap(v1)*10);model.statements.UnlockStatement@18417a90);model.statements.NewLockStatement@4bd25e21;fork(fork(model.statements.LockStatement@7fc54c02;writeHeap(v2,readHeap(v2)+5);model.statements.UnlockStatement@7cc71426);model.statements.LockStatement@6f4174d4;writeHeap(v2,readHeap(v2)*10);model.statements.UnlockStatement@363b0c4b);NopStatement;NopStatement;NopStatement;NopStatement;model.statements.LockStatement@63cbf3d2;print(readHeap(v1));model.statements.UnlockStatement@27e9bda9;model.statements.LockStatement@436a8a54;print(readHeap(v2));model.statements.UnlockStatement@2ddd8f26
+SymTable: 
+v1->(0,int)
+OutputList: 
+File table: 
+Heap: 
+SemaphoreTable:
+latchTable:
+lockTable:
+
+Program State: 
+ID: 1
+ExecStack: 
+ref int v2;int x;int q;new(v1,20);new(v2,30);model.statements.NewLockStatement@3a313ed2;fork(fork(model.statements.LockStatement@27fe97de;writeHeap(v1,readHeap(v1)-1);model.statements.UnlockStatement@15a420f1);model.statements.LockStatement@2b35068a;writeHeap(v1,readHeap(v1)*10);model.statements.UnlockStatement@18417a90);model.statements.NewLockStatement@4bd25e21;fork(fork(model.statements.LockStatement@7fc54c02;writeHeap(v2,readHeap(v2)+5);model.statements.UnlockStatement@7cc71426);model.statements.LockStatement@6f4174d4;writeHeap(v2,readHeap(v2)*10);model.statements.UnlockStatement@363b0c4b);NopStatement;NopStatement;NopStatement;NopStatement;model.statements.LockStatement@63cbf3d2;print(readHeap(v1));model.statements.UnlockStatement@27e9bda9;model.statements.LockStatement@436a8a54;print(readHeap(v2));model.statements.UnlockStatement@2ddd8f26
+SymTable: 
+v1->(0,int)
+OutputList: 
+File table: 
+Heap: 
+SemaphoreTable:
+latchTable:
+lockTable:
+
+Program State: 
+ID: 1
+ExecStack: 
+int x;int q;new(v1,20);new(v2,30);model.statements.NewLockStatement@3a313ed2;fork(fork(model.statements.LockStatement@27fe97de;writeHeap(v1,readHeap(v1)-1);model.statements.UnlockStatement@15a420f1);model.statements.LockStatement@2b35068a;writeHeap(v1,readHeap(v1)*10);model.statements.UnlockStatement@18417a90);model.statements.NewLockStatement@4bd25e21;fork(fork(model.statements.LockStatement@7fc54c02;writeHeap(v2,readHeap(v2)+5);model.statements.UnlockStatement@7cc71426);model.statements.LockStatement@6f4174d4;writeHeap(v2,readHeap(v2)*10);model.statements.UnlockStatement@363b0c4b);NopStatement;NopStatement;NopStatement;NopStatement;model.statements.LockStatement@63cbf3d2;print(readHeap(v1));model.statements.UnlockStatement@27e9bda9;model.statements.LockStatement@436a8a54;print(readHeap(v2));model.statements.UnlockStatement@2ddd8f26
+ref int v2
+SymTable: 
+v1->(0,int)
+OutputList: 
+File table: 
+Heap: 
+SemaphoreTable:
+latchTable:
+lockTable:
+
+Program State: 
+ID: 1
+ExecStack: 
+int x;int q;new(v1,20);new(v2,30);model.statements.NewLockStatement@3a313ed2;fork(fork(model.statements.LockStatement@27fe97de;writeHeap(v1,readHeap(v1)-1);model.statements.UnlockStatement@15a420f1);model.statements.LockStatement@2b35068a;writeHeap(v1,readHeap(v1)*10);model.statements.UnlockStatement@18417a90);model.statements.NewLockStatement@4bd25e21;fork(fork(model.statements.LockStatement@7fc54c02;writeHeap(v2,readHeap(v2)+5);model.statements.UnlockStatement@7cc71426);model.statements.LockStatement@6f4174d4;writeHeap(v2,readHeap(v2)*10);model.statements.UnlockStatement@363b0c4b);NopStatement;NopStatement;NopStatement;NopStatement;model.statements.LockStatement@63cbf3d2;print(readHeap(v1));model.statements.UnlockStatement@27e9bda9;model.statements.LockStatement@436a8a54;print(readHeap(v2));model.statements.UnlockStatement@2ddd8f26
+ref int v2
+SymTable: 
+v1->(0,int)
+OutputList: 
+File table: 
+Heap: 
+SemaphoreTable:
+latchTable:
+lockTable:
+
+Program State: 
+ID: 1
+ExecStack: 
+int x;int q;new(v1,20);new(v2,30);model.statements.NewLockStatement@3a313ed2;fork(fork(model.statements.LockStatement@27fe97de;writeHeap(v1,readHeap(v1)-1);model.statements.UnlockStatement@15a420f1);model.statements.LockStatement@2b35068a;writeHeap(v1,readHeap(v1)*10);model.statements.UnlockStatement@18417a90);model.statements.NewLockStatement@4bd25e21;fork(fork(model.statements.LockStatement@7fc54c02;writeHeap(v2,readHeap(v2)+5);model.statements.UnlockStatement@7cc71426);model.statements.LockStatement@6f4174d4;writeHeap(v2,readHeap(v2)*10);model.statements.UnlockStatement@363b0c4b);NopStatement;NopStatement;NopStatement;NopStatement;model.statements.LockStatement@63cbf3d2;print(readHeap(v1));model.statements.UnlockStatement@27e9bda9;model.statements.LockStatement@436a8a54;print(readHeap(v2));model.statements.UnlockStatement@2ddd8f26
+SymTable: 
+v1->(0,int)
+v2->(0,int)
+OutputList: 
+File table: 
+Heap: 
+SemaphoreTable:
+latchTable:
+lockTable:
+
+Program State: 
+ID: 1
+ExecStack: 
+int x;int q;new(v1,20);new(v2,30);model.statements.NewLockStatement@3a313ed2;fork(fork(model.statements.LockStatement@27fe97de;writeHeap(v1,readHeap(v1)-1);model.statements.UnlockStatement@15a420f1);model.statements.LockStatement@2b35068a;writeHeap(v1,readHeap(v1)*10);model.statements.UnlockStatement@18417a90);model.statements.NewLockStatement@4bd25e21;fork(fork(model.statements.LockStatement@7fc54c02;writeHeap(v2,readHeap(v2)+5);model.statements.UnlockStatement@7cc71426);model.statements.LockStatement@6f4174d4;writeHeap(v2,readHeap(v2)*10);model.statements.UnlockStatement@363b0c4b);NopStatement;NopStatement;NopStatement;NopStatement;model.statements.LockStatement@63cbf3d2;print(readHeap(v1));model.statements.UnlockStatement@27e9bda9;model.statements.LockStatement@436a8a54;print(readHeap(v2));model.statements.UnlockStatement@2ddd8f26
+SymTable: 
+v1->(0,int)
+v2->(0,int)
+OutputList: 
+File table: 
+Heap: 
+SemaphoreTable:
+latchTable:
+lockTable:
+
+Program State: 
+ID: 1
+ExecStack: 
+int q;new(v1,20);new(v2,30);model.statements.NewLockStatement@3a313ed2;fork(fork(model.statements.LockStatement@27fe97de;writeHeap(v1,readHeap(v1)-1);model.statements.UnlockStatement@15a420f1);model.statements.LockStatement@2b35068a;writeHeap(v1,readHeap(v1)*10);model.statements.UnlockStatement@18417a90);model.statements.NewLockStatement@4bd25e21;fork(fork(model.statements.LockStatement@7fc54c02;writeHeap(v2,readHeap(v2)+5);model.statements.UnlockStatement@7cc71426);model.statements.LockStatement@6f4174d4;writeHeap(v2,readHeap(v2)*10);model.statements.UnlockStatement@363b0c4b);NopStatement;NopStatement;NopStatement;NopStatement;model.statements.LockStatement@63cbf3d2;print(readHeap(v1));model.statements.UnlockStatement@27e9bda9;model.statements.LockStatement@436a8a54;print(readHeap(v2));model.statements.UnlockStatement@2ddd8f26
+int x
+SymTable: 
+v1->(0,int)
+v2->(0,int)
+OutputList: 
+File table: 
+Heap: 
+SemaphoreTable:
+latchTable:
+lockTable:
+
+Program State: 
+ID: 1
+ExecStack: 
+int q;new(v1,20);new(v2,30);model.statements.NewLockStatement@3a313ed2;fork(fork(model.statements.LockStatement@27fe97de;writeHeap(v1,readHeap(v1)-1);model.statements.UnlockStatement@15a420f1);model.statements.LockStatement@2b35068a;writeHeap(v1,readHeap(v1)*10);model.statements.UnlockStatement@18417a90);model.statements.NewLockStatement@4bd25e21;fork(fork(model.statements.LockStatement@7fc54c02;writeHeap(v2,readHeap(v2)+5);model.statements.UnlockStatement@7cc71426);model.statements.LockStatement@6f4174d4;writeHeap(v2,readHeap(v2)*10);model.statements.UnlockStatement@363b0c4b);NopStatement;NopStatement;NopStatement;NopStatement;model.statements.LockStatement@63cbf3d2;print(readHeap(v1));model.statements.UnlockStatement@27e9bda9;model.statements.LockStatement@436a8a54;print(readHeap(v2));model.statements.UnlockStatement@2ddd8f26
+int x
+SymTable: 
+v1->(0,int)
+v2->(0,int)
+OutputList: 
+File table: 
+Heap: 
+SemaphoreTable:
+latchTable:
+lockTable:
+
+Program State: 
+ID: 1
+ExecStack: 
+int q;new(v1,20);new(v2,30);model.statements.NewLockStatement@3a313ed2;fork(fork(model.statements.LockStatement@27fe97de;writeHeap(v1,readHeap(v1)-1);model.statements.UnlockStatement@15a420f1);model.statements.LockStatement@2b35068a;writeHeap(v1,readHeap(v1)*10);model.statements.UnlockStatement@18417a90);model.statements.NewLockStatement@4bd25e21;fork(fork(model.statements.LockStatement@7fc54c02;writeHeap(v2,readHeap(v2)+5);model.statements.UnlockStatement@7cc71426);model.statements.LockStatement@6f4174d4;writeHeap(v2,readHeap(v2)*10);model.statements.UnlockStatement@363b0c4b);NopStatement;NopStatement;NopStatement;NopStatement;model.statements.LockStatement@63cbf3d2;print(readHeap(v1));model.statements.UnlockStatement@27e9bda9;model.statements.LockStatement@436a8a54;print(readHeap(v2));model.statements.UnlockStatement@2ddd8f26
+SymTable: 
+x->0
+v1->(0,int)
+v2->(0,int)
+OutputList: 
+File table: 
+Heap: 
+SemaphoreTable:
+latchTable:
+lockTable:
+
+Program State: 
+ID: 1
+ExecStack: 
+int q;new(v1,20);new(v2,30);model.statements.NewLockStatement@3a313ed2;fork(fork(model.statements.LockStatement@27fe97de;writeHeap(v1,readHeap(v1)-1);model.statements.UnlockStatement@15a420f1);model.statements.LockStatement@2b35068a;writeHeap(v1,readHeap(v1)*10);model.statements.UnlockStatement@18417a90);model.statements.NewLockStatement@4bd25e21;fork(fork(model.statements.LockStatement@7fc54c02;writeHeap(v2,readHeap(v2)+5);model.statements.UnlockStatement@7cc71426);model.statements.LockStatement@6f4174d4;writeHeap(v2,readHeap(v2)*10);model.statements.UnlockStatement@363b0c4b);NopStatement;NopStatement;NopStatement;NopStatement;model.statements.LockStatement@63cbf3d2;print(readHeap(v1));model.statements.UnlockStatement@27e9bda9;model.statements.LockStatement@436a8a54;print(readHeap(v2));model.statements.UnlockStatement@2ddd8f26
+SymTable: 
+x->0
+v1->(0,int)
+v2->(0,int)
+OutputList: 
+File table: 
+Heap: 
+SemaphoreTable:
+latchTable:
+lockTable:
+
+Program State: 
+ID: 1
+ExecStack: 
+new(v1,20);new(v2,30);model.statements.NewLockStatement@3a313ed2;fork(fork(model.statements.LockStatement@27fe97de;writeHeap(v1,readHeap(v1)-1);model.statements.UnlockStatement@15a420f1);model.statements.LockStatement@2b35068a;writeHeap(v1,readHeap(v1)*10);model.statements.UnlockStatement@18417a90);model.statements.NewLockStatement@4bd25e21;fork(fork(model.statements.LockStatement@7fc54c02;writeHeap(v2,readHeap(v2)+5);model.statements.UnlockStatement@7cc71426);model.statements.LockStatement@6f4174d4;writeHeap(v2,readHeap(v2)*10);model.statements.UnlockStatement@363b0c4b);NopStatement;NopStatement;NopStatement;NopStatement;model.statements.LockStatement@63cbf3d2;print(readHeap(v1));model.statements.UnlockStatement@27e9bda9;model.statements.LockStatement@436a8a54;print(readHeap(v2));model.statements.UnlockStatement@2ddd8f26
+int q
+SymTable: 
+x->0
+v1->(0,int)
+v2->(0,int)
+OutputList: 
+File table: 
+Heap: 
+SemaphoreTable:
+latchTable:
+lockTable:
+
+Program State: 
+ID: 1
+ExecStack: 
+new(v1,20);new(v2,30);model.statements.NewLockStatement@3a313ed2;fork(fork(model.statements.LockStatement@27fe97de;writeHeap(v1,readHeap(v1)-1);model.statements.UnlockStatement@15a420f1);model.statements.LockStatement@2b35068a;writeHeap(v1,readHeap(v1)*10);model.statements.UnlockStatement@18417a90);model.statements.NewLockStatement@4bd25e21;fork(fork(model.statements.LockStatement@7fc54c02;writeHeap(v2,readHeap(v2)+5);model.statements.UnlockStatement@7cc71426);model.statements.LockStatement@6f4174d4;writeHeap(v2,readHeap(v2)*10);model.statements.UnlockStatement@363b0c4b);NopStatement;NopStatement;NopStatement;NopStatement;model.statements.LockStatement@63cbf3d2;print(readHeap(v1));model.statements.UnlockStatement@27e9bda9;model.statements.LockStatement@436a8a54;print(readHeap(v2));model.statements.UnlockStatement@2ddd8f26
+int q
+SymTable: 
+x->0
+v1->(0,int)
+v2->(0,int)
+OutputList: 
+File table: 
+Heap: 
+SemaphoreTable:
+latchTable:
+lockTable:
+
+Program State: 
+ID: 1
+ExecStack: 
+new(v1,20);new(v2,30);model.statements.NewLockStatement@3a313ed2;fork(fork(model.statements.LockStatement@27fe97de;writeHeap(v1,readHeap(v1)-1);model.statements.UnlockStatement@15a420f1);model.statements.LockStatement@2b35068a;writeHeap(v1,readHeap(v1)*10);model.statements.UnlockStatement@18417a90);model.statements.NewLockStatement@4bd25e21;fork(fork(model.statements.LockStatement@7fc54c02;writeHeap(v2,readHeap(v2)+5);model.statements.UnlockStatement@7cc71426);model.statements.LockStatement@6f4174d4;writeHeap(v2,readHeap(v2)*10);model.statements.UnlockStatement@363b0c4b);NopStatement;NopStatement;NopStatement;NopStatement;model.statements.LockStatement@63cbf3d2;print(readHeap(v1));model.statements.UnlockStatement@27e9bda9;model.statements.LockStatement@436a8a54;print(readHeap(v2));model.statements.UnlockStatement@2ddd8f26
+SymTable: 
+q->0
+x->0
+v1->(0,int)
+v2->(0,int)
+OutputList: 
+File table: 
+Heap: 
+SemaphoreTable:
+latchTable:
+lockTable:
+
+Program State: 
+ID: 1
+ExecStack: 
+new(v1,20);new(v2,30);model.statements.NewLockStatement@3a313ed2;fork(fork(model.statements.LockStatement@27fe97de;writeHeap(v1,readHeap(v1)-1);model.statements.UnlockStatement@15a420f1);model.statements.LockStatement@2b35068a;writeHeap(v1,readHeap(v1)*10);model.statements.UnlockStatement@18417a90);model.statements.NewLockStatement@4bd25e21;fork(fork(model.statements.LockStatement@7fc54c02;writeHeap(v2,readHeap(v2)+5);model.statements.UnlockStatement@7cc71426);model.statements.LockStatement@6f4174d4;writeHeap(v2,readHeap(v2)*10);model.statements.UnlockStatement@363b0c4b);NopStatement;NopStatement;NopStatement;NopStatement;model.statements.LockStatement@63cbf3d2;print(readHeap(v1));model.statements.UnlockStatement@27e9bda9;model.statements.LockStatement@436a8a54;print(readHeap(v2));model.statements.UnlockStatement@2ddd8f26
+SymTable: 
+q->0
+x->0
+v1->(0,int)
+v2->(0,int)
+OutputList: 
+File table: 
+Heap: 
+SemaphoreTable:
+latchTable:
+lockTable:
+
+Program State: 
+ID: 1
+ExecStack: 
+new(v2,30);model.statements.NewLockStatement@3a313ed2;fork(fork(model.statements.LockStatement@27fe97de;writeHeap(v1,readHeap(v1)-1);model.statements.UnlockStatement@15a420f1);model.statements.LockStatement@2b35068a;writeHeap(v1,readHeap(v1)*10);model.statements.UnlockStatement@18417a90);model.statements.NewLockStatement@4bd25e21;fork(fork(model.statements.LockStatement@7fc54c02;writeHeap(v2,readHeap(v2)+5);model.statements.UnlockStatement@7cc71426);model.statements.LockStatement@6f4174d4;writeHeap(v2,readHeap(v2)*10);model.statements.UnlockStatement@363b0c4b);NopStatement;NopStatement;NopStatement;NopStatement;model.statements.LockStatement@63cbf3d2;print(readHeap(v1));model.statements.UnlockStatement@27e9bda9;model.statements.LockStatement@436a8a54;print(readHeap(v2));model.statements.UnlockStatement@2ddd8f26
+new(v1,20)
+SymTable: 
+q->0
+x->0
+v1->(0,int)
+v2->(0,int)
+OutputList: 
+File table: 
+Heap: 
+SemaphoreTable:
+latchTable:
+lockTable:
+
+Program State: 
+ID: 1
+ExecStack: 
+new(v2,30);model.statements.NewLockStatement@3a313ed2;fork(fork(model.statements.LockStatement@27fe97de;writeHeap(v1,readHeap(v1)-1);model.statements.UnlockStatement@15a420f1);model.statements.LockStatement@2b35068a;writeHeap(v1,readHeap(v1)*10);model.statements.UnlockStatement@18417a90);model.statements.NewLockStatement@4bd25e21;fork(fork(model.statements.LockStatement@7fc54c02;writeHeap(v2,readHeap(v2)+5);model.statements.UnlockStatement@7cc71426);model.statements.LockStatement@6f4174d4;writeHeap(v2,readHeap(v2)*10);model.statements.UnlockStatement@363b0c4b);NopStatement;NopStatement;NopStatement;NopStatement;model.statements.LockStatement@63cbf3d2;print(readHeap(v1));model.statements.UnlockStatement@27e9bda9;model.statements.LockStatement@436a8a54;print(readHeap(v2));model.statements.UnlockStatement@2ddd8f26
+new(v1,20)
+SymTable: 
+q->0
+x->0
+v1->(0,int)
+v2->(0,int)
+OutputList: 
+File table: 
+Heap: 
+SemaphoreTable:
+latchTable:
+lockTable:
+
+Program State: 
+ID: 1
+ExecStack: 
+new(v2,30);model.statements.NewLockStatement@3a313ed2;fork(fork(model.statements.LockStatement@27fe97de;writeHeap(v1,readHeap(v1)-1);model.statements.UnlockStatement@15a420f1);model.statements.LockStatement@2b35068a;writeHeap(v1,readHeap(v1)*10);model.statements.UnlockStatement@18417a90);model.statements.NewLockStatement@4bd25e21;fork(fork(model.statements.LockStatement@7fc54c02;writeHeap(v2,readHeap(v2)+5);model.statements.UnlockStatement@7cc71426);model.statements.LockStatement@6f4174d4;writeHeap(v2,readHeap(v2)*10);model.statements.UnlockStatement@363b0c4b);NopStatement;NopStatement;NopStatement;NopStatement;model.statements.LockStatement@63cbf3d2;print(readHeap(v1));model.statements.UnlockStatement@27e9bda9;model.statements.LockStatement@436a8a54;print(readHeap(v2));model.statements.UnlockStatement@2ddd8f26
+SymTable: 
+q->0
+x->0
+v1->(1,int)
+v2->(0,int)
+OutputList: 
+File table: 
+Heap: 
+1->20
+SemaphoreTable:
+latchTable:
+lockTable:
+
+Program State: 
+ID: 1
+ExecStack: 
+new(v2,30);model.statements.NewLockStatement@3a313ed2;fork(fork(model.statements.LockStatement@27fe97de;writeHeap(v1,readHeap(v1)-1);model.statements.UnlockStatement@15a420f1);model.statements.LockStatement@2b35068a;writeHeap(v1,readHeap(v1)*10);model.statements.UnlockStatement@18417a90);model.statements.NewLockStatement@4bd25e21;fork(fork(model.statements.LockStatement@7fc54c02;writeHeap(v2,readHeap(v2)+5);model.statements.UnlockStatement@7cc71426);model.statements.LockStatement@6f4174d4;writeHeap(v2,readHeap(v2)*10);model.statements.UnlockStatement@363b0c4b);NopStatement;NopStatement;NopStatement;NopStatement;model.statements.LockStatement@63cbf3d2;print(readHeap(v1));model.statements.UnlockStatement@27e9bda9;model.statements.LockStatement@436a8a54;print(readHeap(v2));model.statements.UnlockStatement@2ddd8f26
+SymTable: 
+q->0
+x->0
+v1->(1,int)
+v2->(0,int)
+OutputList: 
+File table: 
+Heap: 
+1->20
+SemaphoreTable:
+latchTable:
+lockTable:
+
+Program State: 
+ID: 1
+ExecStack: 
+model.statements.NewLockStatement@3a313ed2;fork(fork(model.statements.LockStatement@27fe97de;writeHeap(v1,readHeap(v1)-1);model.statements.UnlockStatement@15a420f1);model.statements.LockStatement@2b35068a;writeHeap(v1,readHeap(v1)*10);model.statements.UnlockStatement@18417a90);model.statements.NewLockStatement@4bd25e21;fork(fork(model.statements.LockStatement@7fc54c02;writeHeap(v2,readHeap(v2)+5);model.statements.UnlockStatement@7cc71426);model.statements.LockStatement@6f4174d4;writeHeap(v2,readHeap(v2)*10);model.statements.UnlockStatement@363b0c4b);NopStatement;NopStatement;NopStatement;NopStatement;model.statements.LockStatement@63cbf3d2;print(readHeap(v1));model.statements.UnlockStatement@27e9bda9;model.statements.LockStatement@436a8a54;print(readHeap(v2));model.statements.UnlockStatement@2ddd8f26
+new(v2,30)
+SymTable: 
+q->0
+x->0
+v1->(1,int)
+v2->(0,int)
+OutputList: 
+File table: 
+Heap: 
+1->20
+SemaphoreTable:
+latchTable:
+lockTable:
+
+Program State: 
+ID: 1
+ExecStack: 
+model.statements.NewLockStatement@3a313ed2;fork(fork(model.statements.LockStatement@27fe97de;writeHeap(v1,readHeap(v1)-1);model.statements.UnlockStatement@15a420f1);model.statements.LockStatement@2b35068a;writeHeap(v1,readHeap(v1)*10);model.statements.UnlockStatement@18417a90);model.statements.NewLockStatement@4bd25e21;fork(fork(model.statements.LockStatement@7fc54c02;writeHeap(v2,readHeap(v2)+5);model.statements.UnlockStatement@7cc71426);model.statements.LockStatement@6f4174d4;writeHeap(v2,readHeap(v2)*10);model.statements.UnlockStatement@363b0c4b);NopStatement;NopStatement;NopStatement;NopStatement;model.statements.LockStatement@63cbf3d2;print(readHeap(v1));model.statements.UnlockStatement@27e9bda9;model.statements.LockStatement@436a8a54;print(readHeap(v2));model.statements.UnlockStatement@2ddd8f26
+new(v2,30)
+SymTable: 
+q->0
+x->0
+v1->(1,int)
+v2->(0,int)
+OutputList: 
+File table: 
+Heap: 
+1->20
+SemaphoreTable:
+latchTable:
+lockTable:
+
+Program State: 
+ID: 1
+ExecStack: 
+model.statements.NewLockStatement@3a313ed2;fork(fork(model.statements.LockStatement@27fe97de;writeHeap(v1,readHeap(v1)-1);model.statements.UnlockStatement@15a420f1);model.statements.LockStatement@2b35068a;writeHeap(v1,readHeap(v1)*10);model.statements.UnlockStatement@18417a90);model.statements.NewLockStatement@4bd25e21;fork(fork(model.statements.LockStatement@7fc54c02;writeHeap(v2,readHeap(v2)+5);model.statements.UnlockStatement@7cc71426);model.statements.LockStatement@6f4174d4;writeHeap(v2,readHeap(v2)*10);model.statements.UnlockStatement@363b0c4b);NopStatement;NopStatement;NopStatement;NopStatement;model.statements.LockStatement@63cbf3d2;print(readHeap(v1));model.statements.UnlockStatement@27e9bda9;model.statements.LockStatement@436a8a54;print(readHeap(v2));model.statements.UnlockStatement@2ddd8f26
+SymTable: 
+q->0
+x->0
+v1->(1,int)
+v2->(2,int)
+OutputList: 
+File table: 
+Heap: 
+1->20
+2->30
+SemaphoreTable:
+latchTable:
+lockTable:
+
+Program State: 
+ID: 1
+ExecStack: 
+model.statements.NewLockStatement@3a313ed2;fork(fork(model.statements.LockStatement@27fe97de;writeHeap(v1,readHeap(v1)-1);model.statements.UnlockStatement@15a420f1);model.statements.LockStatement@2b35068a;writeHeap(v1,readHeap(v1)*10);model.statements.UnlockStatement@18417a90);model.statements.NewLockStatement@4bd25e21;fork(fork(model.statements.LockStatement@7fc54c02;writeHeap(v2,readHeap(v2)+5);model.statements.UnlockStatement@7cc71426);model.statements.LockStatement@6f4174d4;writeHeap(v2,readHeap(v2)*10);model.statements.UnlockStatement@363b0c4b);NopStatement;NopStatement;NopStatement;NopStatement;model.statements.LockStatement@63cbf3d2;print(readHeap(v1));model.statements.UnlockStatement@27e9bda9;model.statements.LockStatement@436a8a54;print(readHeap(v2));model.statements.UnlockStatement@2ddd8f26
+SymTable: 
+q->0
+x->0
+v1->(1,int)
+v2->(2,int)
+OutputList: 
+File table: 
+Heap: 
+1->20
+2->30
+SemaphoreTable:
+latchTable:
+lockTable:
+
+Program State: 
+ID: 1
+ExecStack: 
+fork(fork(model.statements.LockStatement@27fe97de;writeHeap(v1,readHeap(v1)-1);model.statements.UnlockStatement@15a420f1);model.statements.LockStatement@2b35068a;writeHeap(v1,readHeap(v1)*10);model.statements.UnlockStatement@18417a90);model.statements.NewLockStatement@4bd25e21;fork(fork(model.statements.LockStatement@7fc54c02;writeHeap(v2,readHeap(v2)+5);model.statements.UnlockStatement@7cc71426);model.statements.LockStatement@6f4174d4;writeHeap(v2,readHeap(v2)*10);model.statements.UnlockStatement@363b0c4b);NopStatement;NopStatement;NopStatement;NopStatement;model.statements.LockStatement@63cbf3d2;print(readHeap(v1));model.statements.UnlockStatement@27e9bda9;model.statements.LockStatement@436a8a54;print(readHeap(v2));model.statements.UnlockStatement@2ddd8f26
+model.statements.NewLockStatement@3a313ed2
+SymTable: 
+q->0
+x->0
+v1->(1,int)
+v2->(2,int)
+OutputList: 
+File table: 
+Heap: 
+1->20
+2->30
+SemaphoreTable:
+latchTable:
+lockTable:
+
+Program State: 
+ID: 1
+ExecStack: 
+fork(fork(model.statements.LockStatement@27fe97de;writeHeap(v1,readHeap(v1)-1);model.statements.UnlockStatement@15a420f1);model.statements.LockStatement@2b35068a;writeHeap(v1,readHeap(v1)*10);model.statements.UnlockStatement@18417a90);model.statements.NewLockStatement@4bd25e21;fork(fork(model.statements.LockStatement@7fc54c02;writeHeap(v2,readHeap(v2)+5);model.statements.UnlockStatement@7cc71426);model.statements.LockStatement@6f4174d4;writeHeap(v2,readHeap(v2)*10);model.statements.UnlockStatement@363b0c4b);NopStatement;NopStatement;NopStatement;NopStatement;model.statements.LockStatement@63cbf3d2;print(readHeap(v1));model.statements.UnlockStatement@27e9bda9;model.statements.LockStatement@436a8a54;print(readHeap(v2));model.statements.UnlockStatement@2ddd8f26
+model.statements.NewLockStatement@3a313ed2
+SymTable: 
+q->0
+x->0
+v1->(1,int)
+v2->(2,int)
+OutputList: 
+File table: 
+Heap: 
+1->20
+2->30
+SemaphoreTable:
+latchTable:
+lockTable:
+
+Program State: 
+ID: 1
+ExecStack: 
+fork(fork(model.statements.LockStatement@27fe97de;writeHeap(v1,readHeap(v1)-1);model.statements.UnlockStatement@15a420f1);model.statements.LockStatement@2b35068a;writeHeap(v1,readHeap(v1)*10);model.statements.UnlockStatement@18417a90);model.statements.NewLockStatement@4bd25e21;fork(fork(model.statements.LockStatement@7fc54c02;writeHeap(v2,readHeap(v2)+5);model.statements.UnlockStatement@7cc71426);model.statements.LockStatement@6f4174d4;writeHeap(v2,readHeap(v2)*10);model.statements.UnlockStatement@363b0c4b);NopStatement;NopStatement;NopStatement;NopStatement;model.statements.LockStatement@63cbf3d2;print(readHeap(v1));model.statements.UnlockStatement@27e9bda9;model.statements.LockStatement@436a8a54;print(readHeap(v2));model.statements.UnlockStatement@2ddd8f26
+SymTable: 
+q->0
+x->1
+v1->(1,int)
+v2->(2,int)
+OutputList: 
+File table: 
+Heap: 
+1->20
+2->30
+SemaphoreTable:
+latchTable:
+location: 1->value: -1lockTable:
+
+Program State: 
+ID: 1
+ExecStack: 
+fork(fork(model.statements.LockStatement@27fe97de;writeHeap(v1,readHeap(v1)-1);model.statements.UnlockStatement@15a420f1);model.statements.LockStatement@2b35068a;writeHeap(v1,readHeap(v1)*10);model.statements.UnlockStatement@18417a90);model.statements.NewLockStatement@4bd25e21;fork(fork(model.statements.LockStatement@7fc54c02;writeHeap(v2,readHeap(v2)+5);model.statements.UnlockStatement@7cc71426);model.statements.LockStatement@6f4174d4;writeHeap(v2,readHeap(v2)*10);model.statements.UnlockStatement@363b0c4b);NopStatement;NopStatement;NopStatement;NopStatement;model.statements.LockStatement@63cbf3d2;print(readHeap(v1));model.statements.UnlockStatement@27e9bda9;model.statements.LockStatement@436a8a54;print(readHeap(v2));model.statements.UnlockStatement@2ddd8f26
+SymTable: 
+q->0
+x->1
+v1->(1,int)
+v2->(2,int)
+OutputList: 
+File table: 
+Heap: 
+1->20
+2->30
+SemaphoreTable:
+latchTable:
+location: 1->value: -1lockTable:
+
+Program State: 
+ID: 1
+ExecStack: 
+model.statements.NewLockStatement@4bd25e21;fork(fork(model.statements.LockStatement@7fc54c02;writeHeap(v2,readHeap(v2)+5);model.statements.UnlockStatement@7cc71426);model.statements.LockStatement@6f4174d4;writeHeap(v2,readHeap(v2)*10);model.statements.UnlockStatement@363b0c4b);NopStatement;NopStatement;NopStatement;NopStatement;model.statements.LockStatement@63cbf3d2;print(readHeap(v1));model.statements.UnlockStatement@27e9bda9;model.statements.LockStatement@436a8a54;print(readHeap(v2));model.statements.UnlockStatement@2ddd8f26
+fork(fork(model.statements.LockStatement@27fe97de;writeHeap(v1,readHeap(v1)-1);model.statements.UnlockStatement@15a420f1);model.statements.LockStatement@2b35068a;writeHeap(v1,readHeap(v1)*10);model.statements.UnlockStatement@18417a90)
+SymTable: 
+q->0
+x->1
+v1->(1,int)
+v2->(2,int)
+OutputList: 
+File table: 
+Heap: 
+1->20
+2->30
+SemaphoreTable:
+latchTable:
+location: 1->value: -1lockTable:
+
+Program State: 
+ID: 1
+ExecStack: 
+model.statements.NewLockStatement@4bd25e21;fork(fork(model.statements.LockStatement@7fc54c02;writeHeap(v2,readHeap(v2)+5);model.statements.UnlockStatement@7cc71426);model.statements.LockStatement@6f4174d4;writeHeap(v2,readHeap(v2)*10);model.statements.UnlockStatement@363b0c4b);NopStatement;NopStatement;NopStatement;NopStatement;model.statements.LockStatement@63cbf3d2;print(readHeap(v1));model.statements.UnlockStatement@27e9bda9;model.statements.LockStatement@436a8a54;print(readHeap(v2));model.statements.UnlockStatement@2ddd8f26
+fork(fork(model.statements.LockStatement@27fe97de;writeHeap(v1,readHeap(v1)-1);model.statements.UnlockStatement@15a420f1);model.statements.LockStatement@2b35068a;writeHeap(v1,readHeap(v1)*10);model.statements.UnlockStatement@18417a90)
+SymTable: 
+q->0
+x->1
+v1->(1,int)
+v2->(2,int)
+OutputList: 
+File table: 
+Heap: 
+1->20
+2->30
+SemaphoreTable:
+latchTable:
+location: 1->value: -1lockTable:
+
+Program State: 
+ID: 1
+ExecStack: 
+model.statements.NewLockStatement@4bd25e21;fork(fork(model.statements.LockStatement@7fc54c02;writeHeap(v2,readHeap(v2)+5);model.statements.UnlockStatement@7cc71426);model.statements.LockStatement@6f4174d4;writeHeap(v2,readHeap(v2)*10);model.statements.UnlockStatement@363b0c4b);NopStatement;NopStatement;NopStatement;NopStatement;model.statements.LockStatement@63cbf3d2;print(readHeap(v1));model.statements.UnlockStatement@27e9bda9;model.statements.LockStatement@436a8a54;print(readHeap(v2));model.statements.UnlockStatement@2ddd8f26
+SymTable: 
+q->0
+x->1
+v1->(1,int)
+v2->(2,int)
+OutputList: 
+File table: 
+Heap: 
+1->20
+2->30
+SemaphoreTable:
+latchTable:
+location: 1->value: -1lockTable:
+
+Program State: 
+ID: 2
+ExecStack: 
+fork(model.statements.LockStatement@2aca297d;writeHeap(v1,readHeap(v1)-1);model.statements.UnlockStatement@6d4b0633);model.statements.LockStatement@5c4b4c52;writeHeap(v1,readHeap(v1)*10);model.statements.UnlockStatement@1435f5d5
+SymTable: 
+q->0
+x->1
+v1->(1,int)
+v2->(2,int)
+OutputList: 
+File table: 
+Heap: 
+1->20
+2->30
+SemaphoreTable:
+latchTable:
+location: 1->value: -1lockTable:
+
+Program State: 
+ID: 1
+ExecStack: 
+model.statements.NewLockStatement@4bd25e21;fork(fork(model.statements.LockStatement@7fc54c02;writeHeap(v2,readHeap(v2)+5);model.statements.UnlockStatement@7cc71426);model.statements.LockStatement@6f4174d4;writeHeap(v2,readHeap(v2)*10);model.statements.UnlockStatement@363b0c4b);NopStatement;NopStatement;NopStatement;NopStatement;model.statements.LockStatement@63cbf3d2;print(readHeap(v1));model.statements.UnlockStatement@27e9bda9;model.statements.LockStatement@436a8a54;print(readHeap(v2));model.statements.UnlockStatement@2ddd8f26
+SymTable: 
+q->0
+x->1
+v1->(1,int)
+v2->(2,int)
+OutputList: 
+File table: 
+Heap: 
+1->20
+2->30
+SemaphoreTable:
+latchTable:
+location: 1->value: -1lockTable:
+
+Program State: 
+ID: 2
+ExecStack: 
+fork(model.statements.LockStatement@2aca297d;writeHeap(v1,readHeap(v1)-1);model.statements.UnlockStatement@6d4b0633);model.statements.LockStatement@5c4b4c52;writeHeap(v1,readHeap(v1)*10);model.statements.UnlockStatement@1435f5d5
+SymTable: 
+q->0
+x->1
+v1->(1,int)
+v2->(2,int)
+OutputList: 
+File table: 
+Heap: 
+1->20
+2->30
+SemaphoreTable:
+latchTable:
+location: 1->value: -1lockTable:
+
+Program State: 
+ID: 1
+ExecStack: 
+fork(fork(model.statements.LockStatement@7fc54c02;writeHeap(v2,readHeap(v2)+5);model.statements.UnlockStatement@7cc71426);model.statements.LockStatement@6f4174d4;writeHeap(v2,readHeap(v2)*10);model.statements.UnlockStatement@363b0c4b);NopStatement;NopStatement;NopStatement;NopStatement;model.statements.LockStatement@63cbf3d2;print(readHeap(v1));model.statements.UnlockStatement@27e9bda9;model.statements.LockStatement@436a8a54;print(readHeap(v2));model.statements.UnlockStatement@2ddd8f26
+model.statements.NewLockStatement@4bd25e21
+SymTable: 
+q->0
+x->1
+v1->(1,int)
+v2->(2,int)
+OutputList: 
+File table: 
+Heap: 
+1->20
+2->30
+SemaphoreTable:
+latchTable:
+location: 1->value: -1lockTable:
+
+Program State: 
+ID: 2
+ExecStack: 
+model.statements.LockStatement@5c4b4c52;writeHeap(v1,readHeap(v1)*10);model.statements.UnlockStatement@1435f5d5
+fork(model.statements.LockStatement@2aca297d;writeHeap(v1,readHeap(v1)-1);model.statements.UnlockStatement@6d4b0633)
+SymTable: 
+q->0
+x->1
+v1->(1,int)
+v2->(2,int)
+OutputList: 
+File table: 
+Heap: 
+1->20
+2->30
+SemaphoreTable:
+latchTable:
+location: 1->value: -1lockTable:
+
+Program State: 
+ID: 1
+ExecStack: 
+fork(fork(model.statements.LockStatement@7fc54c02;writeHeap(v2,readHeap(v2)+5);model.statements.UnlockStatement@7cc71426);model.statements.LockStatement@6f4174d4;writeHeap(v2,readHeap(v2)*10);model.statements.UnlockStatement@363b0c4b);NopStatement;NopStatement;NopStatement;NopStatement;model.statements.LockStatement@63cbf3d2;print(readHeap(v1));model.statements.UnlockStatement@27e9bda9;model.statements.LockStatement@436a8a54;print(readHeap(v2));model.statements.UnlockStatement@2ddd8f26
+model.statements.NewLockStatement@4bd25e21
+SymTable: 
+q->0
+x->1
+v1->(1,int)
+v2->(2,int)
+OutputList: 
+File table: 
+Heap: 
+1->20
+2->30
+SemaphoreTable:
+latchTable:
+location: 1->value: -1lockTable:
+
+Program State: 
+ID: 2
+ExecStack: 
+model.statements.LockStatement@5c4b4c52;writeHeap(v1,readHeap(v1)*10);model.statements.UnlockStatement@1435f5d5
+fork(model.statements.LockStatement@2aca297d;writeHeap(v1,readHeap(v1)-1);model.statements.UnlockStatement@6d4b0633)
+SymTable: 
+q->0
+x->1
+v1->(1,int)
+v2->(2,int)
+OutputList: 
+File table: 
+Heap: 
+1->20
+2->30
+SemaphoreTable:
+latchTable:
+location: 1->value: -1lockTable:
+
+Program State: 
+ID: 1
+ExecStack: 
+fork(fork(model.statements.LockStatement@7fc54c02;writeHeap(v2,readHeap(v2)+5);model.statements.UnlockStatement@7cc71426);model.statements.LockStatement@6f4174d4;writeHeap(v2,readHeap(v2)*10);model.statements.UnlockStatement@363b0c4b);NopStatement;NopStatement;NopStatement;NopStatement;model.statements.LockStatement@63cbf3d2;print(readHeap(v1));model.statements.UnlockStatement@27e9bda9;model.statements.LockStatement@436a8a54;print(readHeap(v2));model.statements.UnlockStatement@2ddd8f26
+SymTable: 
+q->2
+x->1
+v1->(1,int)
+v2->(2,int)
+OutputList: 
+File table: 
+Heap: 
+1->20
+2->30
+SemaphoreTable:
+latchTable:
+location: 1->value: -1location: 2->value: -1lockTable:
+
+Program State: 
+ID: 2
+ExecStack: 
+model.statements.LockStatement@5c4b4c52;writeHeap(v1,readHeap(v1)*10);model.statements.UnlockStatement@1435f5d5
+SymTable: 
+q->0
+x->1
+v1->(1,int)
+v2->(2,int)
+OutputList: 
+File table: 
+Heap: 
+1->20
+2->30
+SemaphoreTable:
+latchTable:
+location: 1->value: -1location: 2->value: -1lockTable:
+
+Program State: 
+ID: 3
+ExecStack: 
+model.statements.LockStatement@7da36bde;writeHeap(v1,readHeap(v1)-1);model.statements.UnlockStatement@60b86c7d
+SymTable: 
+q->0
+x->1
+v1->(1,int)
+v2->(2,int)
+OutputList: 
+File table: 
+Heap: 
+1->20
+2->30
+SemaphoreTable:
+latchTable:
+location: 1->value: -1location: 2->value: -1lockTable:
+
+Program State: 
+ID: 1
+ExecStack: 
+fork(fork(model.statements.LockStatement@7fc54c02;writeHeap(v2,readHeap(v2)+5);model.statements.UnlockStatement@7cc71426);model.statements.LockStatement@6f4174d4;writeHeap(v2,readHeap(v2)*10);model.statements.UnlockStatement@363b0c4b);NopStatement;NopStatement;NopStatement;NopStatement;model.statements.LockStatement@63cbf3d2;print(readHeap(v1));model.statements.UnlockStatement@27e9bda9;model.statements.LockStatement@436a8a54;print(readHeap(v2));model.statements.UnlockStatement@2ddd8f26
+SymTable: 
+q->2
+x->1
+v1->(1,int)
+v2->(2,int)
+OutputList: 
+File table: 
+Heap: 
+1->20
+2->30
+SemaphoreTable:
+latchTable:
+location: 1->value: -1location: 2->value: -1lockTable:
+
+Program State: 
+ID: 2
+ExecStack: 
+model.statements.LockStatement@5c4b4c52;writeHeap(v1,readHeap(v1)*10);model.statements.UnlockStatement@1435f5d5
+SymTable: 
+q->0
+x->1
+v1->(1,int)
+v2->(2,int)
+OutputList: 
+File table: 
+Heap: 
+1->20
+2->30
+SemaphoreTable:
+latchTable:
+location: 1->value: -1location: 2->value: -1lockTable:
+
+Program State: 
+ID: 3
+ExecStack: 
+model.statements.LockStatement@7da36bde;writeHeap(v1,readHeap(v1)-1);model.statements.UnlockStatement@60b86c7d
+SymTable: 
+q->0
+x->1
+v1->(1,int)
+v2->(2,int)
+OutputList: 
+File table: 
+Heap: 
+1->20
+2->30
+SemaphoreTable:
+latchTable:
+location: 1->value: -1location: 2->value: -1lockTable:
+
+Program State: 
+ID: 1
+ExecStack: 
+NopStatement;NopStatement;NopStatement;NopStatement;model.statements.LockStatement@63cbf3d2;print(readHeap(v1));model.statements.UnlockStatement@27e9bda9;model.statements.LockStatement@436a8a54;print(readHeap(v2));model.statements.UnlockStatement@2ddd8f26
+fork(fork(model.statements.LockStatement@7fc54c02;writeHeap(v2,readHeap(v2)+5);model.statements.UnlockStatement@7cc71426);model.statements.LockStatement@6f4174d4;writeHeap(v2,readHeap(v2)*10);model.statements.UnlockStatement@363b0c4b)
+SymTable: 
+q->2
+x->1
+v1->(1,int)
+v2->(2,int)
+OutputList: 
+File table: 
+Heap: 
+1->20
+2->30
+SemaphoreTable:
+latchTable:
+location: 1->value: -1location: 2->value: -1lockTable:
+
+Program State: 
+ID: 2
+ExecStack: 
+writeHeap(v1,readHeap(v1)*10);model.statements.UnlockStatement@1435f5d5
+model.statements.LockStatement@5c4b4c52
+SymTable: 
+q->0
+x->1
+v1->(1,int)
+v2->(2,int)
+OutputList: 
+File table: 
+Heap: 
+1->20
+2->30
+SemaphoreTable:
+latchTable:
+location: 1->value: -1location: 2->value: -1lockTable:
+
+Program State: 
+ID: 3
+ExecStack: 
+writeHeap(v1,readHeap(v1)-1);model.statements.UnlockStatement@60b86c7d
+model.statements.LockStatement@7da36bde
+SymTable: 
+q->0
+x->1
+v1->(1,int)
+v2->(2,int)
+OutputList: 
+File table: 
+Heap: 
+1->20
+2->30
+SemaphoreTable:
+latchTable:
+location: 1->value: -1location: 2->value: -1lockTable:
+
+Program State: 
+ID: 1
+ExecStack: 
+NopStatement;NopStatement;NopStatement;NopStatement;model.statements.LockStatement@63cbf3d2;print(readHeap(v1));model.statements.UnlockStatement@27e9bda9;model.statements.LockStatement@436a8a54;print(readHeap(v2));model.statements.UnlockStatement@2ddd8f26
+fork(fork(model.statements.LockStatement@7fc54c02;writeHeap(v2,readHeap(v2)+5);model.statements.UnlockStatement@7cc71426);model.statements.LockStatement@6f4174d4;writeHeap(v2,readHeap(v2)*10);model.statements.UnlockStatement@363b0c4b)
+SymTable: 
+q->2
+x->1
+v1->(1,int)
+v2->(2,int)
+OutputList: 
+File table: 
+Heap: 
+1->20
+2->30
+SemaphoreTable:
+latchTable:
+location: 1->value: -1location: 2->value: -1lockTable:
+
+Program State: 
+ID: 2
+ExecStack: 
+writeHeap(v1,readHeap(v1)*10);model.statements.UnlockStatement@1435f5d5
+model.statements.LockStatement@5c4b4c52
+SymTable: 
+q->0
+x->1
+v1->(1,int)
+v2->(2,int)
+OutputList: 
+File table: 
+Heap: 
+1->20
+2->30
+SemaphoreTable:
+latchTable:
+location: 1->value: -1location: 2->value: -1lockTable:
+
+Program State: 
+ID: 3
+ExecStack: 
+writeHeap(v1,readHeap(v1)-1);model.statements.UnlockStatement@60b86c7d
+model.statements.LockStatement@7da36bde
+SymTable: 
+q->0
+x->1
+v1->(1,int)
+v2->(2,int)
+OutputList: 
+File table: 
+Heap: 
+1->20
+2->30
+SemaphoreTable:
+latchTable:
+location: 1->value: -1location: 2->value: -1lockTable:
+
+Program State: 
+ID: 1
+ExecStack: 
+ref int v1;ref int v2;int x;int q;new(v1,20);new(v2,30);newLock(x);fork(fork(lock(x);writeHeap(v1,readHeap(v1)-1);unlock(x));lock(x);writeHeap(v1,readHeap(v1)*10);unlock(x));newLock(q);fork(fork(lock(q);writeHeap(v2,readHeap(v2)+5);unlock(q));lock(q);writeHeap(v2,readHeap(v2)*10);unlock(q));NopStatement;NopStatement;NopStatement;NopStatement;lock(x);print(readHeap(v1));unlock(x);lock(q);print(readHeap(v2));unlock(q)
+SymTable: 
+OutputList: 
+File table: 
+Heap: 
+SemaphoreTable:
+latchTable:
+lockTable:
+
+Program State: 
+ID: 1
+ExecStack: 
+ref int v2;int x;int q;new(v1,20);new(v2,30);newLock(x);fork(fork(lock(x);writeHeap(v1,readHeap(v1)-1);unlock(x));lock(x);writeHeap(v1,readHeap(v1)*10);unlock(x));newLock(q);fork(fork(lock(q);writeHeap(v2,readHeap(v2)+5);unlock(q));lock(q);writeHeap(v2,readHeap(v2)*10);unlock(q));NopStatement;NopStatement;NopStatement;NopStatement;lock(x);print(readHeap(v1));unlock(x);lock(q);print(readHeap(v2));unlock(q)
+ref int v1
+SymTable: 
+OutputList: 
+File table: 
+Heap: 
+SemaphoreTable:
+latchTable:
+lockTable:
+
+Program State: 
+ID: 1
+ExecStack: 
+ref int v2;int x;int q;new(v1,20);new(v2,30);newLock(x);fork(fork(lock(x);writeHeap(v1,readHeap(v1)-1);unlock(x));lock(x);writeHeap(v1,readHeap(v1)*10);unlock(x));newLock(q);fork(fork(lock(q);writeHeap(v2,readHeap(v2)+5);unlock(q));lock(q);writeHeap(v2,readHeap(v2)*10);unlock(q));NopStatement;NopStatement;NopStatement;NopStatement;lock(x);print(readHeap(v1));unlock(x);lock(q);print(readHeap(v2));unlock(q)
+ref int v1
+SymTable: 
+OutputList: 
+File table: 
+Heap: 
+SemaphoreTable:
+latchTable:
+lockTable:
+
+Program State: 
+ID: 1
+ExecStack: 
+ref int v2;int x;int q;new(v1,20);new(v2,30);newLock(x);fork(fork(lock(x);writeHeap(v1,readHeap(v1)-1);unlock(x));lock(x);writeHeap(v1,readHeap(v1)*10);unlock(x));newLock(q);fork(fork(lock(q);writeHeap(v2,readHeap(v2)+5);unlock(q));lock(q);writeHeap(v2,readHeap(v2)*10);unlock(q));NopStatement;NopStatement;NopStatement;NopStatement;lock(x);print(readHeap(v1));unlock(x);lock(q);print(readHeap(v2));unlock(q)
+SymTable: 
+v1->(0,int)
+OutputList: 
+File table: 
+Heap: 
+SemaphoreTable:
+latchTable:
+lockTable:
+
+Program State: 
+ID: 1
+ExecStack: 
+ref int v2;int x;int q;new(v1,20);new(v2,30);newLock(x);fork(fork(lock(x);writeHeap(v1,readHeap(v1)-1);unlock(x));lock(x);writeHeap(v1,readHeap(v1)*10);unlock(x));newLock(q);fork(fork(lock(q);writeHeap(v2,readHeap(v2)+5);unlock(q));lock(q);writeHeap(v2,readHeap(v2)*10);unlock(q));NopStatement;NopStatement;NopStatement;NopStatement;lock(x);print(readHeap(v1));unlock(x);lock(q);print(readHeap(v2));unlock(q)
+SymTable: 
+v1->(0,int)
+OutputList: 
+File table: 
+Heap: 
+SemaphoreTable:
+latchTable:
+lockTable:
+
+Program State: 
+ID: 1
+ExecStack: 
+int x;int q;new(v1,20);new(v2,30);newLock(x);fork(fork(lock(x);writeHeap(v1,readHeap(v1)-1);unlock(x));lock(x);writeHeap(v1,readHeap(v1)*10);unlock(x));newLock(q);fork(fork(lock(q);writeHeap(v2,readHeap(v2)+5);unlock(q));lock(q);writeHeap(v2,readHeap(v2)*10);unlock(q));NopStatement;NopStatement;NopStatement;NopStatement;lock(x);print(readHeap(v1));unlock(x);lock(q);print(readHeap(v2));unlock(q)
+ref int v2
+SymTable: 
+v1->(0,int)
+OutputList: 
+File table: 
+Heap: 
+SemaphoreTable:
+latchTable:
+lockTable:
+
+Program State: 
+ID: 1
+ExecStack: 
+int x;int q;new(v1,20);new(v2,30);newLock(x);fork(fork(lock(x);writeHeap(v1,readHeap(v1)-1);unlock(x));lock(x);writeHeap(v1,readHeap(v1)*10);unlock(x));newLock(q);fork(fork(lock(q);writeHeap(v2,readHeap(v2)+5);unlock(q));lock(q);writeHeap(v2,readHeap(v2)*10);unlock(q));NopStatement;NopStatement;NopStatement;NopStatement;lock(x);print(readHeap(v1));unlock(x);lock(q);print(readHeap(v2));unlock(q)
+ref int v2
+SymTable: 
+v1->(0,int)
+OutputList: 
+File table: 
+Heap: 
+SemaphoreTable:
+latchTable:
+lockTable:
+
+Program State: 
+ID: 1
+ExecStack: 
+int x;int q;new(v1,20);new(v2,30);newLock(x);fork(fork(lock(x);writeHeap(v1,readHeap(v1)-1);unlock(x));lock(x);writeHeap(v1,readHeap(v1)*10);unlock(x));newLock(q);fork(fork(lock(q);writeHeap(v2,readHeap(v2)+5);unlock(q));lock(q);writeHeap(v2,readHeap(v2)*10);unlock(q));NopStatement;NopStatement;NopStatement;NopStatement;lock(x);print(readHeap(v1));unlock(x);lock(q);print(readHeap(v2));unlock(q)
+SymTable: 
+v1->(0,int)
+v2->(0,int)
+OutputList: 
+File table: 
+Heap: 
+SemaphoreTable:
+latchTable:
+lockTable:
+
+Program State: 
+ID: 1
+ExecStack: 
+int x;int q;new(v1,20);new(v2,30);newLock(x);fork(fork(lock(x);writeHeap(v1,readHeap(v1)-1);unlock(x));lock(x);writeHeap(v1,readHeap(v1)*10);unlock(x));newLock(q);fork(fork(lock(q);writeHeap(v2,readHeap(v2)+5);unlock(q));lock(q);writeHeap(v2,readHeap(v2)*10);unlock(q));NopStatement;NopStatement;NopStatement;NopStatement;lock(x);print(readHeap(v1));unlock(x);lock(q);print(readHeap(v2));unlock(q)
+SymTable: 
+v1->(0,int)
+v2->(0,int)
+OutputList: 
+File table: 
+Heap: 
+SemaphoreTable:
+latchTable:
+lockTable:
+
+Program State: 
+ID: 1
+ExecStack: 
+int q;new(v1,20);new(v2,30);newLock(x);fork(fork(lock(x);writeHeap(v1,readHeap(v1)-1);unlock(x));lock(x);writeHeap(v1,readHeap(v1)*10);unlock(x));newLock(q);fork(fork(lock(q);writeHeap(v2,readHeap(v2)+5);unlock(q));lock(q);writeHeap(v2,readHeap(v2)*10);unlock(q));NopStatement;NopStatement;NopStatement;NopStatement;lock(x);print(readHeap(v1));unlock(x);lock(q);print(readHeap(v2));unlock(q)
+int x
+SymTable: 
+v1->(0,int)
+v2->(0,int)
+OutputList: 
+File table: 
+Heap: 
+SemaphoreTable:
+latchTable:
+lockTable:
+
+Program State: 
+ID: 1
+ExecStack: 
+int q;new(v1,20);new(v2,30);newLock(x);fork(fork(lock(x);writeHeap(v1,readHeap(v1)-1);unlock(x));lock(x);writeHeap(v1,readHeap(v1)*10);unlock(x));newLock(q);fork(fork(lock(q);writeHeap(v2,readHeap(v2)+5);unlock(q));lock(q);writeHeap(v2,readHeap(v2)*10);unlock(q));NopStatement;NopStatement;NopStatement;NopStatement;lock(x);print(readHeap(v1));unlock(x);lock(q);print(readHeap(v2));unlock(q)
+int x
+SymTable: 
+v1->(0,int)
+v2->(0,int)
+OutputList: 
+File table: 
+Heap: 
+SemaphoreTable:
+latchTable:
+lockTable:
+
+Program State: 
+ID: 1
+ExecStack: 
+int q;new(v1,20);new(v2,30);newLock(x);fork(fork(lock(x);writeHeap(v1,readHeap(v1)-1);unlock(x));lock(x);writeHeap(v1,readHeap(v1)*10);unlock(x));newLock(q);fork(fork(lock(q);writeHeap(v2,readHeap(v2)+5);unlock(q));lock(q);writeHeap(v2,readHeap(v2)*10);unlock(q));NopStatement;NopStatement;NopStatement;NopStatement;lock(x);print(readHeap(v1));unlock(x);lock(q);print(readHeap(v2));unlock(q)
+SymTable: 
+x->0
+v1->(0,int)
+v2->(0,int)
+OutputList: 
+File table: 
+Heap: 
+SemaphoreTable:
+latchTable:
+lockTable:
+
+Program State: 
+ID: 1
+ExecStack: 
+int q;new(v1,20);new(v2,30);newLock(x);fork(fork(lock(x);writeHeap(v1,readHeap(v1)-1);unlock(x));lock(x);writeHeap(v1,readHeap(v1)*10);unlock(x));newLock(q);fork(fork(lock(q);writeHeap(v2,readHeap(v2)+5);unlock(q));lock(q);writeHeap(v2,readHeap(v2)*10);unlock(q));NopStatement;NopStatement;NopStatement;NopStatement;lock(x);print(readHeap(v1));unlock(x);lock(q);print(readHeap(v2));unlock(q)
+SymTable: 
+x->0
+v1->(0,int)
+v2->(0,int)
+OutputList: 
+File table: 
+Heap: 
+SemaphoreTable:
+latchTable:
+lockTable:
+
+Program State: 
+ID: 1
+ExecStack: 
+new(v1,20);new(v2,30);newLock(x);fork(fork(lock(x);writeHeap(v1,readHeap(v1)-1);unlock(x));lock(x);writeHeap(v1,readHeap(v1)*10);unlock(x));newLock(q);fork(fork(lock(q);writeHeap(v2,readHeap(v2)+5);unlock(q));lock(q);writeHeap(v2,readHeap(v2)*10);unlock(q));NopStatement;NopStatement;NopStatement;NopStatement;lock(x);print(readHeap(v1));unlock(x);lock(q);print(readHeap(v2));unlock(q)
+int q
+SymTable: 
+x->0
+v1->(0,int)
+v2->(0,int)
+OutputList: 
+File table: 
+Heap: 
+SemaphoreTable:
+latchTable:
+lockTable:
+
+Program State: 
+ID: 1
+ExecStack: 
+new(v1,20);new(v2,30);newLock(x);fork(fork(lock(x);writeHeap(v1,readHeap(v1)-1);unlock(x));lock(x);writeHeap(v1,readHeap(v1)*10);unlock(x));newLock(q);fork(fork(lock(q);writeHeap(v2,readHeap(v2)+5);unlock(q));lock(q);writeHeap(v2,readHeap(v2)*10);unlock(q));NopStatement;NopStatement;NopStatement;NopStatement;lock(x);print(readHeap(v1));unlock(x);lock(q);print(readHeap(v2));unlock(q)
+int q
+SymTable: 
+x->0
+v1->(0,int)
+v2->(0,int)
+OutputList: 
+File table: 
+Heap: 
+SemaphoreTable:
+latchTable:
+lockTable:
+
+Program State: 
+ID: 1
+ExecStack: 
+new(v1,20);new(v2,30);newLock(x);fork(fork(lock(x);writeHeap(v1,readHeap(v1)-1);unlock(x));lock(x);writeHeap(v1,readHeap(v1)*10);unlock(x));newLock(q);fork(fork(lock(q);writeHeap(v2,readHeap(v2)+5);unlock(q));lock(q);writeHeap(v2,readHeap(v2)*10);unlock(q));NopStatement;NopStatement;NopStatement;NopStatement;lock(x);print(readHeap(v1));unlock(x);lock(q);print(readHeap(v2));unlock(q)
+SymTable: 
+q->0
+x->0
+v1->(0,int)
+v2->(0,int)
+OutputList: 
+File table: 
+Heap: 
+SemaphoreTable:
+latchTable:
+lockTable:
+
+Program State: 
+ID: 1
+ExecStack: 
+new(v1,20);new(v2,30);newLock(x);fork(fork(lock(x);writeHeap(v1,readHeap(v1)-1);unlock(x));lock(x);writeHeap(v1,readHeap(v1)*10);unlock(x));newLock(q);fork(fork(lock(q);writeHeap(v2,readHeap(v2)+5);unlock(q));lock(q);writeHeap(v2,readHeap(v2)*10);unlock(q));NopStatement;NopStatement;NopStatement;NopStatement;lock(x);print(readHeap(v1));unlock(x);lock(q);print(readHeap(v2));unlock(q)
+SymTable: 
+q->0
+x->0
+v1->(0,int)
+v2->(0,int)
+OutputList: 
+File table: 
+Heap: 
+SemaphoreTable:
+latchTable:
+lockTable:
+
+Program State: 
+ID: 1
+ExecStack: 
+new(v2,30);newLock(x);fork(fork(lock(x);writeHeap(v1,readHeap(v1)-1);unlock(x));lock(x);writeHeap(v1,readHeap(v1)*10);unlock(x));newLock(q);fork(fork(lock(q);writeHeap(v2,readHeap(v2)+5);unlock(q));lock(q);writeHeap(v2,readHeap(v2)*10);unlock(q));NopStatement;NopStatement;NopStatement;NopStatement;lock(x);print(readHeap(v1));unlock(x);lock(q);print(readHeap(v2));unlock(q)
+new(v1,20)
+SymTable: 
+q->0
+x->0
+v1->(0,int)
+v2->(0,int)
+OutputList: 
+File table: 
+Heap: 
+SemaphoreTable:
+latchTable:
+lockTable:
+
+Program State: 
+ID: 1
+ExecStack: 
+new(v2,30);newLock(x);fork(fork(lock(x);writeHeap(v1,readHeap(v1)-1);unlock(x));lock(x);writeHeap(v1,readHeap(v1)*10);unlock(x));newLock(q);fork(fork(lock(q);writeHeap(v2,readHeap(v2)+5);unlock(q));lock(q);writeHeap(v2,readHeap(v2)*10);unlock(q));NopStatement;NopStatement;NopStatement;NopStatement;lock(x);print(readHeap(v1));unlock(x);lock(q);print(readHeap(v2));unlock(q)
+new(v1,20)
+SymTable: 
+q->0
+x->0
+v1->(0,int)
+v2->(0,int)
+OutputList: 
+File table: 
+Heap: 
+SemaphoreTable:
+latchTable:
+lockTable:
+
+Program State: 
+ID: 1
+ExecStack: 
+new(v2,30);newLock(x);fork(fork(lock(x);writeHeap(v1,readHeap(v1)-1);unlock(x));lock(x);writeHeap(v1,readHeap(v1)*10);unlock(x));newLock(q);fork(fork(lock(q);writeHeap(v2,readHeap(v2)+5);unlock(q));lock(q);writeHeap(v2,readHeap(v2)*10);unlock(q));NopStatement;NopStatement;NopStatement;NopStatement;lock(x);print(readHeap(v1));unlock(x);lock(q);print(readHeap(v2));unlock(q)
+SymTable: 
+q->0
+x->0
+v1->(1,int)
+v2->(0,int)
+OutputList: 
+File table: 
+Heap: 
+1->20
+SemaphoreTable:
+latchTable:
+lockTable:
+
+Program State: 
+ID: 1
+ExecStack: 
+new(v2,30);newLock(x);fork(fork(lock(x);writeHeap(v1,readHeap(v1)-1);unlock(x));lock(x);writeHeap(v1,readHeap(v1)*10);unlock(x));newLock(q);fork(fork(lock(q);writeHeap(v2,readHeap(v2)+5);unlock(q));lock(q);writeHeap(v2,readHeap(v2)*10);unlock(q));NopStatement;NopStatement;NopStatement;NopStatement;lock(x);print(readHeap(v1));unlock(x);lock(q);print(readHeap(v2));unlock(q)
+SymTable: 
+q->0
+x->0
+v1->(1,int)
+v2->(0,int)
+OutputList: 
+File table: 
+Heap: 
+1->20
+SemaphoreTable:
+latchTable:
+lockTable:
+
+Program State: 
+ID: 1
+ExecStack: 
+newLock(x);fork(fork(lock(x);writeHeap(v1,readHeap(v1)-1);unlock(x));lock(x);writeHeap(v1,readHeap(v1)*10);unlock(x));newLock(q);fork(fork(lock(q);writeHeap(v2,readHeap(v2)+5);unlock(q));lock(q);writeHeap(v2,readHeap(v2)*10);unlock(q));NopStatement;NopStatement;NopStatement;NopStatement;lock(x);print(readHeap(v1));unlock(x);lock(q);print(readHeap(v2));unlock(q)
+new(v2,30)
+SymTable: 
+q->0
+x->0
+v1->(1,int)
+v2->(0,int)
+OutputList: 
+File table: 
+Heap: 
+1->20
+SemaphoreTable:
+latchTable:
+lockTable:
+
+Program State: 
+ID: 1
+ExecStack: 
+newLock(x);fork(fork(lock(x);writeHeap(v1,readHeap(v1)-1);unlock(x));lock(x);writeHeap(v1,readHeap(v1)*10);unlock(x));newLock(q);fork(fork(lock(q);writeHeap(v2,readHeap(v2)+5);unlock(q));lock(q);writeHeap(v2,readHeap(v2)*10);unlock(q));NopStatement;NopStatement;NopStatement;NopStatement;lock(x);print(readHeap(v1));unlock(x);lock(q);print(readHeap(v2));unlock(q)
+new(v2,30)
+SymTable: 
+q->0
+x->0
+v1->(1,int)
+v2->(0,int)
+OutputList: 
+File table: 
+Heap: 
+1->20
+SemaphoreTable:
+latchTable:
+lockTable:
+
+Program State: 
+ID: 1
+ExecStack: 
+newLock(x);fork(fork(lock(x);writeHeap(v1,readHeap(v1)-1);unlock(x));lock(x);writeHeap(v1,readHeap(v1)*10);unlock(x));newLock(q);fork(fork(lock(q);writeHeap(v2,readHeap(v2)+5);unlock(q));lock(q);writeHeap(v2,readHeap(v2)*10);unlock(q));NopStatement;NopStatement;NopStatement;NopStatement;lock(x);print(readHeap(v1));unlock(x);lock(q);print(readHeap(v2));unlock(q)
+SymTable: 
+q->0
+x->0
+v1->(1,int)
+v2->(2,int)
+OutputList: 
+File table: 
+Heap: 
+1->20
+2->30
+SemaphoreTable:
+latchTable:
+lockTable:
+
+Program State: 
+ID: 1
+ExecStack: 
+newLock(x);fork(fork(lock(x);writeHeap(v1,readHeap(v1)-1);unlock(x));lock(x);writeHeap(v1,readHeap(v1)*10);unlock(x));newLock(q);fork(fork(lock(q);writeHeap(v2,readHeap(v2)+5);unlock(q));lock(q);writeHeap(v2,readHeap(v2)*10);unlock(q));NopStatement;NopStatement;NopStatement;NopStatement;lock(x);print(readHeap(v1));unlock(x);lock(q);print(readHeap(v2));unlock(q)
+SymTable: 
+q->0
+x->0
+v1->(1,int)
+v2->(2,int)
+OutputList: 
+File table: 
+Heap: 
+1->20
+2->30
+SemaphoreTable:
+latchTable:
+lockTable:
+
+Program State: 
+ID: 1
+ExecStack: 
+fork(fork(lock(x);writeHeap(v1,readHeap(v1)-1);unlock(x));lock(x);writeHeap(v1,readHeap(v1)*10);unlock(x));newLock(q);fork(fork(lock(q);writeHeap(v2,readHeap(v2)+5);unlock(q));lock(q);writeHeap(v2,readHeap(v2)*10);unlock(q));NopStatement;NopStatement;NopStatement;NopStatement;lock(x);print(readHeap(v1));unlock(x);lock(q);print(readHeap(v2));unlock(q)
+newLock(x)
+SymTable: 
+q->0
+x->0
+v1->(1,int)
+v2->(2,int)
+OutputList: 
+File table: 
+Heap: 
+1->20
+2->30
+SemaphoreTable:
+latchTable:
+lockTable:
+
+Program State: 
+ID: 1
+ExecStack: 
+fork(fork(lock(x);writeHeap(v1,readHeap(v1)-1);unlock(x));lock(x);writeHeap(v1,readHeap(v1)*10);unlock(x));newLock(q);fork(fork(lock(q);writeHeap(v2,readHeap(v2)+5);unlock(q));lock(q);writeHeap(v2,readHeap(v2)*10);unlock(q));NopStatement;NopStatement;NopStatement;NopStatement;lock(x);print(readHeap(v1));unlock(x);lock(q);print(readHeap(v2));unlock(q)
+newLock(x)
+SymTable: 
+q->0
+x->0
+v1->(1,int)
+v2->(2,int)
+OutputList: 
+File table: 
+Heap: 
+1->20
+2->30
+SemaphoreTable:
+latchTable:
+lockTable:
+
+Program State: 
+ID: 1
+ExecStack: 
+fork(fork(lock(x);writeHeap(v1,readHeap(v1)-1);unlock(x));lock(x);writeHeap(v1,readHeap(v1)*10);unlock(x));newLock(q);fork(fork(lock(q);writeHeap(v2,readHeap(v2)+5);unlock(q));lock(q);writeHeap(v2,readHeap(v2)*10);unlock(q));NopStatement;NopStatement;NopStatement;NopStatement;lock(x);print(readHeap(v1));unlock(x);lock(q);print(readHeap(v2));unlock(q)
+SymTable: 
+q->0
+x->1
+v1->(1,int)
+v2->(2,int)
+OutputList: 
+File table: 
+Heap: 
+1->20
+2->30
+SemaphoreTable:
+latchTable:
+location: 1->value: -1lockTable:
+
+Program State: 
+ID: 1
+ExecStack: 
+fork(fork(lock(x);writeHeap(v1,readHeap(v1)-1);unlock(x));lock(x);writeHeap(v1,readHeap(v1)*10);unlock(x));newLock(q);fork(fork(lock(q);writeHeap(v2,readHeap(v2)+5);unlock(q));lock(q);writeHeap(v2,readHeap(v2)*10);unlock(q));NopStatement;NopStatement;NopStatement;NopStatement;lock(x);print(readHeap(v1));unlock(x);lock(q);print(readHeap(v2));unlock(q)
+SymTable: 
+q->0
+x->1
+v1->(1,int)
+v2->(2,int)
+OutputList: 
+File table: 
+Heap: 
+1->20
+2->30
+SemaphoreTable:
+latchTable:
+location: 1->value: -1lockTable:
+
+Program State: 
+ID: 1
+ExecStack: 
+newLock(q);fork(fork(lock(q);writeHeap(v2,readHeap(v2)+5);unlock(q));lock(q);writeHeap(v2,readHeap(v2)*10);unlock(q));NopStatement;NopStatement;NopStatement;NopStatement;lock(x);print(readHeap(v1));unlock(x);lock(q);print(readHeap(v2));unlock(q)
+fork(fork(lock(x);writeHeap(v1,readHeap(v1)-1);unlock(x));lock(x);writeHeap(v1,readHeap(v1)*10);unlock(x))
+SymTable: 
+q->0
+x->1
+v1->(1,int)
+v2->(2,int)
+OutputList: 
+File table: 
+Heap: 
+1->20
+2->30
+SemaphoreTable:
+latchTable:
+location: 1->value: -1lockTable:
+
+Program State: 
+ID: 1
+ExecStack: 
+newLock(q);fork(fork(lock(q);writeHeap(v2,readHeap(v2)+5);unlock(q));lock(q);writeHeap(v2,readHeap(v2)*10);unlock(q));NopStatement;NopStatement;NopStatement;NopStatement;lock(x);print(readHeap(v1));unlock(x);lock(q);print(readHeap(v2));unlock(q)
+fork(fork(lock(x);writeHeap(v1,readHeap(v1)-1);unlock(x));lock(x);writeHeap(v1,readHeap(v1)*10);unlock(x))
+SymTable: 
+q->0
+x->1
+v1->(1,int)
+v2->(2,int)
+OutputList: 
+File table: 
+Heap: 
+1->20
+2->30
+SemaphoreTable:
+latchTable:
+location: 1->value: -1lockTable:
+
+Program State: 
+ID: 1
+ExecStack: 
+newLock(q);fork(fork(lock(q);writeHeap(v2,readHeap(v2)+5);unlock(q));lock(q);writeHeap(v2,readHeap(v2)*10);unlock(q));NopStatement;NopStatement;NopStatement;NopStatement;lock(x);print(readHeap(v1));unlock(x);lock(q);print(readHeap(v2));unlock(q)
+SymTable: 
+q->0
+x->1
+v1->(1,int)
+v2->(2,int)
+OutputList: 
+File table: 
+Heap: 
+1->20
+2->30
+SemaphoreTable:
+latchTable:
+location: 1->value: -1lockTable:
+
+Program State: 
+ID: 2
+ExecStack: 
+fork(lock(x);writeHeap(v1,readHeap(v1)-1);unlock(x));lock(x);writeHeap(v1,readHeap(v1)*10);unlock(x)
+SymTable: 
+q->0
+x->1
+v1->(1,int)
+v2->(2,int)
+OutputList: 
+File table: 
+Heap: 
+1->20
+2->30
+SemaphoreTable:
+latchTable:
+location: 1->value: -1lockTable:
+
+Program State: 
+ID: 1
+ExecStack: 
+newLock(q);fork(fork(lock(q);writeHeap(v2,readHeap(v2)+5);unlock(q));lock(q);writeHeap(v2,readHeap(v2)*10);unlock(q));NopStatement;NopStatement;NopStatement;NopStatement;lock(x);print(readHeap(v1));unlock(x);lock(q);print(readHeap(v2));unlock(q)
+SymTable: 
+q->0
+x->1
+v1->(1,int)
+v2->(2,int)
+OutputList: 
+File table: 
+Heap: 
+1->20
+2->30
+SemaphoreTable:
+latchTable:
+location: 1->value: -1lockTable:
+
+Program State: 
+ID: 2
+ExecStack: 
+fork(lock(x);writeHeap(v1,readHeap(v1)-1);unlock(x));lock(x);writeHeap(v1,readHeap(v1)*10);unlock(x)
+SymTable: 
+q->0
+x->1
+v1->(1,int)
+v2->(2,int)
+OutputList: 
+File table: 
+Heap: 
+1->20
+2->30
+SemaphoreTable:
+latchTable:
+location: 1->value: -1lockTable:
+
+Program State: 
+ID: 1
+ExecStack: 
+fork(fork(lock(q);writeHeap(v2,readHeap(v2)+5);unlock(q));lock(q);writeHeap(v2,readHeap(v2)*10);unlock(q));NopStatement;NopStatement;NopStatement;NopStatement;lock(x);print(readHeap(v1));unlock(x);lock(q);print(readHeap(v2));unlock(q)
+newLock(q)
+SymTable: 
+q->0
+x->1
+v1->(1,int)
+v2->(2,int)
+OutputList: 
+File table: 
+Heap: 
+1->20
+2->30
+SemaphoreTable:
+latchTable:
+location: 1->value: -1lockTable:
+
+Program State: 
+ID: 2
+ExecStack: 
+lock(x);writeHeap(v1,readHeap(v1)*10);unlock(x)
+fork(lock(x);writeHeap(v1,readHeap(v1)-1);unlock(x))
+SymTable: 
+q->0
+x->1
+v1->(1,int)
+v2->(2,int)
+OutputList: 
+File table: 
+Heap: 
+1->20
+2->30
+SemaphoreTable:
+latchTable:
+location: 1->value: -1lockTable:
+
+Program State: 
+ID: 1
+ExecStack: 
+fork(fork(lock(q);writeHeap(v2,readHeap(v2)+5);unlock(q));lock(q);writeHeap(v2,readHeap(v2)*10);unlock(q));NopStatement;NopStatement;NopStatement;NopStatement;lock(x);print(readHeap(v1));unlock(x);lock(q);print(readHeap(v2));unlock(q)
+newLock(q)
+SymTable: 
+q->0
+x->1
+v1->(1,int)
+v2->(2,int)
+OutputList: 
+File table: 
+Heap: 
+1->20
+2->30
+SemaphoreTable:
+latchTable:
+location: 1->value: -1lockTable:
+
+Program State: 
+ID: 2
+ExecStack: 
+lock(x);writeHeap(v1,readHeap(v1)*10);unlock(x)
+fork(lock(x);writeHeap(v1,readHeap(v1)-1);unlock(x))
+SymTable: 
+q->0
+x->1
+v1->(1,int)
+v2->(2,int)
+OutputList: 
+File table: 
+Heap: 
+1->20
+2->30
+SemaphoreTable:
+latchTable:
+location: 1->value: -1lockTable:
+
+Program State: 
+ID: 1
+ExecStack: 
+fork(fork(lock(q);writeHeap(v2,readHeap(v2)+5);unlock(q));lock(q);writeHeap(v2,readHeap(v2)*10);unlock(q));NopStatement;NopStatement;NopStatement;NopStatement;lock(x);print(readHeap(v1));unlock(x);lock(q);print(readHeap(v2));unlock(q)
+SymTable: 
+q->2
+x->1
+v1->(1,int)
+v2->(2,int)
+OutputList: 
+File table: 
+Heap: 
+1->20
+2->30
+SemaphoreTable:
+latchTable:
+location: 1->value: -1location: 2->value: -1lockTable:
+
+Program State: 
+ID: 2
+ExecStack: 
+lock(x);writeHeap(v1,readHeap(v1)*10);unlock(x)
+SymTable: 
+q->0
+x->1
+v1->(1,int)
+v2->(2,int)
+OutputList: 
+File table: 
+Heap: 
+1->20
+2->30
+SemaphoreTable:
+latchTable:
+location: 1->value: -1location: 2->value: -1lockTable:
+
+Program State: 
+ID: 3
+ExecStack: 
+lock(x);writeHeap(v1,readHeap(v1)-1);unlock(x)
+SymTable: 
+q->0
+x->1
+v1->(1,int)
+v2->(2,int)
+OutputList: 
+File table: 
+Heap: 
+1->20
+2->30
+SemaphoreTable:
+latchTable:
+location: 1->value: -1location: 2->value: -1lockTable:
+
+Program State: 
+ID: 1
+ExecStack: 
+fork(fork(lock(q);writeHeap(v2,readHeap(v2)+5);unlock(q));lock(q);writeHeap(v2,readHeap(v2)*10);unlock(q));NopStatement;NopStatement;NopStatement;NopStatement;lock(x);print(readHeap(v1));unlock(x);lock(q);print(readHeap(v2));unlock(q)
+SymTable: 
+q->2
+x->1
+v1->(1,int)
+v2->(2,int)
+OutputList: 
+File table: 
+Heap: 
+1->20
+2->30
+SemaphoreTable:
+latchTable:
+location: 1->value: -1location: 2->value: -1lockTable:
+
+Program State: 
+ID: 2
+ExecStack: 
+lock(x);writeHeap(v1,readHeap(v1)*10);unlock(x)
+SymTable: 
+q->0
+x->1
+v1->(1,int)
+v2->(2,int)
+OutputList: 
+File table: 
+Heap: 
+1->20
+2->30
+SemaphoreTable:
+latchTable:
+location: 1->value: -1location: 2->value: -1lockTable:
+
+Program State: 
+ID: 3
+ExecStack: 
+lock(x);writeHeap(v1,readHeap(v1)-1);unlock(x)
+SymTable: 
+q->0
+x->1
+v1->(1,int)
+v2->(2,int)
+OutputList: 
+File table: 
+Heap: 
+1->20
+2->30
+SemaphoreTable:
+latchTable:
+location: 1->value: -1location: 2->value: -1lockTable:
+
+Program State: 
+ID: 1
+ExecStack: 
+NopStatement;NopStatement;NopStatement;NopStatement;lock(x);print(readHeap(v1));unlock(x);lock(q);print(readHeap(v2));unlock(q)
+fork(fork(lock(q);writeHeap(v2,readHeap(v2)+5);unlock(q));lock(q);writeHeap(v2,readHeap(v2)*10);unlock(q))
+SymTable: 
+q->2
+x->1
+v1->(1,int)
+v2->(2,int)
+OutputList: 
+File table: 
+Heap: 
+1->20
+2->30
+SemaphoreTable:
+latchTable:
+location: 1->value: -1location: 2->value: -1lockTable:
+
+Program State: 
+ID: 2
+ExecStack: 
+writeHeap(v1,readHeap(v1)*10);unlock(x)
+lock(x)
+SymTable: 
+q->0
+x->1
+v1->(1,int)
+v2->(2,int)
+OutputList: 
+File table: 
+Heap: 
+1->20
+2->30
+SemaphoreTable:
+latchTable:
+location: 1->value: -1location: 2->value: -1lockTable:
+
+Program State: 
+ID: 3
+ExecStack: 
+writeHeap(v1,readHeap(v1)-1);unlock(x)
+lock(x)
+SymTable: 
+q->0
+x->1
+v1->(1,int)
+v2->(2,int)
+OutputList: 
+File table: 
+Heap: 
+1->20
+2->30
+SemaphoreTable:
+latchTable:
+location: 1->value: -1location: 2->value: -1lockTable:
+
+Program State: 
+ID: 1
+ExecStack: 
+NopStatement;NopStatement;NopStatement;NopStatement;lock(x);print(readHeap(v1));unlock(x);lock(q);print(readHeap(v2));unlock(q)
+fork(fork(lock(q);writeHeap(v2,readHeap(v2)+5);unlock(q));lock(q);writeHeap(v2,readHeap(v2)*10);unlock(q))
+SymTable: 
+q->2
+x->1
+v1->(1,int)
+v2->(2,int)
+OutputList: 
+File table: 
+Heap: 
+1->20
+2->30
+SemaphoreTable:
+latchTable:
+location: 1->value: -1location: 2->value: -1lockTable:
+
+Program State: 
+ID: 2
+ExecStack: 
+writeHeap(v1,readHeap(v1)*10);unlock(x)
+lock(x)
+SymTable: 
+q->0
+x->1
+v1->(1,int)
+v2->(2,int)
+OutputList: 
+File table: 
+Heap: 
+1->20
+2->30
+SemaphoreTable:
+latchTable:
+location: 1->value: -1location: 2->value: -1lockTable:
+
+Program State: 
+ID: 3
+ExecStack: 
+writeHeap(v1,readHeap(v1)-1);unlock(x)
+lock(x)
+SymTable: 
+q->0
+x->1
+v1->(1,int)
+v2->(2,int)
+OutputList: 
+File table: 
+Heap: 
+1->20
+2->30
+SemaphoreTable:
+latchTable:
+location: 1->value: -1location: 2->value: -1lockTable:
+
+Program State: 
+ID: 1
+ExecStack: 
+ref int v1;ref int v2;int x;int q;new(v1,20);new(v2,30);newLock(x);fork(fork(lock(x);writeHeap(v1,readHeap(v1)-1);unlock(x));lock(x);writeHeap(v1,readHeap(v1)*10);unlock(x));newLock(q);fork(fork(lock(q);writeHeap(v2,readHeap(v2)+5);unlock(q));lock(q);writeHeap(v2,readHeap(v2)*10);unlock(q));NopStatement;NopStatement;NopStatement;NopStatement;lock(x);print(readHeap(v1));unlock(x);lock(q);print(readHeap(v2));unlock(q)
+SymTable: 
+OutputList: 
+File table: 
+Heap: 
+SemaphoreTable:
+latchTable:
+lockTable:
+
+Program State: 
+ID: 1
+ExecStack: 
+ref int v2;int x;int q;new(v1,20);new(v2,30);newLock(x);fork(fork(lock(x);writeHeap(v1,readHeap(v1)-1);unlock(x));lock(x);writeHeap(v1,readHeap(v1)*10);unlock(x));newLock(q);fork(fork(lock(q);writeHeap(v2,readHeap(v2)+5);unlock(q));lock(q);writeHeap(v2,readHeap(v2)*10);unlock(q));NopStatement;NopStatement;NopStatement;NopStatement;lock(x);print(readHeap(v1));unlock(x);lock(q);print(readHeap(v2));unlock(q)
+ref int v1
+SymTable: 
+OutputList: 
+File table: 
+Heap: 
+SemaphoreTable:
+latchTable:
+lockTable:
+
+Program State: 
+ID: 1
+ExecStack: 
+ref int v2;int x;int q;new(v1,20);new(v2,30);newLock(x);fork(fork(lock(x);writeHeap(v1,readHeap(v1)-1);unlock(x));lock(x);writeHeap(v1,readHeap(v1)*10);unlock(x));newLock(q);fork(fork(lock(q);writeHeap(v2,readHeap(v2)+5);unlock(q));lock(q);writeHeap(v2,readHeap(v2)*10);unlock(q));NopStatement;NopStatement;NopStatement;NopStatement;lock(x);print(readHeap(v1));unlock(x);lock(q);print(readHeap(v2));unlock(q)
+ref int v1
+SymTable: 
+OutputList: 
+File table: 
+Heap: 
+SemaphoreTable:
+latchTable:
+lockTable:
+
+Program State: 
+ID: 1
+ExecStack: 
+ref int v2;int x;int q;new(v1,20);new(v2,30);newLock(x);fork(fork(lock(x);writeHeap(v1,readHeap(v1)-1);unlock(x));lock(x);writeHeap(v1,readHeap(v1)*10);unlock(x));newLock(q);fork(fork(lock(q);writeHeap(v2,readHeap(v2)+5);unlock(q));lock(q);writeHeap(v2,readHeap(v2)*10);unlock(q));NopStatement;NopStatement;NopStatement;NopStatement;lock(x);print(readHeap(v1));unlock(x);lock(q);print(readHeap(v2));unlock(q)
+SymTable: 
+v1->(0,int)
+OutputList: 
+File table: 
+Heap: 
+SemaphoreTable:
+latchTable:
+lockTable:
+
+Program State: 
+ID: 1
+ExecStack: 
+ref int v2;int x;int q;new(v1,20);new(v2,30);newLock(x);fork(fork(lock(x);writeHeap(v1,readHeap(v1)-1);unlock(x));lock(x);writeHeap(v1,readHeap(v1)*10);unlock(x));newLock(q);fork(fork(lock(q);writeHeap(v2,readHeap(v2)+5);unlock(q));lock(q);writeHeap(v2,readHeap(v2)*10);unlock(q));NopStatement;NopStatement;NopStatement;NopStatement;lock(x);print(readHeap(v1));unlock(x);lock(q);print(readHeap(v2));unlock(q)
+SymTable: 
+v1->(0,int)
+OutputList: 
+File table: 
+Heap: 
+SemaphoreTable:
+latchTable:
+lockTable:
+
+Program State: 
+ID: 1
+ExecStack: 
+int x;int q;new(v1,20);new(v2,30);newLock(x);fork(fork(lock(x);writeHeap(v1,readHeap(v1)-1);unlock(x));lock(x);writeHeap(v1,readHeap(v1)*10);unlock(x));newLock(q);fork(fork(lock(q);writeHeap(v2,readHeap(v2)+5);unlock(q));lock(q);writeHeap(v2,readHeap(v2)*10);unlock(q));NopStatement;NopStatement;NopStatement;NopStatement;lock(x);print(readHeap(v1));unlock(x);lock(q);print(readHeap(v2));unlock(q)
+ref int v2
+SymTable: 
+v1->(0,int)
+OutputList: 
+File table: 
+Heap: 
+SemaphoreTable:
+latchTable:
+lockTable:
+
+Program State: 
+ID: 1
+ExecStack: 
+int x;int q;new(v1,20);new(v2,30);newLock(x);fork(fork(lock(x);writeHeap(v1,readHeap(v1)-1);unlock(x));lock(x);writeHeap(v1,readHeap(v1)*10);unlock(x));newLock(q);fork(fork(lock(q);writeHeap(v2,readHeap(v2)+5);unlock(q));lock(q);writeHeap(v2,readHeap(v2)*10);unlock(q));NopStatement;NopStatement;NopStatement;NopStatement;lock(x);print(readHeap(v1));unlock(x);lock(q);print(readHeap(v2));unlock(q)
+ref int v2
+SymTable: 
+v1->(0,int)
+OutputList: 
+File table: 
+Heap: 
+SemaphoreTable:
+latchTable:
+lockTable:
+
+Program State: 
+ID: 1
+ExecStack: 
+int x;int q;new(v1,20);new(v2,30);newLock(x);fork(fork(lock(x);writeHeap(v1,readHeap(v1)-1);unlock(x));lock(x);writeHeap(v1,readHeap(v1)*10);unlock(x));newLock(q);fork(fork(lock(q);writeHeap(v2,readHeap(v2)+5);unlock(q));lock(q);writeHeap(v2,readHeap(v2)*10);unlock(q));NopStatement;NopStatement;NopStatement;NopStatement;lock(x);print(readHeap(v1));unlock(x);lock(q);print(readHeap(v2));unlock(q)
+SymTable: 
+v1->(0,int)
+v2->(0,int)
+OutputList: 
+File table: 
+Heap: 
+SemaphoreTable:
+latchTable:
+lockTable:
+
+Program State: 
+ID: 1
+ExecStack: 
+int x;int q;new(v1,20);new(v2,30);newLock(x);fork(fork(lock(x);writeHeap(v1,readHeap(v1)-1);unlock(x));lock(x);writeHeap(v1,readHeap(v1)*10);unlock(x));newLock(q);fork(fork(lock(q);writeHeap(v2,readHeap(v2)+5);unlock(q));lock(q);writeHeap(v2,readHeap(v2)*10);unlock(q));NopStatement;NopStatement;NopStatement;NopStatement;lock(x);print(readHeap(v1));unlock(x);lock(q);print(readHeap(v2));unlock(q)
+SymTable: 
+v1->(0,int)
+v2->(0,int)
+OutputList: 
+File table: 
+Heap: 
+SemaphoreTable:
+latchTable:
+lockTable:
+
+Program State: 
+ID: 1
+ExecStack: 
+int q;new(v1,20);new(v2,30);newLock(x);fork(fork(lock(x);writeHeap(v1,readHeap(v1)-1);unlock(x));lock(x);writeHeap(v1,readHeap(v1)*10);unlock(x));newLock(q);fork(fork(lock(q);writeHeap(v2,readHeap(v2)+5);unlock(q));lock(q);writeHeap(v2,readHeap(v2)*10);unlock(q));NopStatement;NopStatement;NopStatement;NopStatement;lock(x);print(readHeap(v1));unlock(x);lock(q);print(readHeap(v2));unlock(q)
+int x
+SymTable: 
+v1->(0,int)
+v2->(0,int)
+OutputList: 
+File table: 
+Heap: 
+SemaphoreTable:
+latchTable:
+lockTable:
+
+Program State: 
+ID: 1
+ExecStack: 
+int q;new(v1,20);new(v2,30);newLock(x);fork(fork(lock(x);writeHeap(v1,readHeap(v1)-1);unlock(x));lock(x);writeHeap(v1,readHeap(v1)*10);unlock(x));newLock(q);fork(fork(lock(q);writeHeap(v2,readHeap(v2)+5);unlock(q));lock(q);writeHeap(v2,readHeap(v2)*10);unlock(q));NopStatement;NopStatement;NopStatement;NopStatement;lock(x);print(readHeap(v1));unlock(x);lock(q);print(readHeap(v2));unlock(q)
+int x
+SymTable: 
+v1->(0,int)
+v2->(0,int)
+OutputList: 
+File table: 
+Heap: 
+SemaphoreTable:
+latchTable:
+lockTable:
+
+Program State: 
+ID: 1
+ExecStack: 
+int q;new(v1,20);new(v2,30);newLock(x);fork(fork(lock(x);writeHeap(v1,readHeap(v1)-1);unlock(x));lock(x);writeHeap(v1,readHeap(v1)*10);unlock(x));newLock(q);fork(fork(lock(q);writeHeap(v2,readHeap(v2)+5);unlock(q));lock(q);writeHeap(v2,readHeap(v2)*10);unlock(q));NopStatement;NopStatement;NopStatement;NopStatement;lock(x);print(readHeap(v1));unlock(x);lock(q);print(readHeap(v2));unlock(q)
+SymTable: 
+x->0
+v1->(0,int)
+v2->(0,int)
+OutputList: 
+File table: 
+Heap: 
+SemaphoreTable:
+latchTable:
+lockTable:
+
+Program State: 
+ID: 1
+ExecStack: 
+int q;new(v1,20);new(v2,30);newLock(x);fork(fork(lock(x);writeHeap(v1,readHeap(v1)-1);unlock(x));lock(x);writeHeap(v1,readHeap(v1)*10);unlock(x));newLock(q);fork(fork(lock(q);writeHeap(v2,readHeap(v2)+5);unlock(q));lock(q);writeHeap(v2,readHeap(v2)*10);unlock(q));NopStatement;NopStatement;NopStatement;NopStatement;lock(x);print(readHeap(v1));unlock(x);lock(q);print(readHeap(v2));unlock(q)
+SymTable: 
+x->0
+v1->(0,int)
+v2->(0,int)
+OutputList: 
+File table: 
+Heap: 
+SemaphoreTable:
+latchTable:
+lockTable:
+
+Program State: 
+ID: 1
+ExecStack: 
+new(v1,20);new(v2,30);newLock(x);fork(fork(lock(x);writeHeap(v1,readHeap(v1)-1);unlock(x));lock(x);writeHeap(v1,readHeap(v1)*10);unlock(x));newLock(q);fork(fork(lock(q);writeHeap(v2,readHeap(v2)+5);unlock(q));lock(q);writeHeap(v2,readHeap(v2)*10);unlock(q));NopStatement;NopStatement;NopStatement;NopStatement;lock(x);print(readHeap(v1));unlock(x);lock(q);print(readHeap(v2));unlock(q)
+int q
+SymTable: 
+x->0
+v1->(0,int)
+v2->(0,int)
+OutputList: 
+File table: 
+Heap: 
+SemaphoreTable:
+latchTable:
+lockTable:
+
+Program State: 
+ID: 1
+ExecStack: 
+new(v1,20);new(v2,30);newLock(x);fork(fork(lock(x);writeHeap(v1,readHeap(v1)-1);unlock(x));lock(x);writeHeap(v1,readHeap(v1)*10);unlock(x));newLock(q);fork(fork(lock(q);writeHeap(v2,readHeap(v2)+5);unlock(q));lock(q);writeHeap(v2,readHeap(v2)*10);unlock(q));NopStatement;NopStatement;NopStatement;NopStatement;lock(x);print(readHeap(v1));unlock(x);lock(q);print(readHeap(v2));unlock(q)
+int q
+SymTable: 
+x->0
+v1->(0,int)
+v2->(0,int)
+OutputList: 
+File table: 
+Heap: 
+SemaphoreTable:
+latchTable:
+lockTable:
+
+Program State: 
+ID: 1
+ExecStack: 
+new(v1,20);new(v2,30);newLock(x);fork(fork(lock(x);writeHeap(v1,readHeap(v1)-1);unlock(x));lock(x);writeHeap(v1,readHeap(v1)*10);unlock(x));newLock(q);fork(fork(lock(q);writeHeap(v2,readHeap(v2)+5);unlock(q));lock(q);writeHeap(v2,readHeap(v2)*10);unlock(q));NopStatement;NopStatement;NopStatement;NopStatement;lock(x);print(readHeap(v1));unlock(x);lock(q);print(readHeap(v2));unlock(q)
+SymTable: 
+q->0
+x->0
+v1->(0,int)
+v2->(0,int)
+OutputList: 
+File table: 
+Heap: 
+SemaphoreTable:
+latchTable:
+lockTable:
+
+Program State: 
+ID: 1
+ExecStack: 
+new(v1,20);new(v2,30);newLock(x);fork(fork(lock(x);writeHeap(v1,readHeap(v1)-1);unlock(x));lock(x);writeHeap(v1,readHeap(v1)*10);unlock(x));newLock(q);fork(fork(lock(q);writeHeap(v2,readHeap(v2)+5);unlock(q));lock(q);writeHeap(v2,readHeap(v2)*10);unlock(q));NopStatement;NopStatement;NopStatement;NopStatement;lock(x);print(readHeap(v1));unlock(x);lock(q);print(readHeap(v2));unlock(q)
+SymTable: 
+q->0
+x->0
+v1->(0,int)
+v2->(0,int)
+OutputList: 
+File table: 
+Heap: 
+SemaphoreTable:
+latchTable:
+lockTable:
+
+Program State: 
+ID: 1
+ExecStack: 
+new(v2,30);newLock(x);fork(fork(lock(x);writeHeap(v1,readHeap(v1)-1);unlock(x));lock(x);writeHeap(v1,readHeap(v1)*10);unlock(x));newLock(q);fork(fork(lock(q);writeHeap(v2,readHeap(v2)+5);unlock(q));lock(q);writeHeap(v2,readHeap(v2)*10);unlock(q));NopStatement;NopStatement;NopStatement;NopStatement;lock(x);print(readHeap(v1));unlock(x);lock(q);print(readHeap(v2));unlock(q)
+new(v1,20)
+SymTable: 
+q->0
+x->0
+v1->(0,int)
+v2->(0,int)
+OutputList: 
+File table: 
+Heap: 
+SemaphoreTable:
+latchTable:
+lockTable:
+
+Program State: 
+ID: 1
+ExecStack: 
+new(v2,30);newLock(x);fork(fork(lock(x);writeHeap(v1,readHeap(v1)-1);unlock(x));lock(x);writeHeap(v1,readHeap(v1)*10);unlock(x));newLock(q);fork(fork(lock(q);writeHeap(v2,readHeap(v2)+5);unlock(q));lock(q);writeHeap(v2,readHeap(v2)*10);unlock(q));NopStatement;NopStatement;NopStatement;NopStatement;lock(x);print(readHeap(v1));unlock(x);lock(q);print(readHeap(v2));unlock(q)
+new(v1,20)
+SymTable: 
+q->0
+x->0
+v1->(0,int)
+v2->(0,int)
+OutputList: 
+File table: 
+Heap: 
+SemaphoreTable:
+latchTable:
+lockTable:
+
+Program State: 
+ID: 1
+ExecStack: 
+new(v2,30);newLock(x);fork(fork(lock(x);writeHeap(v1,readHeap(v1)-1);unlock(x));lock(x);writeHeap(v1,readHeap(v1)*10);unlock(x));newLock(q);fork(fork(lock(q);writeHeap(v2,readHeap(v2)+5);unlock(q));lock(q);writeHeap(v2,readHeap(v2)*10);unlock(q));NopStatement;NopStatement;NopStatement;NopStatement;lock(x);print(readHeap(v1));unlock(x);lock(q);print(readHeap(v2));unlock(q)
+SymTable: 
+q->0
+x->0
+v1->(1,int)
+v2->(0,int)
+OutputList: 
+File table: 
+Heap: 
+1->20
+SemaphoreTable:
+latchTable:
+lockTable:
+
+Program State: 
+ID: 1
+ExecStack: 
+new(v2,30);newLock(x);fork(fork(lock(x);writeHeap(v1,readHeap(v1)-1);unlock(x));lock(x);writeHeap(v1,readHeap(v1)*10);unlock(x));newLock(q);fork(fork(lock(q);writeHeap(v2,readHeap(v2)+5);unlock(q));lock(q);writeHeap(v2,readHeap(v2)*10);unlock(q));NopStatement;NopStatement;NopStatement;NopStatement;lock(x);print(readHeap(v1));unlock(x);lock(q);print(readHeap(v2));unlock(q)
+SymTable: 
+q->0
+x->0
+v1->(1,int)
+v2->(0,int)
+OutputList: 
+File table: 
+Heap: 
+1->20
+SemaphoreTable:
+latchTable:
+lockTable:
+
+Program State: 
+ID: 1
+ExecStack: 
+newLock(x);fork(fork(lock(x);writeHeap(v1,readHeap(v1)-1);unlock(x));lock(x);writeHeap(v1,readHeap(v1)*10);unlock(x));newLock(q);fork(fork(lock(q);writeHeap(v2,readHeap(v2)+5);unlock(q));lock(q);writeHeap(v2,readHeap(v2)*10);unlock(q));NopStatement;NopStatement;NopStatement;NopStatement;lock(x);print(readHeap(v1));unlock(x);lock(q);print(readHeap(v2));unlock(q)
+new(v2,30)
+SymTable: 
+q->0
+x->0
+v1->(1,int)
+v2->(0,int)
+OutputList: 
+File table: 
+Heap: 
+1->20
+SemaphoreTable:
+latchTable:
+lockTable:
+
+Program State: 
+ID: 1
+ExecStack: 
+newLock(x);fork(fork(lock(x);writeHeap(v1,readHeap(v1)-1);unlock(x));lock(x);writeHeap(v1,readHeap(v1)*10);unlock(x));newLock(q);fork(fork(lock(q);writeHeap(v2,readHeap(v2)+5);unlock(q));lock(q);writeHeap(v2,readHeap(v2)*10);unlock(q));NopStatement;NopStatement;NopStatement;NopStatement;lock(x);print(readHeap(v1));unlock(x);lock(q);print(readHeap(v2));unlock(q)
+new(v2,30)
+SymTable: 
+q->0
+x->0
+v1->(1,int)
+v2->(0,int)
+OutputList: 
+File table: 
+Heap: 
+1->20
+SemaphoreTable:
+latchTable:
+lockTable:
+
+Program State: 
+ID: 1
+ExecStack: 
+newLock(x);fork(fork(lock(x);writeHeap(v1,readHeap(v1)-1);unlock(x));lock(x);writeHeap(v1,readHeap(v1)*10);unlock(x));newLock(q);fork(fork(lock(q);writeHeap(v2,readHeap(v2)+5);unlock(q));lock(q);writeHeap(v2,readHeap(v2)*10);unlock(q));NopStatement;NopStatement;NopStatement;NopStatement;lock(x);print(readHeap(v1));unlock(x);lock(q);print(readHeap(v2));unlock(q)
+SymTable: 
+q->0
+x->0
+v1->(1,int)
+v2->(2,int)
+OutputList: 
+File table: 
+Heap: 
+1->20
+2->30
+SemaphoreTable:
+latchTable:
+lockTable:
+
+Program State: 
+ID: 1
+ExecStack: 
+newLock(x);fork(fork(lock(x);writeHeap(v1,readHeap(v1)-1);unlock(x));lock(x);writeHeap(v1,readHeap(v1)*10);unlock(x));newLock(q);fork(fork(lock(q);writeHeap(v2,readHeap(v2)+5);unlock(q));lock(q);writeHeap(v2,readHeap(v2)*10);unlock(q));NopStatement;NopStatement;NopStatement;NopStatement;lock(x);print(readHeap(v1));unlock(x);lock(q);print(readHeap(v2));unlock(q)
+SymTable: 
+q->0
+x->0
+v1->(1,int)
+v2->(2,int)
+OutputList: 
+File table: 
+Heap: 
+1->20
+2->30
+SemaphoreTable:
+latchTable:
+lockTable:
+
+Program State: 
+ID: 1
+ExecStack: 
+fork(fork(lock(x);writeHeap(v1,readHeap(v1)-1);unlock(x));lock(x);writeHeap(v1,readHeap(v1)*10);unlock(x));newLock(q);fork(fork(lock(q);writeHeap(v2,readHeap(v2)+5);unlock(q));lock(q);writeHeap(v2,readHeap(v2)*10);unlock(q));NopStatement;NopStatement;NopStatement;NopStatement;lock(x);print(readHeap(v1));unlock(x);lock(q);print(readHeap(v2));unlock(q)
+newLock(x)
+SymTable: 
+q->0
+x->0
+v1->(1,int)
+v2->(2,int)
+OutputList: 
+File table: 
+Heap: 
+1->20
+2->30
+SemaphoreTable:
+latchTable:
+lockTable:
+
+Program State: 
+ID: 1
+ExecStack: 
+fork(fork(lock(x);writeHeap(v1,readHeap(v1)-1);unlock(x));lock(x);writeHeap(v1,readHeap(v1)*10);unlock(x));newLock(q);fork(fork(lock(q);writeHeap(v2,readHeap(v2)+5);unlock(q));lock(q);writeHeap(v2,readHeap(v2)*10);unlock(q));NopStatement;NopStatement;NopStatement;NopStatement;lock(x);print(readHeap(v1));unlock(x);lock(q);print(readHeap(v2));unlock(q)
+newLock(x)
+SymTable: 
+q->0
+x->0
+v1->(1,int)
+v2->(2,int)
+OutputList: 
+File table: 
+Heap: 
+1->20
+2->30
+SemaphoreTable:
+latchTable:
+lockTable:
+
+Program State: 
+ID: 1
+ExecStack: 
+fork(fork(lock(x);writeHeap(v1,readHeap(v1)-1);unlock(x));lock(x);writeHeap(v1,readHeap(v1)*10);unlock(x));newLock(q);fork(fork(lock(q);writeHeap(v2,readHeap(v2)+5);unlock(q));lock(q);writeHeap(v2,readHeap(v2)*10);unlock(q));NopStatement;NopStatement;NopStatement;NopStatement;lock(x);print(readHeap(v1));unlock(x);lock(q);print(readHeap(v2));unlock(q)
+SymTable: 
+q->0
+x->1
+v1->(1,int)
+v2->(2,int)
+OutputList: 
+File table: 
+Heap: 
+1->20
+2->30
+SemaphoreTable:
+latchTable:
+location: 1->value: -1lockTable:
+
+Program State: 
+ID: 1
+ExecStack: 
+fork(fork(lock(x);writeHeap(v1,readHeap(v1)-1);unlock(x));lock(x);writeHeap(v1,readHeap(v1)*10);unlock(x));newLock(q);fork(fork(lock(q);writeHeap(v2,readHeap(v2)+5);unlock(q));lock(q);writeHeap(v2,readHeap(v2)*10);unlock(q));NopStatement;NopStatement;NopStatement;NopStatement;lock(x);print(readHeap(v1));unlock(x);lock(q);print(readHeap(v2));unlock(q)
+SymTable: 
+q->0
+x->1
+v1->(1,int)
+v2->(2,int)
+OutputList: 
+File table: 
+Heap: 
+1->20
+2->30
+SemaphoreTable:
+latchTable:
+location: 1->value: -1lockTable:
+
+Program State: 
+ID: 1
+ExecStack: 
+newLock(q);fork(fork(lock(q);writeHeap(v2,readHeap(v2)+5);unlock(q));lock(q);writeHeap(v2,readHeap(v2)*10);unlock(q));NopStatement;NopStatement;NopStatement;NopStatement;lock(x);print(readHeap(v1));unlock(x);lock(q);print(readHeap(v2));unlock(q)
+fork(fork(lock(x);writeHeap(v1,readHeap(v1)-1);unlock(x));lock(x);writeHeap(v1,readHeap(v1)*10);unlock(x))
+SymTable: 
+q->0
+x->1
+v1->(1,int)
+v2->(2,int)
+OutputList: 
+File table: 
+Heap: 
+1->20
+2->30
+SemaphoreTable:
+latchTable:
+location: 1->value: -1lockTable:
+
+Program State: 
+ID: 1
+ExecStack: 
+newLock(q);fork(fork(lock(q);writeHeap(v2,readHeap(v2)+5);unlock(q));lock(q);writeHeap(v2,readHeap(v2)*10);unlock(q));NopStatement;NopStatement;NopStatement;NopStatement;lock(x);print(readHeap(v1));unlock(x);lock(q);print(readHeap(v2));unlock(q)
+fork(fork(lock(x);writeHeap(v1,readHeap(v1)-1);unlock(x));lock(x);writeHeap(v1,readHeap(v1)*10);unlock(x))
+SymTable: 
+q->0
+x->1
+v1->(1,int)
+v2->(2,int)
+OutputList: 
+File table: 
+Heap: 
+1->20
+2->30
+SemaphoreTable:
+latchTable:
+location: 1->value: -1lockTable:
+
+Program State: 
+ID: 1
+ExecStack: 
+newLock(q);fork(fork(lock(q);writeHeap(v2,readHeap(v2)+5);unlock(q));lock(q);writeHeap(v2,readHeap(v2)*10);unlock(q));NopStatement;NopStatement;NopStatement;NopStatement;lock(x);print(readHeap(v1));unlock(x);lock(q);print(readHeap(v2));unlock(q)
+SymTable: 
+q->0
+x->1
+v1->(1,int)
+v2->(2,int)
+OutputList: 
+File table: 
+Heap: 
+1->20
+2->30
+SemaphoreTable:
+latchTable:
+location: 1->value: -1lockTable:
+
+Program State: 
+ID: 2
+ExecStack: 
+fork(lock(x);writeHeap(v1,readHeap(v1)-1);unlock(x));lock(x);writeHeap(v1,readHeap(v1)*10);unlock(x)
+SymTable: 
+q->0
+x->1
+v1->(1,int)
+v2->(2,int)
+OutputList: 
+File table: 
+Heap: 
+1->20
+2->30
+SemaphoreTable:
+latchTable:
+location: 1->value: -1lockTable:
+
+Program State: 
+ID: 1
+ExecStack: 
+newLock(q);fork(fork(lock(q);writeHeap(v2,readHeap(v2)+5);unlock(q));lock(q);writeHeap(v2,readHeap(v2)*10);unlock(q));NopStatement;NopStatement;NopStatement;NopStatement;lock(x);print(readHeap(v1));unlock(x);lock(q);print(readHeap(v2));unlock(q)
+SymTable: 
+q->0
+x->1
+v1->(1,int)
+v2->(2,int)
+OutputList: 
+File table: 
+Heap: 
+1->20
+2->30
+SemaphoreTable:
+latchTable:
+location: 1->value: -1lockTable:
+
+Program State: 
+ID: 2
+ExecStack: 
+fork(lock(x);writeHeap(v1,readHeap(v1)-1);unlock(x));lock(x);writeHeap(v1,readHeap(v1)*10);unlock(x)
+SymTable: 
+q->0
+x->1
+v1->(1,int)
+v2->(2,int)
+OutputList: 
+File table: 
+Heap: 
+1->20
+2->30
+SemaphoreTable:
+latchTable:
+location: 1->value: -1lockTable:
+
+Program State: 
+ID: 1
+ExecStack: 
+fork(fork(lock(q);writeHeap(v2,readHeap(v2)+5);unlock(q));lock(q);writeHeap(v2,readHeap(v2)*10);unlock(q));NopStatement;NopStatement;NopStatement;NopStatement;lock(x);print(readHeap(v1));unlock(x);lock(q);print(readHeap(v2));unlock(q)
+newLock(q)
+SymTable: 
+q->0
+x->1
+v1->(1,int)
+v2->(2,int)
+OutputList: 
+File table: 
+Heap: 
+1->20
+2->30
+SemaphoreTable:
+latchTable:
+location: 1->value: -1lockTable:
+
+Program State: 
+ID: 2
+ExecStack: 
+lock(x);writeHeap(v1,readHeap(v1)*10);unlock(x)
+fork(lock(x);writeHeap(v1,readHeap(v1)-1);unlock(x))
+SymTable: 
+q->0
+x->1
+v1->(1,int)
+v2->(2,int)
+OutputList: 
+File table: 
+Heap: 
+1->20
+2->30
+SemaphoreTable:
+latchTable:
+location: 1->value: -1lockTable:
+
+Program State: 
+ID: 1
+ExecStack: 
+fork(fork(lock(q);writeHeap(v2,readHeap(v2)+5);unlock(q));lock(q);writeHeap(v2,readHeap(v2)*10);unlock(q));NopStatement;NopStatement;NopStatement;NopStatement;lock(x);print(readHeap(v1));unlock(x);lock(q);print(readHeap(v2));unlock(q)
+newLock(q)
+SymTable: 
+q->0
+x->1
+v1->(1,int)
+v2->(2,int)
+OutputList: 
+File table: 
+Heap: 
+1->20
+2->30
+SemaphoreTable:
+latchTable:
+location: 1->value: -1lockTable:
+
+Program State: 
+ID: 2
+ExecStack: 
+lock(x);writeHeap(v1,readHeap(v1)*10);unlock(x)
+fork(lock(x);writeHeap(v1,readHeap(v1)-1);unlock(x))
+SymTable: 
+q->0
+x->1
+v1->(1,int)
+v2->(2,int)
+OutputList: 
+File table: 
+Heap: 
+1->20
+2->30
+SemaphoreTable:
+latchTable:
+location: 1->value: -1lockTable:
+
+Program State: 
+ID: 1
+ExecStack: 
+fork(fork(lock(q);writeHeap(v2,readHeap(v2)+5);unlock(q));lock(q);writeHeap(v2,readHeap(v2)*10);unlock(q));NopStatement;NopStatement;NopStatement;NopStatement;lock(x);print(readHeap(v1));unlock(x);lock(q);print(readHeap(v2));unlock(q)
+SymTable: 
+q->2
+x->1
+v1->(1,int)
+v2->(2,int)
+OutputList: 
+File table: 
+Heap: 
+1->20
+2->30
+SemaphoreTable:
+latchTable:
+location: 1->value: -1location: 2->value: -1lockTable:
+
+Program State: 
+ID: 2
+ExecStack: 
+lock(x);writeHeap(v1,readHeap(v1)*10);unlock(x)
+SymTable: 
+q->0
+x->1
+v1->(1,int)
+v2->(2,int)
+OutputList: 
+File table: 
+Heap: 
+1->20
+2->30
+SemaphoreTable:
+latchTable:
+location: 1->value: -1location: 2->value: -1lockTable:
+
+Program State: 
+ID: 3
+ExecStack: 
+lock(x);writeHeap(v1,readHeap(v1)-1);unlock(x)
+SymTable: 
+q->0
+x->1
+v1->(1,int)
+v2->(2,int)
+OutputList: 
+File table: 
+Heap: 
+1->20
+2->30
+SemaphoreTable:
+latchTable:
+location: 1->value: -1location: 2->value: -1lockTable:
+
+Program State: 
+ID: 1
+ExecStack: 
+fork(fork(lock(q);writeHeap(v2,readHeap(v2)+5);unlock(q));lock(q);writeHeap(v2,readHeap(v2)*10);unlock(q));NopStatement;NopStatement;NopStatement;NopStatement;lock(x);print(readHeap(v1));unlock(x);lock(q);print(readHeap(v2));unlock(q)
+SymTable: 
+q->2
+x->1
+v1->(1,int)
+v2->(2,int)
+OutputList: 
+File table: 
+Heap: 
+1->20
+2->30
+SemaphoreTable:
+latchTable:
+location: 1->value: -1location: 2->value: -1lockTable:
+
+Program State: 
+ID: 2
+ExecStack: 
+lock(x);writeHeap(v1,readHeap(v1)*10);unlock(x)
+SymTable: 
+q->0
+x->1
+v1->(1,int)
+v2->(2,int)
+OutputList: 
+File table: 
+Heap: 
+1->20
+2->30
+SemaphoreTable:
+latchTable:
+location: 1->value: -1location: 2->value: -1lockTable:
+
+Program State: 
+ID: 3
+ExecStack: 
+lock(x);writeHeap(v1,readHeap(v1)-1);unlock(x)
+SymTable: 
+q->0
+x->1
+v1->(1,int)
+v2->(2,int)
+OutputList: 
+File table: 
+Heap: 
+1->20
+2->30
+SemaphoreTable:
+latchTable:
+location: 1->value: -1location: 2->value: -1lockTable:
+
+Program State: 
+ID: 1
+ExecStack: 
+NopStatement;NopStatement;NopStatement;NopStatement;lock(x);print(readHeap(v1));unlock(x);lock(q);print(readHeap(v2));unlock(q)
+fork(fork(lock(q);writeHeap(v2,readHeap(v2)+5);unlock(q));lock(q);writeHeap(v2,readHeap(v2)*10);unlock(q))
+SymTable: 
+q->2
+x->1
+v1->(1,int)
+v2->(2,int)
+OutputList: 
+File table: 
+Heap: 
+1->20
+2->30
+SemaphoreTable:
+latchTable:
+location: 1->value: -1location: 2->value: -1lockTable:
+
+Program State: 
+ID: 2
+ExecStack: 
+writeHeap(v1,readHeap(v1)*10);unlock(x)
+lock(x)
+SymTable: 
+q->0
+x->1
+v1->(1,int)
+v2->(2,int)
+OutputList: 
+File table: 
+Heap: 
+1->20
+2->30
+SemaphoreTable:
+latchTable:
+location: 1->value: -1location: 2->value: -1lockTable:
+
+Program State: 
+ID: 3
+ExecStack: 
+writeHeap(v1,readHeap(v1)-1);unlock(x)
+lock(x)
+SymTable: 
+q->0
+x->1
+v1->(1,int)
+v2->(2,int)
+OutputList: 
+File table: 
+Heap: 
+1->20
+2->30
+SemaphoreTable:
+latchTable:
+location: 1->value: -1location: 2->value: -1lockTable:
+
+Program State: 
+ID: 1
+ExecStack: 
+NopStatement;NopStatement;NopStatement;NopStatement;lock(x);print(readHeap(v1));unlock(x);lock(q);print(readHeap(v2));unlock(q)
+fork(fork(lock(q);writeHeap(v2,readHeap(v2)+5);unlock(q));lock(q);writeHeap(v2,readHeap(v2)*10);unlock(q))
+SymTable: 
+q->2
+x->1
+v1->(1,int)
+v2->(2,int)
+OutputList: 
+File table: 
+Heap: 
+1->20
+2->30
+SemaphoreTable:
+latchTable:
+location: 1->value: -1location: 2->value: -1lockTable:
+
+Program State: 
+ID: 2
+ExecStack: 
+writeHeap(v1,readHeap(v1)*10);unlock(x)
+lock(x)
+SymTable: 
+q->0
+x->1
+v1->(1,int)
+v2->(2,int)
+OutputList: 
+File table: 
+Heap: 
+1->20
+2->30
+SemaphoreTable:
+latchTable:
+location: 1->value: -1location: 2->value: -1lockTable:
+
+Program State: 
+ID: 3
+ExecStack: 
+writeHeap(v1,readHeap(v1)-1);unlock(x)
+lock(x)
+SymTable: 
+q->0
+x->1
+v1->(1,int)
+v2->(2,int)
+OutputList: 
+File table: 
+Heap: 
+1->20
+2->30
+SemaphoreTable:
+latchTable:
+location: 1->value: -1location: 2->value: -1lockTable:
+
+Program State: 
+ID: 1
+ExecStack: 
+ref int v1;ref int v2;int x;int q;new(v1,20);new(v2,30);newLock(x);fork(fork(lock(x);writeHeap(v1,readHeap(v1)-1);unlock(x));lock(x);writeHeap(v1,readHeap(v1)*10);unlock(x));newLock(q);fork(fork(lock(q);writeHeap(v2,readHeap(v2)+5);unlock(q));lock(q);writeHeap(v2,readHeap(v2)*10);unlock(q));NopStatement;NopStatement;NopStatement;NopStatement;lock(x);print(readHeap(v1));unlock(x);lock(q);print(readHeap(v2));unlock(q)
+SymTable: 
+OutputList: 
+File table: 
+Heap: 
+SemaphoreTable:
+latchTable:
+lockTable:
+
+Program State: 
+ID: 1
+ExecStack: 
+ref int v2;int x;int q;new(v1,20);new(v2,30);newLock(x);fork(fork(lock(x);writeHeap(v1,readHeap(v1)-1);unlock(x));lock(x);writeHeap(v1,readHeap(v1)*10);unlock(x));newLock(q);fork(fork(lock(q);writeHeap(v2,readHeap(v2)+5);unlock(q));lock(q);writeHeap(v2,readHeap(v2)*10);unlock(q));NopStatement;NopStatement;NopStatement;NopStatement;lock(x);print(readHeap(v1));unlock(x);lock(q);print(readHeap(v2));unlock(q)
+ref int v1
+SymTable: 
+OutputList: 
+File table: 
+Heap: 
+SemaphoreTable:
+latchTable:
+lockTable:
+
+Program State: 
+ID: 1
+ExecStack: 
+ref int v2;int x;int q;new(v1,20);new(v2,30);newLock(x);fork(fork(lock(x);writeHeap(v1,readHeap(v1)-1);unlock(x));lock(x);writeHeap(v1,readHeap(v1)*10);unlock(x));newLock(q);fork(fork(lock(q);writeHeap(v2,readHeap(v2)+5);unlock(q));lock(q);writeHeap(v2,readHeap(v2)*10);unlock(q));NopStatement;NopStatement;NopStatement;NopStatement;lock(x);print(readHeap(v1));unlock(x);lock(q);print(readHeap(v2));unlock(q)
+ref int v1
+SymTable: 
+OutputList: 
+File table: 
+Heap: 
+SemaphoreTable:
+latchTable:
+lockTable:
+
+Program State: 
+ID: 1
+ExecStack: 
+ref int v2;int x;int q;new(v1,20);new(v2,30);newLock(x);fork(fork(lock(x);writeHeap(v1,readHeap(v1)-1);unlock(x));lock(x);writeHeap(v1,readHeap(v1)*10);unlock(x));newLock(q);fork(fork(lock(q);writeHeap(v2,readHeap(v2)+5);unlock(q));lock(q);writeHeap(v2,readHeap(v2)*10);unlock(q));NopStatement;NopStatement;NopStatement;NopStatement;lock(x);print(readHeap(v1));unlock(x);lock(q);print(readHeap(v2));unlock(q)
+SymTable: 
+v1->(0,int)
+OutputList: 
+File table: 
+Heap: 
+SemaphoreTable:
+latchTable:
+lockTable:
+
+Program State: 
+ID: 1
+ExecStack: 
+ref int v2;int x;int q;new(v1,20);new(v2,30);newLock(x);fork(fork(lock(x);writeHeap(v1,readHeap(v1)-1);unlock(x));lock(x);writeHeap(v1,readHeap(v1)*10);unlock(x));newLock(q);fork(fork(lock(q);writeHeap(v2,readHeap(v2)+5);unlock(q));lock(q);writeHeap(v2,readHeap(v2)*10);unlock(q));NopStatement;NopStatement;NopStatement;NopStatement;lock(x);print(readHeap(v1));unlock(x);lock(q);print(readHeap(v2));unlock(q)
+SymTable: 
+v1->(0,int)
+OutputList: 
+File table: 
+Heap: 
+SemaphoreTable:
+latchTable:
+lockTable:
+
+Program State: 
+ID: 1
+ExecStack: 
+int x;int q;new(v1,20);new(v2,30);newLock(x);fork(fork(lock(x);writeHeap(v1,readHeap(v1)-1);unlock(x));lock(x);writeHeap(v1,readHeap(v1)*10);unlock(x));newLock(q);fork(fork(lock(q);writeHeap(v2,readHeap(v2)+5);unlock(q));lock(q);writeHeap(v2,readHeap(v2)*10);unlock(q));NopStatement;NopStatement;NopStatement;NopStatement;lock(x);print(readHeap(v1));unlock(x);lock(q);print(readHeap(v2));unlock(q)
+ref int v2
+SymTable: 
+v1->(0,int)
+OutputList: 
+File table: 
+Heap: 
+SemaphoreTable:
+latchTable:
+lockTable:
+
+Program State: 
+ID: 1
+ExecStack: 
+int x;int q;new(v1,20);new(v2,30);newLock(x);fork(fork(lock(x);writeHeap(v1,readHeap(v1)-1);unlock(x));lock(x);writeHeap(v1,readHeap(v1)*10);unlock(x));newLock(q);fork(fork(lock(q);writeHeap(v2,readHeap(v2)+5);unlock(q));lock(q);writeHeap(v2,readHeap(v2)*10);unlock(q));NopStatement;NopStatement;NopStatement;NopStatement;lock(x);print(readHeap(v1));unlock(x);lock(q);print(readHeap(v2));unlock(q)
+ref int v2
+SymTable: 
+v1->(0,int)
+OutputList: 
+File table: 
+Heap: 
+SemaphoreTable:
+latchTable:
+lockTable:
+
+Program State: 
+ID: 1
+ExecStack: 
+int x;int q;new(v1,20);new(v2,30);newLock(x);fork(fork(lock(x);writeHeap(v1,readHeap(v1)-1);unlock(x));lock(x);writeHeap(v1,readHeap(v1)*10);unlock(x));newLock(q);fork(fork(lock(q);writeHeap(v2,readHeap(v2)+5);unlock(q));lock(q);writeHeap(v2,readHeap(v2)*10);unlock(q));NopStatement;NopStatement;NopStatement;NopStatement;lock(x);print(readHeap(v1));unlock(x);lock(q);print(readHeap(v2));unlock(q)
+SymTable: 
+v1->(0,int)
+v2->(0,int)
+OutputList: 
+File table: 
+Heap: 
+SemaphoreTable:
+latchTable:
+lockTable:
+
+Program State: 
+ID: 1
+ExecStack: 
+int x;int q;new(v1,20);new(v2,30);newLock(x);fork(fork(lock(x);writeHeap(v1,readHeap(v1)-1);unlock(x));lock(x);writeHeap(v1,readHeap(v1)*10);unlock(x));newLock(q);fork(fork(lock(q);writeHeap(v2,readHeap(v2)+5);unlock(q));lock(q);writeHeap(v2,readHeap(v2)*10);unlock(q));NopStatement;NopStatement;NopStatement;NopStatement;lock(x);print(readHeap(v1));unlock(x);lock(q);print(readHeap(v2));unlock(q)
+SymTable: 
+v1->(0,int)
+v2->(0,int)
+OutputList: 
+File table: 
+Heap: 
+SemaphoreTable:
+latchTable:
+lockTable:
+
+Program State: 
+ID: 1
+ExecStack: 
+int q;new(v1,20);new(v2,30);newLock(x);fork(fork(lock(x);writeHeap(v1,readHeap(v1)-1);unlock(x));lock(x);writeHeap(v1,readHeap(v1)*10);unlock(x));newLock(q);fork(fork(lock(q);writeHeap(v2,readHeap(v2)+5);unlock(q));lock(q);writeHeap(v2,readHeap(v2)*10);unlock(q));NopStatement;NopStatement;NopStatement;NopStatement;lock(x);print(readHeap(v1));unlock(x);lock(q);print(readHeap(v2));unlock(q)
+int x
+SymTable: 
+v1->(0,int)
+v2->(0,int)
+OutputList: 
+File table: 
+Heap: 
+SemaphoreTable:
+latchTable:
+lockTable:
+
+Program State: 
+ID: 1
+ExecStack: 
+int q;new(v1,20);new(v2,30);newLock(x);fork(fork(lock(x);writeHeap(v1,readHeap(v1)-1);unlock(x));lock(x);writeHeap(v1,readHeap(v1)*10);unlock(x));newLock(q);fork(fork(lock(q);writeHeap(v2,readHeap(v2)+5);unlock(q));lock(q);writeHeap(v2,readHeap(v2)*10);unlock(q));NopStatement;NopStatement;NopStatement;NopStatement;lock(x);print(readHeap(v1));unlock(x);lock(q);print(readHeap(v2));unlock(q)
+int x
+SymTable: 
+v1->(0,int)
+v2->(0,int)
+OutputList: 
+File table: 
+Heap: 
+SemaphoreTable:
+latchTable:
+lockTable:
+
+Program State: 
+ID: 1
+ExecStack: 
+int q;new(v1,20);new(v2,30);newLock(x);fork(fork(lock(x);writeHeap(v1,readHeap(v1)-1);unlock(x));lock(x);writeHeap(v1,readHeap(v1)*10);unlock(x));newLock(q);fork(fork(lock(q);writeHeap(v2,readHeap(v2)+5);unlock(q));lock(q);writeHeap(v2,readHeap(v2)*10);unlock(q));NopStatement;NopStatement;NopStatement;NopStatement;lock(x);print(readHeap(v1));unlock(x);lock(q);print(readHeap(v2));unlock(q)
+SymTable: 
+x->0
+v1->(0,int)
+v2->(0,int)
+OutputList: 
+File table: 
+Heap: 
+SemaphoreTable:
+latchTable:
+lockTable:
+
+Program State: 
+ID: 1
+ExecStack: 
+int q;new(v1,20);new(v2,30);newLock(x);fork(fork(lock(x);writeHeap(v1,readHeap(v1)-1);unlock(x));lock(x);writeHeap(v1,readHeap(v1)*10);unlock(x));newLock(q);fork(fork(lock(q);writeHeap(v2,readHeap(v2)+5);unlock(q));lock(q);writeHeap(v2,readHeap(v2)*10);unlock(q));NopStatement;NopStatement;NopStatement;NopStatement;lock(x);print(readHeap(v1));unlock(x);lock(q);print(readHeap(v2));unlock(q)
+SymTable: 
+x->0
+v1->(0,int)
+v2->(0,int)
+OutputList: 
+File table: 
+Heap: 
+SemaphoreTable:
+latchTable:
+lockTable:
+
+Program State: 
+ID: 1
+ExecStack: 
+new(v1,20);new(v2,30);newLock(x);fork(fork(lock(x);writeHeap(v1,readHeap(v1)-1);unlock(x));lock(x);writeHeap(v1,readHeap(v1)*10);unlock(x));newLock(q);fork(fork(lock(q);writeHeap(v2,readHeap(v2)+5);unlock(q));lock(q);writeHeap(v2,readHeap(v2)*10);unlock(q));NopStatement;NopStatement;NopStatement;NopStatement;lock(x);print(readHeap(v1));unlock(x);lock(q);print(readHeap(v2));unlock(q)
+int q
+SymTable: 
+x->0
+v1->(0,int)
+v2->(0,int)
+OutputList: 
+File table: 
+Heap: 
+SemaphoreTable:
+latchTable:
+lockTable:
+
+Program State: 
+ID: 1
+ExecStack: 
+new(v1,20);new(v2,30);newLock(x);fork(fork(lock(x);writeHeap(v1,readHeap(v1)-1);unlock(x));lock(x);writeHeap(v1,readHeap(v1)*10);unlock(x));newLock(q);fork(fork(lock(q);writeHeap(v2,readHeap(v2)+5);unlock(q));lock(q);writeHeap(v2,readHeap(v2)*10);unlock(q));NopStatement;NopStatement;NopStatement;NopStatement;lock(x);print(readHeap(v1));unlock(x);lock(q);print(readHeap(v2));unlock(q)
+int q
+SymTable: 
+x->0
+v1->(0,int)
+v2->(0,int)
+OutputList: 
+File table: 
+Heap: 
+SemaphoreTable:
+latchTable:
+lockTable:
+
+Program State: 
+ID: 1
+ExecStack: 
+new(v1,20);new(v2,30);newLock(x);fork(fork(lock(x);writeHeap(v1,readHeap(v1)-1);unlock(x));lock(x);writeHeap(v1,readHeap(v1)*10);unlock(x));newLock(q);fork(fork(lock(q);writeHeap(v2,readHeap(v2)+5);unlock(q));lock(q);writeHeap(v2,readHeap(v2)*10);unlock(q));NopStatement;NopStatement;NopStatement;NopStatement;lock(x);print(readHeap(v1));unlock(x);lock(q);print(readHeap(v2));unlock(q)
+SymTable: 
+q->0
+x->0
+v1->(0,int)
+v2->(0,int)
+OutputList: 
+File table: 
+Heap: 
+SemaphoreTable:
+latchTable:
+lockTable:
+
+Program State: 
+ID: 1
+ExecStack: 
+new(v1,20);new(v2,30);newLock(x);fork(fork(lock(x);writeHeap(v1,readHeap(v1)-1);unlock(x));lock(x);writeHeap(v1,readHeap(v1)*10);unlock(x));newLock(q);fork(fork(lock(q);writeHeap(v2,readHeap(v2)+5);unlock(q));lock(q);writeHeap(v2,readHeap(v2)*10);unlock(q));NopStatement;NopStatement;NopStatement;NopStatement;lock(x);print(readHeap(v1));unlock(x);lock(q);print(readHeap(v2));unlock(q)
+SymTable: 
+q->0
+x->0
+v1->(0,int)
+v2->(0,int)
+OutputList: 
+File table: 
+Heap: 
+SemaphoreTable:
+latchTable:
+lockTable:
+
+Program State: 
+ID: 1
+ExecStack: 
+new(v2,30);newLock(x);fork(fork(lock(x);writeHeap(v1,readHeap(v1)-1);unlock(x));lock(x);writeHeap(v1,readHeap(v1)*10);unlock(x));newLock(q);fork(fork(lock(q);writeHeap(v2,readHeap(v2)+5);unlock(q));lock(q);writeHeap(v2,readHeap(v2)*10);unlock(q));NopStatement;NopStatement;NopStatement;NopStatement;lock(x);print(readHeap(v1));unlock(x);lock(q);print(readHeap(v2));unlock(q)
+new(v1,20)
+SymTable: 
+q->0
+x->0
+v1->(0,int)
+v2->(0,int)
+OutputList: 
+File table: 
+Heap: 
+SemaphoreTable:
+latchTable:
+lockTable:
+
+Program State: 
+ID: 1
+ExecStack: 
+new(v2,30);newLock(x);fork(fork(lock(x);writeHeap(v1,readHeap(v1)-1);unlock(x));lock(x);writeHeap(v1,readHeap(v1)*10);unlock(x));newLock(q);fork(fork(lock(q);writeHeap(v2,readHeap(v2)+5);unlock(q));lock(q);writeHeap(v2,readHeap(v2)*10);unlock(q));NopStatement;NopStatement;NopStatement;NopStatement;lock(x);print(readHeap(v1));unlock(x);lock(q);print(readHeap(v2));unlock(q)
+new(v1,20)
+SymTable: 
+q->0
+x->0
+v1->(0,int)
+v2->(0,int)
+OutputList: 
+File table: 
+Heap: 
+SemaphoreTable:
+latchTable:
+lockTable:
+
+Program State: 
+ID: 1
+ExecStack: 
+new(v2,30);newLock(x);fork(fork(lock(x);writeHeap(v1,readHeap(v1)-1);unlock(x));lock(x);writeHeap(v1,readHeap(v1)*10);unlock(x));newLock(q);fork(fork(lock(q);writeHeap(v2,readHeap(v2)+5);unlock(q));lock(q);writeHeap(v2,readHeap(v2)*10);unlock(q));NopStatement;NopStatement;NopStatement;NopStatement;lock(x);print(readHeap(v1));unlock(x);lock(q);print(readHeap(v2));unlock(q)
+SymTable: 
+q->0
+x->0
+v1->(1,int)
+v2->(0,int)
+OutputList: 
+File table: 
+Heap: 
+1->20
+SemaphoreTable:
+latchTable:
+lockTable:
+
+Program State: 
+ID: 1
+ExecStack: 
+new(v2,30);newLock(x);fork(fork(lock(x);writeHeap(v1,readHeap(v1)-1);unlock(x));lock(x);writeHeap(v1,readHeap(v1)*10);unlock(x));newLock(q);fork(fork(lock(q);writeHeap(v2,readHeap(v2)+5);unlock(q));lock(q);writeHeap(v2,readHeap(v2)*10);unlock(q));NopStatement;NopStatement;NopStatement;NopStatement;lock(x);print(readHeap(v1));unlock(x);lock(q);print(readHeap(v2));unlock(q)
+SymTable: 
+q->0
+x->0
+v1->(1,int)
+v2->(0,int)
+OutputList: 
+File table: 
+Heap: 
+1->20
+SemaphoreTable:
+latchTable:
+lockTable:
+
+Program State: 
+ID: 1
+ExecStack: 
+newLock(x);fork(fork(lock(x);writeHeap(v1,readHeap(v1)-1);unlock(x));lock(x);writeHeap(v1,readHeap(v1)*10);unlock(x));newLock(q);fork(fork(lock(q);writeHeap(v2,readHeap(v2)+5);unlock(q));lock(q);writeHeap(v2,readHeap(v2)*10);unlock(q));NopStatement;NopStatement;NopStatement;NopStatement;lock(x);print(readHeap(v1));unlock(x);lock(q);print(readHeap(v2));unlock(q)
+new(v2,30)
+SymTable: 
+q->0
+x->0
+v1->(1,int)
+v2->(0,int)
+OutputList: 
+File table: 
+Heap: 
+1->20
+SemaphoreTable:
+latchTable:
+lockTable:
+
+Program State: 
+ID: 1
+ExecStack: 
+newLock(x);fork(fork(lock(x);writeHeap(v1,readHeap(v1)-1);unlock(x));lock(x);writeHeap(v1,readHeap(v1)*10);unlock(x));newLock(q);fork(fork(lock(q);writeHeap(v2,readHeap(v2)+5);unlock(q));lock(q);writeHeap(v2,readHeap(v2)*10);unlock(q));NopStatement;NopStatement;NopStatement;NopStatement;lock(x);print(readHeap(v1));unlock(x);lock(q);print(readHeap(v2));unlock(q)
+new(v2,30)
+SymTable: 
+q->0
+x->0
+v1->(1,int)
+v2->(0,int)
+OutputList: 
+File table: 
+Heap: 
+1->20
+SemaphoreTable:
+latchTable:
+lockTable:
+
+Program State: 
+ID: 1
+ExecStack: 
+newLock(x);fork(fork(lock(x);writeHeap(v1,readHeap(v1)-1);unlock(x));lock(x);writeHeap(v1,readHeap(v1)*10);unlock(x));newLock(q);fork(fork(lock(q);writeHeap(v2,readHeap(v2)+5);unlock(q));lock(q);writeHeap(v2,readHeap(v2)*10);unlock(q));NopStatement;NopStatement;NopStatement;NopStatement;lock(x);print(readHeap(v1));unlock(x);lock(q);print(readHeap(v2));unlock(q)
+SymTable: 
+q->0
+x->0
+v1->(1,int)
+v2->(2,int)
+OutputList: 
+File table: 
+Heap: 
+1->20
+2->30
+SemaphoreTable:
+latchTable:
+lockTable:
+
+Program State: 
+ID: 1
+ExecStack: 
+newLock(x);fork(fork(lock(x);writeHeap(v1,readHeap(v1)-1);unlock(x));lock(x);writeHeap(v1,readHeap(v1)*10);unlock(x));newLock(q);fork(fork(lock(q);writeHeap(v2,readHeap(v2)+5);unlock(q));lock(q);writeHeap(v2,readHeap(v2)*10);unlock(q));NopStatement;NopStatement;NopStatement;NopStatement;lock(x);print(readHeap(v1));unlock(x);lock(q);print(readHeap(v2));unlock(q)
+SymTable: 
+q->0
+x->0
+v1->(1,int)
+v2->(2,int)
+OutputList: 
+File table: 
+Heap: 
+1->20
+2->30
+SemaphoreTable:
+latchTable:
+lockTable:
+
+Program State: 
+ID: 1
+ExecStack: 
+fork(fork(lock(x);writeHeap(v1,readHeap(v1)-1);unlock(x));lock(x);writeHeap(v1,readHeap(v1)*10);unlock(x));newLock(q);fork(fork(lock(q);writeHeap(v2,readHeap(v2)+5);unlock(q));lock(q);writeHeap(v2,readHeap(v2)*10);unlock(q));NopStatement;NopStatement;NopStatement;NopStatement;lock(x);print(readHeap(v1));unlock(x);lock(q);print(readHeap(v2));unlock(q)
+newLock(x)
+SymTable: 
+q->0
+x->0
+v1->(1,int)
+v2->(2,int)
+OutputList: 
+File table: 
+Heap: 
+1->20
+2->30
+SemaphoreTable:
+latchTable:
+lockTable:
+
+Program State: 
+ID: 1
+ExecStack: 
+fork(fork(lock(x);writeHeap(v1,readHeap(v1)-1);unlock(x));lock(x);writeHeap(v1,readHeap(v1)*10);unlock(x));newLock(q);fork(fork(lock(q);writeHeap(v2,readHeap(v2)+5);unlock(q));lock(q);writeHeap(v2,readHeap(v2)*10);unlock(q));NopStatement;NopStatement;NopStatement;NopStatement;lock(x);print(readHeap(v1));unlock(x);lock(q);print(readHeap(v2));unlock(q)
+newLock(x)
+SymTable: 
+q->0
+x->0
+v1->(1,int)
+v2->(2,int)
+OutputList: 
+File table: 
+Heap: 
+1->20
+2->30
+SemaphoreTable:
+latchTable:
+lockTable:
+
+Program State: 
+ID: 1
+ExecStack: 
+fork(fork(lock(x);writeHeap(v1,readHeap(v1)-1);unlock(x));lock(x);writeHeap(v1,readHeap(v1)*10);unlock(x));newLock(q);fork(fork(lock(q);writeHeap(v2,readHeap(v2)+5);unlock(q));lock(q);writeHeap(v2,readHeap(v2)*10);unlock(q));NopStatement;NopStatement;NopStatement;NopStatement;lock(x);print(readHeap(v1));unlock(x);lock(q);print(readHeap(v2));unlock(q)
+SymTable: 
+q->0
+x->1
+v1->(1,int)
+v2->(2,int)
+OutputList: 
+File table: 
+Heap: 
+1->20
+2->30
+SemaphoreTable:
+latchTable:
+lockTable:
+location: 1->value: -1
+Program State: 
+ID: 1
+ExecStack: 
+fork(fork(lock(x);writeHeap(v1,readHeap(v1)-1);unlock(x));lock(x);writeHeap(v1,readHeap(v1)*10);unlock(x));newLock(q);fork(fork(lock(q);writeHeap(v2,readHeap(v2)+5);unlock(q));lock(q);writeHeap(v2,readHeap(v2)*10);unlock(q));NopStatement;NopStatement;NopStatement;NopStatement;lock(x);print(readHeap(v1));unlock(x);lock(q);print(readHeap(v2));unlock(q)
+SymTable: 
+q->0
+x->1
+v1->(1,int)
+v2->(2,int)
+OutputList: 
+File table: 
+Heap: 
+1->20
+2->30
+SemaphoreTable:
+latchTable:
+lockTable:
+location: 1->value: -1
+Program State: 
+ID: 1
+ExecStack: 
+newLock(q);fork(fork(lock(q);writeHeap(v2,readHeap(v2)+5);unlock(q));lock(q);writeHeap(v2,readHeap(v2)*10);unlock(q));NopStatement;NopStatement;NopStatement;NopStatement;lock(x);print(readHeap(v1));unlock(x);lock(q);print(readHeap(v2));unlock(q)
+fork(fork(lock(x);writeHeap(v1,readHeap(v1)-1);unlock(x));lock(x);writeHeap(v1,readHeap(v1)*10);unlock(x))
+SymTable: 
+q->0
+x->1
+v1->(1,int)
+v2->(2,int)
+OutputList: 
+File table: 
+Heap: 
+1->20
+2->30
+SemaphoreTable:
+latchTable:
+lockTable:
+location: 1->value: -1
+Program State: 
+ID: 1
+ExecStack: 
+newLock(q);fork(fork(lock(q);writeHeap(v2,readHeap(v2)+5);unlock(q));lock(q);writeHeap(v2,readHeap(v2)*10);unlock(q));NopStatement;NopStatement;NopStatement;NopStatement;lock(x);print(readHeap(v1));unlock(x);lock(q);print(readHeap(v2));unlock(q)
+fork(fork(lock(x);writeHeap(v1,readHeap(v1)-1);unlock(x));lock(x);writeHeap(v1,readHeap(v1)*10);unlock(x))
+SymTable: 
+q->0
+x->1
+v1->(1,int)
+v2->(2,int)
+OutputList: 
+File table: 
+Heap: 
+1->20
+2->30
+SemaphoreTable:
+latchTable:
+lockTable:
+location: 1->value: -1
+Program State: 
+ID: 1
+ExecStack: 
+newLock(q);fork(fork(lock(q);writeHeap(v2,readHeap(v2)+5);unlock(q));lock(q);writeHeap(v2,readHeap(v2)*10);unlock(q));NopStatement;NopStatement;NopStatement;NopStatement;lock(x);print(readHeap(v1));unlock(x);lock(q);print(readHeap(v2));unlock(q)
+SymTable: 
+q->0
+x->1
+v1->(1,int)
+v2->(2,int)
+OutputList: 
+File table: 
+Heap: 
+1->20
+2->30
+SemaphoreTable:
+latchTable:
+lockTable:
+location: 1->value: -1
+Program State: 
+ID: 2
+ExecStack: 
+fork(lock(x);writeHeap(v1,readHeap(v1)-1);unlock(x));lock(x);writeHeap(v1,readHeap(v1)*10);unlock(x)
+SymTable: 
+q->0
+x->1
+v1->(1,int)
+v2->(2,int)
+OutputList: 
+File table: 
+Heap: 
+1->20
+2->30
+SemaphoreTable:
+latchTable:
+lockTable:
+location: 1->value: -1
+Program State: 
+ID: 1
+ExecStack: 
+newLock(q);fork(fork(lock(q);writeHeap(v2,readHeap(v2)+5);unlock(q));lock(q);writeHeap(v2,readHeap(v2)*10);unlock(q));NopStatement;NopStatement;NopStatement;NopStatement;lock(x);print(readHeap(v1));unlock(x);lock(q);print(readHeap(v2));unlock(q)
+SymTable: 
+q->0
+x->1
+v1->(1,int)
+v2->(2,int)
+OutputList: 
+File table: 
+Heap: 
+1->20
+2->30
+SemaphoreTable:
+latchTable:
+lockTable:
+location: 1->value: -1
+Program State: 
+ID: 2
+ExecStack: 
+fork(lock(x);writeHeap(v1,readHeap(v1)-1);unlock(x));lock(x);writeHeap(v1,readHeap(v1)*10);unlock(x)
+SymTable: 
+q->0
+x->1
+v1->(1,int)
+v2->(2,int)
+OutputList: 
+File table: 
+Heap: 
+1->20
+2->30
+SemaphoreTable:
+latchTable:
+lockTable:
+location: 1->value: -1
+Program State: 
+ID: 1
+ExecStack: 
+fork(fork(lock(q);writeHeap(v2,readHeap(v2)+5);unlock(q));lock(q);writeHeap(v2,readHeap(v2)*10);unlock(q));NopStatement;NopStatement;NopStatement;NopStatement;lock(x);print(readHeap(v1));unlock(x);lock(q);print(readHeap(v2));unlock(q)
+newLock(q)
+SymTable: 
+q->0
+x->1
+v1->(1,int)
+v2->(2,int)
+OutputList: 
+File table: 
+Heap: 
+1->20
+2->30
+SemaphoreTable:
+latchTable:
+lockTable:
+location: 1->value: -1
+Program State: 
+ID: 2
+ExecStack: 
+lock(x);writeHeap(v1,readHeap(v1)*10);unlock(x)
+fork(lock(x);writeHeap(v1,readHeap(v1)-1);unlock(x))
+SymTable: 
+q->0
+x->1
+v1->(1,int)
+v2->(2,int)
+OutputList: 
+File table: 
+Heap: 
+1->20
+2->30
+SemaphoreTable:
+latchTable:
+lockTable:
+location: 1->value: -1
+Program State: 
+ID: 1
+ExecStack: 
+fork(fork(lock(q);writeHeap(v2,readHeap(v2)+5);unlock(q));lock(q);writeHeap(v2,readHeap(v2)*10);unlock(q));NopStatement;NopStatement;NopStatement;NopStatement;lock(x);print(readHeap(v1));unlock(x);lock(q);print(readHeap(v2));unlock(q)
+newLock(q)
+SymTable: 
+q->0
+x->1
+v1->(1,int)
+v2->(2,int)
+OutputList: 
+File table: 
+Heap: 
+1->20
+2->30
+SemaphoreTable:
+latchTable:
+lockTable:
+location: 1->value: -1
+Program State: 
+ID: 2
+ExecStack: 
+lock(x);writeHeap(v1,readHeap(v1)*10);unlock(x)
+fork(lock(x);writeHeap(v1,readHeap(v1)-1);unlock(x))
+SymTable: 
+q->0
+x->1
+v1->(1,int)
+v2->(2,int)
+OutputList: 
+File table: 
+Heap: 
+1->20
+2->30
+SemaphoreTable:
+latchTable:
+lockTable:
+location: 1->value: -1
+Program State: 
+ID: 1
+ExecStack: 
+fork(fork(lock(q);writeHeap(v2,readHeap(v2)+5);unlock(q));lock(q);writeHeap(v2,readHeap(v2)*10);unlock(q));NopStatement;NopStatement;NopStatement;NopStatement;lock(x);print(readHeap(v1));unlock(x);lock(q);print(readHeap(v2));unlock(q)
+SymTable: 
+q->2
+x->1
+v1->(1,int)
+v2->(2,int)
+OutputList: 
+File table: 
+Heap: 
+1->20
+2->30
+SemaphoreTable:
+latchTable:
+lockTable:
+location: 1->value: -1location: 2->value: -1
+Program State: 
+ID: 2
+ExecStack: 
+lock(x);writeHeap(v1,readHeap(v1)*10);unlock(x)
+SymTable: 
+q->0
+x->1
+v1->(1,int)
+v2->(2,int)
+OutputList: 
+File table: 
+Heap: 
+1->20
+2->30
+SemaphoreTable:
+latchTable:
+lockTable:
+location: 1->value: -1location: 2->value: -1
+Program State: 
+ID: 3
+ExecStack: 
+lock(x);writeHeap(v1,readHeap(v1)-1);unlock(x)
+SymTable: 
+q->0
+x->1
+v1->(1,int)
+v2->(2,int)
+OutputList: 
+File table: 
+Heap: 
+1->20
+2->30
+SemaphoreTable:
+latchTable:
+lockTable:
+location: 1->value: -1location: 2->value: -1
+Program State: 
+ID: 1
+ExecStack: 
+fork(fork(lock(q);writeHeap(v2,readHeap(v2)+5);unlock(q));lock(q);writeHeap(v2,readHeap(v2)*10);unlock(q));NopStatement;NopStatement;NopStatement;NopStatement;lock(x);print(readHeap(v1));unlock(x);lock(q);print(readHeap(v2));unlock(q)
+SymTable: 
+q->2
+x->1
+v1->(1,int)
+v2->(2,int)
+OutputList: 
+File table: 
+Heap: 
+1->20
+2->30
+SemaphoreTable:
+latchTable:
+lockTable:
+location: 1->value: -1location: 2->value: -1
+Program State: 
+ID: 2
+ExecStack: 
+lock(x);writeHeap(v1,readHeap(v1)*10);unlock(x)
+SymTable: 
+q->0
+x->1
+v1->(1,int)
+v2->(2,int)
+OutputList: 
+File table: 
+Heap: 
+1->20
+2->30
+SemaphoreTable:
+latchTable:
+lockTable:
+location: 1->value: -1location: 2->value: -1
+Program State: 
+ID: 3
+ExecStack: 
+lock(x);writeHeap(v1,readHeap(v1)-1);unlock(x)
+SymTable: 
+q->0
+x->1
+v1->(1,int)
+v2->(2,int)
+OutputList: 
+File table: 
+Heap: 
+1->20
+2->30
+SemaphoreTable:
+latchTable:
+lockTable:
+location: 1->value: -1location: 2->value: -1
+Program State: 
+ID: 1
+ExecStack: 
+NopStatement;NopStatement;NopStatement;NopStatement;lock(x);print(readHeap(v1));unlock(x);lock(q);print(readHeap(v2));unlock(q)
+fork(fork(lock(q);writeHeap(v2,readHeap(v2)+5);unlock(q));lock(q);writeHeap(v2,readHeap(v2)*10);unlock(q))
+SymTable: 
+q->2
+x->1
+v1->(1,int)
+v2->(2,int)
+OutputList: 
+File table: 
+Heap: 
+1->20
+2->30
+SemaphoreTable:
+latchTable:
+lockTable:
+location: 1->value: -1location: 2->value: -1
+Program State: 
+ID: 2
+ExecStack: 
+writeHeap(v1,readHeap(v1)*10);unlock(x)
+lock(x)
+SymTable: 
+q->0
+x->1
+v1->(1,int)
+v2->(2,int)
+OutputList: 
+File table: 
+Heap: 
+1->20
+2->30
+SemaphoreTable:
+latchTable:
+lockTable:
+location: 1->value: -1location: 2->value: -1
+Program State: 
+ID: 3
+ExecStack: 
+writeHeap(v1,readHeap(v1)-1);unlock(x)
+lock(x)
+SymTable: 
+q->0
+x->1
+v1->(1,int)
+v2->(2,int)
+OutputList: 
+File table: 
+Heap: 
+1->20
+2->30
+SemaphoreTable:
+latchTable:
+lockTable:
+location: 1->value: -1location: 2->value: -1
+Program State: 
+ID: 1
+ExecStack: 
+NopStatement;NopStatement;NopStatement;NopStatement;lock(x);print(readHeap(v1));unlock(x);lock(q);print(readHeap(v2));unlock(q)
+fork(fork(lock(q);writeHeap(v2,readHeap(v2)+5);unlock(q));lock(q);writeHeap(v2,readHeap(v2)*10);unlock(q))
+SymTable: 
+q->2
+x->1
+v1->(1,int)
+v2->(2,int)
+OutputList: 
+File table: 
+Heap: 
+1->20
+2->30
+SemaphoreTable:
+latchTable:
+lockTable:
+location: 1->value: -1location: 2->value: -1
+Program State: 
+ID: 2
+ExecStack: 
+writeHeap(v1,readHeap(v1)*10);unlock(x)
+lock(x)
+SymTable: 
+q->0
+x->1
+v1->(1,int)
+v2->(2,int)
+OutputList: 
+File table: 
+Heap: 
+1->20
+2->30
+SemaphoreTable:
+latchTable:
+lockTable:
+location: 1->value: -1location: 2->value: -1
+Program State: 
+ID: 3
+ExecStack: 
+writeHeap(v1,readHeap(v1)-1);unlock(x)
+lock(x)
+SymTable: 
+q->0
+x->1
+v1->(1,int)
+v2->(2,int)
+OutputList: 
+File table: 
+Heap: 
+1->20
+2->30
+SemaphoreTable:
+latchTable:
+lockTable:
+location: 1->value: -1location: 2->value: -1
+Program State: 
+ID: 1
+ExecStack: 
+NopStatement;NopStatement;NopStatement;NopStatement;lock(x);print(readHeap(v1));unlock(x);lock(q);print(readHeap(v2));unlock(q)
+SymTable: 
+q->2
+x->1
+v1->(1,int)
+v2->(2,int)
+OutputList: 
+File table: 
+Heap: 
+1->20
+2->30
+SemaphoreTable:
+latchTable:
+lockTable:
+location: 1->value: 3location: 2->value: -1
+Program State: 
+ID: 2
+ExecStack: 
+writeHeap(v1,readHeap(v1)*10);unlock(x)
+lock(x)
+SymTable: 
+q->0
+x->1
+v1->(1,int)
+v2->(2,int)
+OutputList: 
+File table: 
+Heap: 
+1->20
+2->30
+SemaphoreTable:
+latchTable:
+lockTable:
+location: 1->value: 3location: 2->value: -1
+Program State: 
+ID: 3
+ExecStack: 
+writeHeap(v1,readHeap(v1)-1);unlock(x)
+SymTable: 
+q->0
+x->1
+v1->(1,int)
+v2->(2,int)
+OutputList: 
+File table: 
+Heap: 
+1->20
+2->30
+SemaphoreTable:
+latchTable:
+lockTable:
+location: 1->value: 3location: 2->value: -1
+Program State: 
+ID: 4
+ExecStack: 
+fork(lock(q);writeHeap(v2,readHeap(v2)+5);unlock(q));lock(q);writeHeap(v2,readHeap(v2)*10);unlock(q)
+SymTable: 
+q->2
+x->1
+v1->(1,int)
+v2->(2,int)
+OutputList: 
+File table: 
+Heap: 
+1->20
+2->30
+SemaphoreTable:
+latchTable:
+lockTable:
+location: 1->value: 3location: 2->value: -1
+Program State: 
+ID: 1
+ExecStack: 
+NopStatement;NopStatement;NopStatement;NopStatement;lock(x);print(readHeap(v1));unlock(x);lock(q);print(readHeap(v2));unlock(q)
+SymTable: 
+q->2
+x->1
+v1->(1,int)
+v2->(2,int)
+OutputList: 
+File table: 
+Heap: 
+1->20
+2->30
+SemaphoreTable:
+latchTable:
+lockTable:
+location: 1->value: 3location: 2->value: -1
+Program State: 
+ID: 2
+ExecStack: 
+writeHeap(v1,readHeap(v1)*10);unlock(x)
+lock(x)
+SymTable: 
+q->0
+x->1
+v1->(1,int)
+v2->(2,int)
+OutputList: 
+File table: 
+Heap: 
+1->20
+2->30
+SemaphoreTable:
+latchTable:
+lockTable:
+location: 1->value: 3location: 2->value: -1
+Program State: 
+ID: 3
+ExecStack: 
+writeHeap(v1,readHeap(v1)-1);unlock(x)
+SymTable: 
+q->0
+x->1
+v1->(1,int)
+v2->(2,int)
+OutputList: 
+File table: 
+Heap: 
+1->20
+2->30
+SemaphoreTable:
+latchTable:
+lockTable:
+location: 1->value: 3location: 2->value: -1
+Program State: 
+ID: 4
+ExecStack: 
+fork(lock(q);writeHeap(v2,readHeap(v2)+5);unlock(q));lock(q);writeHeap(v2,readHeap(v2)*10);unlock(q)
+SymTable: 
+q->2
+x->1
+v1->(1,int)
+v2->(2,int)
+OutputList: 
+File table: 
+Heap: 
+1->20
+2->30
+SemaphoreTable:
+latchTable:
+lockTable:
+location: 1->value: 3location: 2->value: -1
+Program State: 
+ID: 1
+ExecStack: 
+NopStatement;NopStatement;NopStatement;lock(x);print(readHeap(v1));unlock(x);lock(q);print(readHeap(v2));unlock(q)
+NopStatement
+SymTable: 
+q->2
+x->1
+v1->(1,int)
+v2->(2,int)
+OutputList: 
+File table: 
+Heap: 
+1->20
+2->30
+SemaphoreTable:
+latchTable:
+lockTable:
+location: 1->value: 3location: 2->value: -1
+Program State: 
+ID: 2
+ExecStack: 
+writeHeap(v1,readHeap(v1)*10);unlock(x)
+lock(x)
+SymTable: 
+q->0
+x->1
+v1->(1,int)
+v2->(2,int)
+OutputList: 
+File table: 
+Heap: 
+1->20
+2->30
+SemaphoreTable:
+latchTable:
+lockTable:
+location: 1->value: 3location: 2->value: -1
+Program State: 
+ID: 3
+ExecStack: 
+unlock(x)
+writeHeap(v1,readHeap(v1)-1)
+SymTable: 
+q->0
+x->1
+v1->(1,int)
+v2->(2,int)
+OutputList: 
+File table: 
+Heap: 
+1->20
+2->30
+SemaphoreTable:
+latchTable:
+lockTable:
+location: 1->value: 3location: 2->value: -1
+Program State: 
+ID: 4
+ExecStack: 
+lock(q);writeHeap(v2,readHeap(v2)*10);unlock(q)
+fork(lock(q);writeHeap(v2,readHeap(v2)+5);unlock(q))
+SymTable: 
+q->2
+x->1
+v1->(1,int)
+v2->(2,int)
+OutputList: 
+File table: 
+Heap: 
+1->20
+2->30
+SemaphoreTable:
+latchTable:
+lockTable:
+location: 1->value: 3location: 2->value: -1
+Program State: 
+ID: 1
+ExecStack: 
+NopStatement;NopStatement;NopStatement;lock(x);print(readHeap(v1));unlock(x);lock(q);print(readHeap(v2));unlock(q)
+NopStatement
+SymTable: 
+q->2
+x->1
+v1->(1,int)
+v2->(2,int)
+OutputList: 
+File table: 
+Heap: 
+1->20
+2->30
+SemaphoreTable:
+latchTable:
+lockTable:
+location: 1->value: 3location: 2->value: -1
+Program State: 
+ID: 2
+ExecStack: 
+writeHeap(v1,readHeap(v1)*10);unlock(x)
+lock(x)
+SymTable: 
+q->0
+x->1
+v1->(1,int)
+v2->(2,int)
+OutputList: 
+File table: 
+Heap: 
+1->20
+2->30
+SemaphoreTable:
+latchTable:
+lockTable:
+location: 1->value: 3location: 2->value: -1
+Program State: 
+ID: 3
+ExecStack: 
+unlock(x)
+writeHeap(v1,readHeap(v1)-1)
+SymTable: 
+q->0
+x->1
+v1->(1,int)
+v2->(2,int)
+OutputList: 
+File table: 
+Heap: 
+1->20
+2->30
+SemaphoreTable:
+latchTable:
+lockTable:
+location: 1->value: 3location: 2->value: -1
+Program State: 
+ID: 4
+ExecStack: 
+lock(q);writeHeap(v2,readHeap(v2)*10);unlock(q)
+fork(lock(q);writeHeap(v2,readHeap(v2)+5);unlock(q))
+SymTable: 
+q->2
+x->1
+v1->(1,int)
+v2->(2,int)
+OutputList: 
+File table: 
+Heap: 
+1->20
+2->30
+SemaphoreTable:
+latchTable:
+lockTable:
+location: 1->value: 3location: 2->value: -1
+Program State: 
+ID: 1
+ExecStack: 
+NopStatement;NopStatement;NopStatement;lock(x);print(readHeap(v1));unlock(x);lock(q);print(readHeap(v2));unlock(q)
+SymTable: 
+q->2
+x->1
+v1->(1,int)
+v2->(2,int)
+OutputList: 
+File table: 
+Heap: 
+1->19
+2->30
+SemaphoreTable:
+latchTable:
+lockTable:
+location: 1->value: 3location: 2->value: -1
+Program State: 
+ID: 2
+ExecStack: 
+writeHeap(v1,readHeap(v1)*10);unlock(x)
+lock(x)
+SymTable: 
+q->0
+x->1
+v1->(1,int)
+v2->(2,int)
+OutputList: 
+File table: 
+Heap: 
+1->19
+2->30
+SemaphoreTable:
+latchTable:
+lockTable:
+location: 1->value: 3location: 2->value: -1
+Program State: 
+ID: 3
+ExecStack: 
+unlock(x)
+SymTable: 
+q->0
+x->1
+v1->(1,int)
+v2->(2,int)
+OutputList: 
+File table: 
+Heap: 
+1->19
+2->30
+SemaphoreTable:
+latchTable:
+lockTable:
+location: 1->value: 3location: 2->value: -1
+Program State: 
+ID: 4
+ExecStack: 
+lock(q);writeHeap(v2,readHeap(v2)*10);unlock(q)
+SymTable: 
+q->2
+x->1
+v1->(1,int)
+v2->(2,int)
+OutputList: 
+File table: 
+Heap: 
+1->19
+2->30
+SemaphoreTable:
+latchTable:
+lockTable:
+location: 1->value: 3location: 2->value: -1
+Program State: 
+ID: 5
+ExecStack: 
+lock(q);writeHeap(v2,readHeap(v2)+5);unlock(q)
+SymTable: 
+q->2
+x->1
+v1->(1,int)
+v2->(2,int)
+OutputList: 
+File table: 
+Heap: 
+1->19
+2->30
+SemaphoreTable:
+latchTable:
+lockTable:
+location: 1->value: 3location: 2->value: -1
+Program State: 
+ID: 1
+ExecStack: 
+NopStatement;NopStatement;NopStatement;lock(x);print(readHeap(v1));unlock(x);lock(q);print(readHeap(v2));unlock(q)
+SymTable: 
+q->2
+x->1
+v1->(1,int)
+v2->(2,int)
+OutputList: 
+File table: 
+Heap: 
+1->19
+2->30
+SemaphoreTable:
+latchTable:
+lockTable:
+location: 1->value: 3location: 2->value: -1
+Program State: 
+ID: 2
+ExecStack: 
+writeHeap(v1,readHeap(v1)*10);unlock(x)
+lock(x)
+SymTable: 
+q->0
+x->1
+v1->(1,int)
+v2->(2,int)
+OutputList: 
+File table: 
+Heap: 
+1->19
+2->30
+SemaphoreTable:
+latchTable:
+lockTable:
+location: 1->value: 3location: 2->value: -1
+Program State: 
+ID: 3
+ExecStack: 
+unlock(x)
+SymTable: 
+q->0
+x->1
+v1->(1,int)
+v2->(2,int)
+OutputList: 
+File table: 
+Heap: 
+1->19
+2->30
+SemaphoreTable:
+latchTable:
+lockTable:
+location: 1->value: 3location: 2->value: -1
+Program State: 
+ID: 4
+ExecStack: 
+lock(q);writeHeap(v2,readHeap(v2)*10);unlock(q)
+SymTable: 
+q->2
+x->1
+v1->(1,int)
+v2->(2,int)
+OutputList: 
+File table: 
+Heap: 
+1->19
+2->30
+SemaphoreTable:
+latchTable:
+lockTable:
+location: 1->value: 3location: 2->value: -1
+Program State: 
+ID: 5
+ExecStack: 
+lock(q);writeHeap(v2,readHeap(v2)+5);unlock(q)
+SymTable: 
+q->2
+x->1
+v1->(1,int)
+v2->(2,int)
+OutputList: 
+File table: 
+Heap: 
+1->19
+2->30
+SemaphoreTable:
+latchTable:
+lockTable:
+location: 1->value: 3location: 2->value: -1
+Program State: 
+ID: 1
+ExecStack: 
+NopStatement;NopStatement;lock(x);print(readHeap(v1));unlock(x);lock(q);print(readHeap(v2));unlock(q)
+NopStatement
+SymTable: 
+q->2
+x->1
+v1->(1,int)
+v2->(2,int)
+OutputList: 
+File table: 
+Heap: 
+1->19
+2->30
+SemaphoreTable:
+latchTable:
+lockTable:
+location: 1->value: 2location: 2->value: -1
+Program State: 
+ID: 2
+ExecStack: 
+writeHeap(v1,readHeap(v1)*10);unlock(x)
+SymTable: 
+q->0
+x->1
+v1->(1,int)
+v2->(2,int)
+OutputList: 
+File table: 
+Heap: 
+1->19
+2->30
+SemaphoreTable:
+latchTable:
+lockTable:
+location: 1->value: 2location: 2->value: -1
+Program State: 
+ID: 3
+ExecStack: 
+SymTable: 
+q->0
+x->1
+v1->(1,int)
+v2->(2,int)
+OutputList: 
+File table: 
+Heap: 
+1->19
+2->30
+SemaphoreTable:
+latchTable:
+lockTable:
+location: 1->value: 2location: 2->value: -1
+Program State: 
+ID: 4
+ExecStack: 
+writeHeap(v2,readHeap(v2)*10);unlock(q)
+lock(q)
+SymTable: 
+q->2
+x->1
+v1->(1,int)
+v2->(2,int)
+OutputList: 
+File table: 
+Heap: 
+1->19
+2->30
+SemaphoreTable:
+latchTable:
+lockTable:
+location: 1->value: 2location: 2->value: -1
+Program State: 
+ID: 5
+ExecStack: 
+writeHeap(v2,readHeap(v2)+5);unlock(q)
+lock(q)
+SymTable: 
+q->2
+x->1
+v1->(1,int)
+v2->(2,int)
+OutputList: 
+File table: 
+Heap: 
+1->19
+2->30
+SemaphoreTable:
+latchTable:
+lockTable:
+location: 1->value: 2location: 2->value: -1
+Program State: 
+ID: 1
+ExecStack: 
+NopStatement;NopStatement;lock(x);print(readHeap(v1));unlock(x);lock(q);print(readHeap(v2));unlock(q)
+NopStatement
+SymTable: 
+q->2
+x->1
+v1->(1,int)
+v2->(2,int)
+OutputList: 
+File table: 
+Heap: 
+1->19
+2->30
+SemaphoreTable:
+latchTable:
+lockTable:
+location: 1->value: 2location: 2->value: -1
+Program State: 
+ID: 2
+ExecStack: 
+writeHeap(v1,readHeap(v1)*10);unlock(x)
+SymTable: 
+q->0
+x->1
+v1->(1,int)
+v2->(2,int)
+OutputList: 
+File table: 
+Heap: 
+1->19
+2->30
+SemaphoreTable:
+latchTable:
+lockTable:
+location: 1->value: 2location: 2->value: -1
+Program State: 
+ID: 4
+ExecStack: 
+writeHeap(v2,readHeap(v2)*10);unlock(q)
+lock(q)
+SymTable: 
+q->2
+x->1
+v1->(1,int)
+v2->(2,int)
+OutputList: 
+File table: 
+Heap: 
+1->19
+2->30
+SemaphoreTable:
+latchTable:
+lockTable:
+location: 1->value: 2location: 2->value: -1
+Program State: 
+ID: 5
+ExecStack: 
+writeHeap(v2,readHeap(v2)+5);unlock(q)
+lock(q)
+SymTable: 
+q->2
+x->1
+v1->(1,int)
+v2->(2,int)
+OutputList: 
+File table: 
+Heap: 
+1->19
+2->30
+SemaphoreTable:
+latchTable:
+lockTable:
+location: 1->value: 2location: 2->value: -1
+Program State: 
+ID: 1
+ExecStack: 
+NopStatement;NopStatement;lock(x);print(readHeap(v1));unlock(x);lock(q);print(readHeap(v2));unlock(q)
+SymTable: 
+q->2
+x->1
+v1->(1,int)
+v2->(2,int)
+OutputList: 
+File table: 
+Heap: 
+1->19
+2->30
+SemaphoreTable:
+latchTable:
+lockTable:
+location: 1->value: 2location: 2->value: 4
+Program State: 
+ID: 2
+ExecStack: 
+unlock(x)
+writeHeap(v1,readHeap(v1)*10)
+SymTable: 
+q->0
+x->1
+v1->(1,int)
+v2->(2,int)
+OutputList: 
+File table: 
+Heap: 
+1->19
+2->30
+SemaphoreTable:
+latchTable:
+lockTable:
+location: 1->value: 2location: 2->value: 4
+Program State: 
+ID: 4
+ExecStack: 
+writeHeap(v2,readHeap(v2)*10);unlock(q)
+SymTable: 
+q->2
+x->1
+v1->(1,int)
+v2->(2,int)
+OutputList: 
+File table: 
+Heap: 
+1->19
+2->30
+SemaphoreTable:
+latchTable:
+lockTable:
+location: 1->value: 2location: 2->value: 4
+Program State: 
+ID: 5
+ExecStack: 
+writeHeap(v2,readHeap(v2)+5);unlock(q)
+lock(q)
+SymTable: 
+q->2
+x->1
+v1->(1,int)
+v2->(2,int)
+OutputList: 
+File table: 
+Heap: 
+1->19
+2->30
+SemaphoreTable:
+latchTable:
+lockTable:
+location: 1->value: 2location: 2->value: 4
+Program State: 
+ID: 1
+ExecStack: 
+NopStatement;NopStatement;lock(x);print(readHeap(v1));unlock(x);lock(q);print(readHeap(v2));unlock(q)
+SymTable: 
+q->2
+x->1
+v1->(1,int)
+v2->(2,int)
+OutputList: 
+File table: 
+Heap: 
+1->19
+2->30
+SemaphoreTable:
+latchTable:
+lockTable:
+location: 1->value: 2location: 2->value: 4
+Program State: 
+ID: 2
+ExecStack: 
+unlock(x)
+writeHeap(v1,readHeap(v1)*10)
+SymTable: 
+q->0
+x->1
+v1->(1,int)
+v2->(2,int)
+OutputList: 
+File table: 
+Heap: 
+1->19
+2->30
+SemaphoreTable:
+latchTable:
+lockTable:
+location: 1->value: 2location: 2->value: 4
+Program State: 
+ID: 4
+ExecStack: 
+writeHeap(v2,readHeap(v2)*10);unlock(q)
+SymTable: 
+q->2
+x->1
+v1->(1,int)
+v2->(2,int)
+OutputList: 
+File table: 
+Heap: 
+1->19
+2->30
+SemaphoreTable:
+latchTable:
+lockTable:
+location: 1->value: 2location: 2->value: 4
+Program State: 
+ID: 5
+ExecStack: 
+writeHeap(v2,readHeap(v2)+5);unlock(q)
+lock(q)
+SymTable: 
+q->2
+x->1
+v1->(1,int)
+v2->(2,int)
+OutputList: 
+File table: 
+Heap: 
+1->19
+2->30
+SemaphoreTable:
+latchTable:
+lockTable:
+location: 1->value: 2location: 2->value: 4
+Program State: 
+ID: 1
+ExecStack: 
+NopStatement;lock(x);print(readHeap(v1));unlock(x);lock(q);print(readHeap(v2));unlock(q)
+NopStatement
+SymTable: 
+q->2
+x->1
+v1->(1,int)
+v2->(2,int)
+OutputList: 
+File table: 
+Heap: 
+1->190
+2->30
+SemaphoreTable:
+latchTable:
+lockTable:
+location: 1->value: 2location: 2->value: 4
+Program State: 
+ID: 2
+ExecStack: 
+unlock(x)
+SymTable: 
+q->0
+x->1
+v1->(1,int)
+v2->(2,int)
+OutputList: 
+File table: 
+Heap: 
+1->190
+2->30
+SemaphoreTable:
+latchTable:
+lockTable:
+location: 1->value: 2location: 2->value: 4
+Program State: 
+ID: 4
+ExecStack: 
+unlock(q)
+writeHeap(v2,readHeap(v2)*10)
+SymTable: 
+q->2
+x->1
+v1->(1,int)
+v2->(2,int)
+OutputList: 
+File table: 
+Heap: 
+1->190
+2->30
+SemaphoreTable:
+latchTable:
+lockTable:
+location: 1->value: 2location: 2->value: 4
+Program State: 
+ID: 5
+ExecStack: 
+writeHeap(v2,readHeap(v2)+5);unlock(q)
+lock(q)
+SymTable: 
+q->2
+x->1
+v1->(1,int)
+v2->(2,int)
+OutputList: 
+File table: 
+Heap: 
+1->190
+2->30
+SemaphoreTable:
+latchTable:
+lockTable:
+location: 1->value: 2location: 2->value: 4
+Program State: 
+ID: 1
+ExecStack: 
+NopStatement;lock(x);print(readHeap(v1));unlock(x);lock(q);print(readHeap(v2));unlock(q)
+NopStatement
+SymTable: 
+q->2
+x->1
+v1->(1,int)
+v2->(2,int)
+OutputList: 
+File table: 
+Heap: 
+1->190
+2->30
+SemaphoreTable:
+latchTable:
+lockTable:
+location: 1->value: 2location: 2->value: 4
+Program State: 
+ID: 2
+ExecStack: 
+unlock(x)
+SymTable: 
+q->0
+x->1
+v1->(1,int)
+v2->(2,int)
+OutputList: 
+File table: 
+Heap: 
+1->190
+2->30
+SemaphoreTable:
+latchTable:
+lockTable:
+location: 1->value: 2location: 2->value: 4
+Program State: 
+ID: 4
+ExecStack: 
+unlock(q)
+writeHeap(v2,readHeap(v2)*10)
+SymTable: 
+q->2
+x->1
+v1->(1,int)
+v2->(2,int)
+OutputList: 
+File table: 
+Heap: 
+1->190
+2->30
+SemaphoreTable:
+latchTable:
+lockTable:
+location: 1->value: 2location: 2->value: 4
+Program State: 
+ID: 5
+ExecStack: 
+writeHeap(v2,readHeap(v2)+5);unlock(q)
+lock(q)
+SymTable: 
+q->2
+x->1
+v1->(1,int)
+v2->(2,int)
+OutputList: 
+File table: 
+Heap: 
+1->190
+2->30
+SemaphoreTable:
+latchTable:
+lockTable:
+location: 1->value: 2location: 2->value: 4
+Program State: 
+ID: 1
+ExecStack: 
+NopStatement;lock(x);print(readHeap(v1));unlock(x);lock(q);print(readHeap(v2));unlock(q)
+SymTable: 
+q->2
+x->1
+v1->(1,int)
+v2->(2,int)
+OutputList: 
+File table: 
+Heap: 
+1->190
+2->300
+SemaphoreTable:
+latchTable:
+lockTable:
+location: 1->value: -1location: 2->value: 4
+Program State: 
+ID: 2
+ExecStack: 
+SymTable: 
+q->0
+x->1
+v1->(1,int)
+v2->(2,int)
+OutputList: 
+File table: 
+Heap: 
+1->190
+2->300
+SemaphoreTable:
+latchTable:
+lockTable:
+location: 1->value: -1location: 2->value: 4
+Program State: 
+ID: 4
+ExecStack: 
+unlock(q)
+SymTable: 
+q->2
+x->1
+v1->(1,int)
+v2->(2,int)
+OutputList: 
+File table: 
+Heap: 
+1->190
+2->300
+SemaphoreTable:
+latchTable:
+lockTable:
+location: 1->value: -1location: 2->value: 4
+Program State: 
+ID: 5
+ExecStack: 
+writeHeap(v2,readHeap(v2)+5);unlock(q)
+lock(q)
+SymTable: 
+q->2
+x->1
+v1->(1,int)
+v2->(2,int)
+OutputList: 
+File table: 
+Heap: 
+1->190
+2->300
+SemaphoreTable:
+latchTable:
+lockTable:
+location: 1->value: -1location: 2->value: 4
+Program State: 
+ID: 1
+ExecStack: 
+NopStatement;lock(x);print(readHeap(v1));unlock(x);lock(q);print(readHeap(v2));unlock(q)
+SymTable: 
+q->2
+x->1
+v1->(1,int)
+v2->(2,int)
+OutputList: 
+File table: 
+Heap: 
+1->190
+2->300
+SemaphoreTable:
+latchTable:
+lockTable:
+location: 1->value: -1location: 2->value: 4
+Program State: 
+ID: 4
+ExecStack: 
+unlock(q)
+SymTable: 
+q->2
+x->1
+v1->(1,int)
+v2->(2,int)
+OutputList: 
+File table: 
+Heap: 
+1->190
+2->300
+SemaphoreTable:
+latchTable:
+lockTable:
+location: 1->value: -1location: 2->value: 4
+Program State: 
+ID: 5
+ExecStack: 
+writeHeap(v2,readHeap(v2)+5);unlock(q)
+lock(q)
+SymTable: 
+q->2
+x->1
+v1->(1,int)
+v2->(2,int)
+OutputList: 
+File table: 
+Heap: 
+1->190
+2->300
+SemaphoreTable:
+latchTable:
+lockTable:
+location: 1->value: -1location: 2->value: 4
+Program State: 
+ID: 1
+ExecStack: 
+lock(x);print(readHeap(v1));unlock(x);lock(q);print(readHeap(v2));unlock(q)
+NopStatement
+SymTable: 
+q->2
+x->1
+v1->(1,int)
+v2->(2,int)
+OutputList: 
+File table: 
+Heap: 
+1->190
+2->300
+SemaphoreTable:
+latchTable:
+lockTable:
+location: 1->value: -1location: 2->value: -1
+Program State: 
+ID: 4
+ExecStack: 
+SymTable: 
+q->2
+x->1
+v1->(1,int)
+v2->(2,int)
+OutputList: 
+File table: 
+Heap: 
+1->190
+2->300
+SemaphoreTable:
+latchTable:
+lockTable:
+location: 1->value: -1location: 2->value: -1
+Program State: 
+ID: 5
+ExecStack: 
+writeHeap(v2,readHeap(v2)+5);unlock(q)
+lock(q)
+SymTable: 
+q->2
+x->1
+v1->(1,int)
+v2->(2,int)
+OutputList: 
+File table: 
+Heap: 
+1->190
+2->300
+SemaphoreTable:
+latchTable:
+lockTable:
+location: 1->value: -1location: 2->value: -1
+Program State: 
+ID: 1
+ExecStack: 
+lock(x);print(readHeap(v1));unlock(x);lock(q);print(readHeap(v2));unlock(q)
+NopStatement
+SymTable: 
+q->2
+x->1
+v1->(1,int)
+v2->(2,int)
+OutputList: 
+File table: 
+Heap: 
+1->190
+2->300
+SemaphoreTable:
+latchTable:
+lockTable:
+location: 1->value: -1location: 2->value: -1
+Program State: 
+ID: 5
+ExecStack: 
+writeHeap(v2,readHeap(v2)+5);unlock(q)
+lock(q)
+SymTable: 
+q->2
+x->1
+v1->(1,int)
+v2->(2,int)
+OutputList: 
+File table: 
+Heap: 
+1->190
+2->300
+SemaphoreTable:
+latchTable:
+lockTable:
+location: 1->value: -1location: 2->value: -1
+Program State: 
+ID: 1
+ExecStack: 
+lock(x);print(readHeap(v1));unlock(x);lock(q);print(readHeap(v2));unlock(q)
+SymTable: 
+q->2
+x->1
+v1->(1,int)
+v2->(2,int)
+OutputList: 
+File table: 
+Heap: 
+1->190
+2->300
+SemaphoreTable:
+latchTable:
+lockTable:
+location: 1->value: -1location: 2->value: 5
+Program State: 
+ID: 5
+ExecStack: 
+writeHeap(v2,readHeap(v2)+5);unlock(q)
+SymTable: 
+q->2
+x->1
+v1->(1,int)
+v2->(2,int)
+OutputList: 
+File table: 
+Heap: 
+1->190
+2->300
+SemaphoreTable:
+latchTable:
+lockTable:
+location: 1->value: -1location: 2->value: 5
+Program State: 
+ID: 1
+ExecStack: 
+lock(x);print(readHeap(v1));unlock(x);lock(q);print(readHeap(v2));unlock(q)
+SymTable: 
+q->2
+x->1
+v1->(1,int)
+v2->(2,int)
+OutputList: 
+File table: 
+Heap: 
+1->190
+2->300
+SemaphoreTable:
+latchTable:
+lockTable:
+location: 1->value: -1location: 2->value: 5
+Program State: 
+ID: 5
+ExecStack: 
+writeHeap(v2,readHeap(v2)+5);unlock(q)
+SymTable: 
+q->2
+x->1
+v1->(1,int)
+v2->(2,int)
+OutputList: 
+File table: 
+Heap: 
+1->190
+2->300
+SemaphoreTable:
+latchTable:
+lockTable:
+location: 1->value: -1location: 2->value: 5
+Program State: 
+ID: 1
+ExecStack: 
+print(readHeap(v1));unlock(x);lock(q);print(readHeap(v2));unlock(q)
+lock(x)
+SymTable: 
+q->2
+x->1
+v1->(1,int)
+v2->(2,int)
+OutputList: 
+File table: 
+Heap: 
+1->190
+2->300
+SemaphoreTable:
+latchTable:
+lockTable:
+location: 1->value: -1location: 2->value: 5
+Program State: 
+ID: 5
+ExecStack: 
+unlock(q)
+writeHeap(v2,readHeap(v2)+5)
+SymTable: 
+q->2
+x->1
+v1->(1,int)
+v2->(2,int)
+OutputList: 
+File table: 
+Heap: 
+1->190
+2->300
+SemaphoreTable:
+latchTable:
+lockTable:
+location: 1->value: -1location: 2->value: 5
+Program State: 
+ID: 1
+ExecStack: 
+print(readHeap(v1));unlock(x);lock(q);print(readHeap(v2));unlock(q)
+lock(x)
+SymTable: 
+q->2
+x->1
+v1->(1,int)
+v2->(2,int)
+OutputList: 
+File table: 
+Heap: 
+1->190
+2->300
+SemaphoreTable:
+latchTable:
+lockTable:
+location: 1->value: -1location: 2->value: 5
+Program State: 
+ID: 5
+ExecStack: 
+unlock(q)
+writeHeap(v2,readHeap(v2)+5)
+SymTable: 
+q->2
+x->1
+v1->(1,int)
+v2->(2,int)
+OutputList: 
+File table: 
+Heap: 
+1->190
+2->300
+SemaphoreTable:
+latchTable:
+lockTable:
+location: 1->value: -1location: 2->value: 5
+Program State: 
+ID: 1
+ExecStack: 
+print(readHeap(v1));unlock(x);lock(q);print(readHeap(v2));unlock(q)
+SymTable: 
+q->2
+x->1
+v1->(1,int)
+v2->(2,int)
+OutputList: 
+File table: 
+Heap: 
+1->190
+2->305
+SemaphoreTable:
+latchTable:
+lockTable:
+location: 1->value: 1location: 2->value: 5
+Program State: 
+ID: 5
+ExecStack: 
+unlock(q)
+SymTable: 
+q->2
+x->1
+v1->(1,int)
+v2->(2,int)
+OutputList: 
+File table: 
+Heap: 
+1->190
+2->305
+SemaphoreTable:
+latchTable:
+lockTable:
+location: 1->value: 1location: 2->value: 5
+Program State: 
+ID: 1
+ExecStack: 
+print(readHeap(v1));unlock(x);lock(q);print(readHeap(v2));unlock(q)
+SymTable: 
+q->2
+x->1
+v1->(1,int)
+v2->(2,int)
+OutputList: 
+File table: 
+Heap: 
+1->190
+2->305
+SemaphoreTable:
+latchTable:
+lockTable:
+location: 1->value: 1location: 2->value: 5
+Program State: 
+ID: 5
+ExecStack: 
+unlock(q)
+SymTable: 
+q->2
+x->1
+v1->(1,int)
+v2->(2,int)
+OutputList: 
+File table: 
+Heap: 
+1->190
+2->305
+SemaphoreTable:
+latchTable:
+lockTable:
+location: 1->value: 1location: 2->value: 5
+Program State: 
+ID: 1
+ExecStack: 
+unlock(x);lock(q);print(readHeap(v2));unlock(q)
+print(readHeap(v1))
+SymTable: 
+q->2
+x->1
+v1->(1,int)
+v2->(2,int)
+OutputList: 
+File table: 
+Heap: 
+1->190
+2->305
+SemaphoreTable:
+latchTable:
+lockTable:
+location: 1->value: 1location: 2->value: -1
+Program State: 
+ID: 5
+ExecStack: 
+SymTable: 
+q->2
+x->1
+v1->(1,int)
+v2->(2,int)
+OutputList: 
+File table: 
+Heap: 
+1->190
+2->305
+SemaphoreTable:
+latchTable:
+lockTable:
+location: 1->value: 1location: 2->value: -1
+Program State: 
+ID: 1
+ExecStack: 
+unlock(x);lock(q);print(readHeap(v2));unlock(q)
+print(readHeap(v1))
+SymTable: 
+q->2
+x->1
+v1->(1,int)
+v2->(2,int)
+OutputList: 
+File table: 
+Heap: 
+1->190
+2->305
+SemaphoreTable:
+latchTable:
+lockTable:
+location: 1->value: 1location: 2->value: -1
+Program State: 
+ID: 1
+ExecStack: 
+unlock(x);lock(q);print(readHeap(v2));unlock(q)
+SymTable: 
+q->2
+x->1
+v1->(1,int)
+v2->(2,int)
+OutputList: 
+190
+File table: 
+Heap: 
+1->190
+2->305
+SemaphoreTable:
+latchTable:
+lockTable:
+location: 1->value: 1location: 2->value: -1
+Program State: 
+ID: 1
+ExecStack: 
+unlock(x);lock(q);print(readHeap(v2));unlock(q)
+SymTable: 
+q->2
+x->1
+v1->(1,int)
+v2->(2,int)
+OutputList: 
+190
+File table: 
+Heap: 
+1->190
+2->305
+SemaphoreTable:
+latchTable:
+lockTable:
+location: 1->value: 1location: 2->value: -1
+Program State: 
+ID: 1
+ExecStack: 
+lock(q);print(readHeap(v2));unlock(q)
+unlock(x)
+SymTable: 
+q->2
+x->1
+v1->(1,int)
+v2->(2,int)
+OutputList: 
+190
+File table: 
+Heap: 
+1->190
+2->305
+SemaphoreTable:
+latchTable:
+lockTable:
+location: 1->value: 1location: 2->value: -1
+Program State: 
+ID: 1
+ExecStack: 
+lock(q);print(readHeap(v2));unlock(q)
+unlock(x)
+SymTable: 
+q->2
+x->1
+v1->(1,int)
+v2->(2,int)
+OutputList: 
+190
+File table: 
+Heap: 
+1->190
+2->305
+SemaphoreTable:
+latchTable:
+lockTable:
+location: 1->value: 1location: 2->value: -1
+Program State: 
+ID: 1
+ExecStack: 
+lock(q);print(readHeap(v2));unlock(q)
+SymTable: 
+q->2
+x->1
+v1->(1,int)
+v2->(2,int)
+OutputList: 
+190
+File table: 
+Heap: 
+1->190
+2->305
+SemaphoreTable:
+latchTable:
+lockTable:
+location: 1->value: -1location: 2->value: -1
+Program State: 
+ID: 1
+ExecStack: 
+lock(q);print(readHeap(v2));unlock(q)
+SymTable: 
+q->2
+x->1
+v1->(1,int)
+v2->(2,int)
+OutputList: 
+190
+File table: 
+Heap: 
+1->190
+2->305
+SemaphoreTable:
+latchTable:
+lockTable:
+location: 1->value: -1location: 2->value: -1
+Program State: 
+ID: 1
+ExecStack: 
+print(readHeap(v2));unlock(q)
+lock(q)
+SymTable: 
+q->2
+x->1
+v1->(1,int)
+v2->(2,int)
+OutputList: 
+190
+File table: 
+Heap: 
+1->190
+2->305
+SemaphoreTable:
+latchTable:
+lockTable:
+location: 1->value: -1location: 2->value: -1
+Program State: 
+ID: 1
+ExecStack: 
+print(readHeap(v2));unlock(q)
+lock(q)
+SymTable: 
+q->2
+x->1
+v1->(1,int)
+v2->(2,int)
+OutputList: 
+190
+File table: 
+Heap: 
+1->190
+2->305
+SemaphoreTable:
+latchTable:
+lockTable:
+location: 1->value: -1location: 2->value: -1
+Program State: 
+ID: 1
+ExecStack: 
+print(readHeap(v2));unlock(q)
+SymTable: 
+q->2
+x->1
+v1->(1,int)
+v2->(2,int)
+OutputList: 
+190
+File table: 
+Heap: 
+1->190
+2->305
+SemaphoreTable:
+latchTable:
+lockTable:
+location: 1->value: -1location: 2->value: 1
+Program State: 
+ID: 1
+ExecStack: 
+print(readHeap(v2));unlock(q)
+SymTable: 
+q->2
+x->1
+v1->(1,int)
+v2->(2,int)
+OutputList: 
+190
+File table: 
+Heap: 
+1->190
+2->305
+SemaphoreTable:
+latchTable:
+lockTable:
+location: 1->value: -1location: 2->value: 1
+Program State: 
+ID: 1
+ExecStack: 
+unlock(q)
+print(readHeap(v2))
+SymTable: 
+q->2
+x->1
+v1->(1,int)
+v2->(2,int)
+OutputList: 
+190
+File table: 
+Heap: 
+1->190
+2->305
+SemaphoreTable:
+latchTable:
+lockTable:
+location: 1->value: -1location: 2->value: 1
+Program State: 
+ID: 1
+ExecStack: 
+unlock(q)
+print(readHeap(v2))
+SymTable: 
+q->2
+x->1
+v1->(1,int)
+v2->(2,int)
+OutputList: 
+190
+File table: 
+Heap: 
+1->190
+2->305
+SemaphoreTable:
+latchTable:
+lockTable:
+location: 1->value: -1location: 2->value: 1
+Program State: 
+ID: 1
+ExecStack: 
+unlock(q)
+SymTable: 
+q->2
+x->1
+v1->(1,int)
+v2->(2,int)
+OutputList: 
+190
+305
+File table: 
+Heap: 
+1->190
+2->305
+SemaphoreTable:
+latchTable:
+lockTable:
+location: 1->value: -1location: 2->value: 1
+Program State: 
+ID: 1
+ExecStack: 
+unlock(q)
+SymTable: 
+q->2
+x->1
+v1->(1,int)
+v2->(2,int)
+OutputList: 
+190
+305
+File table: 
+Heap: 
+1->190
+2->305
+SemaphoreTable:
+latchTable:
+lockTable:
+location: 1->value: -1location: 2->value: 1
+Program State: 
+ID: 1
+ExecStack: 
+SymTable: 
+q->2
+x->1
+v1->(1,int)
+v2->(2,int)
+OutputList: 
+190
+305
+File table: 
+Heap: 
+1->190
+2->305
+SemaphoreTable:
+latchTable:
+lockTable:
+location: 1->value: -1location: 2->value: -1

@@ -1,0 +1,684 @@
+Program State: 
+ID: 1
+ExecStack: 
+ref int a;ref int b;int v;new(a,0);new(b,0);writeHeap(a,1);writeHeap(b,2);v=readHeap(a)<readHeap(b)?100:200;print(v);v=readHeap(b)-2>readHeap(a)?100:200;print(v)
+SymTable: 
+OutputList: 
+File table: 
+Heap: 
+
+Program State: 
+ID: 1
+ExecStack: 
+ref int b;int v;new(a,0);new(b,0);writeHeap(a,1);writeHeap(b,2);v=readHeap(a)<readHeap(b)?100:200;print(v);v=readHeap(b)-2>readHeap(a)?100:200;print(v)
+ref int a
+SymTable: 
+OutputList: 
+File table: 
+Heap: 
+
+Program State: 
+ID: 1
+ExecStack: 
+ref int b;int v;new(a,0);new(b,0);writeHeap(a,1);writeHeap(b,2);v=readHeap(a)<readHeap(b)?100:200;print(v);v=readHeap(b)-2>readHeap(a)?100:200;print(v)
+ref int a
+SymTable: 
+OutputList: 
+File table: 
+Heap: 
+
+Program State: 
+ID: 1
+ExecStack: 
+ref int b;int v;new(a,0);new(b,0);writeHeap(a,1);writeHeap(b,2);v=readHeap(a)<readHeap(b)?100:200;print(v);v=readHeap(b)-2>readHeap(a)?100:200;print(v)
+SymTable: 
+a->(0,int)
+OutputList: 
+File table: 
+Heap: 
+
+Program State: 
+ID: 1
+ExecStack: 
+ref int b;int v;new(a,0);new(b,0);writeHeap(a,1);writeHeap(b,2);v=readHeap(a)<readHeap(b)?100:200;print(v);v=readHeap(b)-2>readHeap(a)?100:200;print(v)
+SymTable: 
+a->(0,int)
+OutputList: 
+File table: 
+Heap: 
+
+Program State: 
+ID: 1
+ExecStack: 
+int v;new(a,0);new(b,0);writeHeap(a,1);writeHeap(b,2);v=readHeap(a)<readHeap(b)?100:200;print(v);v=readHeap(b)-2>readHeap(a)?100:200;print(v)
+ref int b
+SymTable: 
+a->(0,int)
+OutputList: 
+File table: 
+Heap: 
+
+Program State: 
+ID: 1
+ExecStack: 
+int v;new(a,0);new(b,0);writeHeap(a,1);writeHeap(b,2);v=readHeap(a)<readHeap(b)?100:200;print(v);v=readHeap(b)-2>readHeap(a)?100:200;print(v)
+ref int b
+SymTable: 
+a->(0,int)
+OutputList: 
+File table: 
+Heap: 
+
+Program State: 
+ID: 1
+ExecStack: 
+int v;new(a,0);new(b,0);writeHeap(a,1);writeHeap(b,2);v=readHeap(a)<readHeap(b)?100:200;print(v);v=readHeap(b)-2>readHeap(a)?100:200;print(v)
+SymTable: 
+a->(0,int)
+b->(0,int)
+OutputList: 
+File table: 
+Heap: 
+
+Program State: 
+ID: 1
+ExecStack: 
+int v;new(a,0);new(b,0);writeHeap(a,1);writeHeap(b,2);v=readHeap(a)<readHeap(b)?100:200;print(v);v=readHeap(b)-2>readHeap(a)?100:200;print(v)
+SymTable: 
+a->(0,int)
+b->(0,int)
+OutputList: 
+File table: 
+Heap: 
+
+Program State: 
+ID: 1
+ExecStack: 
+new(a,0);new(b,0);writeHeap(a,1);writeHeap(b,2);v=readHeap(a)<readHeap(b)?100:200;print(v);v=readHeap(b)-2>readHeap(a)?100:200;print(v)
+int v
+SymTable: 
+a->(0,int)
+b->(0,int)
+OutputList: 
+File table: 
+Heap: 
+
+Program State: 
+ID: 1
+ExecStack: 
+new(a,0);new(b,0);writeHeap(a,1);writeHeap(b,2);v=readHeap(a)<readHeap(b)?100:200;print(v);v=readHeap(b)-2>readHeap(a)?100:200;print(v)
+int v
+SymTable: 
+a->(0,int)
+b->(0,int)
+OutputList: 
+File table: 
+Heap: 
+
+Program State: 
+ID: 1
+ExecStack: 
+new(a,0);new(b,0);writeHeap(a,1);writeHeap(b,2);v=readHeap(a)<readHeap(b)?100:200;print(v);v=readHeap(b)-2>readHeap(a)?100:200;print(v)
+SymTable: 
+a->(0,int)
+b->(0,int)
+v->0
+OutputList: 
+File table: 
+Heap: 
+
+Program State: 
+ID: 1
+ExecStack: 
+new(a,0);new(b,0);writeHeap(a,1);writeHeap(b,2);v=readHeap(a)<readHeap(b)?100:200;print(v);v=readHeap(b)-2>readHeap(a)?100:200;print(v)
+SymTable: 
+a->(0,int)
+b->(0,int)
+v->0
+OutputList: 
+File table: 
+Heap: 
+
+Program State: 
+ID: 1
+ExecStack: 
+new(b,0);writeHeap(a,1);writeHeap(b,2);v=readHeap(a)<readHeap(b)?100:200;print(v);v=readHeap(b)-2>readHeap(a)?100:200;print(v)
+new(a,0)
+SymTable: 
+a->(0,int)
+b->(0,int)
+v->0
+OutputList: 
+File table: 
+Heap: 
+
+Program State: 
+ID: 1
+ExecStack: 
+new(b,0);writeHeap(a,1);writeHeap(b,2);v=readHeap(a)<readHeap(b)?100:200;print(v);v=readHeap(b)-2>readHeap(a)?100:200;print(v)
+new(a,0)
+SymTable: 
+a->(0,int)
+b->(0,int)
+v->0
+OutputList: 
+File table: 
+Heap: 
+
+Program State: 
+ID: 1
+ExecStack: 
+new(b,0);writeHeap(a,1);writeHeap(b,2);v=readHeap(a)<readHeap(b)?100:200;print(v);v=readHeap(b)-2>readHeap(a)?100:200;print(v)
+SymTable: 
+a->(1,int)
+b->(0,int)
+v->0
+OutputList: 
+File table: 
+Heap: 
+1->0
+
+Program State: 
+ID: 1
+ExecStack: 
+new(b,0);writeHeap(a,1);writeHeap(b,2);v=readHeap(a)<readHeap(b)?100:200;print(v);v=readHeap(b)-2>readHeap(a)?100:200;print(v)
+SymTable: 
+a->(1,int)
+b->(0,int)
+v->0
+OutputList: 
+File table: 
+Heap: 
+1->0
+
+Program State: 
+ID: 1
+ExecStack: 
+writeHeap(a,1);writeHeap(b,2);v=readHeap(a)<readHeap(b)?100:200;print(v);v=readHeap(b)-2>readHeap(a)?100:200;print(v)
+new(b,0)
+SymTable: 
+a->(1,int)
+b->(0,int)
+v->0
+OutputList: 
+File table: 
+Heap: 
+1->0
+
+Program State: 
+ID: 1
+ExecStack: 
+writeHeap(a,1);writeHeap(b,2);v=readHeap(a)<readHeap(b)?100:200;print(v);v=readHeap(b)-2>readHeap(a)?100:200;print(v)
+new(b,0)
+SymTable: 
+a->(1,int)
+b->(0,int)
+v->0
+OutputList: 
+File table: 
+Heap: 
+1->0
+
+Program State: 
+ID: 1
+ExecStack: 
+writeHeap(a,1);writeHeap(b,2);v=readHeap(a)<readHeap(b)?100:200;print(v);v=readHeap(b)-2>readHeap(a)?100:200;print(v)
+SymTable: 
+a->(1,int)
+b->(2,int)
+v->0
+OutputList: 
+File table: 
+Heap: 
+1->0
+2->0
+
+Program State: 
+ID: 1
+ExecStack: 
+writeHeap(a,1);writeHeap(b,2);v=readHeap(a)<readHeap(b)?100:200;print(v);v=readHeap(b)-2>readHeap(a)?100:200;print(v)
+SymTable: 
+a->(1,int)
+b->(2,int)
+v->0
+OutputList: 
+File table: 
+Heap: 
+1->0
+2->0
+
+Program State: 
+ID: 1
+ExecStack: 
+writeHeap(b,2);v=readHeap(a)<readHeap(b)?100:200;print(v);v=readHeap(b)-2>readHeap(a)?100:200;print(v)
+writeHeap(a,1)
+SymTable: 
+a->(1,int)
+b->(2,int)
+v->0
+OutputList: 
+File table: 
+Heap: 
+1->0
+2->0
+
+Program State: 
+ID: 1
+ExecStack: 
+writeHeap(b,2);v=readHeap(a)<readHeap(b)?100:200;print(v);v=readHeap(b)-2>readHeap(a)?100:200;print(v)
+writeHeap(a,1)
+SymTable: 
+a->(1,int)
+b->(2,int)
+v->0
+OutputList: 
+File table: 
+Heap: 
+1->0
+2->0
+
+Program State: 
+ID: 1
+ExecStack: 
+writeHeap(b,2);v=readHeap(a)<readHeap(b)?100:200;print(v);v=readHeap(b)-2>readHeap(a)?100:200;print(v)
+SymTable: 
+a->(1,int)
+b->(2,int)
+v->0
+OutputList: 
+File table: 
+Heap: 
+1->1
+2->0
+
+Program State: 
+ID: 1
+ExecStack: 
+writeHeap(b,2);v=readHeap(a)<readHeap(b)?100:200;print(v);v=readHeap(b)-2>readHeap(a)?100:200;print(v)
+SymTable: 
+a->(1,int)
+b->(2,int)
+v->0
+OutputList: 
+File table: 
+Heap: 
+1->1
+2->0
+
+Program State: 
+ID: 1
+ExecStack: 
+v=readHeap(a)<readHeap(b)?100:200;print(v);v=readHeap(b)-2>readHeap(a)?100:200;print(v)
+writeHeap(b,2)
+SymTable: 
+a->(1,int)
+b->(2,int)
+v->0
+OutputList: 
+File table: 
+Heap: 
+1->1
+2->0
+
+Program State: 
+ID: 1
+ExecStack: 
+v=readHeap(a)<readHeap(b)?100:200;print(v);v=readHeap(b)-2>readHeap(a)?100:200;print(v)
+writeHeap(b,2)
+SymTable: 
+a->(1,int)
+b->(2,int)
+v->0
+OutputList: 
+File table: 
+Heap: 
+1->1
+2->0
+
+Program State: 
+ID: 1
+ExecStack: 
+v=readHeap(a)<readHeap(b)?100:200;print(v);v=readHeap(b)-2>readHeap(a)?100:200;print(v)
+SymTable: 
+a->(1,int)
+b->(2,int)
+v->0
+OutputList: 
+File table: 
+Heap: 
+1->1
+2->2
+
+Program State: 
+ID: 1
+ExecStack: 
+v=readHeap(a)<readHeap(b)?100:200;print(v);v=readHeap(b)-2>readHeap(a)?100:200;print(v)
+SymTable: 
+a->(1,int)
+b->(2,int)
+v->0
+OutputList: 
+File table: 
+Heap: 
+1->1
+2->2
+
+Program State: 
+ID: 1
+ExecStack: 
+print(v);v=readHeap(b)-2>readHeap(a)?100:200;print(v)
+v=readHeap(a)<readHeap(b)?100:200
+SymTable: 
+a->(1,int)
+b->(2,int)
+v->0
+OutputList: 
+File table: 
+Heap: 
+1->1
+2->2
+
+Program State: 
+ID: 1
+ExecStack: 
+print(v);v=readHeap(b)-2>readHeap(a)?100:200;print(v)
+v=readHeap(a)<readHeap(b)?100:200
+SymTable: 
+a->(1,int)
+b->(2,int)
+v->0
+OutputList: 
+File table: 
+Heap: 
+1->1
+2->2
+
+Program State: 
+ID: 1
+ExecStack: 
+print(v);v=readHeap(b)-2>readHeap(a)?100:200;print(v)
+IF(readHeap(a)<readHeap(b)) THEN {v=100} ELSE {v=200}
+SymTable: 
+a->(1,int)
+b->(2,int)
+v->0
+OutputList: 
+File table: 
+Heap: 
+1->1
+2->2
+
+Program State: 
+ID: 1
+ExecStack: 
+print(v);v=readHeap(b)-2>readHeap(a)?100:200;print(v)
+IF(readHeap(a)<readHeap(b)) THEN {v=100} ELSE {v=200}
+SymTable: 
+a->(1,int)
+b->(2,int)
+v->0
+OutputList: 
+File table: 
+Heap: 
+1->1
+2->2
+
+Program State: 
+ID: 1
+ExecStack: 
+print(v);v=readHeap(b)-2>readHeap(a)?100:200;print(v)
+v=100
+SymTable: 
+a->(1,int)
+b->(2,int)
+v->0
+OutputList: 
+File table: 
+Heap: 
+1->1
+2->2
+
+Program State: 
+ID: 1
+ExecStack: 
+print(v);v=readHeap(b)-2>readHeap(a)?100:200;print(v)
+v=100
+SymTable: 
+a->(1,int)
+b->(2,int)
+v->0
+OutputList: 
+File table: 
+Heap: 
+1->1
+2->2
+
+Program State: 
+ID: 1
+ExecStack: 
+print(v);v=readHeap(b)-2>readHeap(a)?100:200;print(v)
+SymTable: 
+a->(1,int)
+b->(2,int)
+v->100
+OutputList: 
+File table: 
+Heap: 
+1->1
+2->2
+
+Program State: 
+ID: 1
+ExecStack: 
+print(v);v=readHeap(b)-2>readHeap(a)?100:200;print(v)
+SymTable: 
+a->(1,int)
+b->(2,int)
+v->100
+OutputList: 
+File table: 
+Heap: 
+1->1
+2->2
+
+Program State: 
+ID: 1
+ExecStack: 
+v=readHeap(b)-2>readHeap(a)?100:200;print(v)
+print(v)
+SymTable: 
+a->(1,int)
+b->(2,int)
+v->100
+OutputList: 
+File table: 
+Heap: 
+1->1
+2->2
+
+Program State: 
+ID: 1
+ExecStack: 
+v=readHeap(b)-2>readHeap(a)?100:200;print(v)
+print(v)
+SymTable: 
+a->(1,int)
+b->(2,int)
+v->100
+OutputList: 
+File table: 
+Heap: 
+1->1
+2->2
+
+Program State: 
+ID: 1
+ExecStack: 
+v=readHeap(b)-2>readHeap(a)?100:200;print(v)
+SymTable: 
+a->(1,int)
+b->(2,int)
+v->100
+OutputList: 
+100
+File table: 
+Heap: 
+1->1
+2->2
+
+Program State: 
+ID: 1
+ExecStack: 
+v=readHeap(b)-2>readHeap(a)?100:200;print(v)
+SymTable: 
+a->(1,int)
+b->(2,int)
+v->100
+OutputList: 
+100
+File table: 
+Heap: 
+1->1
+2->2
+
+Program State: 
+ID: 1
+ExecStack: 
+print(v)
+v=readHeap(b)-2>readHeap(a)?100:200
+SymTable: 
+a->(1,int)
+b->(2,int)
+v->100
+OutputList: 
+100
+File table: 
+Heap: 
+1->1
+2->2
+
+Program State: 
+ID: 1
+ExecStack: 
+print(v)
+v=readHeap(b)-2>readHeap(a)?100:200
+SymTable: 
+a->(1,int)
+b->(2,int)
+v->100
+OutputList: 
+100
+File table: 
+Heap: 
+1->1
+2->2
+
+Program State: 
+ID: 1
+ExecStack: 
+print(v)
+IF(readHeap(b)-2>readHeap(a)) THEN {v=100} ELSE {v=200}
+SymTable: 
+a->(1,int)
+b->(2,int)
+v->100
+OutputList: 
+100
+File table: 
+Heap: 
+1->1
+2->2
+
+Program State: 
+ID: 1
+ExecStack: 
+print(v)
+IF(readHeap(b)-2>readHeap(a)) THEN {v=100} ELSE {v=200}
+SymTable: 
+a->(1,int)
+b->(2,int)
+v->100
+OutputList: 
+100
+File table: 
+Heap: 
+1->1
+2->2
+
+Program State: 
+ID: 1
+ExecStack: 
+print(v)
+v=200
+SymTable: 
+a->(1,int)
+b->(2,int)
+v->100
+OutputList: 
+100
+File table: 
+Heap: 
+1->1
+2->2
+
+Program State: 
+ID: 1
+ExecStack: 
+print(v)
+v=200
+SymTable: 
+a->(1,int)
+b->(2,int)
+v->100
+OutputList: 
+100
+File table: 
+Heap: 
+1->1
+2->2
+
+Program State: 
+ID: 1
+ExecStack: 
+print(v)
+SymTable: 
+a->(1,int)
+b->(2,int)
+v->200
+OutputList: 
+100
+File table: 
+Heap: 
+1->1
+2->2
+
+Program State: 
+ID: 1
+ExecStack: 
+print(v)
+SymTable: 
+a->(1,int)
+b->(2,int)
+v->200
+OutputList: 
+100
+File table: 
+Heap: 
+1->1
+2->2
+
+Program State: 
+ID: 1
+ExecStack: 
+SymTable: 
+a->(1,int)
+b->(2,int)
+v->200
+OutputList: 
+100
+200
+File table: 
+Heap: 
+1->1
+2->2
+
