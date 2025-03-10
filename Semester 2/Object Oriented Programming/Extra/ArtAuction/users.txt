@@ -1,0 +1,3 @@
+Alice|101|colectioner
+Bob|102|admin
+Charlie|103|admin

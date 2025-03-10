@@ -1,0 +1,10 @@
+weird|Calea turzii,18|20.000000,20.000000|delivered|
+okaay|rf,5|69.000000,-69.000000|not delivered|
+hey|Vlahuta,5|-10.000000,19.000000|not delivered|
+gg|tt,5|-56.000000,56.000000|not delivered|
+diana|padurii,5|-21.000000,13.000000|not delivered|
+Random|ceva,5|33.000000,4.000000|not delivered|
+OOF|Calea turzii,1|0.000000,15.000000|not delivered|
+Cosmin|zahar,69|4.000000,5.000000|not delivered|
+Axel|Vlahuta,28|56.000000,40.000000|not delivered|
+Altceva|nuj,6|-67.000000,-21.000000|not delivered|

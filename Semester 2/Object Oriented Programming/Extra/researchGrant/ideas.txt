@@ -1,0 +1,4 @@
+New idea|i promise its great|proposed|Alexander|2
+New idea 2|i promise its great again|proposed|Ana|1
+Ok new one|i promise nothing|accepted|Alexander|3
+Something else|nuj|accepted|Donald|1

@@ -1,0 +1,3 @@
+Neonatal maria 20 10 8 is eficient: 0
+Surgery sf aba 8 17 is eficient: 1
+Surgery oof 10 18 is eficient: 0

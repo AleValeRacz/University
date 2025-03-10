@@ -1,0 +1,4 @@
+Surgery aof 10 18 is eficient: 0
+Surgery bric 20 45 is eficient: 1
+Neonatal maria 20 10 8 is eficient: 0
+Surgery sf aba 8 17 is eficient: 1
