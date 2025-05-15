@@ -1,0 +1,182 @@
+
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background: #f8f9fa;
+    margin: 0;
+    padding: 20px;
+    color: #333;
+}
+
+h3, h5 {
+    margin-bottom: 20px;
+    color: #007bff;
+}
+
+h3 {
+    font-size: 24px;
+}
+
+h5 {
+    font-size: 1.6rem;
+    color: #2c3e50;
+}
+
+
+#viewRoomsDiv,
+#viewReservationsDiv,
+#addFormDiv {
+    max-width: 1100px;
+    margin: 40px auto;
+    padding: 30px;
+    background: #fff;
+    border-radius: 12px;
+    box-shadow: 0 4px 16px rgba(0, 0, 0, 0.1);
+}
+
+#showRooms {
+    min-height: 400px; 
+    padding: 10px;
+}
+
+
+#viewReservationsDiv {
+    background-color: #f8f9fa;
+}
+
+#addFormDiv {
+    max-width: 600px;
+    background-color: #fdfdfd;
+}
+
+button,
+.btn,
+form input[type="submit"] {
+    cursor: pointer;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 6px;
+    font-size: 1rem;
+    transition: background-color 0.2s ease;
+    background-color: #007bff;
+    color: white;
+}
+
+button:hover,
+.btn:hover,
+form input[type="submit"]:hover {
+    background-color: #0056b3;
+}
+
+form button.btn-primary {
+    background-color: #28a745;
+}
+
+form button.btn-primary:hover {
+    background-color: #218838;
+}
+
+.form-group {
+    margin-bottom: 20px;
+    text-align: left;
+}
+
+
+.form-label,
+label.form-label {
+    display: block;
+    font-weight: 500;
+    margin-bottom: 6px;
+    color: #444;
+}
+
+.form-control,
+input.form-control {
+    width: 100%;
+    padding: 10px 12px;
+    font-size: 1rem;
+    border-radius: 6px;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+}
+
+form input[type="submit"] {
+    margin: 10px 8px 0;
+}
+
+.roomtable,
+.reservationtable {
+    width: 100%;
+    border-collapse: collapse;
+    margin-bottom: 30px;
+}
+
+.roomtable th, .roomtable td,
+.reservationtable thead th,
+.reservationtable tbody td {
+    padding: 12px 15px;
+    text-align: center;
+    border: 1px solid #dee2e6;
+}
+
+.roomtable th,
+.reservationtable thead th {
+    background-color: #007bff;
+    color: white;
+}
+
+.roomtable tr:nth-child(even) {
+    background-color: #f2f2f2;
+}
+
+.reservationtable tbody tr:hover {
+    background-color: #f1f1f1;
+}
+
+/* === Layouts & Flex Containers === */
+.flex-container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
+    margin-bottom: 30px;
+}
+
+.flex-container > div {
+    flex: 1 1 250px;
+    min-width: 200px;
+}
+
+/* === Index Page === */
+#index-page {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 80px 20px;
+    text-align: center;
+}
+
+#index-page .title {
+    font-size: 36px;
+    margin-bottom: 40px;
+    color: #007bff;
+}
+
+#index-page form {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+#index-page button.btn-primary {
+    width: 200px;
+    padding: 10px;
+    font-size: 16px;
+    border-radius: 8px;
+    align-self: center;
+}
+
+#clickable-header {
+    cursor: pointer;
+}
+

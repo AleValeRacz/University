@@ -1,0 +1,34 @@
+{{reservations?.length}}
+<div class="container text-center" id="viewReservationsDiv">
+    <div class="container" id="showReservations">
+        <h3>All reservations:</h3>
+        <table class="reservationtable table">
+            <thead>
+                <tr>
+                    <th id="clickable-header">ID</th>
+                    <th>Room Number</th>
+                    <th>Hotel Name</th>
+                    <th>Start Date</th>
+                    <th>End Date</th>
+                    <th>Edit Button</th>
+                    <th>Delete Button</th>
+                </tr>
+            </thead>
+            <tbody>
+                <!-- <tr *ngFor="let reservation of reservations"> -->
+                @for (reservation of reservationss; track reservation.ID) {
+                <tr>
+                    <td>{{ reservation.ID }}</td>
+                    <td>{{ reservation.room_number }}</td>
+                    <td>{{ reservation.hotel_name }}</td>
+                    <td>{{ reservation.start_date }}</td>
+                    <td>{{ reservation.end_date }}</td>
+                    <td><button (click)="editReservation(reservation.ID)">Edit</button></td>
+                    <td><button (click)="deleteReservation(reservation.ID)">Delete</button></td>
+                </tr>
+                }
+            </tbody>
+        </table>
+    </div>
+    <button (click)="returnToHomePage()" class="btn-primary">Return to main page</button>
+</div>

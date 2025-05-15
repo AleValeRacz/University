@@ -1,0 +1,63 @@
+
+  <div class="container text-center" id="viewRoomsDiv">
+    <div class="container" id="showRooms">
+      <h3>All rooms:</h3>
+      <table class="roomtable table">
+        <thead>
+          <tr>
+            <th>ID</th>
+            <th>Room number</th>
+            <th>Hotel name</th>
+            <th>Price</th>
+            <th>Type</th>
+            <th>Book Room</th>
+          </tr>
+
+        </thead>
+
+        <tbody>
+          <tr *ngFor="let room of rooms">
+            <td>{{ room.ID }}</td>
+            <td>{{ room.Number }}</td>
+            <td>{{ room.Hotel }}</td>
+            <td>{{ room.Price }}</td>
+            <td>{{ room.Type }}</td>
+            <td><button (click)="addReservation(room.ID)">+</button></td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+    <div>Rooms length: {{ rooms.length }}</div>
+    <div id="buttons" class="container text-center">
+      <button (click)="goToPreviousPage()" [disabled]="currentPage === 0" class="btn btn-primary mb-1">Previous</button>
+
+      <span class="mx-2">
+        Page {{ currentPage + 1 }} of {{ totalPages }}
+      </span>
+
+      <button (click)="goToNextPage()" [disabled]="currentPage >= totalPages - 1" class="btn btn-primary mb-1">Next</button>
+
+      <div class="flex-container mt-4">
+        <div id="filterByType" class="mb-3">
+          <label for="typeInputFilter" class="form-label">Type: </label>
+          <input #typeInput class="form-control mb-1">
+            <button (click)="filterByTypeWrapper(typeInput.value)">Filter by Type</button>
+        </div>
+        <div id="filterByPrice" class="mb-3">
+          <label for="priceInputFilter" class="form-label">Price: </label>
+            <input #priceInput class="form-control mb-1">
+                <button (click)="filterByPriceWrapper(priceInput.value)">Filter by Price</button>
+        </div>
+        <div id="filterByHotel" class="mb-3">
+          <label for="hotelInputFilter" class="form-label">Hotel: </label>
+            <input #hotelInput class="form-control mb-1">
+                <button (click)="filterByHotelWrapper(hotelInput.value)">Filter by Hotel</button>
+        </div>
+      </div>
+
+      <button (click)="goToMainPage()" class="btn btn-primary mb-1">Return to main page</button>
+      <button (click)="loadRooms()" class="btn btn-primary mb-1">LoadRooms</button>
+    </div>
+  </div>
+
+  
