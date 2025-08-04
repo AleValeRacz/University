@@ -1,0 +1,247 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\SGBD\\HotelApp\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{78C73B90-663A-4A0C-A66A-12A8251A1D43}|HotelApp\\HotelApp.csproj|d:\\sgbd\\hotelapp\\hotelapp\\models\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{78C73B90-663A-4A0C-A66A-12A8251A1D43}|HotelApp\\HotelApp.csproj|solutionrelative:hotelapp\\models\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{78C73B90-663A-4A0C-A66A-12A8251A1D43}|HotelApp\\HotelApp.csproj|d:\\sgbd\\hotelapp\\hotelapp\\models\\paginationresponse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{78C73B90-663A-4A0C-A66A-12A8251A1D43}|HotelApp\\HotelApp.csproj|solutionrelative:hotelapp\\models\\paginationresponse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{78C73B90-663A-4A0C-A66A-12A8251A1D43}|HotelApp\\HotelApp.csproj|d:\\sgbd\\hotelapp\\hotelapp\\controllers\\usercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{78C73B90-663A-4A0C-A66A-12A8251A1D43}|HotelApp\\HotelApp.csproj|solutionrelative:hotelapp\\controllers\\usercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{78C73B90-663A-4A0C-A66A-12A8251A1D43}|HotelApp\\HotelApp.csproj|d:\\sgbd\\hotelapp\\hotelapp\\services\\service.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{78C73B90-663A-4A0C-A66A-12A8251A1D43}|HotelApp\\HotelApp.csproj|solutionrelative:hotelapp\\services\\service.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{78C73B90-663A-4A0C-A66A-12A8251A1D43}|HotelApp\\HotelApp.csproj|d:\\sgbd\\hotelapp\\hotelapp\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{78C73B90-663A-4A0C-A66A-12A8251A1D43}|HotelApp\\HotelApp.csproj|solutionrelative:hotelapp\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{78C73B90-663A-4A0C-A66A-12A8251A1D43}|HotelApp\\HotelApp.csproj|d:\\sgbd\\hotelapp\\hotelapp\\controllers\\reservationscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{78C73B90-663A-4A0C-A66A-12A8251A1D43}|HotelApp\\HotelApp.csproj|solutionrelative:hotelapp\\controllers\\reservationscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{78C73B90-663A-4A0C-A66A-12A8251A1D43}|HotelApp\\HotelApp.csproj|d:\\sgbd\\hotelapp\\hotelapp\\controllers\\roomcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{78C73B90-663A-4A0C-A66A-12A8251A1D43}|HotelApp\\HotelApp.csproj|solutionrelative:hotelapp\\controllers\\roomcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{78C73B90-663A-4A0C-A66A-12A8251A1D43}|HotelApp\\HotelApp.csproj|d:\\sgbd\\hotelapp\\hotelapp\\controllers\\weatherforecastcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{78C73B90-663A-4A0C-A66A-12A8251A1D43}|HotelApp\\HotelApp.csproj|solutionrelative:hotelapp\\controllers\\weatherforecastcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{78C73B90-663A-4A0C-A66A-12A8251A1D43}|HotelApp\\HotelApp.csproj|d:\\sgbd\\hotelapp\\hotelapp\\models\\reservation.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{78C73B90-663A-4A0C-A66A-12A8251A1D43}|HotelApp\\HotelApp.csproj|solutionrelative:hotelapp\\models\\reservation.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{78C73B90-663A-4A0C-A66A-12A8251A1D43}|HotelApp\\HotelApp.csproj|d:\\sgbd\\hotelapp\\hotelapp\\models\\room.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{78C73B90-663A-4A0C-A66A-12A8251A1D43}|HotelApp\\HotelApp.csproj|solutionrelative:hotelapp\\models\\room.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{78C73B90-663A-4A0C-A66A-12A8251A1D43}|HotelApp\\HotelApp.csproj|d:\\sgbd\\hotelapp\\hotelapp\\weatherforecast.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{78C73B90-663A-4A0C-A66A-12A8251A1D43}|HotelApp\\HotelApp.csproj|solutionrelative:hotelapp\\weatherforecast.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{78C73B90-663A-4A0C-A66A-12A8251A1D43}|HotelApp\\HotelApp.csproj|d:\\sgbd\\hotelapp\\hotelapp\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{78C73B90-663A-4A0C-A66A-12A8251A1D43}|HotelApp\\HotelApp.csproj|solutionrelative:hotelapp\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{78C73B90-663A-4A0C-A66A-12A8251A1D43}|HotelApp\\HotelApp.csproj|d:\\sgbd\\hotelapp\\hotelapp\\hotelapp.http||{5703B403-55E7-4C63-8C88-A8F52C7A45C5}",
+      "RelativeMoniker": "D:0:0:{78C73B90-663A-4A0C-A66A-12A8251A1D43}|HotelApp\\HotelApp.csproj|solutionrelative:hotelapp\\hotelapp.http||{5703B403-55E7-4C63-8C88-A8F52C7A45C5}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 7,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:4:0:{e8034f19-ab72-4f06-83fd-f6832b41aa63}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{34e76e81-ee4a-11d0-ae2e-00a0c90fffc3}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "UserController.cs",
+              "DocumentMoniker": "D:\\SGBD\\HotelApp\\HotelApp\\Controllers\\UserController.cs",
+              "RelativeDocumentMoniker": "HotelApp\\Controllers\\UserController.cs",
+              "ToolTip": "D:\\SGBD\\HotelApp\\HotelApp\\Controllers\\UserController.cs",
+              "RelativeToolTip": "HotelApp\\Controllers\\UserController.cs",
+              "ViewState": "AgIAAAsAAAAAAAAAAAAcwBUAAAAbAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-19T12:38:13.008Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Program.cs",
+              "DocumentMoniker": "D:\\SGBD\\HotelApp\\HotelApp\\Program.cs",
+              "RelativeDocumentMoniker": "HotelApp\\Program.cs",
+              "ToolTip": "D:\\SGBD\\HotelApp\\HotelApp\\Program.cs",
+              "RelativeToolTip": "HotelApp\\Program.cs",
+              "ViewState": "AgIAACcAAAAAAAAAAAAAADQAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-19T10:25:56.358Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Service.cs",
+              "DocumentMoniker": "D:\\SGBD\\HotelApp\\HotelApp\\Services\\Service.cs",
+              "RelativeDocumentMoniker": "HotelApp\\Services\\Service.cs",
+              "ToolTip": "D:\\SGBD\\HotelApp\\HotelApp\\Services\\Service.cs",
+              "RelativeToolTip": "HotelApp\\Services\\Service.cs",
+              "ViewState": "AgIAAP4AAAAAAAAAAAAwwAoBAAAZAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-19T10:52:59.77Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "ReservationsController.cs",
+              "DocumentMoniker": "D:\\SGBD\\HotelApp\\HotelApp\\Controllers\\ReservationsController.cs",
+              "RelativeDocumentMoniker": "HotelApp\\Controllers\\ReservationsController.cs",
+              "ToolTip": "D:\\SGBD\\HotelApp\\HotelApp\\Controllers\\ReservationsController.cs",
+              "RelativeToolTip": "HotelApp\\Controllers\\ReservationsController.cs",
+              "ViewState": "AgIAAC4AAAAAAAAAAAAkwD0AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-19T12:12:17.353Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "PaginationResponse.cs",
+              "DocumentMoniker": "D:\\SGBD\\HotelApp\\HotelApp\\Models\\PaginationResponse.cs",
+              "RelativeDocumentMoniker": "HotelApp\\Models\\PaginationResponse.cs",
+              "ToolTip": "D:\\SGBD\\HotelApp\\HotelApp\\Models\\PaginationResponse.cs",
+              "RelativeToolTip": "HotelApp\\Models\\PaginationResponse.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-19T11:36:41.16Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "User.cs",
+              "DocumentMoniker": "D:\\SGBD\\HotelApp\\HotelApp\\Models\\User.cs",
+              "RelativeDocumentMoniker": "HotelApp\\Models\\User.cs",
+              "ToolTip": "D:\\SGBD\\HotelApp\\HotelApp\\Models\\User.cs",
+              "RelativeToolTip": "HotelApp\\Models\\User.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-19T10:51:26.396Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "RoomController.cs",
+              "DocumentMoniker": "D:\\SGBD\\HotelApp\\HotelApp\\Controllers\\RoomController.cs",
+              "RelativeDocumentMoniker": "HotelApp\\Controllers\\RoomController.cs",
+              "ToolTip": "D:\\SGBD\\HotelApp\\HotelApp\\Controllers\\RoomController.cs",
+              "RelativeToolTip": "HotelApp\\Controllers\\RoomController.cs",
+              "ViewState": "AgIAAA4AAAAAAAAAAAAAwBIAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-19T12:02:02.979Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:1:0:{d212f56b-c48a-434c-a121-1c5d80b59b9f}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "WeatherForecastController.cs",
+              "DocumentMoniker": "D:\\SGBD\\HotelApp\\HotelApp\\Controllers\\WeatherForecastController.cs",
+              "RelativeDocumentMoniker": "HotelApp\\Controllers\\WeatherForecastController.cs",
+              "ToolTip": "D:\\SGBD\\HotelApp\\HotelApp\\Controllers\\WeatherForecastController.cs",
+              "RelativeToolTip": "HotelApp\\Controllers\\WeatherForecastController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAKAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-19T10:25:47.01Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "Reservation.cs",
+              "DocumentMoniker": "D:\\SGBD\\HotelApp\\HotelApp\\Models\\Reservation.cs",
+              "RelativeDocumentMoniker": "HotelApp\\Models\\Reservation.cs",
+              "ToolTip": "D:\\SGBD\\HotelApp\\HotelApp\\Models\\Reservation.cs",
+              "RelativeToolTip": "HotelApp\\Models\\Reservation.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAnAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-19T10:38:14.805Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "Room.cs",
+              "DocumentMoniker": "D:\\SGBD\\HotelApp\\HotelApp\\Models\\Room.cs",
+              "RelativeDocumentMoniker": "HotelApp\\Models\\Room.cs",
+              "ToolTip": "D:\\SGBD\\HotelApp\\HotelApp\\Models\\Room.cs",
+              "RelativeToolTip": "HotelApp\\Models\\Room.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-19T10:35:34.413Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "WeatherForecast.cs",
+              "DocumentMoniker": "D:\\SGBD\\HotelApp\\HotelApp\\WeatherForecast.cs",
+              "RelativeDocumentMoniker": "HotelApp\\WeatherForecast.cs",
+              "ToolTip": "D:\\SGBD\\HotelApp\\HotelApp\\WeatherForecast.cs",
+              "RelativeToolTip": "HotelApp\\WeatherForecast.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-19T14:16:20.361Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "D:\\SGBD\\HotelApp\\HotelApp\\appsettings.json",
+              "RelativeDocumentMoniker": "HotelApp\\appsettings.json",
+              "ToolTip": "D:\\SGBD\\HotelApp\\HotelApp\\appsettings.json",
+              "RelativeToolTip": "HotelApp\\appsettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAEAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-05-19T10:25:42.329Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "HotelApp.http",
+              "DocumentMoniker": "D:\\SGBD\\HotelApp\\HotelApp\\HotelApp.http",
+              "RelativeDocumentMoniker": "HotelApp\\HotelApp.http",
+              "ToolTip": "D:\\SGBD\\HotelApp\\HotelApp\\HotelApp.http",
+              "RelativeToolTip": "HotelApp\\HotelApp.http",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAtAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003502|",
+              "WhenOpened": "2025-05-19T11:02:20.077Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
